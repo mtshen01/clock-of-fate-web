@@ -2506,6 +2506,7 @@ svg {
   background: linear-gradient(90deg, rgba(201, 164, 94, 0.06), transparent);
   font-size: 13px;
   line-height: 1.9;
+  white-space: pre-line;
 }
 
 .compare-grid {
@@ -2651,6 +2652,21 @@ svg {
 .status-chip.small {
   padding: 2px 6px;
   font-size: 9px;
+}
+
+.ascension-powers {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  margin-top: 8px;
+  color: var(--faint);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+.ascension-powers > .status-chip-list {
+  margin-top: 0;
 }
 
 .move-list {

@@ -117,6 +117,9 @@ function CardDetail({ card }: { card: Card }) {
           </h3>
           <p>{card.upgraded.description || card.description || '升级后没有额外变化。'}</p>
           {card.upgraded.costLabel !== card.costLabel && <span className="panel-note">费用变为 {card.upgraded.costLabel}</span>}
+          {card.upgraded.costLabel === card.costLabel && card.upgraded.description === card.description && (
+            <span className="panel-note">升级不改变卡面文字与费用</span>
+          )}
         </section>
       </div>
 
@@ -180,7 +183,7 @@ function MonsterDetail({ monster }: { monster: Monster }) {
         ]}
       />
 
-      {monster.innatePowers.length > 0 && (
+      {(monster.innatePowers.length > 0 || monster.innatePowersAscension.length > 0) && (
         <section className="detail-section">
           <h3>
             固有状态 <small>INNATE</small>
@@ -193,6 +196,19 @@ function MonsterDetail({ monster }: { monster: Monster }) {
               </span>
             ))}
           </div>
+          {monster.innatePowersAscension.length > 0 && (
+            <div className="ascension-powers">
+              <span>进阶</span>
+              <div className="status-chip-list">
+                {monster.innatePowersAscension.map((power) => (
+                  <span className="status-chip small" key={power.id}>
+                    {power.name}
+                    <b>×{power.stacks}</b>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </section>
       )}
 
