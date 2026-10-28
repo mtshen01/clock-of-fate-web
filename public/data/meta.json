@@ -1,0 +1,89 @@
+{
+  "version": "20261027-f87f1655",
+  "contentHash": "f87f1655697a1671daa2e1689244a74711185e98cb80953f1f0970129f2118a0",
+  "builtAt": "2026-10-28T02:46:02.138Z",
+  "gameVersion": "v0.111.0",
+  "counts": {
+    "cards": 598,
+    "relics": 298,
+    "monsters": 116,
+    "powers": 265,
+    "enchantments": 22,
+    "potions": 64,
+    "modifiers": 16
+  },
+  "heroes": [
+    {
+      "id": "emberforged",
+      "name": "铸火者",
+      "className": "ironclad",
+      "accent": [
+        228,
+        182,
+        105
+      ]
+    },
+    {
+      "id": "apothecary",
+      "name": "丛林猎手",
+      "className": "silent",
+      "accent": [
+        122,
+        196,
+        128
+      ]
+    },
+    {
+      "id": "clockwright",
+      "name": "元素魔法师",
+      "className": "defect",
+      "accent": [
+        112,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "lamplighter",
+      "name": "客",
+      "className": "necrobinder",
+      "accent": [
+        172,
+        132,
+        214
+      ]
+    },
+    {
+      "id": "regent",
+      "name": "储君",
+      "className": "regent",
+      "accent": [
+        206,
+        176,
+        90
+      ]
+    }
+  ],
+  "acts": [
+    {
+      "id": "overgrowth",
+      "name": "翠蚀林海",
+      "index": 0
+    },
+    {
+      "id": "underdocks",
+      "name": "潮蚀港",
+      "index": 0
+    },
+    {
+      "id": "hive",
+      "name": "蛀蚀巢窟",
+      "index": 1
+    },
+    {
+      "id": "glory",
+      "name": "夜蚀王都",
+      "index": 2
+    }
+  ]
+}

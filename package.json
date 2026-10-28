@@ -1,0 +1,26 @@
+{
+  "name": "clock-of-fate-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "《停摆之钟》线上资料库 — 卡牌 / 遗物 / 生物 / 状态 / 附魔 / 道具 / 每日挑战",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "sync": "node scripts/sync-content.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

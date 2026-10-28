@@ -1,0 +1,5411 @@
+[
+  {
+    "id": "sts2_akabeko",
+    "name": "赤牛",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，获得8点活力。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_akabeko.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/akabeko.webp"
+  },
+  {
+    "id": "sts2_alchemical_coffer",
+    "name": "炼金箱",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得4个放有随机药水的药水栏位。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_alchemical_coffer.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/alchemical_coffer.webp"
+  },
+  {
+    "id": "sts2_amethyst_aubergine",
+    "name": "紫水晶茄子",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "敌人额外掉落15金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_amethyst_aubergine.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/amethyst_aubergine.webp"
+  },
+  {
+    "id": "sts2_anchor",
+    "name": "锚",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每场战斗开始时获得10点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_anchor.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/anchor.webp"
+  },
+  {
+    "id": "sts2_arcane_scroll",
+    "name": "奥术卷轴",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将一张随机稀有牌加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_arcane_scroll.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/arcane_scroll.webp"
+  },
+  {
+    "id": "sts2_archaic_tooth",
+    "name": "古老牙齿",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将一张初始卡牌变化为先古版本。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_archaic_tooth.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/archaic_tooth.webp"
+  },
+  {
+    "id": "sts2_art_of_war",
+    "name": "孙子兵法",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "如果你在本回合中没有打出过攻击牌，则在下一回合额外获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_art_of_war.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/art_of_war.webp"
+  },
+  {
+    "id": "sts2_astrolabe",
+    "name": "照星盘",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，选择3张牌进行变化，然后将这些牌升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_astrolabe.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/astrolabe.webp"
+  },
+  {
+    "id": "sts2_bag_of_marbles",
+    "name": "弹珠袋",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，给予所有敌人1层破绽。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bag_of_marbles.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bag_of_marbles.webp"
+  },
+  {
+    "id": "sts2_bag_of_preparation",
+    "name": "准备背包",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，额外抽2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bag_of_preparation.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bag_of_preparation.webp"
+  },
+  {
+    "id": "sts2_beating_remnant",
+    "name": "律动残余",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你在一回合内失去的生命值不会超过20点。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_beating_remnant.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/beating_remnant.webp"
+  },
+  {
+    "id": "sts2_beautiful_bracelet",
+    "name": "华美手镯",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，为你牌组中的随机4张牌附魔：迅捷2。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_beautiful_bracelet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/beautiful_bracelet.webp"
+  },
+  {
+    "id": "sts2_bellows",
+    "name": "风箱",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你在每场战斗开始时的手牌，将被升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bellows.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bellows.webp"
+  },
+  {
+    "id": "sts2_belt_buckle",
+    "name": "腰带扣",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "当你没有药水时，你额外拥有2点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_belt_buckle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/belt_buckle.webp"
+  },
+  {
+    "id": "sts2_big_hat",
+    "name": "大帽子",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每场战斗开始时，将2张随机虚无牌加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_big_hat.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/big_hat.webp"
+  },
+  {
+    "id": "sts2_big_mushroom",
+    "name": "大蘑菇",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "拾起时，将你的最大生命值提升20。在每场战斗开始时，少抽2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_big_mushroom.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/big_mushroom.webp"
+  },
+  {
+    "id": "sts2_biiig_hug",
+    "name": "大～抱抱",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从你的牌组中移除4张牌。每当你的抽牌堆打乱洗牌时，将一张煤灰加入你的抽牌堆。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onShuffle",
+        "label": "牌堆洗牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_biiig_hug.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/biiig_hug.webp"
+  },
+  {
+    "id": "sts2_bing_bong",
+    "name": "宾邦",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你往牌组中增添卡牌时，都将额外添加一张相同的牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_bing_bong.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bing_bong.webp"
+  },
+  {
+    "id": "sts2_black_blood",
+    "name": "黑暗之血",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在战斗结束时，回复12点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onBattleVictory",
+        "label": "战斗胜利",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_black_blood.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/black_blood.webp"
+  },
+  {
+    "id": "sts2_black_star",
+    "name": "黑星",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "精英敌人在被打败时多掉落一件遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_black_star.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/black_star.webp"
+  },
+  {
+    "id": "sts2_blessed_antler",
+    "name": "赐福鹿角",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每回合开始时获得1点能量。在战斗开始时，将3张晕眩放入你的抽牌堆。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      },
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_blessed_antler.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/blessed_antler.webp"
+  },
+  {
+    "id": "sts2_blood_soaked_rose",
+    "name": "血染玫瑰",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张执迷加入你的牌组。在回合开始时获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_blood_soaked_rose.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/blood_soaked_rose.webp"
+  },
+  {
+    "id": "sts2_blood_vial",
+    "name": "小血瓶",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，回复2点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_blood_vial.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/blood_vial.webp"
+  },
+  {
+    "id": "sts2_bone_flute",
+    "name": "骨笛",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每当奥斯提攻击时，获得2点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bone_flute.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bone_flute.webp"
+  },
+  {
+    "id": "sts2_bone_tea",
+    "name": "骨茶",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在你接下来的1场战斗开始时，升级你的初始手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bone_tea.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bone_tea.webp"
+  },
+  {
+    "id": "sts2_book_of_five_rings",
+    "name": "五轮书",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "你每将5张牌加入你的牌组时，回复20点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_book_of_five_rings.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/book_of_five_rings.webp"
+  },
+  {
+    "id": "sts2_book_repair_knife",
+    "name": "修书小刀",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当有一名不是“爪牙”的敌人死于灾厄时，回复3点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onEnemyDoomDeath",
+        "label": "敌人灾厄死亡",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_book_repair_knife.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/book_repair_knife.webp"
+  },
+  {
+    "id": "sts2_bookmark",
+    "name": "书签",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每回合结束时，随机一张被保留的牌在被打出前的耗能减少1。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bookmark.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bookmark.webp"
+  },
+  {
+    "id": "sts2_booming_conch",
+    "name": "轰鸣海螺",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在精英战的战斗开始时，额外抽2张牌并获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_booming_conch.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/booming_conch.webp"
+  },
+  {
+    "id": "sts2_bound_phylactery",
+    "name": "缚魂命匣",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在你的回合开始时，召唤 1 点生命的魔影。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bound_phylactery.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bound_phylactery.webp"
+  },
+  {
+    "id": "sts2_bowler_hat",
+    "name": "圆顶礼帽",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "额外获得25%的金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_bowler_hat.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bowler_hat.webp"
+  },
+  {
+    "id": "sts2_bread",
+    "name": "面包",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在你的第一个回合开始时，失去2点能量。在其余的回合开始时，获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      },
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bread.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bread.webp"
+  },
+  {
+    "id": "sts2_brilliant_scarf",
+    "name": "艳丽围巾",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你每回合从你的手牌打出的第5张牌可以被免费打出。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_brilliant_scarf.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/brilliant_scarf.webp"
+  },
+  {
+    "id": "sts2_brimstone",
+    "name": "硫磺",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在你的每个回合开始时，你获得2点力量，所有敌人获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_brimstone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/brimstone.webp"
+  },
+  {
+    "id": "sts2_bronze_scales",
+    "name": "铜质鳞片",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，获得3点反刺。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_bronze_scales.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/bronze_scales.webp"
+  },
+  {
+    "id": "sts2_burning_blood",
+    "name": "燃烧之血",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在战斗结束时，回复6点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onBattleVictory",
+        "label": "战斗胜利",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_burning_blood.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/burning_blood.webp"
+  },
+  {
+    "id": "sts2_burning_sticks",
+    "name": "燃烧木棍",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "每场战斗中你第一次消耗技能牌时，将那张牌的复制品加入你的手牌",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onExhausted",
+        "label": "卡牌消耗",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_burning_sticks.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/burning_sticks.webp"
+  },
+  {
+    "id": "sts2_byrdpip",
+    "name": "鸢雏",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "拾起时，获得一张鸢雏扑击。一只幼年巨鸢会在战斗中陪伴你。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_byrdpip.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/byrdpip.webp"
+  },
+  {
+    "id": "sts2_calling_bell",
+    "name": "暮钟",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得一个独特的诅咒和3件遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_calling_bell.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/calling_bell.webp"
+  },
+  {
+    "id": "sts2_candelabra",
+    "name": "烛台",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在你的第2回合开始时，获得2点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_candelabra.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/candelabra.webp"
+  },
+  {
+    "id": "sts2_captains_wheel",
+    "name": "舵盘",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在你的第三回合开始时，获得18点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_captains_wheel.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/captains_wheel.webp"
+  },
+  {
+    "id": "sts2_cauldron",
+    "name": "大锅",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，制作5瓶随机药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_cauldron.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/cauldron.webp"
+  },
+  {
+    "id": "sts2_centennial_puzzle",
+    "name": "百年积木",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "你在每场战斗中第一次损失生命值时，抽3张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onDamaged",
+        "label": "受到伤害",
+        "effects": 1
+      },
+      {
+        "trigger": "onHpLost",
+        "label": "失去生命",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_centennial_puzzle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/centennial_puzzle.webp"
+  },
+  {
+    "id": "sts2_chandelier",
+    "name": "吊灯",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在你的第三回合开始时，获得3点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_chandelier.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/chandelier.webp"
+  },
+  {
+    "id": "sts2_charons_ashes",
+    "name": "卡戎之灰",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你消耗一张牌，对所有敌人造成3点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onExhausted",
+        "label": "卡牌消耗",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_charons_ashes.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/charons_ashes.webp"
+  },
+  {
+    "id": "sts2_chemical_x",
+    "name": "化学物X",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "耗能为X的牌的效果数值增加2点。",
+    "flavor": "警告：严禁与糖、香料还有一切美好的味道混合在一起。",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_chemical_x.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/chemical_x.webp"
+  },
+  {
+    "id": "sts2_choices_paradox",
+    "name": "选择悖论",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每场战斗开始时，从5张随机牌中选择1张放入你的手牌。被选中的牌获得保留。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_choices_paradox.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/choices_paradox.webp"
+  },
+  {
+    "id": "sts2_chosen_cheese",
+    "name": "天选芝士",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在战斗结束时，获得1点最大生命值。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleVictory",
+        "label": "战斗胜利",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_chosen_cheese.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/chosen_cheese.webp"
+  },
+  {
+    "id": "sts2_circlet",
+    "name": "头环",
+    "rarity": "special",
+    "rarityLabel": "遗物",
+    "description": "这是一个头环。",
+    "flavor": "一件有趣的遗物，只有当高塔中出现问题，或没有更多遗物可被发现时才会出现。",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_circlet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/circlet.webp"
+  },
+  {
+    "id": "sts2_claws",
+    "name": "利爪",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将至多6张牌变化为撕咬。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_claws.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/claws.webp"
+  },
+  {
+    "id": "sts2_cloak_clasp",
+    "name": "斗篷扣",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在你的回合结束时，每有一张手牌，就获得1点格挡",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_cloak_clasp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/cloak_clasp.webp"
+  },
+  {
+    "id": "sts2_cracked_core",
+    "name": "破损核心",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，生成1个闪电充能球。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_cracked_core.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/cracked_core.webp"
+  },
+  {
+    "id": "sts2_crossbow",
+    "name": "十字弓",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在你的回合开始时，将一张随机攻击牌加入你的手牌。这张牌在本回合可以免费打出。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_crossbow.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/crossbow.webp"
+  },
+  {
+    "id": "sts2_cursed_pearl",
+    "name": "诅咒珍珠",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得一张贪婪，获得333金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_cursed_pearl.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/cursed_pearl.webp"
+  },
+  {
+    "id": "sts2_darkstone_periapt",
+    "name": "黑石护符",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你获得一张诅咒，就将你的最大生命值提升6。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_darkstone_periapt.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/darkstone_periapt.webp"
+  },
+  {
+    "id": "sts2_data_disk",
+    "name": "数据磁盘",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，获得1点集中。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_data_disk.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/data_disk.webp"
+  },
+  {
+    "id": "sts2_daughter_of_the_wind",
+    "name": "风的女儿",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你打出一张攻击牌时，获得1点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_daughter_of_the_wind.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/daughter_of_the_wind.webp"
+  },
+  {
+    "id": "sts2_delicate_frond",
+    "name": "娇嫩蕨草",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每场战斗开始时，用随机药水将你的空药水栏位填满。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_delicate_frond.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/delicate_frond.webp"
+  },
+  {
+    "id": "sts2_demon_tongue",
+    "name": "恶魔之舌",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每回合第一次在回合内失去生命值时，回复等量的生命值。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onHpLost",
+        "label": "失去生命",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_demon_tongue.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/demon_tongue.webp"
+  },
+  {
+    "id": "sts2_diamond_diadem",
+    "name": "钻石头冠",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "战斗开始时获得20点格挡。你的格挡不会在你的第2回合开始前被移除。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_diamond_diadem.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/diamond_diadem.webp"
+  },
+  {
+    "id": "sts2_dingy_rug",
+    "name": "肮脏地毯",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "卡牌奖励现在会包括无色牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dingy_rug.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dingy_rug.webp"
+  },
+  {
+    "id": "sts2_distinguished_cape",
+    "name": "卓越斗篷",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将2张随机诅咒牌和3张灵体加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_distinguished_cape.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/distinguished_cape.webp"
+  },
+  {
+    "id": "sts2_divine_destiny",
+    "name": "天命所归",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，获得7点星辉。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_divine_destiny.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/divine_destiny.webp"
+  },
+  {
+    "id": "sts2_divine_right",
+    "name": "天赋君权",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，获得3点星辉。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_divine_right.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/divine_right.webp"
+  },
+  {
+    "id": "sts2_dollys_mirror",
+    "name": "多利之镜",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，从你的牌组中选择一张牌进行复制。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dollys_mirror.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dollys_mirror.webp"
+  },
+  {
+    "id": "sts2_dowsing_rod",
+    "name": "寻龙尺",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张探寻加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dowsing_rod.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dowsing_rod.webp"
+  },
+  {
+    "id": "sts2_dragon_fruit",
+    "name": "火龙果",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "每当你获得金币时，提升1点你的最大生命值。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dragon_fruit.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dragon_fruit.webp"
+  },
+  {
+    "id": "sts2_dream_catcher",
+    "name": "捕梦网",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你休息时，可以添加一张牌到你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dream_catcher.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dream_catcher.webp"
+  },
+  {
+    "id": "sts2_driftwood",
+    "name": "浮木",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你可以在每一个卡牌奖励中重掷一次。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_driftwood.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/driftwood.webp"
+  },
+  {
+    "id": "sts2_dusty_tome",
+    "name": "尘封魔典",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得一张先古牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_dusty_tome.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/dusty_tome.webp"
+  },
+  {
+    "id": "sts2_ectoplasm",
+    "name": "灵体外质",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你不能再获得任何金币。在回合开始时获得1点能量",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ectoplasm.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ectoplasm.webp"
+  },
+  {
+    "id": "sts2_electric_shrymp",
+    "name": "放电异虾",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，选择一张技能牌为它附魔：注能。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_electric_shrymp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/electric_shrymp.webp"
+  },
+  {
+    "id": "sts2_ember_tea",
+    "name": "余烬茶",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在接下来的5场战斗开始时，获得2点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ember_tea.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ember_tea.webp"
+  },
+  {
+    "id": "sts2_emotion_chip",
+    "name": "情感芯片",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每回合开始时，如果你在之前回合受到过伤害，则触发所有充能球的被动效果。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_emotion_chip.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/emotion_chip.webp"
+  },
+  {
+    "id": "sts2_empty_cage",
+    "name": "空鸟笼",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，选择移除牌组中的2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_empty_cage.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/empty_cage.webp"
+  },
+  {
+    "id": "sts2_eternal_feather",
+    "name": "永恒羽毛",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你的牌组中每有5张牌，当你进入休息处时就会回复3点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_eternal_feather.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/eternal_feather.webp"
+  },
+  {
+    "id": "sts2_fake_anchor",
+    "name": "锚？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在每场战斗开始时，获得4点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_anchor.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_anchor.webp"
+  },
+  {
+    "id": "sts2_fake_blood_vial",
+    "name": "小血瓶？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在每场战斗开始时，回复1点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_blood_vial.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_blood_vial.webp"
+  },
+  {
+    "id": "sts2_fake_happy_flower",
+    "name": "开心小花？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每5个回合，获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_happy_flower.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_happy_flower.webp"
+  },
+  {
+    "id": "sts2_fake_lees_waffle",
+    "name": "李家华夫饼？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "拾起时，回复你10%的生命值。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fake_lees_waffle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_lees_waffle.webp"
+  },
+  {
+    "id": "sts2_fake_mango",
+    "name": "芒果？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "拾起时，将你的最大生命值提升3。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fake_mango.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_mango.webp"
+  },
+  {
+    "id": "sts2_fake_merchants_rug",
+    "name": "商人的地毯？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "低劣的仿制品。没有任何作用。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fake_merchants_rug.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_merchants_rug.webp"
+  },
+  {
+    "id": "sts2_fake_orichalcum",
+    "name": "奥利哈钢？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "如果你在回合结束时没有任何格挡，获得3点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_orichalcum.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_orichalcum.webp"
+  },
+  {
+    "id": "sts2_fake_snecko_eye",
+    "name": "异蛇之眼？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每场战斗开始时获得混乱效果。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_snecko_eye.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_snecko_eye.webp"
+  },
+  {
+    "id": "sts2_fake_strike_dummy",
+    "name": "打击木偶？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "名字中有“打击”的卡牌造成1点额外伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fake_strike_dummy.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_strike_dummy.webp"
+  },
+  {
+    "id": "sts2_fake_venerable_tea_set",
+    "name": "古茶具套装？？？",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "到达休息处后的下一场战斗开始时额外获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fake_venerable_tea_set.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fake_venerable_tea_set.webp"
+  },
+  {
+    "id": "sts2_fencing_manual",
+    "name": "击剑指南",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，铸造10。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_fencing_manual.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fencing_manual.webp"
+  },
+  {
+    "id": "sts2_festive_popper",
+    "name": "节日拉炮",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，对所有敌人造成9点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_festive_popper.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/festive_popper.webp"
+  },
+  {
+    "id": "sts2_fiddle",
+    "name": "小提琴",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每个回合开始时，额外抽2张牌。你在回合进行中不再能抽任何牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_fiddle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fiddle.webp"
+  },
+  {
+    "id": "sts2_fishing_rod",
+    "name": "钓鱼竿",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "每3场普通战斗，随机升级你牌组中的一张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fishing_rod.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fishing_rod.webp"
+  },
+  {
+    "id": "sts2_forgotten_soul",
+    "name": "遗忘之魂",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你消耗一张牌，随机对一名敌人造成1点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onExhausted",
+        "label": "卡牌消耗",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_forgotten_soul.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/forgotten_soul.webp"
+  },
+  {
+    "id": "sts2_fragrant_mushroom",
+    "name": "芳香蘑菇",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "拾起时，失去15点生命，然后随机升级2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fragrant_mushroom.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fragrant_mushroom.webp"
+  },
+  {
+    "id": "sts2_fresnel_lens",
+    "name": "菲涅耳透镜",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你将一张带有格挡的牌加入你的牌组时，为那张牌附魔：灵巧2",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fresnel_lens.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fresnel_lens.webp"
+  },
+  {
+    "id": "sts2_frozen_egg",
+    "name": "冻结之蛋",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你获得能力牌时，将其升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_frozen_egg.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/frozen_egg.webp"
+  },
+  {
+    "id": "sts2_funerary_mask",
+    "name": "葬礼面具",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，将3张灵魂加入你的抽牌堆。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_funerary_mask.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/funerary_mask.webp"
+  },
+  {
+    "id": "sts2_fur_coat",
+    "name": "皮草大衣",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，随机标记8处战斗。这些战斗中的敌人将只有1点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_fur_coat.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/fur_coat.webp"
+  },
+  {
+    "id": "sts2_galactic_dust",
+    "name": "星系尘埃",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每消耗10点星辉，就获得10格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onStarSpent",
+        "label": "消耗星辉",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_galactic_dust.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/galactic_dust.webp"
+  },
+  {
+    "id": "sts2_gambling_chip",
+    "name": "赌博筹码",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每场战斗开始时，丢弃任意张牌，然后抽相同数量张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_gambling_chip.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/gambling_chip.webp"
+  },
+  {
+    "id": "sts2_game_piece",
+    "name": "棋子",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你打出能力牌时，抽1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_game_piece.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/game_piece.webp"
+  },
+  {
+    "id": "sts2_ghost_seed",
+    "name": "幽灵种子",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "打击和防御获得虚无。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_ghost_seed.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ghost_seed.webp"
+  },
+  {
+    "id": "sts2_girya",
+    "name": "壶铃",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你现在能在休息处获得力量。（最多3次）",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_girya.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/girya.webp"
+  },
+  {
+    "id": "sts2_glass_eye",
+    "name": "玻璃眼珠",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得2组普通、2组罕见、和1组稀有卡牌奖励。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_glass_eye.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/glass_eye.webp"
+  },
+  {
+    "id": "sts2_glitter",
+    "name": "亮片",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "为之后的所有卡牌奖励附魔：华彩。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_glitter.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/glitter.webp"
+  },
+  {
+    "id": "sts2_gnarled_hammer",
+    "name": "扭曲锤子",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，从你的牌组中选择至多3张攻击牌，附魔：锋利3。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_gnarled_hammer.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/gnarled_hammer.webp"
+  },
+  {
+    "id": "sts2_gold_plated_cables",
+    "name": "镀金缆线",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你最右侧的充能球会额外触发一次被动效果。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_gold_plated_cables.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/gold_plated_cables.webp"
+  },
+  {
+    "id": "sts2_golden_compass",
+    "name": "黄金罗盘",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将第2阶段的地图替换为一条特殊的直道。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_golden_compass.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/golden_compass.webp"
+  },
+  {
+    "id": "sts2_golden_pearl",
+    "name": "金色珍珠",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得150金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_golden_pearl.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/golden_pearl.webp"
+  },
+  {
+    "id": "sts2_gorget",
+    "name": "护喉甲",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，获得4层覆甲。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_gorget.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/gorget.webp"
+  },
+  {
+    "id": "sts2_gremlin_horn",
+    "name": "地精之角",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当有一名敌人死亡时，获得1点能量并抽1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onEnemyDeath",
+        "label": "敌人死亡",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_gremlin_horn.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/gremlin_horn.webp"
+  },
+  {
+    "id": "sts2_hand_drill",
+    "name": "手钻",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你突破敌人的格挡时，给予其2层破绽。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBlockBroken",
+        "label": "格挡破碎",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_hand_drill.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/hand_drill.webp"
+  },
+  {
+    "id": "sts2_happy_flower",
+    "name": "开心小花",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每3个回合，获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_happy_flower.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/happy_flower.webp"
+  },
+  {
+    "id": "sts2_hefty_tablet",
+    "name": "沉重石板",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从3张稀有牌中选择1张加入你的牌组，同时将1张受伤加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_hefty_tablet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/hefty_tablet.webp"
+  },
+  {
+    "id": "sts2_helical_dart",
+    "name": "螺线飞镖",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每打出一张小刀，就在本回合获得1点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_helical_dart.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/helical_dart.webp"
+  },
+  {
+    "id": "sts2_history_course",
+    "name": "历史课",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在你的回合开始时，打出一张你上一回合最后打出的攻击牌的复制品。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_history_course.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/history_course.webp"
+  },
+  {
+    "id": "sts2_horn_cleat",
+    "name": "船夹板",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在你的第二回合开始时，获得14点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_horn_cleat.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/horn_cleat.webp"
+  },
+  {
+    "id": "sts2_ice_cream",
+    "name": "冰淇淋",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "多余的能量可以留到下一回合。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ice_cream.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ice_cream.webp"
+  },
+  {
+    "id": "sts2_infused_core",
+    "name": "注能核心",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，生成3个闪电充能球。闪电充能球额外造成1点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_infused_core.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/infused_core.webp"
+  },
+  {
+    "id": "sts2_intimidating_helmet",
+    "name": "骇人头盔",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你打出一张耗能大于等于2的牌，获得4点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_intimidating_helmet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/intimidating_helmet.webp"
+  },
+  {
+    "id": "sts2_iron_club",
+    "name": "铁棒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你每打出4张牌，就抽1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_iron_club.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/iron_club.webp"
+  },
+  {
+    "id": "sts2_ivory_tile",
+    "name": "象牙麻将牌",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你打出一张耗能大于等于3的牌时，获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ivory_tile.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ivory_tile.webp"
+  },
+  {
+    "id": "sts2_jeweled_mask",
+    "name": "宝石面具",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每场战斗开始时，将一张随机能力牌从你的抽牌堆放入你的手牌，这张牌在本场战斗可以免费打出。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_jeweled_mask.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/jeweled_mask.webp"
+  },
+  {
+    "id": "sts2_jewelry_box",
+    "name": "珠宝盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张神化加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_jewelry_box.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/jewelry_box.webp"
+  },
+  {
+    "id": "sts2_joss_paper",
+    "name": "金纸",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每消耗5张牌，就抽1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onExhausted",
+        "label": "卡牌消耗",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_joss_paper.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/joss_paper.webp"
+  },
+  {
+    "id": "sts2_juzu_bracelet",
+    "name": "佛珠手链",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "你在?房间中不会再遭遇常规战斗。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_juzu_bracelet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/juzu_bracelet.webp"
+  },
+  {
+    "id": "sts2_kaleidoscope",
+    "name": "万花筒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得2次来自其他角色的卡牌奖励。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_kaleidoscope.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/kaleidoscope.webp"
+  },
+  {
+    "id": "sts2_kifuda",
+    "name": "木札",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，从你的牌组中选择至多3张牌，附魔：伶俐。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_kifuda.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/kifuda.webp"
+  },
+  {
+    "id": "sts2_kunai",
+    "name": "苦无",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每在同一回合内打出3张攻击牌，就获得1点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_kunai.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/kunai.webp"
+  },
+  {
+    "id": "sts2_kusarigama",
+    "name": "锁镰",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每在同一回合内打出3张攻击牌，就随机对一名敌人造成6点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_kusarigama.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/kusarigama.webp"
+  },
+  {
+    "id": "sts2_lantern",
+    "name": "灯笼",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗的第一回合获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_lantern.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lantern.webp"
+  },
+  {
+    "id": "sts2_large_capsule",
+    "name": "巨大扭蛋",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得2件随机遗物。额外将一对打击和防御，加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_large_capsule.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/large_capsule.webp"
+  },
+  {
+    "id": "sts2_lasting_candy",
+    "name": "吃不完的糖",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每两场战斗，你的卡牌奖励就会额外包含一张能力牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lasting_candy.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lasting_candy.webp"
+  },
+  {
+    "id": "sts2_lava_lamp",
+    "name": "熔岩灯",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在战斗结束时，如果你没有受到伤害，则升级你的所有卡牌奖励。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lava_lamp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lava_lamp.webp"
+  },
+  {
+    "id": "sts2_lava_rock",
+    "name": "熔岩石",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "第一阶段的Boss敌人额外掉落2件遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lava_rock.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lava_rock.webp"
+  },
+  {
+    "id": "sts2_lead_paperweight",
+    "name": "铅制镇纸",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从2张无色牌中选择1张加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lead_paperweight.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lead_paperweight.webp"
+  },
+  {
+    "id": "sts2_leafy_poultice",
+    "name": "树叶药膏",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，变化你的1张打击和1张防御，然后失去12点最大生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_leafy_poultice.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/leafy_poultice.webp"
+  },
+  {
+    "id": "sts2_lees_waffle",
+    "name": "李家华夫饼",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，将你的最大生命值提升7点，并回复所有生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lees_waffle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lees_waffle.webp"
+  },
+  {
+    "id": "sts2_letter_opener",
+    "name": "开信刀",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每在同一回合内打出3张技能牌，就对所有敌人造成5点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_letter_opener.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/letter_opener.webp"
+  },
+  {
+    "id": "sts2_lizard_tail",
+    "name": "蜥蜴尾巴",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "当你的生命值将要降低至0或以下时，回复到最大生命值的50%（仅能起效一次）。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lizard_tail.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lizard_tail.webp"
+  },
+  {
+    "id": "sts2_looming_fruit",
+    "name": "布质果实",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将你的最大生命值提升31。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_looming_fruit.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/looming_fruit.webp"
+  },
+  {
+    "id": "sts2_lords_parasol",
+    "name": "领主阳伞",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "当你遇见商人时，立刻获得他所出售的所有物品。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lords_parasol.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lords_parasol.webp"
+  },
+  {
+    "id": "sts2_lost_coffer",
+    "name": "失物盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得1次卡牌奖励和1瓶随机药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lost_coffer.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lost_coffer.webp"
+  },
+  {
+    "id": "sts2_lost_wisp",
+    "name": "迷失鬼火",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "你每打出一张能力牌，就对所有敌人造成8点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_lost_wisp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lost_wisp.webp"
+  },
+  {
+    "id": "sts2_lucky_fysh",
+    "name": "招财异鱼",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当你将一张卡牌加入你的牌组时，获得15金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_lucky_fysh.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lucky_fysh.webp"
+  },
+  {
+    "id": "sts2_lunar_pastry",
+    "name": "月亮糕点",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在你的回合结束时，获得1点星辉。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_lunar_pastry.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/lunar_pastry.webp"
+  },
+  {
+    "id": "sts2_mango",
+    "name": "芒果",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "拾起时，将你的最大生命值提升14。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_mango.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mango.webp"
+  },
+  {
+    "id": "sts2_massive_scroll",
+    "name": "巨大卷轴",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从3张多人游戏牌中选择1张加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_massive_scroll.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/massive_scroll.webp"
+  },
+  {
+    "id": "sts2_maw_bank",
+    "name": "巨口储蓄罐",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每攀爬一层楼层，就获得12金币。一旦在商店中花费金币就会使其失效。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_maw_bank.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/maw_bank.webp"
+  },
+  {
+    "id": "sts2_meal_ticket",
+    "name": "餐券",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每当你进入商店房间时，回复15点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_meal_ticket.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/meal_ticket.webp"
+  },
+  {
+    "id": "sts2_meat_cleaver",
+    "name": "切肉刀",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你可以在休息处进行烹饪。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_meat_cleaver.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/meat_cleaver.webp"
+  },
+  {
+    "id": "sts2_meat_on_the_bone",
+    "name": "带骨肉",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "如果你在战斗结束时生命值等于或低于50%，回复12点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleVictory",
+        "label": "战斗胜利",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_meat_on_the_bone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/meat_on_the_bone.webp"
+  },
+  {
+    "id": "sts2_membership_card",
+    "name": "会员卡",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "所有商品打折50%！",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_membership_card.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/membership_card.webp"
+  },
+  {
+    "id": "sts2_mercury_hourglass",
+    "name": "倒时漏",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在你的回合开始时，对所有敌人造成3点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_mercury_hourglass.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mercury_hourglass.webp"
+  },
+  {
+    "id": "sts2_metronome",
+    "name": "节拍器",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每场战斗中你首次生成7个充能球时，对所有敌人造成30点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onOrbChanneled",
+        "label": "充能球激发",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_metronome.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/metronome.webp"
+  },
+  {
+    "id": "sts2_mini_regent",
+    "name": "迷你储君",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每回合你第一次花费1点星辉时，获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onStarSpent",
+        "label": "消耗星辉",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_mini_regent.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mini_regent.webp"
+  },
+  {
+    "id": "sts2_miniature_cannon",
+    "name": "微型大炮",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "升级的攻击牌额外造成3点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_miniature_cannon.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/miniature_cannon.webp"
+  },
+  {
+    "id": "sts2_miniature_tent",
+    "name": "微型帐篷",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "你可以在休息处选择任意数量的选项。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_miniature_tent.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/miniature_tent.webp"
+  },
+  {
+    "id": "sts2_molten_egg",
+    "name": "熔火之蛋",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你获得攻击牌时，将其升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_molten_egg.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/molten_egg.webp"
+  },
+  {
+    "id": "sts2_mr_struggles",
+    "name": "抱抱先生",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在你的回合开始时，对所有敌人造成等量于当前回合数的伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_mr_struggles.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mr_struggles.webp"
+  },
+  {
+    "id": "sts2_mummified_hand",
+    "name": "干瘪之手",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每打出一张能力牌，手牌中就有一张随机牌在这个回合可以免费打出。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_mummified_hand.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mummified_hand.webp"
+  },
+  {
+    "id": "sts2_music_box",
+    "name": "音乐盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "将你每回合打出的第一张攻击牌的一张虚无复制品加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_music_box.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/music_box.webp"
+  },
+  {
+    "id": "sts2_mystic_lighter",
+    "name": "神秘打火机",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "有附魔的攻击牌额外造成9点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_mystic_lighter.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/mystic_lighter.webp"
+  },
+  {
+    "id": "sts2_neows_bones",
+    "name": "长明骨骰",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得2件随机长明遗物。将1张随机诅咒加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_neows_bones.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/neows_bones.webp"
+  },
+  {
+    "id": "sts2_neows_sacrifice",
+    "name": "长明的牺牲",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得1瓶龙涎香，并将1张愧疚加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_neows_sacrifice.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/neows_sacrifice.webp"
+  },
+  {
+    "id": "sts2_neows_talisman",
+    "name": "长明的护符",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，升级你的1张打击和1张防御。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_neows_talisman.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/neows_talisman.webp"
+  },
+  {
+    "id": "sts2_neows_torment",
+    "name": "长明的苦痛",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张长明怒斩加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_neows_torment.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/neows_torment.webp"
+  },
+  {
+    "id": "sts2_new_leaf",
+    "name": "新叶",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，变化1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_new_leaf.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/new_leaf.webp"
+  },
+  {
+    "id": "sts2_ninja_scroll",
+    "name": "忍术卷轴",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "每场战斗开始时，将3张小刀加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ninja_scroll.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ninja_scroll.webp"
+  },
+  {
+    "id": "sts2_nunchaku",
+    "name": "双截棍",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每打出10张攻击牌，获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_nunchaku.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/nunchaku.webp"
+  },
+  {
+    "id": "sts2_nutritious_oyster",
+    "name": "营养牡蛎",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将你的最大生命值提升11。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_nutritious_oyster.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/nutritious_oyster.webp"
+  },
+  {
+    "id": "sts2_nutritious_soup",
+    "name": "营养汤",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，为你牌组中的所有“打击”附魔：温炉的余烬",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_nutritious_soup.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/nutritious_soup.webp"
+  },
+  {
+    "id": "sts2_oddly_smooth_stone",
+    "name": "意外光滑的石头",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，获得1点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_oddly_smooth_stone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/oddly_smooth_stone.webp"
+  },
+  {
+    "id": "sts2_old_coin",
+    "name": "古钱币",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "拾起时，获得300金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_old_coin.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/old_coin.webp"
+  },
+  {
+    "id": "sts2_orange_dough",
+    "name": "橙色团块",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每场战斗开始时，将2张随机无色牌加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_orange_dough.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/orange_dough.webp"
+  },
+  {
+    "id": "sts2_orichalcum",
+    "name": "奥利哈钢",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "如果你在回合结束时没有任何格挡，获得6点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_orichalcum.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/orichalcum.webp"
+  },
+  {
+    "id": "sts2_ornamental_fan",
+    "name": "精致折扇",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每在同一回合内打出3张攻击牌，就获得4点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ornamental_fan.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ornamental_fan.webp"
+  },
+  {
+    "id": "sts2_orrery",
+    "name": "星系仪",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，获得5次卡牌奖励",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_orrery.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/orrery.webp"
+  },
+  {
+    "id": "sts2_paels_blood",
+    "name": "舍鳞之血",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在你的回合开始时，额外抽1张牌",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_paels_blood.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_blood.webp"
+  },
+  {
+    "id": "sts2_paels_claw",
+    "name": "舍鳞之爪",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，为所有的“防御”附魔：黏糊。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_claw.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_claw.webp"
+  },
+  {
+    "id": "sts2_paels_eye",
+    "name": "舍鳞之眼",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你在每场战斗中第一次没有打出任何牌就结束回合时，消耗所有手牌然后进行一个额外回合。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_paels_eye.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_eye.webp"
+  },
+  {
+    "id": "sts2_paels_flesh",
+    "name": "舍鳞之肉",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "从你的第3回合开始，在回合开始时额外获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_paels_flesh.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_flesh.webp"
+  },
+  {
+    "id": "sts2_paels_growth",
+    "name": "舍鳞的增生组织",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从牌组中选择一张牌，为其附魔：克隆。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_growth.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_growth.webp"
+  },
+  {
+    "id": "sts2_paels_horn",
+    "name": "舍鳞之角",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将2张放松加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_horn.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_horn.webp"
+  },
+  {
+    "id": "sts2_paels_legion",
+    "name": "舍鳞的士兵",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "将你从一张卡牌中获得的格挡翻倍，然后此遗物会休眠2回合。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_legion.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_legion.webp"
+  },
+  {
+    "id": "sts2_paels_tears",
+    "name": "舍鳞之泪",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "如果你在拥有未花费的1点能量情况下结束回合，则下个回合额外获得2点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_paels_tears.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_tears.webp"
+  },
+  {
+    "id": "sts2_paels_tooth",
+    "name": "舍鳞之牙",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从你的牌组中选择5张牌移除。在每场战斗结束时，将其中随机1张牌升级然后返还。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_tooth.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_tooth.webp"
+  },
+  {
+    "id": "sts2_paels_wing",
+    "name": "舍鳞之翼",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你可以将你的卡牌奖励献祭给舍鳞。每献祭2次，就能获得一件遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_paels_wing.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paels_wing.webp"
+  },
+  {
+    "id": "sts2_pandoras_box",
+    "name": "潘多拉魔盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "变化所有“打击”和“防御”。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_pandoras_box.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pandoras_box.webp"
+  },
+  {
+    "id": "sts2_pantograph",
+    "name": "缩放仪",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在Boss战开始时，回复25点生命值。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pantograph.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pantograph.webp"
+  },
+  {
+    "id": "sts2_paper_krane",
+    "name": "纸鹤",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "有颓靡状态的敌人造成的伤害降低40%而非25%。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [],
+    "art": "/art/relics/sts2_paper_krane.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paper_krane.webp"
+  },
+  {
+    "id": "sts2_paper_phrog",
+    "name": "纸蛙",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "有破绽状态的敌人受到的伤害增加75%而非50%。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [],
+    "art": "/art/relics/sts2_paper_phrog.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/paper_phrog.webp"
+  },
+  {
+    "id": "sts2_parrying_shield",
+    "name": "招架盾",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "如果你在回合结束时拥有至少10点格挡，则对随机敌人造成6点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_parrying_shield.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/parrying_shield.webp"
+  },
+  {
+    "id": "sts2_pear",
+    "name": "梨子",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "拾起时，将你的最大生命值提升10。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_pear.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pear.webp"
+  },
+  {
+    "id": "sts2_pen_nib",
+    "name": "钢笔尖",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每打出的第10张攻击牌将会造成双倍伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardPlayStarted",
+        "label": "开始打出卡牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pen_nib.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pen_nib.webp"
+  },
+  {
+    "id": "sts2_pendulum",
+    "name": "摆动球",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每3个回合，抽1张牌",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pendulum.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pendulum.webp"
+  },
+  {
+    "id": "sts2_permafrost",
+    "name": "永冻冰晶",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "当你在战斗中第一次打出能力牌时，获得7点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_permafrost.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/permafrost.webp"
+  },
+  {
+    "id": "sts2_petrified_toad",
+    "name": "石化蟾蜍",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，获得一瓶药水形状的石头",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_petrified_toad.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/petrified_toad.webp"
+  },
+  {
+    "id": "sts2_phial_holster",
+    "name": "药瓶皮套",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得1个药水栏位并获得2瓶随机药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_phial_holster.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/phial_holster.webp"
+  },
+  {
+    "id": "sts2_philosophers_stone",
+    "name": "贤者之石",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每回合开始时获得1点能量。所有敌人初始获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      },
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_philosophers_stone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/philosophers_stone.webp"
+  },
+  {
+    "id": "sts2_phylactery_unbound",
+    "name": "无界命匣",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，召唤 5 点生命的魔影。在你的回合开始时，召唤 2 点生命的魔影。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      },
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_phylactery_unbound.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/phylactery_unbound.webp"
+  },
+  {
+    "id": "sts2_planisphere",
+    "name": "活动星图",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当你进入？房间的时候，回复5点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_planisphere.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/planisphere.webp"
+  },
+  {
+    "id": "sts2_pocketwatch",
+    "name": "怀表",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "当你在本回合打出的牌少于等于3张时，则在你的下个回合开始时额外抽3张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pocketwatch.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pocketwatch.webp"
+  },
+  {
+    "id": "sts2_pollinous_core",
+    "name": "花粉核心",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每4个回合，额外抽2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pollinous_core.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pollinous_core.webp"
+  },
+  {
+    "id": "sts2_pomander",
+    "name": "橙型香盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，升级一张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_pomander.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pomander.webp"
+  },
+  {
+    "id": "sts2_potion_belt",
+    "name": "药水腰带",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "拾起时，获得2个药水栏位。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_potion_belt.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/potion_belt.webp"
+  },
+  {
+    "id": "sts2_power_cell",
+    "name": "能量电池",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每场战斗开始时，将2张耗能为0的卡牌从你的抽牌堆放入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_power_cell.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/power_cell.webp"
+  },
+  {
+    "id": "sts2_prayer_wheel",
+    "name": "转经轮",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "普通敌人额外掉落一次卡牌奖励。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_prayer_wheel.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/prayer_wheel.webp"
+  },
+  {
+    "id": "sts2_precarious_shears",
+    "name": "松动羊毛剪",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从你的牌组中移除2张牌并失去16点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_precarious_shears.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/precarious_shears.webp"
+  },
+  {
+    "id": "sts2_precise_scissors",
+    "name": "精准剪刀",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从你的牌组中移除1张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_precise_scissors.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/precise_scissors.webp"
+  },
+  {
+    "id": "sts2_preserved_fog",
+    "name": "腌制活雾",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从你的牌组中移除3张牌。将一张愚行加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_preserved_fog.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/preserved_fog.webp"
+  },
+  {
+    "id": "sts2_prismatic_gem",
+    "name": "棱彩宝石",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每个回合开始时获得1点能量。卡牌奖励现在会包含其他颜色的卡牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_prismatic_gem.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/prismatic_gem.webp"
+  },
+  {
+    "id": "sts2_pumpkin_candle",
+    "name": "南瓜蜡烛",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每个回合开始时获得1点能量。这件遗物会在5场战斗后熄灭。可以在休息处为其添火。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_pumpkin_candle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/pumpkin_candle.webp"
+  },
+  {
+    "id": "sts2_punch_dagger",
+    "name": "拳刃",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，选择一张攻击牌为它附魔：动量5。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_punch_dagger.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/punch_dagger.webp"
+  },
+  {
+    "id": "sts2_radiant_pearl",
+    "name": "发光珍珠",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每场战斗开始时，将1张冷光加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_radiant_pearl.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/radiant_pearl.webp"
+  },
+  {
+    "id": "sts2_rainbow_ring",
+    "name": "彩虹戒指",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每回合，你第一次打出攻击牌、技能牌和能力牌各一张时，获得1点力量和1点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 2
+      },
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 2
+      },
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_rainbow_ring.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/rainbow_ring.webp"
+  },
+  {
+    "id": "sts2_razor_tooth",
+    "name": "剃刀牙",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你打出攻击牌和技能牌时，将其在本场战斗内升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardPlayStarted",
+        "label": "开始打出卡牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_razor_tooth.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/razor_tooth.webp"
+  },
+  {
+    "id": "sts2_red_mask",
+    "name": "红面具",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，给于所有敌人1层颓靡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_red_mask.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/red_mask.webp"
+  },
+  {
+    "id": "sts2_red_skull",
+    "name": "红头骨",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "当你的生命值低于或等于50%时，你额外获得3点力量",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [],
+    "art": "/art/relics/sts2_red_skull.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/red_skull.webp"
+  },
+  {
+    "id": "sts2_regal_pillow",
+    "name": "皇家枕头",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在休息时，额外回复15点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_regal_pillow.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/regal_pillow.webp"
+  },
+  {
+    "id": "sts2_regalite",
+    "name": "君王矿石",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每回合你第一次生成一张牌时，获得4点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [
+      {
+        "trigger": "onCardGenerated",
+        "label": "生成卡牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_regalite.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/regalite.webp"
+  },
+  {
+    "id": "sts2_reptile_trinket",
+    "name": "爬行动物饰品",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "当你使用药水时，在本回合获得3力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPotionUsed",
+        "label": "使用药水",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_reptile_trinket.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/reptile_trinket.webp"
+  },
+  {
+    "id": "sts2_ring_of_the_drake",
+    "name": "长蛇戒指",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在战斗开始时的前3个回合，你额外抽2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ring_of_the_drake.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ring_of_the_drake.webp"
+  },
+  {
+    "id": "sts2_ring_of_the_snake",
+    "name": "蛇之戒指",
+    "rarity": "basic",
+    "rarityLabel": "初始遗物",
+    "description": "在每场战斗开始时，额外抽2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ring_of_the_snake.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ring_of_the_snake.webp"
+  },
+  {
+    "id": "sts2_ringing_triangle",
+    "name": "三角铃鼓",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在每场战斗的第一回合保留你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ringing_triangle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ringing_triangle.webp"
+  },
+  {
+    "id": "sts2_ripple_basin",
+    "name": "波纹水盆",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "如果你在本回合中没有打出过攻击牌，则获得4点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_ripple_basin.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ripple_basin.webp"
+  },
+  {
+    "id": "sts2_royal_poison",
+    "name": "王室猛毒",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在每场战斗开始时，失去4点生命。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_royal_poison.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/royal_poison.webp"
+  },
+  {
+    "id": "sts2_royal_stamp",
+    "name": "王室印章",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "拾起时，从牌组中选择一张攻击牌或技能牌，为它附魔：王室认证。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_royal_stamp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/royal_stamp.webp"
+  },
+  {
+    "id": "sts2_ruined_helmet",
+    "name": "损毁头盔",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你在每场战斗中第一次获得的力量值翻倍。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [],
+    "art": "/art/relics/sts2_ruined_helmet.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/ruined_helmet.webp"
+  },
+  {
+    "id": "sts2_runic_capacitor",
+    "name": "符文电容器",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "每场战斗开始时，获得3个额外充能球栏位。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_runic_capacitor.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/runic_capacitor.webp"
+  },
+  {
+    "id": "sts2_runic_pyramid",
+    "name": "符文金字塔",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你在回合结束时不再自动丢弃所有手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_runic_pyramid.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/runic_pyramid.webp"
+  },
+  {
+    "id": "sts2_sai",
+    "name": "钗",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在你的回合开始时，获得7点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_sai.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sai.webp"
+  },
+  {
+    "id": "sts2_sand_castle",
+    "name": "沙堡",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，随机升级6张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_sand_castle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sand_castle.webp"
+  },
+  {
+    "id": "sts2_screaming_flagon",
+    "name": "尖叫酒壶",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "如果你在回合结束时没有任何手牌，则对所有敌人造成20点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_screaming_flagon.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/screaming_flagon.webp"
+  },
+  {
+    "id": "sts2_scroll_boxes",
+    "name": "卷轴箱",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，从2个卡牌包中选择1包加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_scroll_boxes.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/scroll_boxes.webp"
+  },
+  {
+    "id": "sts2_sea_glass",
+    "name": "海玻璃",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "查看15张来自其他角色的牌。从中选择任意数量的卡牌加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_sea_glass.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sea_glass.webp"
+  },
+  {
+    "id": "sts2_seal_of_gold",
+    "name": "启门印",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在你的回合开始时，花费3金币来获得1点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_seal_of_gold.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/seal_of_gold.webp"
+  },
+  {
+    "id": "sts2_self_forming_clay",
+    "name": "自成型黏土",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当你在战斗中失去生命，就在下回合获得3点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "ironclad",
+    "poolLabel": "铸火者",
+    "triggers": [
+      {
+        "trigger": "onDamaged",
+        "label": "受到伤害",
+        "effects": 1
+      },
+      {
+        "trigger": "onHpLost",
+        "label": "失去生命",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_self_forming_clay.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/self_forming_clay.webp"
+  },
+  {
+    "id": "sts2_sere_talon",
+    "name": "原初之爪",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，失去9点最大生命值，将3张许愿加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_sere_talon.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sere_talon.webp"
+  },
+  {
+    "id": "sts2_shovel",
+    "name": "铲子",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "现在你可以在休息处挖掘遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_shovel.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/shovel.webp"
+  },
+  {
+    "id": "sts2_shuriken",
+    "name": "手里剑",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每在同一回合内打出3张攻击牌，获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_shuriken.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/shuriken.webp"
+  },
+  {
+    "id": "sts2_signet_ring",
+    "name": "图章戒指",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得888金币。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_signet_ring.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/signet_ring.webp"
+  },
+  {
+    "id": "sts2_silken_tress",
+    "name": "华美发束",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，失去所有金币。为你的第一次卡牌奖励中的所有牌附魔：华彩。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_silken_tress.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/silken_tress.webp"
+  },
+  {
+    "id": "sts2_silver_crucible",
+    "name": "白银熔炉",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你遇到的前3次卡牌奖励将是被升级过的。你打开的第一个宝箱将是空的",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_silver_crucible.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/silver_crucible.webp"
+  },
+  {
+    "id": "sts2_sling_of_courage",
+    "name": "勇气投石索",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在与精英敌人战斗时，获得2点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_sling_of_courage.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sling_of_courage.webp"
+  },
+  {
+    "id": "sts2_small_capsule",
+    "name": "小型扭蛋",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得一件随机遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_small_capsule.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/small_capsule.webp"
+  },
+  {
+    "id": "sts2_snecko_eye",
+    "name": "异蛇之眼",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "每回合多抽2张牌。每场战斗开始时获得混乱效果。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      },
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_snecko_eye.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/snecko_eye.webp"
+  },
+  {
+    "id": "sts2_snecko_skull",
+    "name": "异蛇头骨",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "每当你给予敌人蚀毒时，所给予的蚀毒层数增加1层。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [],
+    "art": "/art/relics/sts2_snecko_skull.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/snecko_skull.webp"
+  },
+  {
+    "id": "sts2_sozu",
+    "name": "添水",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每回合开始时获得1点能量。你无法再获得药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_sozu.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sozu.webp"
+  },
+  {
+    "id": "sts2_sparkling_rouge",
+    "name": "闪亮口红",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在你的第3回合开始时，获得1点力量和1点敏捷。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_sparkling_rouge.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sparkling_rouge.webp"
+  },
+  {
+    "id": "sts2_spiked_gauntlets",
+    "name": "带刺手甲",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每回合开始时获得1点能量。能力牌的耗能增加1。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_spiked_gauntlets.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/spiked_gauntlets.webp"
+  },
+  {
+    "id": "sts2_stone_calendar",
+    "name": "历石",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在第7回合结束时，对所有敌人造成52点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnEnd",
+        "label": "玩家回合结束",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_stone_calendar.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/stone_calendar.webp"
+  },
+  {
+    "id": "sts2_stone_cracker",
+    "name": "碎石钻",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，在本场战斗中随机升级你抽牌堆中的2张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_stone_cracker.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/stone_cracker.webp"
+  },
+  {
+    "id": "sts2_stone_humidifier",
+    "name": "石炉加湿器",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "每当你在休息处休息时，将你的最大生命值提升5点。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_stone_humidifier.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/stone_humidifier.webp"
+  },
+  {
+    "id": "sts2_storybook",
+    "name": "故事书",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张至亮之焰添加到你的牌组中。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_storybook.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/storybook.webp"
+  },
+  {
+    "id": "sts2_strawberry",
+    "name": "草莓",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "拾起时，将你的最大生命值提升7。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_strawberry.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/strawberry.webp"
+  },
+  {
+    "id": "sts2_strike_dummy",
+    "name": "打击木偶",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "名字中有“打击”的卡牌造成3点额外伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_strike_dummy.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/strike_dummy.webp"
+  },
+  {
+    "id": "sts2_sturdy_clamp",
+    "name": "坚固钳子",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "可以跨回合保留最多10点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_sturdy_clamp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sturdy_clamp.webp"
+  },
+  {
+    "id": "sts2_sword_of_jade",
+    "name": "玉之剑",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在每场战斗开始时，获得3点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_sword_of_jade.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sword_of_jade.webp"
+  },
+  {
+    "id": "sts2_sword_of_stone",
+    "name": "石之剑",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在击败5名精英敌人之后将变化为一件强力遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_sword_of_stone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/sword_of_stone.webp"
+  },
+  {
+    "id": "sts2_symbiotic_virus",
+    "name": "共生病毒",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，生成1个黑暗充能球。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "defect",
+    "poolLabel": "元素魔法师",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_symbiotic_virus.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/symbiotic_virus.webp"
+  },
+  {
+    "id": "sts2_tanxs_whistle",
+    "name": "兽冠的哨子",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将1张吹哨加入你的牌组。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_tanxs_whistle.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tanxs_whistle.webp"
+  },
+  {
+    "id": "sts2_tea_of_discourtesy",
+    "name": "无礼之茶",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在下一场战斗开始时，将2张晕眩放入你的抽牌堆。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_tea_of_discourtesy.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tea_of_discourtesy.webp"
+  },
+  {
+    "id": "sts2_the_abacus",
+    "name": "算盘",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "你每次将抽牌堆洗牌时，获得6点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onShuffle",
+        "label": "牌堆洗牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_the_abacus.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/the_abacus.webp"
+  },
+  {
+    "id": "sts2_the_boot",
+    "name": "发条靴",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "每当你造成小于等于4点未被格挡的攻击伤害时，将伤害提升为5。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_the_boot.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/the_boot.webp"
+  },
+  {
+    "id": "sts2_the_courier",
+    "name": "送货员",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "商人的卡牌、遗物和药水不再会卖光，并且所有商品打折20%。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_the_courier.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/the_courier.webp"
+  },
+  {
+    "id": "sts2_throwing_axe",
+    "name": "投斧",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你在每场战斗中打出的第一张牌会多打出一次。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardPlayStarted",
+        "label": "开始打出卡牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_throwing_axe.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/throwing_axe.webp"
+  },
+  {
+    "id": "sts2_tingsha",
+    "name": "铜钹",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每在你的回合丢弃一张牌，就对一名随机敌人造成3点伤害。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onCardDiscarded",
+        "label": "弃牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_tingsha.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tingsha.webp"
+  },
+  {
+    "id": "sts2_tiny_mailbox",
+    "name": "小邮箱",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每当你休息时，获得2瓶随机药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_tiny_mailbox.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tiny_mailbox.webp"
+  },
+  {
+    "id": "sts2_toasty_mittens",
+    "name": "烘焙手套",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在你的回合开始时，消耗你手牌中的1张牌并获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 2
+      }
+    ],
+    "art": "/art/relics/sts2_toasty_mittens.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/toasty_mittens.webp"
+  },
+  {
+    "id": "sts2_toolbox",
+    "name": "工具箱",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "在每场战斗开始时，从3张随机无色牌中选择1张加入你的手牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_toolbox.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/toolbox.webp"
+  },
+  {
+    "id": "sts2_touch_of_orobas",
+    "name": "折光之触",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，将你的初始遗物替换为先古版本。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_touch_of_orobas.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/touch_of_orobas.webp"
+  },
+  {
+    "id": "sts2_tough_bandages",
+    "name": "结实绷带",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每在你的回合丢弃一张牌，就获得3点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onCardDiscarded",
+        "label": "弃牌",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_tough_bandages.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tough_bandages.webp"
+  },
+  {
+    "id": "sts2_toxic_egg",
+    "name": "毒素之蛋",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "每当你获得技能牌时，将其升级。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_toxic_egg.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/toxic_egg.webp"
+  },
+  {
+    "id": "sts2_toy_box",
+    "name": "玩具盒",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，获得5件蜡制遗物。每经过3场战斗，你最左侧的蜡制遗物将会融化。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_toy_box.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/toy_box.webp"
+  },
+  {
+    "id": "sts2_tri_boomerang",
+    "name": "三刃回旋镖",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "从你的牌组中选择3张攻击牌。为这些牌附魔：本能。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_tri_boomerang.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tri_boomerang.webp"
+  },
+  {
+    "id": "sts2_tungsten_rod",
+    "name": "钨合金棍",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你每次失去生命时，减少失去的生命值1点。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_tungsten_rod.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tungsten_rod.webp"
+  },
+  {
+    "id": "sts2_tuning_fork",
+    "name": "音叉",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "你每打出10张技能牌，获得7点格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_tuning_fork.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/tuning_fork.webp"
+  },
+  {
+    "id": "sts2_twisted_funnel",
+    "name": "扭曲漏斗",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "在每场战斗开始时，给予所有敌人4层蚀毒。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "silent",
+    "poolLabel": "丛林猎手",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_twisted_funnel.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/twisted_funnel.webp"
+  },
+  {
+    "id": "sts2_unceasing_top",
+    "name": "不休陀螺",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在你的回合，当你没有手牌时，抽一张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onCardResolved",
+        "label": "卡牌结算",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_unceasing_top.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/unceasing_top.webp"
+  },
+  {
+    "id": "sts2_undying_sigil",
+    "name": "不死符文",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "当敌人的灾厄层数大于等于其生命值时，它造成的伤害降低50%。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "necrobinder",
+    "poolLabel": "客",
+    "triggers": [],
+    "art": "/art/relics/sts2_undying_sigil.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/undying_sigil.webp"
+  },
+  {
+    "id": "sts2_unsettling_lamp",
+    "name": "不安油灯",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "你在每场战斗中第一次打出能给予敌人负面状态的牌时，将其效果翻倍。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_unsettling_lamp.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/unsettling_lamp.webp"
+  },
+  {
+    "id": "sts2_vajra",
+    "name": "金刚杵",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "在每场战斗开始时，获得1点力量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onBattleStart",
+        "label": "战斗开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_vajra.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/vajra.webp"
+  },
+  {
+    "id": "sts2_vambrace",
+    "name": "臂甲",
+    "rarity": "uncommon",
+    "rarityLabel": "罕见遗物",
+    "description": "每场战斗中，你第一次从卡牌中获得的格挡值翻倍。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_vambrace.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/vambrace.webp"
+  },
+  {
+    "id": "sts2_velvet_choker",
+    "name": "天鹅绒颈圈",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每回合开始时获得1点能量。你每回合不能打出超过6张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_velvet_choker.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/velvet_choker.webp"
+  },
+  {
+    "id": "sts2_venerable_tea_set",
+    "name": "古茶具套装",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "到达休息处后的下一场战斗开始时额外获得2点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_venerable_tea_set.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/venerable_tea_set.webp"
+  },
+  {
+    "id": "sts2_very_hot_cocoa",
+    "name": "烫嘴可可",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每场战斗的第一回合额外获得4点能量。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_very_hot_cocoa.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/very_hot_cocoa.webp"
+  },
+  {
+    "id": "sts2_vexing_puzzlebox",
+    "name": "烦人机关盒",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "在每场战斗开始时，将一张随机卡牌加入你的手牌。这张牌在本回合可以免费打出。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_vexing_puzzlebox.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/vexing_puzzlebox.webp"
+  },
+  {
+    "id": "sts2_vitruvian_minion",
+    "name": "维特鲁威仆从",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "名字中有“仆从”的卡牌造成双倍的伤害与格挡。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "regent",
+    "poolLabel": "储君",
+    "triggers": [],
+    "art": "/art/relics/sts2_vitruvian_minion.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/vitruvian_minion.webp"
+  },
+  {
+    "id": "sts2_war_hammer",
+    "name": "战锤",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "每当你击败一名精英敌人的时候，随机升级4张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_war_hammer.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/war_hammer.webp"
+  },
+  {
+    "id": "sts2_war_paint",
+    "name": "战纹涂料",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "拾起时，随机升级2张技能牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_war_paint.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/war_paint.webp"
+  },
+  {
+    "id": "sts2_whetstone",
+    "name": "磨刀石",
+    "rarity": "common",
+    "rarityLabel": "普通遗物",
+    "description": "拾起时，随机升级2张攻击牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_whetstone.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/whetstone.webp"
+  },
+  {
+    "id": "sts2_whispering_earring",
+    "name": "低语耳环",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "在每个回合开始时，获得1点能量。瓦库将接管你的第一回合。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [
+      {
+        "trigger": "onPlayerTurnStart",
+        "label": "玩家回合开始",
+        "effects": 1
+      }
+    ],
+    "art": "/art/relics/sts2_whispering_earring.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/whispering_earring.webp"
+  },
+  {
+    "id": "sts2_white_beast_statue",
+    "name": "白兽雕像",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "战斗结束后必定掉落药水。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_white_beast_statue.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/white_beast_statue.webp"
+  },
+  {
+    "id": "sts2_white_star",
+    "name": "白星",
+    "rarity": "rare",
+    "rarityLabel": "稀有遗物",
+    "description": "精英敌人额外掉落一次稀有卡牌奖励。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_white_star.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/white_star.webp"
+  },
+  {
+    "id": "sts2_wing_charm",
+    "name": "羽翼护符",
+    "rarity": "shop",
+    "rarityLabel": "商店遗物",
+    "description": "每次卡牌奖励中，都会有随机一张牌被附魔：迅捷1。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_wing_charm.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/wing_charm.webp"
+  },
+  {
+    "id": "sts2_winged_boots",
+    "name": "羽翼之靴",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "你在选择下一层的房间时有3次机会可以无视当前的路线。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_winged_boots.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/winged_boots.webp"
+  },
+  {
+    "id": "sts2_wongo_customer_appreciation_badge",
+    "name": "旺购客户感恩徽章",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "没有任何作用。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_wongo_customer_appreciation_badge.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/wongo_customer_appreciation_badge.webp"
+  },
+  {
+    "id": "sts2_wongos_mystery_ticket",
+    "name": "旺购神秘券",
+    "rarity": "event",
+    "rarityLabel": "事件遗物",
+    "description": "在5场战斗后，获得随机3件遗物。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_wongos_mystery_ticket.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/relics/wongos_mystery_ticket.webp"
+  },
+  {
+    "id": "sts2_yummy_cookie",
+    "name": "美味饼干",
+    "rarity": "ancient",
+    "rarityLabel": "先古遗物",
+    "description": "拾起时，升级4张牌。",
+    "flavor": "这个遗物的细节将在未来揭晓……",
+    "price": 0,
+    "pool": "shared",
+    "poolLabel": "通用",
+    "triggers": [],
+    "art": "/art/relics/sts2_yummy_cookie.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/relics/yummy_cookie.webp"
+  }
+]
