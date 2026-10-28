@@ -592,6 +592,13 @@ svg {
   color: var(--bone-soft);
 }
 
+.sidebar-total {
+  color: var(--brass);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  opacity: 0.72;
+}
+
 .sidebar-seal {
   display: flex;
   align-items: baseline;
@@ -3369,6 +3376,12 @@ svg {
 
   .quick-group {
     flex-wrap: nowrap;
+  }
+
+  .filter-panel {
+    max-height: min(58vh, 460px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
   .filter-group {

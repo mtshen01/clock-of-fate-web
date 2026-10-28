@@ -11,6 +11,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ active, counts, meta, open, onClose, onNavigate }: SidebarProps) {
+  const total = Object.values(counts).reduce((sum, count) => sum + count, 0);
   return (
     <>
       <div className={`sidebar-scrim ${open ? 'is-open' : ''}`} onClick={onClose} aria-hidden="true" />
@@ -57,6 +58,7 @@ export default function Sidebar({ active, counts, meta, open, onClose, onNavigat
             <span>档案版本</span>
             <strong>{meta?.version ?? '读取中'}</strong>
           </div>
+          <div className="sidebar-total">{total ? `共 ${formatNumber(total)} 条档案` : '正在读取档案'}</div>
           <p>
             数据整理自社区资料库
             <br />

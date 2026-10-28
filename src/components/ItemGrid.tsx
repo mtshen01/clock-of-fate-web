@@ -41,7 +41,17 @@ function CardTile({ card, index, onSelect, selected }: { card: Card; index: numb
       aria-label={`查看卡牌 ${card.name}`}
     >
       <div className="card-art" data-rarity={card.rarity}>
-        {card.art ? <img src={card.art} alt="" loading="lazy" decoding="async" /> : <ArtFallback glyph="cards" />}
+        {card.art ? (
+          <img
+            src={card.art}
+            alt=""
+            loading={index < 12 ? 'eager' : 'lazy'}
+            fetchPriority={index < 6 ? 'high' : 'auto'}
+            decoding="async"
+          />
+        ) : (
+          <ArtFallback glyph="cards" />
+        )}
         <span className="cost-gem" aria-label={`费用 ${card.costLabel}`}>
           {card.costLabel}
         </span>
@@ -119,7 +129,17 @@ function IconTile({
       aria-label={`查看${category === 'relics' ? '遗物' : category === 'potions' ? '道具' : category === 'powers' ? '状态' : '附魔'} ${item.name}`}
     >
       <div className="icon-frame" data-rarity={'rarity' in item ? item.rarity : undefined}>
-        {item.art ? <img src={item.art} alt="" loading="lazy" decoding="async" /> : <ArtFallback glyph={category} />}
+        {item.art ? (
+          <img
+            src={item.art}
+            alt=""
+            loading={index < 12 ? 'eager' : 'lazy'}
+            fetchPriority={index < 6 ? 'high' : 'auto'}
+            decoding="async"
+          />
+        ) : (
+          <ArtFallback glyph={category} />
+        )}
       </div>
       <div className="icon-copy">
         <h3>{item.name}</h3>
@@ -156,7 +176,13 @@ function MonsterTile({ monster, index, onSelect, selected }: { monster: Monster;
       <div className="beast-art" data-tier={monster.tier}>
         <span className="beast-halo" aria-hidden="true" />
         {monster.art ? (
-          <img src={monster.art} alt="" loading="lazy" decoding="async" />
+          <img
+            src={monster.art}
+            alt=""
+            loading={index < 8 ? 'eager' : 'lazy'}
+            fetchPriority={index < 4 ? 'high' : 'auto'}
+            decoding="async"
+          />
         ) : (
           <ArtFallback glyph="monsters" />
         )}

@@ -88,6 +88,7 @@ export default function CommandPalette({ open, onClose, onNavigate }: CommandPal
   const [activeIndex, setActiveIndex] = useState(0);
   const [error, setError] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
+  const activeRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -121,6 +122,10 @@ export default function CommandPalette({ open, onClose, onNavigate }: CommandPal
   }, [data, query]);
 
   const flatResults = results;
+
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({ block: 'nearest' });
+  }, [activeIndex]);
 
   const navigate = (category: CategoryId, itemId: string) => {
     onNavigate(category, itemId);
@@ -224,6 +229,7 @@ export default function CommandPalette({ open, onClose, onNavigate }: CommandPal
               return (
                 <button
                   key={`${result.category}-${result.item.id}`}
+                  ref={index === activeIndex ? activeRef : undefined}
                   className={`palette-result ${index === activeIndex ? 'is-active' : ''}`}
                   onMouseEnter={() => setActiveIndex(index)}
                   onClick={() => navigate(result.category, result.item.id)}
