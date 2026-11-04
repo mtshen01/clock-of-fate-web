@@ -1002,7 +1002,7 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "奥斯提的攻击造成额外伤害。",
+    "description": "影魔的攻击造成额外伤害。",
     "art": "/art/statuses/sts2_calcify.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/calcify_power.webp"
@@ -1045,12 +1045,12 @@
   },
   {
     "id": "sts2_colossus",
-    "name": "巨像",
+    "name": "重垣洞照",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "回合内，你从破绽敌人处受到的伤害减少50%。",
+    "description": "本回合，有破绽的敌人对你造成的伤害降低 50%。",
     "art": "/art/statuses/sts2_colossus.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/colossus_power.webp"
@@ -1230,7 +1230,7 @@
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "2回合内，破绽和颓靡的效果变为两倍。",
+    "description": "2回合内，破绽和虚弱的效果变为两倍。",
     "art": "/art/statuses/sts2_debilitate.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/debilitate_power.webp"
@@ -1278,7 +1278,7 @@
     "typeLabel": "增益",
     "stackType": "single",
     "stackLabel": "唯一",
-    "description": "奥斯提会吸收所有未被格挡的攻击伤害。",
+    "description": "影魔会吸收所有未被格挡的攻击伤害。",
     "art": "/art/statuses/sts2_dieforyou.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/die_for_you_power.webp"
@@ -1974,7 +1974,7 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "每当奥斯提失去生命值时，所有敌人失去等量生命值。",
+    "description": "每当影魔失去生命值时，所有敌人失去等量生命值。",
     "art": "/art/statuses/sts2_necromastery.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/necro_mastery_power.webp"
@@ -2502,7 +2502,7 @@
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "本回合，每当奥斯提命中这个敌人时，召唤3。",
+    "description": "本回合，每当影魔命中这个敌人时，召唤3。",
     "art": "/art/statuses/sts2_sicem.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/sic_em_power.webp"
@@ -2977,7 +2977,7 @@
   },
   {
     "id": "sts2_vicious",
-    "name": "凶恶",
+    "name": "乘隙",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -3078,7 +3078,7 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "颓靡的敌人从攻击牌中额外受到50%伤害。",
+    "description": "虚弱的敌人从攻击牌中额外受到50%伤害。",
     "art": "/art/statuses/tracking.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/tracking_power.webp"
@@ -3145,12 +3145,12 @@
   },
   {
     "id": "weak",
-    "name": "颓靡",
+    "name": "虚弱",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "颓靡的生物造成的攻击伤害减少25%。",
+    "description": "虚弱的生物造成的攻击伤害减少25%。",
     "art": "/art/statuses/weak.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/weak_power.webp"

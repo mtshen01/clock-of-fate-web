@@ -19,6 +19,7 @@ const OUT_DATA = path.join(ROOT, 'public', 'data');
 const OUT_ART = path.join(ROOT, 'public', 'art');
 const CACHE = path.join(ROOT, '.cache', 'remote');
 const FORCE = process.argv.includes('--force');
+const artIndex = { cards: {}, relics: {}, monsters: {}, statuses: {}, enchantments: {}, potions: {} };
 
 await fs.mkdir(OUT_DATA, { recursive: true });
 await fs.mkdir(CACHE, { recursive: true });
@@ -31,7 +32,7 @@ const writeJson = async (file, value) => {
 };
 
 const CLASS_LABELS = {
-  ironclad: '铸火者',
+  ironclad: '誓火骑士',
   silent: '丛林猎手',
   defect: '元素魔法师',
   necrobinder: '客',
@@ -296,6 +297,7 @@ const cardItems = await mapLimit(cards, 4, async (card) => {
     quality: 80,
     label: card.name,
   });
+  if (art) artIndex.cards[card.id] = art;
   const keywords = (card.keywords || []).map((k) => ({ id: k, label: label(KEYWORD_LABELS, k) }));
   return {
     id: card.id,
@@ -347,6 +349,7 @@ const relicItems = await mapLimit(relics, 4, async (relic) => {
     quality: 84,
     label: relic.name,
   });
+  if (art) artIndex.relics[relic.id] = art;
   const triggers = (relic.triggers || []).map((t) => ({
     trigger: t.trigger,
     label: label(TRIGGER_LABELS, t.trigger, t.trigger),
@@ -388,6 +391,7 @@ const monsterItems = await mapLimit(monsters, 4, async (monster) => {
     quality: 84,
     label: monster.name,
   });
+  if (art) artIndex.monsters[monster.id] = art;
 
   const moves = (monster.moves || []).map((move) => {
     const intent = intentMap.get(move.intent);
@@ -459,6 +463,7 @@ const powerItems = await mapLimit(powers, 4, async (power) => {
     quality: 86,
     label: power.name,
   });
+  if (art) artIndex.statuses[power.id] = art;
   return {
     id: power.id,
     name: power.name,
@@ -483,6 +488,7 @@ const enchantItems = await mapLimit(enchantments, 4, async (enchant) => {
     quality: 86,
     label: enchant.name,
   });
+  if (art) artIndex.enchantments[enchant.id] = art;
   return {
     id: enchant.id,
     name: enchant.name,
@@ -512,6 +518,7 @@ const potionItems = await mapLimit(potions, 4, async (potion) => {
     quality: 86,
     label: potion.name,
   });
+  if (art) artIndex.potions[potion.id] = art;
   return {
     id: potion.id,
     name: potion.name,
@@ -564,6 +571,7 @@ const meta = {
 
 await Promise.all([
   writeJson(path.join(OUT_DATA, 'meta.json'), meta),
+  writeJson(path.join(OUT_DATA, 'art.json'), artIndex),
   writeJson(path.join(OUT_DATA, 'cards.json'), cardItems),
   writeJson(path.join(OUT_DATA, 'relics.json'), relicItems),
   writeJson(path.join(OUT_DATA, 'monsters.json'), monsterItems),

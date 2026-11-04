@@ -244,7 +244,7 @@ export const CLASS_ORDER = [
 ];
 
 export const CLASS_LABELS: Record<string, string> = {
-  ironclad: '铸火者',
+  ironclad: '誓火骑士',
   silent: '丛林猎手',
   defect: '元素魔法师',
   necrobinder: '客',
@@ -340,28 +340,638 @@ export const CATEGORY_FILE: Record<CategoryId, string> = {
   modifiers: 'modifiers',
 };
 
-const cache = new Map<CategoryId, Promise<CategoryData>>();
+const TARGET_LABELS: Record<string, string> = {
+  self: '自身',
+  enemy: '单体敌人',
+  all: '全体敌人',
+  random: '随机敌人',
+  none: '无目标',
+  ally: '盟友',
+  allAllies: '全体盟友',
+};
 
-export async function loadMeta(): Promise<Meta> {
-  const response = await fetch('/data/meta.json');
-  if (!response.ok) throw new Error(`资料版本读取失败: ${response.status}`);
-  return response.json();
+const KEYWORD_LABELS: Record<string, string> = {
+  sly: '狡黠',
+  exhaust: '消耗',
+  innate: '固有',
+  ethereal: '虚无',
+  unplayable: '无法打出',
+  eternal: '永恒',
+  retain: '保留',
+};
+
+const TAG_LABELS: Record<string, string> = {
+  Strike: '打击',
+  OstyAttack: '奥斯提攻击',
+  Defend: '防御',
+  Shiv: '小刀',
+  Minion: '随从',
+};
+
+const ACT_SUBTITLES: Record<number, string> = {
+  1: '翠蚀林海 · 潮蚀港',
+  2: '蛀蚀巢窟',
+  3: '夜蚀王都',
+};
+
+const TRIGGER_LABELS: Record<string, string> = {
+  onBattleStart: '战斗开始',
+  onPlayerTurnEnd: '玩家回合结束',
+  onPlayerTurnStart: '玩家回合开始',
+  onShuffle: '牌堆洗牌',
+  onBattleVictory: '战斗胜利',
+  onCardResolved: '卡牌结算',
+  onEnemyDoomDeath: '敌人灾厄死亡',
+  onExhausted: '卡牌消耗',
+  onDamaged: '受到伤害',
+  onHpLost: '失去生命',
+  onStarSpent: '消耗星辉',
+  onEnemyDeath: '敌人死亡',
+  onBlockBroken: '格挡破碎',
+  onOrbChanneled: '充能球激发',
+  onCardPlayStarted: '开始打出卡牌',
+  onCardGenerated: '生成卡牌',
+  onPotionUsed: '使用药水',
+  onCardDiscarded: '弃牌',
+};
+
+const PATTERN_LABELS: Record<string, string> = {
+  cycle: '固定循环',
+  random: '随机权重',
+  conditional: '条件分支',
+  mixed: '混合模式',
+};
+
+const INTENT_LABELS: Record<string, string> = {
+  attack: '攻击',
+  attack_block: '攻击 · 格挡',
+  attack_debuff: '攻击 · 减益',
+  attack_defend: '攻击 · 防御',
+  block: '格挡',
+  defend: '格挡',
+  buff: '强化',
+  debuff: '减益',
+  debuff_strong: '强减益',
+  card_debuff: '侵蚀',
+  death_blow: '濒死一击',
+  escape: '逃跑',
+  heal: '回复',
+  summon: '召唤',
+  stun: '击晕',
+};
+
+const ENCHANT_CARD_TYPE_LABELS: Record<string, string> = {
+  Attack: '攻击牌',
+  Skill: '技能牌',
+  Power: '能力牌',
+  'Attack, Skill': '攻击牌 / 技能牌',
+};
+
+const APPLICABLE_LABELS: Record<string, string> = {
+  'Defend cards': '防御牌',
+  'cards that gain Block': '获得格挡的牌',
+  'Basic Strike or Defend cards': '基础打击或防御牌',
+};
+
+function label(map: Record<string | number, string>, key: string | number, fallback = String(key)): string {
+  return map[key] ?? fallback;
 }
 
-export function loadCategory<T extends CategoryData>(category: CategoryId): Promise<T> {
-  if (!cache.has(category)) {
+function section<T>(data: Record<string, unknown>, key: string): T[] {
+  const value = data[key];
+  return Array.isArray(value) ? (value as T[]) : [];
+}
+
+function artPath(kind: string, id: string): string {
+  return `/art/${kind}/${encodeURIComponent(id)}.webp`;
+}
+
+function sourceUrl(image?: string): string {
+  return image ? `https://spire-codex.com${image}` : '';
+}
+
+interface RawCardUpgrade {
+  description?: string;
+  cost?: number;
+}
+
+interface RawCard {
+  id: string;
+  name: string;
+  type: string;
+  rarity: string;
+  cost: number;
+  target: string;
+  class: string;
+  description: string;
+  keywords?: string[];
+  tags?: string[];
+  exhaust?: boolean;
+  ethereal?: boolean;
+  unplayable?: boolean;
+  multiplayerOnly?: boolean;
+  flavor?: string;
+  special?: string;
+  xCost?: boolean;
+  starCost?: number;
+  upgraded?: RawCardUpgrade;
+  image?: string;
+  source?: { version?: string };
+}
+
+interface RawRelicTrigger {
+  trigger: string;
+  effects?: unknown[];
+}
+
+interface RawRelic {
+  id: string;
+  name: string;
+  rarity: string;
+  rarityLabel?: string;
+  description: string;
+  flavor?: string;
+  price?: number;
+  pool: string;
+  triggers?: RawRelicTrigger[];
+  image?: string;
+}
+
+interface RawPowerRef {
+  status: string;
+  stacks?: number;
+}
+
+interface RawMonsterMove {
+  id: string;
+  name: string;
+  intent: string;
+  damage?: number[];
+  damageAscension?: number[];
+  block?: number | null;
+  powers?: RawPowerRef[];
+  effects?: unknown[];
+}
+
+interface RawAttackPatternState {
+  id: string;
+  type?: string;
+  moveId?: string;
+  next?: string;
+}
+
+interface RawAttackPattern {
+  type: string;
+  description?: string;
+  initialState?: string;
+  states?: RawAttackPatternState[];
+}
+
+interface RawMonster {
+  id: string;
+  name: string;
+  act: number;
+  tier: string;
+  hp: { min: number; max: number };
+  hpAscension?: { min: number; max: number };
+  moves?: RawMonsterMove[];
+  innatePowers?: RawPowerRef[];
+  innatePowersAscension?: RawPowerRef[];
+  attackPattern?: RawAttackPattern;
+  encounters?: string[];
+  image?: string;
+}
+
+interface RawPower {
+  id: string;
+  name: string;
+  type: string;
+  stackType: string;
+  description: string;
+  image?: string;
+  sourceId?: string;
+}
+
+interface RawEnchantment {
+  id: string;
+  name: string;
+  description: string;
+  extraCardText?: string;
+  stackable?: boolean;
+  cardType?: string;
+  applicableTo?: string;
+  image?: string;
+}
+
+interface RawPotion {
+  id: string;
+  name: string;
+  rarity: string;
+  rarityLabel?: string;
+  price?: number;
+  description: string;
+  target: string;
+  pool: string;
+  usableOutsideBattle?: boolean;
+  image?: string;
+}
+
+interface RawModifier {
+  id: string;
+  name: string;
+  description: string;
+  type: string;
+}
+
+interface RawHero {
+  id: string;
+  name: string;
+  className: string;
+  accent: number[];
+}
+
+interface RawAct {
+  id: string;
+  name: string;
+  index: number;
+}
+
+interface RawIntent {
+  id: string;
+  name: string;
+}
+
+interface RawEncounter {
+  id: string;
+  name: string;
+}
+
+interface ContentBundle {
+  schema: number;
+  version: string;
+  hash: string;
+  builtAt: string;
+  counts: Record<string, number>;
+  data: Record<string, unknown>;
+}
+
+interface NormalizedContent {
+  meta: Meta;
+  categories: Record<CategoryId, CategoryData>;
+}
+
+type ArtCredit = 'local' | 'reference';
+type ArtIndex = Record<string, Record<string, { path: string; credit: ArtCredit }>>;
+
+function artInfo(
+  index: ArtIndex | undefined,
+  kind: string,
+  id: string,
+): { art: string | null; artCredit: ArtCredit | null } {
+  if (!index) return { art: artPath(kind, id), artCredit: 'local' };
+  const entry = index[kind]?.[id];
+  return entry ? { art: entry.path, artCredit: entry.credit } : { art: null, artCredit: null };
+}
+
+function powerNameMap(powers: RawPower[]): (id: string) => string {
+  const map = new Map<string, string>();
+  for (const power of powers) {
+    map.set(power.id, power.name);
+    map.set(power.id.replace(/^sts2_/, ''), power.name);
+    if (power.sourceId) {
+      map.set(String(power.sourceId), power.name);
+      map.set(String(power.sourceId).toLowerCase(), power.name);
+      map.set(`sts2_${String(power.sourceId).toLowerCase()}`, power.name);
+    }
+  }
+  return (id) => {
+    if (!id) return '未知状态';
+    return map.get(id) || map.get(String(id).toLowerCase()) || String(id).replace(/^sts2_/, '');
+  };
+}
+
+/**
+ * 服务端 /api/content/bundle 返回的是游戏原始数据；这里做与
+ * scripts/sync-content.mjs 相同的展示层归一化，保证线上资料库
+ * 的卡名、文案、数值始终以接口为准。
+ */
+export function normalizeContentBundle(bundle: ContentBundle, artIndex?: ArtIndex): NormalizedContent {
+  if (bundle.schema !== 1 || !bundle.data) {
+    throw new Error('内容接口返回格式不正确');
+  }
+
+  const cards = section<RawCard>(bundle.data, 'content/cards');
+  const relics = section<RawRelic>(bundle.data, 'content/relics');
+  const monsters = section<RawMonster>(bundle.data, 'content/monsters');
+  const powers = section<RawPower>(bundle.data, 'content/powers');
+  const enchantments = section<RawEnchantment>(bundle.data, 'content/enchantments');
+  const potions = section<RawPotion>(bundle.data, 'content/potions');
+  const modifiers = section<RawModifier>(bundle.data, 'content/modifiers');
+  const heroes = section<RawHero>(bundle.data, 'heroes/heroes');
+  const acts = section<RawAct>(bundle.data, 'content/acts');
+  const intents = section<RawIntent>(bundle.data, 'content/intents');
+  const encounters = section<RawEncounter>(bundle.data, 'content/encounters');
+
+  const heroByClass = new Map(heroes.map((hero) => [hero.className, hero]));
+  const actNameMap = new Map(acts.map((act) => [act.index, act.name]));
+  const intentMap = new Map(intents.map((intent) => [intent.id, intent]));
+  const encounterMap = new Map(encounters.map((encounter) => [encounter.id, encounter.name]));
+  const powerName = powerNameMap(powers);
+
+  const cardItems: Card[] = cards.map((card) => ({
+    id: card.id,
+    name: card.name,
+    type: card.type,
+    typeLabel: label(CARD_TYPE_LABELS, card.type),
+    rarity: card.rarity,
+    rarityLabel: label(CARD_RARITY_LABELS, card.rarity),
+    cost: card.cost,
+    costLabel: card.xCost ? 'X' : String(card.cost),
+    starCost: card.starCost ?? null,
+    class: card.class,
+    classLabel: heroByClass.get(card.class)?.name || label(CLASS_LABELS, card.class),
+    classAccent: heroByClass.get(card.class)?.accent || null,
+    target: card.target,
+    targetLabel: label(TARGET_LABELS, card.target),
+    description: card.description,
+    upgraded: {
+      description: card.upgraded?.description ?? card.description,
+      cost: card.upgraded?.cost ?? card.cost,
+      costLabel: card.xCost ? 'X' : String(card.upgraded?.cost ?? card.cost),
+    },
+    keywords: (card.keywords ?? []).map((keyword) => ({ id: keyword, label: label(KEYWORD_LABELS, keyword) })),
+    tags: (card.tags ?? []).map((tag) => ({ id: tag, label: label(TAG_LABELS, tag) })),
+    exhaust: !!card.exhaust,
+    ethereal: !!card.ethereal,
+    unplayable: !!card.unplayable,
+    innate: (card.keywords ?? []).includes('innate'),
+    retain: (card.keywords ?? []).includes('retain'),
+    multiplayerOnly: !!card.multiplayerOnly,
+    flavor: card.flavor || '',
+    special: card.special || null,
+    art: artInfo(artIndex, 'cards', card.id).art,
+    artCredit: artInfo(artIndex, 'cards', card.id).artCredit,
+    referenceUrl: sourceUrl(card.image),
+  }));
+
+  const relicItems: Relic[] = relics.map((relic) => ({
+    id: relic.id,
+    name: relic.name,
+    rarity: relic.rarity,
+    rarityLabel: relic.rarityLabel || label(RELIC_RARITY_LABELS, relic.rarity),
+    description: relic.description,
+    flavor: relic.flavor || '',
+    price: relic.price ?? 0,
+    pool: relic.pool,
+    poolLabel: relic.pool === 'shared' ? '通用' : heroByClass.get(relic.pool)?.name || label(CLASS_LABELS, relic.pool),
+    triggers: (relic.triggers ?? []).map((trigger) => ({
+      trigger: trigger.trigger,
+      label: label(TRIGGER_LABELS, trigger.trigger, trigger.trigger),
+      effects: (trigger.effects ?? []).length,
+    })),
+    art: artInfo(artIndex, 'relics', relic.id).art,
+    artCredit: artInfo(artIndex, 'relics', relic.id).artCredit,
+    referenceUrl: sourceUrl(relic.image),
+  }));
+
+  const monsterItems: Monster[] = monsters.map((monster) => {
+    const moves = (monster.moves ?? []).map((move) => {
+      const intent = intentMap.get(move.intent);
+      return {
+        id: move.id,
+        name: move.name,
+        intent: move.intent,
+        intentLabel: intent?.name || label(INTENT_LABELS, move.intent, move.intent || '未知'),
+        damage: move.damage || [],
+        damageAscension: move.damageAscension || [],
+        block: move.block ?? null,
+        powers: (move.powers ?? []).map((power) => ({
+          id: power.status,
+          name: powerName(power.status),
+          stacks: power.stacks ?? 1,
+        })),
+        effects: (move.effects ?? []).length,
+      };
+    });
+    const moveName = new Map(moves.map((move) => [move.id, move.name]));
+    const pattern = monster.attackPattern;
+    let sequence: string[] = [];
+    if (pattern?.type === 'cycle' && pattern.states?.length) {
+      const byId = new Map(pattern.states.map((state) => [state.id, state]));
+      let state: RawAttackPatternState | undefined =
+        byId.get(pattern.initialState ?? '') || pattern.states.find((entry) => entry.type === 'move') || pattern.states[0];
+      const seen = new Set<string>();
+      for (let index = 0; index < 12 && state; index += 1) {
+        if (seen.has(state.id)) break;
+        seen.add(state.id);
+        if (state.moveId) sequence.push(moveName.get(state.moveId) || state.moveId);
+        state = state.next ? byId.get(state.next) : undefined;
+      }
+    } else if (pattern?.states?.length) {
+      sequence = [
+        ...new Set(
+          pattern.states
+            .filter((state) => !!state.moveId)
+            .map((state) => moveName.get(state.moveId!) || state.moveId!),
+        ),
+      ];
+    }
+
+    return {
+      id: monster.id,
+      name: monster.name,
+      act: monster.act,
+      actLabel: label(ACT_LABELS, monster.act, `第 ${monster.act} 幕`),
+      actSubtitle: label(ACT_SUBTITLES, monster.act, actNameMap.get(monster.act - 1) || ''),
+      tier: monster.tier,
+      tierLabel: label(TIER_LABELS, monster.tier),
+      hp: monster.hp,
+      hpAscension: monster.hpAscension || null,
+      moves,
+      innatePowers: (monster.innatePowers ?? []).map((power) => ({
+        id: power.status,
+        name: powerName(power.status),
+        stacks: power.stacks ?? 1,
+      })),
+      innatePowersAscension: (monster.innatePowersAscension ?? []).map((power) => ({
+        id: power.status,
+        name: powerName(power.status),
+        stacks: power.stacks ?? 1,
+      })),
+      pattern: pattern
+        ? {
+            type: pattern.type,
+            typeLabel: label(PATTERN_LABELS, pattern.type, pattern.type),
+            description: pattern.description || '',
+            sequence,
+          }
+        : null,
+      encounters: (monster.encounters ?? []).map((id) => ({ id, name: encounterMap.get(id) || id })),
+      art: artInfo(artIndex, 'monsters', monster.id).art,
+      artCredit: artInfo(artIndex, 'monsters', monster.id).artCredit,
+      referenceUrl: sourceUrl(monster.image),
+    };
+  });
+
+  const powerItems: Power[] = powers.map((power) => ({
+    id: power.id,
+    name: power.name,
+    type: power.type,
+    typeLabel: label(POWER_TYPE_LABELS, power.type),
+    stackType: power.stackType,
+    stackLabel: label(STACK_LABELS, power.stackType),
+    description: power.description,
+    art: artInfo(artIndex, 'statuses', power.id).art,
+    artCredit: artInfo(artIndex, 'statuses', power.id).artCredit,
+    referenceUrl: sourceUrl(power.image),
+  }));
+
+  const enchantmentItems: Enchantment[] = enchantments.map((enchantment) => ({
+    id: enchantment.id,
+    name: enchantment.name,
+    description: enchantment.description,
+    extraCardText: enchantment.extraCardText || '',
+    stackable: !!enchantment.stackable,
+    cardType: enchantment.cardType || '',
+    cardTypeLabel: enchantment.cardType
+      ? label(ENCHANT_CARD_TYPE_LABELS, enchantment.cardType, enchantment.cardType)
+      : '',
+    applicableTo: enchantment.applicableTo || '',
+    applicableLabel: enchantment.applicableTo
+      ? label(APPLICABLE_LABELS, enchantment.applicableTo, enchantment.applicableTo)
+      : '',
+    art: artInfo(artIndex, 'enchantments', enchantment.id).art,
+    artCredit: artInfo(artIndex, 'enchantments', enchantment.id).artCredit,
+    referenceUrl: sourceUrl(enchantment.image),
+  }));
+
+  const potionItems: Potion[] = potions.map((potion) => ({
+    id: potion.id,
+    name: potion.name,
+    rarity: potion.rarity,
+    rarityLabel: potion.rarityLabel || label(POTION_RARITY_LABELS, potion.rarity),
+    price: potion.price ?? 0,
+    description: potion.description,
+    target: potion.target,
+    targetLabel: label(TARGET_LABELS, potion.target),
+    pool: potion.pool,
+    poolLabel: potion.pool === 'shared' ? '通用' : heroByClass.get(potion.pool)?.name || label(CLASS_LABELS, potion.pool),
+    usableOutsideBattle: !!potion.usableOutsideBattle,
+    art: artInfo(artIndex, 'potions', potion.id).art,
+    artCredit: artInfo(artIndex, 'potions', potion.id).artCredit,
+    referenceUrl: sourceUrl(potion.image),
+  }));
+
+  const modifierItems: Modifier[] = modifiers.map((modifier) => ({
+    id: modifier.id,
+    name: modifier.name,
+    description: modifier.description,
+    type: modifier.type,
+    typeLabel: label(MODIFIER_TYPE_LABELS, modifier.type),
+  }));
+
+  return {
+    meta: {
+      version: bundle.version,
+      contentHash: bundle.hash,
+      builtAt: bundle.builtAt,
+      gameVersion: cards[0]?.source?.version || 'v0.111.0',
+      counts: {
+        cards: cardItems.length,
+        relics: relicItems.length,
+        monsters: monsterItems.length,
+        powers: powerItems.length,
+        enchantments: enchantmentItems.length,
+        potions: potionItems.length,
+        modifiers: modifierItems.length,
+      },
+      heroes: heroes.map((hero) => ({
+        id: hero.id,
+        name: hero.name,
+        className: hero.className,
+        accent: hero.accent,
+      })),
+      acts: acts.map((act) => ({ id: act.id, name: act.name, index: act.index })),
+    },
+    categories: {
+      cards: cardItems,
+      relics: relicItems,
+      monsters: monsterItems,
+      powers: powerItems,
+      enchantments: enchantmentItems,
+      potions: potionItems,
+      modifiers: modifierItems,
+    },
+  };
+}
+
+const staticCache = new Map<CategoryId, Promise<CategoryData>>();
+const API_BASE = ((import.meta.env?.VITE_CONTENT_API as string | undefined) || '/api/content').replace(/\/$/, '');
+let apiContent: Promise<NormalizedContent> | null = null;
+
+async function loadArtIndex(): Promise<ArtIndex | undefined> {
+  try {
+    const response = await fetch('/data/art.json');
+    if (!response.ok) return undefined;
+    return (await response.json()) as ArtIndex;
+  } catch {
+    return undefined;
+  }
+}
+
+function loadApiContent(): Promise<NormalizedContent> {
+  if (!apiContent) {
+    apiContent = Promise.all([
+      fetch(`${API_BASE}/bundle`, { headers: { accept: 'application/json' } }),
+      loadArtIndex(),
+    ])
+      .then(async ([response, artIndex]) => {
+        if (!response.ok) throw new Error(`内容接口读取失败: ${response.status}`);
+        return normalizeContentBundle((await response.json()) as ContentBundle, artIndex);
+      })
+      .catch((error: unknown) => {
+        apiContent = null;
+        throw error;
+      });
+  }
+  return apiContent;
+}
+
+function loadStaticCategory<T extends CategoryData>(category: CategoryId): Promise<T> {
+  if (!staticCache.has(category)) {
     const promise = fetch(`/data/${CATEGORY_FILE[category]}.json`).then((response) => {
       if (!response.ok) throw new Error(`资料读取失败: ${response.status}`);
       return response.json() as Promise<CategoryData>;
     });
-    cache.set(category, promise);
+    staticCache.set(category, promise);
   }
-  return cache.get(category) as Promise<T>;
+  return staticCache.get(category) as Promise<T>;
+}
+
+export async function loadMeta(): Promise<Meta> {
+  try {
+    return (await loadApiContent()).meta;
+  } catch {
+    const response = await fetch('/data/meta.json');
+    if (!response.ok) throw new Error(`资料版本读取失败: ${response.status}`);
+    return response.json() as Promise<Meta>;
+  }
+}
+
+export function loadCategory<T extends CategoryData>(category: CategoryId): Promise<T> {
+  return loadApiContent()
+    .then((content) => content.categories[category] as T)
+    .catch(() => loadStaticCategory<T>(category));
 }
 
 export function loadAllCategories(): Promise<Record<CategoryId, CategoryData>> {
-  const entries = CATEGORIES.map(async (c) => [c.id, await loadCategory(c.id)] as const);
-  return Promise.all(entries).then((pairs) => Object.fromEntries(pairs) as Record<CategoryId, CategoryData>);
+  return loadApiContent()
+    .then((content) => content.categories)
+    .catch(() =>
+      Promise.all(CATEGORIES.map(async (category) => [category.id, await loadStaticCategory(category.id)] as const)).then(
+        (pairs) => Object.fromEntries(pairs) as Record<CategoryId, CategoryData>,
+      ),
+    );
 }
 
 export function itemName(item: CatalogItem): string {

@@ -338,7 +338,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onBattleVictory",
@@ -438,7 +438,7 @@
     "name": "骨笛",
     "rarity": "common",
     "rarityLabel": "普通遗物",
-    "description": "每当奥斯提攻击时，获得2点格挡。",
+    "description": "每当影魔攻击时，获得2点格挡。",
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "necrobinder",
@@ -558,7 +558,7 @@
     "name": "缚魂命匣",
     "rarity": "basic",
     "rarityLabel": "初始遗物",
-    "description": "在你的回合开始时，召唤 1 点生命的魔影。",
+    "description": "在你的回合开始时，召唤 1 点生命的影魔。",
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "necrobinder",
@@ -645,7 +645,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onPlayerTurnStart",
@@ -687,7 +687,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onBattleVictory",
@@ -863,7 +863,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onExhausted",
@@ -1115,7 +1115,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onHpLost",
@@ -3415,7 +3415,7 @@
     "name": "纸鹤",
     "rarity": "rare",
     "rarityLabel": "稀有遗物",
-    "description": "有颓靡状态的敌人造成的伤害降低40%而非25%。",
+    "description": "有虚弱状态的敌人造成的伤害降低40%而非25%。",
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "silent",
@@ -3434,7 +3434,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [],
     "art": "/art/relics/sts2_paper_phrog.webp",
     "artCredit": "local",
@@ -3606,7 +3606,7 @@
     "name": "无界命匣",
     "rarity": "basic",
     "rarityLabel": "初始遗物",
-    "description": "在每场战斗开始时，召唤 5 点生命的魔影。在你的回合开始时，召唤 2 点生命的魔影。",
+    "description": "在每场战斗开始时，召唤 5 点生命的影魔。在你的回合开始时，召唤 2 点生命的影魔。",
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "necrobinder",
@@ -3930,7 +3930,7 @@
     "name": "红面具",
     "rarity": "common",
     "rarityLabel": "普通遗物",
-    "description": "在每场战斗开始时，给于所有敌人1层颓靡。",
+    "description": "在每场战斗开始时，给于所有敌人1层虚弱。",
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "shared",
@@ -3955,7 +3955,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [],
     "art": "/art/relics/sts2_red_skull.webp",
     "artCredit": "local",
@@ -4147,7 +4147,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [],
     "art": "/art/relics/sts2_ruined_helmet.webp",
     "artCredit": "local",
@@ -4306,7 +4306,7 @@
     "flavor": "这个遗物的细节将在未来揭晓……",
     "price": 0,
     "pool": "ironclad",
-    "poolLabel": "铸火者",
+    "poolLabel": "誓火骑士",
     "triggers": [
       {
         "trigger": "onDamaged",

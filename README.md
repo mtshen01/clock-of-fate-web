@@ -2,9 +2,10 @@
 
 《停摆之钟》的线上资料库：筛选与查阅全部**卡牌 / 遗物 / 生物 / 状态 / 附魔 / 道具 / 每日挑战**。
 
-- 线上地址：<http://121.43.110.17/>
-- 技术栈：Vite + React + TypeScript，纯静态站点
-- 数据来源：`sljt-demo` 游戏仓库的 `data/content/*.json`
+- 线上地址：<https://www.tbzz1.online/>（域名 HTTP 自动跳转 HTTPS；IP 访问 <http://121.43.110.17/> 保留）
+- 备案号：晋ICP备2026017220号
+- 技术栈：Vite + React + TypeScript
+- 数据来源：运行时优先读取游戏服务端 `GET /api/content/bundle`；接口不可用时回退到 `public/data/*.json` 静态快照（由 `sljt-demo` 游戏仓库生成）
 - 美术来源：游戏仓库的本地美术资源；少量缺失条目使用社区资料站的参考图，并在详情中标明「参考图」
 
 ## 当前收录
@@ -43,9 +44,10 @@ $env:GAME_ROOT="D:\path\to\sljt-demo"; npm run sync
 脚本会：
 
 1. 读取 `data/content/*.json`、`data/heroes/heroes.json`、`server/content/manifest.json`；
-2. 把数据归一化为 `public/data/*.json`；
-3. 把卡面、遗物、药水、附魔、状态图标、生物立绘压缩为 WebP 输出到 `public/art/`；
-4. 少量本地缺失的生物/状态使用 `docs/assets/asset-manifest.json` 中的参考图补齐，并缓存到 `.cache/remote/`。
+2. 把数据归一化为 `public/data/*.json`（作为接口不可用时的回退快照）；
+3. 生成 `public/data/art.json`，记录每件美术的路径与来源（本地 / 参考图）；
+4. 把卡面、遗物、药水、附魔、状态图标、生物立绘压缩为 WebP 输出到 `public/art/`；
+5. 少量本地缺失的生物/状态使用 `docs/assets/asset-manifest.json` 中的参考图补齐，并缓存到 `.cache/remote/`。
 
 强制重新生成全部图片：
 
@@ -54,6 +56,19 @@ npm run sync -- --force
 ```
 
 > 生成物（`public/data/`、`public/art/`）随仓库提交，部署时不需要游戏仓库。
+> 文字数据以服务端接口为准，改卡名/文案后只需重新构建并部署服务端内容包，不必重新同步本站；新增或替换美术时仍需要执行 `npm run sync`。
+
+## 运行时数据
+
+页面启动后请求 `/api/content/bundle`，在浏览器内完成与 `sync-content.mjs` 相同的展示层归一化（标签、职业、升级文案、怪物招式等）。请求失败时自动回退到 `/data/*.json`，保证服务端不可用时仍可浏览。
+
+本地开发时如需连接指定服务端，可在启动前设置：
+
+```bash
+$env:VITE_CONTENT_API="http://127.0.0.1:3000/api/content"; npm run dev
+```
+
+生产环境保持默认值 `/api/content`，由 nginx 将 `/api/` 反向代理到游戏服务端。
 
 ## 构建
 
@@ -64,7 +79,7 @@ npm run build
 
 产物在 `dist/`。
 
-## 部署（80 端口）
+## 部署（80 / 443 端口）
 
 服务器使用 nginx 托管静态文件，并保留游戏 API 反向代理：
 
@@ -122,6 +137,8 @@ server {
 }
 ```
 
+> 上面的片段只展示 HTTP 入口与反向代理。生产环境另有 `sljt-server-http-redirect`（域名 80 → 443）和 `sljt-server-ssl`（443 证书站点），应用 location 统一放在 `/etc/nginx/snippets/sljt-app.conf`。
+
 部署步骤：
 
 ```bash
@@ -133,13 +150,22 @@ ssh sljt "mkdir -p /opt/sljt/web-codex && tar -xzf /tmp/clock-of-fate-web.tar.gz
 
 旧的 Web 版游戏目录（`/opt/sljt/web`、`/opt/sljt/web-slim`）已移除；nginx 的 `root` 指向本站。
 
+## HTTPS
+
+- 证书由 Let's Encrypt 签发，覆盖 `www.tbzz1.online` 与 `tbzz1.online`，有效期 90 天。
+- 自动续期：`certbot.timer` 每日检查；续期成功后通过 deploy hook 执行 `systemctl reload nginx`。
+- 域名 HTTP 请求 301 跳转到 HTTPS；`/.well-known/acme-challenge/` 保留用于续期校验。
+- 直接访问 IP `http://121.43.110.17/` 仍可用（IP 不在证书覆盖范围内，因此不强制跳转）。
+- 服务器配置：`/etc/nginx/sites-available/sljt-server-ssl`、`sljt-server-http-redirect`、`/etc/nginx/snippets/sljt-app.conf`。
+- 排查日志：`/var/log/letsencrypt/letsencrypt.log`、`/var/log/nginx/error.log`。
+
 ## 目录
 
 ```text
 clock-of-fate-web/
 ├── public/
 │   ├── art/           # 压缩后的 WebP 美术资源（已提交）
-│   ├── data/          # 归一化后的静态 JSON（已提交）
+│   ├── data/          # 接口回退快照 + art.json 美术索引（已提交）
 │   └── fonts/         # 本地字体，避免依赖外部 CDN
 ├── scripts/
 │   └── sync-content.mjs

@@ -616,6 +616,11 @@ export default function App() {
             <span>更新于 {meta ? new Date(meta.builtAt).toLocaleDateString('zh-CN') : '—'}</span>
           </div>
           <p>数据整理自社区资料库，仅供研究与展示。所有美术与文字内容的权利归原权利人所有。</p>
+          <div className="footer-legal">
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+              晋ICP备2026017220号
+            </a>
+          </div>
         </footer>
       </main>
 

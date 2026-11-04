@@ -346,9 +346,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 6 点生命的魔影。",
+    "description": "召唤 6 点生命的影魔。",
     "upgraded": {
-      "description": "召唤 9 点生命的魔影。",
+      "description": "召唤 9 点生命的影魔。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -382,7 +382,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -539,7 +539,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -547,9 +547,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "造成 6 点伤害。将一张此牌的复制品加入你的弃牌堆。",
     "upgraded": {
-      "description": "造成 8 点伤害。",
+      "description": "造成 8 点伤害。将一张此牌的复制品加入你的弃牌堆。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -626,9 +626,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "自身获得 2 层敏捷。",
+    "description": "在本回合获得 2 点敏捷。",
     "upgraded": {
-      "description": "自身获得 4 层敏捷。",
+      "description": "在本回合获得 4 点敏捷。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -745,7 +745,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -866,7 +866,7 @@
   },
   {
     "id": "sts2_ashen_strike",
-    "name": "断钟横扫",
+    "name": "余烬斩击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -875,7 +875,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -883,9 +883,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "造成 6 点伤害。消耗牌堆中每有一张牌，伤害增加 3 点。",
     "upgraded": {
-      "description": "造成 6 点伤害。",
+      "description": "造成 6 点伤害。消耗牌堆中每有一张牌，伤害增加 4 点。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1219,9 +1219,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 33 点伤害。获得 2 点能量。",
+    "description": "对所有敌人造成 33 点伤害。获得 2 点能量。本场战斗每打出过一张虚无牌，费用减少 2。",
     "upgraded": {
-      "description": "对所有敌人造成 33 点伤害。获得 2 点能量。费用变为 7。",
+      "description": "对所有敌人造成 33 点伤害。获得 2 点能量。本场战斗每打出过一张虚无牌，费用减少 2。",
       "cost": 7,
       "costLabel": "7"
     },
@@ -1289,7 +1289,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -1328,7 +1328,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -1358,7 +1358,7 @@
   },
   {
     "id": "sts2_battle_trance",
-    "name": "劈铆钉",
+    "name": "时不再来",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -1367,7 +1367,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -1375,9 +1375,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 3 张牌。",
+    "description": "抽 3 张牌。你在本回合内不能再抽任何牌。",
     "upgraded": {
-      "description": "抽 4 张牌。",
+      "description": "抽 4 张牌。你在本回合内不能再抽任何牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -1597,7 +1597,7 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 1 张「旅人割」加入手牌。",
+    "description": "选择你手牌中的一张牌，将其变化为「旅人割」。",
     "upgraded": {
       "description": "将 1 张「旅人割+」加入手牌。",
       "cost": 1,
@@ -1898,7 +1898,7 @@
   },
   {
     "id": "sts2_blaze",
-    "name": "锻承重梁",
+    "name": "猛劲",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -1907,7 +1907,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -1915,9 +1915,9 @@
     ],
     "target": "ally",
     "targetLabel": "盟友",
-    "description": "自身获得 5 层力量。",
+    "description": "在本回合内，给予另一名玩家 5 点力量。",
     "upgraded": {
-      "description": "自身获得 7 层力量。",
+      "description": "在本回合内，给予另一名玩家 7 点力量。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -1929,7 +1929,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": true,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "力随拳出，回合内尽数倾泻。",
     "special": null,
     "art": "/art/cards/sts2_blaze.webp",
     "artCredit": "local",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "sts2_blood_wall",
-    "name": "撞铁片",
+    "name": "以血铸壁",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "common",
@@ -1990,7 +1990,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2012,7 +2012,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "血入墙中，墙立身前。",
     "special": null,
     "art": "/art/cards/sts2_blood_wall.webp",
     "artCredit": "local",
@@ -2029,7 +2029,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2068,7 +2068,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2146,7 +2146,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2193,9 +2193,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 5 点生命的魔影。",
+    "description": "召唤 5 点生命的影魔。",
     "upgraded": {
-      "description": "召唤 7 点生命的魔影。",
+      "description": "召唤 7 点生命的影魔。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -2311,9 +2311,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "如果魔影存活，则他对所有敌人造成 9 点伤害并且你获得 9 点格挡。然后魔影死去。",
+    "description": "如果影魔存活，则他对所有敌人造成 9 点伤害并且你获得 9 点格挡。然后影魔死去。",
     "upgraded": {
-      "description": "如果魔影存活，则他对所有敌人造成 12 点伤害并且你获得 12 点格挡。然后魔影死去。",
+      "description": "如果影魔存活，则他对所有敌人造成 12 点伤害并且你获得 12 点格挡。然后影魔死去。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -2512,7 +2512,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2551,7 +2551,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2590,7 +2590,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2820,7 +2820,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -2828,9 +2828,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 4 点伤害。",
+    "description": "造成 4 点伤害。该敌人身上每有一层破绽，额外造成 2 点伤害。",
     "upgraded": {
-      "description": "造成 4 点伤害。",
+      "description": "造成 4 点伤害。该敌人身上每有一层破绽，额外造成 3 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -2982,7 +2982,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -3256,9 +3256,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "魔影的攻击额外造成 4 点伤害。",
+    "description": "影魔的攻击额外造成 4 点伤害。",
     "upgraded": {
-      "description": "魔影的攻击额外造成 6 点伤害。",
+      "description": "影魔的攻击额外造成 6 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -3483,7 +3483,7 @@
     "costLabel": "X",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -3787,7 +3787,7 @@
   },
   {
     "id": "sts2_cinder",
-    "name": "熔铁回旋斩",
+    "name": "烈焰回旋斩",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -3796,7 +3796,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -3804,9 +3804,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 18 点伤害。",
+    "description": "造成 18 点伤害。随机消耗 1 张手牌。",
     "upgraded": {
-      "description": "造成 24 点伤害。",
+      "description": "造成 24 点伤害。随机消耗 1 张手牌。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -3917,9 +3917,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 3 点生命的魔影。从你的抽牌堆中选择一张牌将其消耗。",
+    "description": "召唤 3 点生命的影魔。从你的抽牌堆中选择一张牌将其消耗。",
     "upgraded": {
-      "description": "召唤 5 点生命的魔影。从你的抽牌堆中选择一张牌将其消耗。",
+      "description": "召唤 5 点生命的影魔。从你的抽牌堆中选择一张牌将其消耗。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4139,7 +4139,7 @@
   },
   {
     "id": "sts2_colossus",
-    "name": "撬锤柄",
+    "name": "重垣洞照",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -4148,7 +4148,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -4156,9 +4156,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 4 点格挡。",
+    "description": "获得 5 点格挡。在本回合中，有破绽状态的敌人对你造成的伤害降低 50%。",
     "upgraded": {
-      "description": "获得 7 点格挡。",
+      "description": "获得 8 点格挡。在本回合中，有破绽状态的敌人对你造成的伤害降低 50%。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4195,9 +4195,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 33 点伤害。施加 3 层破绽。施加 3 层颓靡。",
+    "description": "造成 33 点伤害。施加 3 层破绽。施加 3 层虚弱。",
     "upgraded": {
-      "description": "造成 44 点伤害。施加 3 层破绽。施加 3 层颓靡。",
+      "description": "造成 44 点伤害。施加 3 层破绽。施加 3 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -4343,7 +4343,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -4620,9 +4620,9 @@
     "classAccent": null,
     "target": "ally",
     "targetLabel": "盟友",
-    "description": "自身获得 5 层力量。",
+    "description": "在本回合获得 5 点力量。",
     "upgraded": {
-      "description": "自身获得 8 层力量。",
+      "description": "在本回合获得 8 点力量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4690,7 +4690,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -4737,9 +4737,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 6 点格挡。",
+    "description": "获得 6 点格挡。将弃牌堆中的一张牌放到抽牌堆顶部。",
     "upgraded": {
-      "description": "获得 9 点格挡。",
+      "description": "获得 9 点格挡。将弃牌堆中的一张牌放到抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4924,7 +4924,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -4954,7 +4954,7 @@
   },
   {
     "id": "sts2_cruelty",
-    "name": "久驻铁片",
+    "name": "致命破绽",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -4963,7 +4963,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -4985,7 +4985,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "破绽既露，便是要害。",
     "special": null,
     "art": "/art/cards/sts2_cruelty.webp",
     "artCredit": "local",
@@ -5010,9 +5010,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 8 点伤害。",
+    "description": "对所有敌人造成 8 点伤害。所有敌人在本回合失去 1 点力量。",
     "upgraded": {
-      "description": "对所有敌人造成 9 点伤害。",
+      "description": "对所有敌人造成 9 点伤害。所有敌人在本回合失去 2 点力量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5202,7 +5202,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -5450,9 +5450,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。",
+    "description": "造成 8 点伤害。本回合每抽一张牌，伤害增加 4 点。",
     "upgraded": {
-      "description": "造成 9 点伤害。",
+      "description": "造成 9 点伤害。本回合每抽一张牌，伤害增加 6 点。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5489,9 +5489,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人施加 21 层灾厄。对所有敌人施加 1 层颓靡。",
+    "description": "对所有敌人施加 21 层灾厄。对所有敌人施加 1 层虚弱。",
     "upgraded": {
-      "description": "对所有敌人施加 26 层灾厄。对所有敌人施加 1 层颓靡。",
+      "description": "对所有敌人施加 26 层灾厄。对所有敌人施加 1 层虚弱。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -5753,7 +5753,7 @@
   },
   {
     "id": "sts2_defend_defect",
-    "name": "屏蔽",
+    "name": "防御",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "basic",
@@ -5797,7 +5797,7 @@
   },
   {
     "id": "sts2_defend_ironclad",
-    "name": "护住要害",
+    "name": "防御",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "basic",
@@ -5806,7 +5806,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -5841,7 +5841,7 @@
   },
   {
     "id": "sts2_defend_necrobinder",
-    "name": "挡骨",
+    "name": "防御",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "basic",
@@ -5885,7 +5885,7 @@
   },
   {
     "id": "sts2_defend_regent",
-    "name": "王盾",
+    "name": "防御",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "basic",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "sts2_defend_silent",
-    "name": "侧步",
+    "name": "防御",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "basic",
@@ -6112,9 +6112,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "获得 6 点格挡。施加 1 层颓靡。虚无。",
+    "description": "获得 6 点格挡。施加 1 层虚弱。虚无。",
     "upgraded": {
-      "description": "获得 9 点格挡。施加 1 层颓靡。虚无。",
+      "description": "获得 9 点格挡。施加 1 层虚弱。虚无。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6222,7 +6222,7 @@
   },
   {
     "id": "sts2_demon_form",
-    "name": "越打越沉",
+    "name": "誓火渐盛",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "rare",
@@ -6231,7 +6231,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -6261,7 +6261,7 @@
   },
   {
     "id": "sts2_demonic_shield",
-    "name": "抡铁砧",
+    "name": "盾予战友",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -6270,7 +6270,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -6278,9 +6278,9 @@
     ],
     "target": "ally",
     "targetLabel": "盟友",
-    "description": "失去 1 点生命。消耗。",
+    "description": "失去 1 点生命。给予另一位玩家你当前格挡值的格挡。消耗。",
     "upgraded": {
-      "description": "失去 1 点生命。",
+      "description": "失去 1 点生命。给予另一位玩家你当前格挡值的格挡。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -6361,9 +6361,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当你打出一张灵魂时，召唤 1 点生命的魔影。",
+    "description": "每当你打出一张灵魂时，召唤 1 点生命的影魔。",
     "upgraded": {
-      "description": "每当你打出一张灵魂时，召唤 2 点生命的魔影。",
+      "description": "每当你打出一张灵魂时，召唤 2 点生命的影魔。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6511,7 +6511,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -6519,9 +6519,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。",
+    "description": "造成 8 点伤害。如果该敌人有破绽状态，则攻击两次。",
     "upgraded": {
-      "description": "造成 10 点伤害。",
+      "description": "造成 10 点伤害。如果该敌人有破绽状态，则攻击两次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6629,7 +6629,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -6721,9 +6721,9 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "自身获得 1 层颓靡。无法打出。",
+    "description": "自身获得 1 层虚弱。无法打出。",
     "upgraded": {
-      "description": "自身获得 1 层颓靡。无法打出。",
+      "description": "自身获得 1 层虚弱。无法打出。",
       "cost": -1,
       "costLabel": "-1"
     },
@@ -6761,9 +6761,9 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "将 1 张「点雾」加入手牌。无法打出。",
+    "description": "在进入 5 个「?」房间后，这张牌变化为「点雾」。",
     "upgraded": {
-      "description": "将 1 张「点雾」加入手牌。无法打出。",
+      "description": "在进入 5 个「?」房间后，这张牌变化为「点雾」。",
       "cost": -1,
       "costLabel": "-1"
     },
@@ -6924,7 +6924,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -6932,9 +6932,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。获得 2 点能量。",
+    "description": "抽 2 张牌。这张牌被消耗时，获得 2 点能量。",
     "upgraded": {
-      "description": "抽 2 张牌。获得 3 点能量。",
+      "description": "抽 2 张牌。这张牌被消耗时，获得 3 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -7045,9 +7045,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 9 点伤害。虚无。",
+    "description": "对所有敌人造成 9 点伤害。所有敌人在本回合失去 9 点力量。虚无。",
     "upgraded": {
-      "description": "对所有敌人造成 11 点伤害。虚无。",
+      "description": "对所有敌人造成 11 点伤害。所有敌人在本回合失去 11 点力量。虚无。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -7319,7 +7319,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "灯芯一亮，影子便替她站了起来。",
-    "special": "loseStrength",
+    "special": null,
     "art": "/art/cards/sts2_enfeebling_touch.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/enfeebling_touch.webp"
@@ -7668,7 +7668,7 @@
   },
   {
     "id": "sts2_evil_eye",
-    "name": "敲焦炭",
+    "name": "誓约回响",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -7677,7 +7677,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -7685,9 +7685,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 8 点格挡。",
+    "description": "获得 8 点格挡。如果你在本回合消耗过卡牌，则额外获得 8 点格挡。",
     "upgraded": {
-      "description": "获得 11 点格挡。",
+      "description": "获得 11 点格挡。如果你在本回合消耗过卡牌，则额外获得 11 点格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -7707,16 +7707,16 @@
   },
   {
     "id": "sts2_expect_a_fight",
-    "name": "抡炉渣",
+    "name": "摩拳擦掌",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
     "rarityLabel": "罕见",
-    "cost": 3,
-    "costLabel": "3",
+    "cost": 2,
+    "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -7724,11 +7724,11 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 15 点格挡。",
+    "description": "当前手牌中每有一张攻击牌，获得 1 点能量。本回合不能再获得能量。",
     "upgraded": {
-      "description": "获得 15 点格挡。",
-      "cost": 3,
-      "costLabel": "3"
+      "description": "当前手牌中每有一张攻击牌，获得 1 点能量。本回合不能再获得能量。费用变为 1。",
+      "cost": 1,
+      "costLabel": "1"
     },
     "keywords": [],
     "tags": [],
@@ -7881,9 +7881,9 @@
     ],
     "target": "ally",
     "targetLabel": "盟友",
-    "description": "自身获得 6 层敏捷。保留。",
+    "description": "在本回合获得 6 点敏捷。保留。",
     "upgraded": {
-      "description": "自身获得 9 层敏捷。保留。",
+      "description": "在本回合获得 9 点敏捷。保留。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -7925,9 +7925,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。施加 1 层破绽。施加 1 层颓靡。",
+    "description": "造成 8 点伤害。施加 1 层破绽。施加 1 层虚弱。",
     "upgraded": {
-      "description": "造成 12 点伤害。施加 1 层破绽。施加 1 层颓靡。",
+      "description": "造成 12 点伤害。施加 1 层破绽。施加 1 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -8079,7 +8079,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -8127,9 +8127,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "自身获得 5 层力量。",
+    "description": "在本回合内获得 5 点力量。",
     "upgraded": {
-      "description": "自身获得 7 层力量。",
+      "description": "在本回合内获得 7 点力量。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -8158,7 +8158,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -8227,7 +8227,7 @@
   },
   {
     "id": "sts2_fetch",
-    "name": "魔影疾袭",
+    "name": "影魔疾袭",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -8244,9 +8244,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 3 点伤害。如果这是这张牌第一次在本回合被打出，则抽 1 张牌。",
+    "description": "影魔造成 3 点伤害。如果这是这张牌第一次在本回合被打出，则抽 1 张牌。",
     "upgraded": {
-      "description": "魔影造成 6 点伤害。如果这是这张牌第一次在本回合被打出，则抽 1 张牌。",
+      "description": "影魔造成 6 点伤害。如果这是这张牌第一次在本回合被打出，则抽 1 张牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -8280,7 +8280,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -8324,7 +8324,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -8332,9 +8332,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害 2 次。自身获得 3 层力量。",
+    "description": "造成 5 点伤害 2 次。自身获得 3 层力量。该敌人获得 1 层力量。",
     "upgraded": {
-      "description": "造成 6 点伤害 2 次。自身获得 4 层力量。",
+      "description": "造成 6 点伤害 2 次。自身获得 4 层力量。该敌人获得 1 层力量。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -8550,7 +8550,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -8558,9 +8558,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 12 点格挡。",
+    "description": "获得 12 点格挡。直到你的下个回合开始，你每受到一次攻击，就对攻击者造成 4 点伤害。",
     "upgraded": {
-      "description": "获得 16 点格挡。",
+      "description": "获得 16 点格挡。直到你的下个回合开始，你每受到一次攻击，就对攻击者造成 6 点伤害。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -8671,9 +8671,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 12 点伤害。如果魔影本回合攻击过，则这张牌的耗能变为0。",
+    "description": "影魔造成 12 点伤害。如果影魔本回合攻击过，则这张牌的耗能变为0。",
     "upgraded": {
-      "description": "魔影造成 16 点伤害。如果魔影本回合攻击过，则这张牌的耗能变为0。",
+      "description": "影魔造成 16 点伤害。如果影魔本回合攻击过，则这张牌的耗能变为0。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -8798,9 +8798,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。自身获得 1 层集中。",
+    "description": "造成 9 点伤害。在本回合获得 1 点集中。",
     "upgraded": {
-      "description": "造成 11 点伤害。自身获得 1 层集中。",
+      "description": "造成 11 点伤害。在本回合获得 2 点集中。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -8999,7 +8999,7 @@
   },
   {
     "id": "sts2_forgotten_ritual",
-    "name": "敲铁片",
+    "name": "无归之火",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -9008,7 +9008,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -9296,9 +9296,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 13 点伤害。施加 2 层破绽。施加 2 层颓靡。",
+    "description": "造成 13 点伤害。施加 2 层破绽。施加 2 层虚弱。",
     "upgraded": {
-      "description": "造成 18 点伤害。施加 2 层破绽。施加 2 层颓靡。",
+      "description": "造成 18 点伤害。施加 2 层破绽。施加 2 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -9766,9 +9766,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 3 点伤害。施加 1 层颓靡。",
+    "description": "造成 3 点伤害。施加 1 层虚弱。",
     "upgraded": {
-      "description": "造成 4 点伤害。施加 2 层颓靡。",
+      "description": "造成 4 点伤害。施加 2 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -10006,7 +10006,7 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 1 张「拾油灯」加入手牌。消耗。",
+    "description": "将你手牌中的任意张牌变化为「拾油灯」。消耗。",
     "upgraded": {
       "description": "将 1 张「拾油灯+」加入手牌。消耗。",
       "cost": 2,
@@ -10381,7 +10381,7 @@
   },
   {
     "id": "sts2_havoc",
-    "name": "撬焦炭",
+    "name": "拔剑即战",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "common",
@@ -10390,7 +10390,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -10412,7 +10412,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "剑已出鞘，岂有收势之理。",
     "special": "playTopCardExhaust",
     "art": "/art/cards/sts2_havoc.webp",
     "artCredit": "local",
@@ -10437,9 +10437,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人施加 4 层蚀毒。对所有敌人施加 1 层颓靡。",
+    "description": "对所有敌人施加 4 层蚀毒。对所有敌人施加 1 层虚弱。",
     "upgraded": {
-      "description": "对所有敌人施加 6 层蚀毒。对所有敌人施加 2 层颓靡。",
+      "description": "对所有敌人施加 6 层蚀毒。对所有敌人施加 2 层虚弱。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10459,7 +10459,7 @@
   },
   {
     "id": "sts2_headbutt",
-    "name": "断钢穿刺",
+    "name": "拔剑再战",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -10468,7 +10468,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -10476,9 +10476,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。",
+    "description": "造成 9 点伤害。将弃牌堆中的一张牌放到抽牌堆顶部。",
     "upgraded": {
-      "description": "造成 12 点伤害。",
+      "description": "造成 12 点伤害。将弃牌堆中的一张牌放到抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -10490,7 +10490,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "一剑之后，再拔一剑。",
     "special": null,
     "art": "/art/cards/sts2_headbutt.webp",
     "artCredit": "local",
@@ -10698,7 +10698,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -10737,7 +10737,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -10936,9 +10936,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "魔影对所有敌人。造成 11 点伤害并给予它们。2层破绽。",
+    "description": "影魔对所有敌人。造成 11 点伤害并给予它们。2层破绽。",
     "upgraded": {
-      "description": "魔影对所有敌人。造成 13 点伤害并给予它们。3层破绽。",
+      "description": "影魔对所有敌人。造成 13 点伤害并给予它们。3层破绽。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -11024,9 +11024,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "自身获得 2 层集中。消耗。",
+    "description": "在本回合获得 2 点集中。消耗。",
     "upgraded": {
-      "description": "自身获得 2 层集中。",
+      "description": "在本回合获得 2 点集中。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -11060,7 +11060,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11147,9 +11147,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 24 点伤害。自身获得 3 层集中。",
+    "description": "对所有敌人造成 24 点伤害。在本回合失去 3 点集中。",
     "upgraded": {
-      "description": "对所有敌人造成 30 点伤害。自身获得 3 层集中。",
+      "description": "对所有敌人造成 30 点伤害。在本回合失去 3 点集中。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -11379,7 +11379,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11463,7 +11463,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11498,7 +11498,7 @@
   },
   {
     "id": "sts2_inferno",
-    "name": "久驻铁砧",
+    "name": "血怒",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -11507,7 +11507,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11585,7 +11585,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11707,9 +11707,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "在下个回合召唤 2 点生命的魔影并获得 2 点能量。",
+    "description": "在下个回合召唤 2 点生命的影魔并获得 2 点能量。",
     "upgraded": {
-      "description": "在下个回合召唤 3 点生命的魔影并获得 3 点能量。",
+      "description": "在下个回合召唤 3 点生命的影魔并获得 3 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11738,7 +11738,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11891,7 +11891,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11921,7 +11921,7 @@
   },
   {
     "id": "sts2_juggling",
-    "name": "暗燃铆钉",
+    "name": "击鼓传花",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -11930,7 +11930,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -11952,7 +11952,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "鼓声三响，花落谁手。",
     "special": "jugglingPower",
     "art": "/art/cards/sts2_juggling.webp",
     "artCredit": "local",
@@ -12173,9 +12173,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "施加 1 层颓靡。施加 1 层破绽。消耗。",
+    "description": "施加 1 层虚弱。施加 1 层破绽。消耗。",
     "upgraded": {
-      "description": "施加 1 层颓靡。施加 1 层破绽。",
+      "description": "施加 1 层虚弱。施加 1 层破绽。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -12379,9 +12379,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "获得 11 点格挡。施加 2 层颓靡。",
+    "description": "获得 11 点格挡。施加 2 层虚弱。",
     "upgraded": {
-      "description": "获得 14 点格挡。施加 3 层颓靡。",
+      "description": "获得 14 点格挡。施加 3 层虚弱。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -12418,9 +12418,9 @@
     ],
     "target": "allAllies",
     "targetLabel": "全体盟友",
-    "description": "所有玩家召唤 6 点生命的魔影。",
+    "description": "所有玩家召唤 6 点生命的影魔。",
     "upgraded": {
-      "description": "所有玩家召唤 8 点生命的魔影。",
+      "description": "所有玩家召唤 8 点生命的影魔。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -12810,9 +12810,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "敌人失去X点力量。给予X层颓靡。",
+    "description": "敌人失去X点力量。给予X层虚弱。",
     "upgraded": {
-      "description": "敌人失去X+1点力量。给予X+1层颓靡。",
+      "description": "敌人失去X+1点力量。给予X+1层虚弱。",
       "cost": -1,
       "costLabel": "X"
     },
@@ -12846,7 +12846,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -12854,9 +12854,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 20 点伤害。",
+    "description": "造成 20 点伤害。敌人在本回合失去 10 点力量。",
     "upgraded": {
-      "description": "造成 26 点伤害。",
+      "description": "造成 26 点伤害。敌人在本回合失去 15 点力量。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -13199,9 +13199,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 14 点伤害。对所有敌人施加 2 层破绽。对所有敌人施加 2 层颓靡。",
+    "description": "对所有敌人造成 14 点伤害。对所有敌人施加 2 层破绽。对所有敌人施加 2 层虚弱。",
     "upgraded": {
-      "description": "对所有敌人造成 21 点伤害。对所有敌人施加 2 层破绽。对所有敌人施加 2 层颓靡。",
+      "description": "对所有敌人造成 21 点伤害。对所有敌人施加 2 层破绽。对所有敌人施加 2 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -13274,7 +13274,7 @@
     "costLabel": "12",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -13282,9 +13282,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 60 点伤害。",
+    "description": "造成 60 点伤害。本场战斗中，任何人每消耗过一张牌，这张牌的费用减少 1。",
     "upgraded": {
-      "description": "造成 72 点伤害。",
+      "description": "造成 72 点伤害。本场战斗中，任何人每消耗过一张牌，这张牌的费用减少 1。",
       "cost": 12,
       "costLabel": "12"
     },
@@ -13680,7 +13680,7 @@
   },
   {
     "id": "sts2_molten_fist",
-    "name": "钟摆穿刺",
+    "name": "有去无回",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -13689,7 +13689,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -13716,7 +13716,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "钟摆停在半空，铁屑先落了下来。",
+    "flavor": "既已出手，便无回路。",
     "special": null,
     "art": "/art/cards/sts2_molten_fist.webp",
     "artCredit": "local",
@@ -13902,9 +13902,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 1 点伤害。",
+    "description": "造成 1 点伤害。本场战斗中每抽过一张牌，伤害增加 1 点。",
     "upgraded": {
-      "description": "造成 1 点伤害。费用变为 2。",
+      "description": "造成 1 点伤害。本场战斗中每抽过一张牌，伤害增加 1 点。费用变为 2。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -13924,7 +13924,7 @@
   },
   {
     "id": "sts2_necro_mastery",
-    "name": "魔影精通",
+    "name": "影魔精通",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "rare",
@@ -13941,9 +13941,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 5 点生命的魔影。每当魔影失去生命值时，所有敌人失去等量生命值。",
+    "description": "召唤 5 点生命的影魔。每当影魔失去生命值时，所有敌人失去等量生命值。",
     "upgraded": {
-      "description": "召唤 8 点生命的魔影。每当魔影失去生命值时，所有敌人失去等量生命值。",
+      "description": "召唤 8 点生命的影魔。每当影魔失去生命值时，所有敌人失去等量生命值。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -14098,9 +14098,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 3 点伤害。施加 1 层颓靡。",
+    "description": "造成 3 点伤害。施加 1 层虚弱。",
     "upgraded": {
-      "description": "造成 4 点伤害。施加 2 层颓靡。",
+      "description": "造成 4 点伤害。施加 2 层虚弱。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -14326,7 +14326,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -14417,9 +14417,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。施加 1 层颓靡。",
+    "description": "造成 10 点伤害。施加 1 层虚弱。",
     "upgraded": {
-      "description": "造成 13 点伤害。施加 2 层颓靡。",
+      "description": "造成 13 点伤害。施加 2 层虚弱。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -14487,7 +14487,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -14605,7 +14605,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -14757,7 +14757,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -14765,9 +14765,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。",
+    "description": "造成 9 点伤害。将一张此牌的复制品加入自己的弃牌堆。",
     "upgraded": {
-      "description": "造成 13 点伤害。",
+      "description": "造成 13 点伤害。将一张此牌的复制品加入自己的弃牌堆。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -14835,7 +14835,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -15214,7 +15214,7 @@
   },
   {
     "id": "sts2_perfected_strike",
-    "name": "断钢斩击",
+    "name": "全力斩击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -15223,7 +15223,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -15231,9 +15231,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "造成 6 点伤害。\n你每有一张名字中含有“打击”的牌，伤害 +2。",
     "upgraded": {
-      "description": "造成 6 点伤害。",
+      "description": "造成 6 点伤害。\n你每有一张名字中含有“打击”的牌，伤害 +3。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -15250,7 +15250,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "既已全力，便不留退路。",
     "special": null,
     "art": "/art/cards/sts2_perfected_strike.webp",
     "artCredit": "local",
@@ -15373,14 +15373,14 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "雾里没有脚步声，只有倒下的影子。",
-    "special": "loseStrengthAll",
+    "special": null,
     "art": "/art/cards/sts2_piercing_wail.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/piercing_wail.webp"
   },
   {
     "id": "sts2_pillage",
-    "name": "回火回旋斩",
+    "name": "穷追不舍",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -15389,7 +15389,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -15397,9 +15397,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "造成 6 点伤害。抽牌直到抽到一张非攻击牌。",
     "upgraded": {
-      "description": "造成 9 点伤害。",
+      "description": "造成 9 点伤害。抽牌直到抽到一张非攻击牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -15411,7 +15411,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
+    "flavor": "攻势未尽，便不撒手。",
     "special": null,
     "art": "/art/cards/sts2_pillage.webp",
     "artCredit": "local",
@@ -15575,7 +15575,7 @@
   },
   {
     "id": "sts2_poke",
-    "name": "魔影戳刺",
+    "name": "影魔戳刺",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -15592,9 +15592,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 6 点伤害。",
+    "description": "影魔造成 6 点伤害。",
     "upgraded": {
-      "description": "魔影造成 9 点伤害。",
+      "description": "影魔造成 9 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -15628,7 +15628,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -15907,7 +15907,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -15915,9 +15915,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 1 张「铁钥突袭」加入手牌。",
+    "description": "将手牌中的所有攻击牌变化为「铁钥突袭」。",
     "upgraded": {
-      "description": "将 1 张「铁钥突袭+」加入手牌。",
+      "description": "将手牌中的所有攻击牌变化为「铁钥突袭+」。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -16056,7 +16056,7 @@
   },
   {
     "id": "sts2_protector",
-    "name": "魔影守护击",
+    "name": "影魔守护击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "ancient",
@@ -16073,9 +16073,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 10 点伤害。额外造成等量于魔影最大生命值的伤害。",
+    "description": "影魔造成 10 点伤害。额外造成等量于影魔最大生命值的伤害。",
     "upgraded": {
-      "description": "魔影造成 10 点伤害。额外造成等量于魔影最大生命值的伤害。",
+      "description": "影魔造成 10 点伤害。额外造成等量于影魔最大生命值的伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -16274,9 +16274,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "施加 2 层颓靡。施加 2 层破绽。消耗。",
+    "description": "施加 2 层虚弱。施加 2 层破绽。消耗。",
     "upgraded": {
-      "description": "施加 2 层颓靡。施加 2 层破绽。消耗。",
+      "description": "施加 2 层虚弱。施加 2 层破绽。消耗。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16310,7 +16310,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -16466,7 +16466,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -16575,7 +16575,7 @@
   },
   {
     "id": "sts2_rampage",
-    "name": "暴走重击",
+    "name": "暴走",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -16584,7 +16584,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -16631,9 +16631,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 7 点伤害。本回合每使用过一次魔影攻击牌，此牌就额外造成一次伤害。",
+    "description": "影魔造成 7 点伤害。本回合每使用过一次影魔攻击牌，此牌就额外造成一次伤害。",
     "upgraded": {
-      "description": "魔影造成 9 点伤害。本回合每使用过一次魔影攻击牌，此牌就额外造成一次伤害。",
+      "description": "影魔造成 9 点伤害。本回合每使用过一次影魔攻击牌，此牌就额外造成一次伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16675,9 +16675,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 20 点生命的魔影。",
+    "description": "召唤 20 点生命的影魔。",
     "upgraded": {
-      "description": "召唤 25 点生命的魔影。",
+      "description": "召唤 25 点生命的影魔。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -16702,7 +16702,7 @@
   },
   {
     "id": "sts2_reap",
-    "name": "魔影灼击",
+    "name": "影魔灼击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -17302,7 +17302,7 @@
   },
   {
     "id": "sts2_right_hand_hand",
-    "name": "魔影连击",
+    "name": "影魔连击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -17319,9 +17319,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 4 点伤害。每当你打出耗能为2或以上的牌，将此牌从弃牌堆放回你的手牌。",
+    "description": "影魔造成 4 点伤害。每当你打出耗能为2或以上的牌，将此牌从弃牌堆放回你的手牌。",
     "upgraded": {
-      "description": "魔影造成 6 点伤害。每当你打出耗能为2或以上的牌，将此牌从弃牌堆放回你的手牌。",
+      "description": "影魔造成 6 点伤害。每当你打出耗能为2或以上的牌，将此牌从弃牌堆放回你的手牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -17547,7 +17547,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -17594,9 +17594,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "如果魔影存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。",
+    "description": "如果影魔存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。",
     "upgraded": {
-      "description": "如果魔影存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。",
+      "description": "如果影魔存活，则他死去，然后你获得等量于其最大生命值三倍的格挡。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -17901,7 +17901,7 @@
   },
   {
     "id": "sts2_second_wind",
-    "name": "清空料台",
+    "name": "背水",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -17910,7 +17910,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -18177,7 +18177,7 @@
   },
   {
     "id": "sts2_setup_strike",
-    "name": "熔铁横扫",
+    "name": "战意斩击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -18186,7 +18186,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -18194,9 +18194,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 7 点伤害。自身获得 3 层力量。",
+    "description": "造成 7 点伤害。在本回合内获得 3 点力量。",
     "upgraded": {
-      "description": "造成 9 点伤害。自身获得 4 层力量。",
+      "description": "造成 9 点伤害。在本回合内获得 4 点力量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -18213,7 +18213,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "战意所至，刀锋随行。",
     "special": null,
     "art": "/art/cards/sts2_setup_strike.webp",
     "artCredit": "local",
@@ -18646,9 +18646,9 @@
     "classAccent": null,
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人施加 3 层颓靡。对所有敌人施加 3 层破绽。消耗。",
+    "description": "对所有敌人施加 3 层虚弱。对所有敌人施加 3 层破绽。消耗。",
     "upgraded": {
-      "description": "对所有敌人施加 3 层颓靡。对所有敌人施加 3 层破绽。消耗。",
+      "description": "对所有敌人施加 3 层虚弱。对所有敌人施加 3 层破绽。消耗。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -18712,7 +18712,7 @@
   },
   {
     "id": "sts2_shrug_it_off",
-    "name": "撑过这下",
+    "name": "重整旗鼓",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "common",
@@ -18721,7 +18721,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -18743,7 +18743,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "稳住阵脚，再图后计。",
     "special": null,
     "art": "/art/cards/sts2_shrug_it_off.webp",
     "artCredit": "local",
@@ -18751,7 +18751,7 @@
   },
   {
     "id": "sts2_sic_em",
-    "name": "魔影撕咬",
+    "name": "影魔撕咬",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -18768,9 +18768,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 5 点伤害。在本回合内，每当魔影攻击这名敌人时，召唤 3 点生命的魔影。",
+    "description": "影魔造成 5 点伤害。在本回合内，每当影魔攻击这名敌人时，召唤 3 点生命的影魔。",
     "upgraded": {
-      "description": "魔影造成 6 点伤害。在本回合内，每当魔影攻击这名敌人时，召唤 4 点生命的魔影。",
+      "description": "影魔造成 6 点伤害。在本回合内，每当影魔攻击这名敌人时，召唤 4 点生命的影魔。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19209,9 +19209,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 7 点伤害。给手牌中的一张牌添加保留。",
+    "description": "影魔造成 7 点伤害。给手牌中的一张牌添加保留。",
     "upgraded": {
-      "description": "魔影造成 10 点伤害。给手牌中的一张牌添加保留。",
+      "description": "影魔造成 10 点伤害。给手牌中的一张牌添加保留。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19421,9 +19421,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。将 1 张「拆油灯」加入手牌。",
+    "description": "造成 9 点伤害。消耗牌堆中每有一张灵魂，伤害增加 4 点。",
     "upgraded": {
-      "description": "造成 9 点伤害。将 1 张「拆油灯」加入手牌。",
+      "description": "造成 9 点伤害。消耗牌堆中每有一张灵魂，伤害增加 6 点。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19731,7 +19731,7 @@
     "costLabel": "0",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -19739,9 +19739,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害 2 次。",
+    "description": "造成 5 点伤害。如果你在本回合失去过生命值，则攻击两次。",
     "upgraded": {
-      "description": "造成 5 点伤害 2 次。",
+      "description": "造成 5 点伤害。如果你在本回合失去过生命值，则攻击三次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -19915,7 +19915,7 @@
   },
   {
     "id": "sts2_spur",
-    "name": "魔影增生",
+    "name": "影魔增生",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -19932,9 +19932,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "召唤 3 点生命的魔影。魔影回复5 点生命。",
+    "description": "召唤 3 点生命的影魔。影魔回复5 点生命。",
     "upgraded": {
-      "description": "召唤 5 点生命的魔影。魔影回复7 点生命。",
+      "description": "召唤 5 点生命的影魔。影魔回复7 点生命。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19994,7 +19994,7 @@
   },
   {
     "id": "sts2_squeeze",
-    "name": "魔影绞杀",
+    "name": "影魔绞杀",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "rare",
@@ -20011,9 +20011,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 25 点伤害。你每有一张魔影的攻击牌，这张牌就额外造成 5 点伤害。",
+    "description": "影魔造成 25 点伤害。你每有一张影魔的攻击牌，这张牌就额外造成 5 点伤害。",
     "upgraded": {
-      "description": "魔影造成 25 点伤害。你每有一张魔影的攻击牌，这张牌就额外造成 6 点伤害。",
+      "description": "影魔造成 25 点伤害。你每有一张影魔的攻击牌，这张牌就额外造成 6 点伤害。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -20073,7 +20073,7 @@
   },
   {
     "id": "sts2_stampede",
-    "name": "久驻炉门",
+    "name": "不假思索",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -20082,7 +20082,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -20104,7 +20104,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
+    "flavor": "念头未起，刃已及敌。",
     "special": "stampedePower",
     "art": "/art/cards/sts2_stampede.webp",
     "artCredit": "local",
@@ -20160,7 +20160,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -20199,7 +20199,7 @@
     "costLabel": "3",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -20229,7 +20229,7 @@
   },
   {
     "id": "sts2_stone_armor",
-    "name": "暗燃支架",
+    "name": "支架",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -20238,7 +20238,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -20420,7 +20420,7 @@
   },
   {
     "id": "sts2_strike_defect",
-    "name": "电弧击",
+    "name": "元素打击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "basic",
@@ -20464,7 +20464,7 @@
   },
   {
     "id": "sts2_strike_ironclad",
-    "name": "断钢斩",
+    "name": "斩击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "basic",
@@ -20473,7 +20473,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -20508,7 +20508,7 @@
   },
   {
     "id": "sts2_strike_necrobinder",
-    "name": "骨击",
+    "name": "暗影打击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "basic",
@@ -20596,7 +20596,7 @@
   },
   {
     "id": "sts2_strike_silent",
-    "name": "割击",
+    "name": "突击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "basic",
@@ -20696,9 +20696,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。施加 1 层颓靡。",
+    "description": "造成 8 点伤害。施加 1 层虚弱。",
     "upgraded": {
-      "description": "造成 10 点伤害。施加 2 层颓靡。",
+      "description": "造成 10 点伤害。施加 2 层虚弱。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -20896,9 +20896,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 11 点伤害。施加 3 层颓靡。固有。",
+    "description": "造成 11 点伤害。施加 3 层虚弱。固有。",
     "upgraded": {
-      "description": "造成 17 点伤害。施加 5 层颓靡。固有。",
+      "description": "造成 17 点伤害。施加 5 层虚弱。固有。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -21001,7 +21001,7 @@
   },
   {
     "id": "sts2_sweeping_gaze",
-    "name": "魔影扫击",
+    "name": "影魔扫击",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "token",
@@ -21014,9 +21014,9 @@
     "classAccent": null,
     "target": "random",
     "targetLabel": "随机敌人",
-    "description": "魔影对随机一名敌人造成 10 点伤害。",
+    "description": "影魔对随机一名敌人造成 10 点伤害。",
     "upgraded": {
-      "description": "魔影对随机一名敌人造成 15 点伤害。",
+      "description": "影魔对随机一名敌人造成 15 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -21059,7 +21059,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21294,7 +21294,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21324,7 +21324,7 @@
   },
   {
     "id": "sts2_taunt",
-    "name": "敲铁索",
+    "name": "举盾觅隙",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "common",
@@ -21333,7 +21333,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21355,7 +21355,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "先立于不败，再看破敌之隙。",
     "special": null,
     "art": "/art/cards/sts2_taunt.webp",
     "artCredit": "local",
@@ -21372,7 +21372,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21602,9 +21602,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 50 点格挡。",
+    "description": "获得 50 点格挡。\n如果你在本场战斗中受到未被格挡的攻击伤害，则立即死亡。",
     "upgraded": {
-      "description": "获得 75 点格挡。",
+      "description": "获得 75 点格挡。\n如果你在本场战斗中受到未被格挡的攻击伤害，则立即死亡。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -21617,7 +21617,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "纸牌边缘起了毛，像被反复讲过的故事。",
-    "special": null,
+    "special": "theGambit",
     "art": "/art/cards/sts2_the_gambit.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/the_gambit.webp"
@@ -21839,7 +21839,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21943,7 +21943,7 @@
   },
   {
     "id": "sts2_thunderclap",
-    "name": "钟摆斩击",
+    "name": "势如破竹",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "common",
@@ -21952,7 +21952,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -21974,7 +21974,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
+    "flavor": "势之所向，敌无完甲。",
     "special": null,
     "art": "/art/cards/sts2_thunderclap.webp",
     "artCredit": "local",
@@ -22152,9 +22152,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "处于颓靡状态的敌人受到的攻击伤害增加50%。",
+    "description": "处于虚弱状态的敌人受到的攻击伤害增加50%。",
     "upgraded": {
-      "description": "处于颓靡状态的敌人受到的攻击伤害增加50%。",
+      "description": "处于虚弱状态的敌人受到的攻击伤害增加50%。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -22257,7 +22257,7 @@
   },
   {
     "id": "sts2_tremble",
-    "name": "钉铁片",
+    "name": "看破",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "common",
@@ -22266,7 +22266,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22293,7 +22293,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "钟摆停在半空，铁屑先落了下来。",
+    "flavor": "目光所及，破绽无所遁形。",
     "special": null,
     "art": "/art/cards/sts2_tremble.webp",
     "artCredit": "local",
@@ -22310,7 +22310,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22427,7 +22427,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22669,7 +22669,7 @@
   },
   {
     "id": "sts2_unleash",
-    "name": "魔影扑杀",
+    "name": "影魔扑杀",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "basic",
@@ -22686,9 +22686,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "魔影造成 6 点伤害。这张牌额外造成等量于魔影当前生命值的伤害。",
+    "description": "影魔造成 6 点伤害。这张牌额外造成等量于影魔当前生命值的伤害。",
     "upgraded": {
-      "description": "魔影造成 6 点伤害。这张牌额外造成等量于魔影当前生命值的伤害。",
+      "description": "影魔造成 6 点伤害。这张牌额外造成等量于影魔当前生命值的伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -22722,7 +22722,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22761,7 +22761,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22883,7 +22883,7 @@
     "costLabel": "2",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -22891,9 +22891,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 13 点伤害。",
+    "description": "造成 13 点伤害。施加 1 层虚弱。施加 1 层破绽。",
     "upgraded": {
-      "description": "造成 13 点伤害。",
+      "description": "造成 13 点伤害。施加 2 层虚弱。施加 2 层破绽。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -23030,7 +23030,7 @@
   },
   {
     "id": "sts2_vicious",
-    "name": "常燃料台",
+    "name": "乘隙",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -23039,7 +23039,7 @@
     "costLabel": "1",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,
@@ -23319,7 +23319,7 @@
     "costLabel": "X",
     "starCost": null,
     "class": "ironclad",
-    "classLabel": "铸火者",
+    "classLabel": "誓火骑士",
     "classAccent": [
       228,
       182,

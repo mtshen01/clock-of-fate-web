@@ -1,7 +1,7 @@
 {
-  "version": "20261027-f87f1655",
-  "contentHash": "f87f1655697a1671daa2e1689244a74711185e98cb80953f1f0970129f2118a0",
-  "builtAt": "2026-10-28T02:46:02.138Z",
+  "version": "20261104-cd8d1c3b",
+  "contentHash": "cd8d1c3bb5c9611347e8ab7d9a179a1b5a601bedddffc7c56f9f50d2b23ddd10",
+  "builtAt": "2026-11-04T13:21:12.665Z",
   "gameVersion": "v0.111.0",
   "counts": {
     "cards": 598,
@@ -15,7 +15,7 @@
   "heroes": [
     {
       "id": "emberforged",
-      "name": "铸火者",
+      "name": "誓火骑士",
       "className": "ironclad",
       "accent": [
         228,

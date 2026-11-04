@@ -86,8 +86,8 @@
   {
     "id": "sts2_inky",
     "name": "墨影",
-    "description": "这张牌造成1层颓靡。",
-    "extraCardText": "造成1层颓靡。",
+    "description": "这张牌造成1层虚弱。",
+    "extraCardText": "造成1层虚弱。",
     "stackable": false,
     "cardType": "",
     "cardTypeLabel": "",
