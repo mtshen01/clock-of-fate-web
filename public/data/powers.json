@@ -193,7 +193,7 @@
   },
   {
     "id": "dark_embrace",
-    "name": "黑暗之拥",
+    "name": "薪尽火传",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -236,7 +236,7 @@
     "stackLabel": "可叠加",
     "description": "在敌人的回合结束时，如果this creature的生命值不高于，则this creature立即死亡。",
     "art": "/art/statuses/doom.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/doom_power.webp"
   },
   {
@@ -404,7 +404,7 @@
     "stackLabel": "可叠加",
     "description": "This creature受到的所有伤害和生命减少效果不会超过点。",
     "art": "/art/statuses/hard_to_kill.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/hard_to_kill_power.webp"
   },
   {
@@ -644,7 +644,7 @@
     "stackLabel": "唯一",
     "description": "本回合你只能打出1张牌。",
     "art": "/art/statuses/ringing.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/ringing_power.webp"
   },
   {
@@ -692,7 +692,7 @@
     "stackLabel": "可叠加",
     "description": "你在每个回合不能打出超过3张牌。",
     "art": "/art/statuses/sloth.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/sloth_power.webp"
   },
   {
@@ -716,7 +716,7 @@
     "stackLabel": "唯一",
     "description": "每回合你只能打出1张技能牌。",
     "art": "/art/statuses/smoggy.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/smoggy_power.webp"
   },
   {
@@ -752,7 +752,7 @@
     "stackLabel": "可叠加",
     "description": "在下回合获得1点星辉。",
     "art": "/art/statuses/star_next_turn.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/star_next_turn_power.webp"
   },
   {
@@ -805,7 +805,7 @@
   },
   {
     "id": "sts2_aggression",
-    "name": "好勇斗狠",
+    "name": "旧刃新锋",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -3140,7 +3140,7 @@
     "stackLabel": "可叠加",
     "description": "每回合获得的能量减少1点。",
     "art": "/art/statuses/waste_away.webp",
-    "artCredit": "reference",
+    "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/waste_away_power.webp"
   },
   {

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   CATEGORY_BY_ID,
   damageText,
@@ -8,13 +8,26 @@ import {
   type Enchantment,
   type Modifier,
   type Monster,
+  type MotionActionId,
   type Potion,
   type Power,
   type Relic,
 } from '../data';
-import { ArrowLeftIcon, ArrowRightIcon, CategoryGlyph, CloseIcon, ExternalIcon } from './Icons';
+import { MOTION_LABELS, availableMotionActions, motionActionForIntent } from '../motion';
+import { ArrowLeftIcon, ArrowRightIcon, CategoryGlyph, CloseIcon, ExternalIcon, PlayIcon, ReplayIcon } from './Icons';
+import { MonsterMotionStage, useMonsterMotion } from './MonsterMotion';
 
 type DrawerItem = Card | Monster | Relic | Power | Enchantment | Potion | Modifier;
+
+const ITEM_UNITS: Record<CategoryId, string> = {
+  cards: '张',
+  relics: '件',
+  monsters: '只',
+  powers: '个',
+  enchantments: '个',
+  potions: '瓶',
+  modifiers: '条',
+};
 
 interface DetailDrawerProps {
   category: CategoryId;
@@ -24,6 +37,8 @@ interface DetailDrawerProps {
   onNext: () => void;
   hasPrev: boolean;
   hasNext: boolean;
+  index: number;
+  total: number;
 }
 
 function SourceLink({ url, credit }: { url?: string; credit?: 'local' | 'reference' | null }) {
@@ -142,18 +157,86 @@ function CardDetail({ card }: { card: Card }) {
 }
 
 function MonsterDetail({ monster }: { monster: Monster }) {
+  const motion = useMonsterMotion(monster.id);
+  const actions = motion ? availableMotionActions(motion) : [];
+  const [action, setAction] = useState<MotionActionId>('idle');
+  const [playToken, setPlayToken] = useState(0);
+  const heroRef = useRef<HTMLDivElement>(null);
+  const activeDefinition = motion?.actions[action] ?? null;
+
+  useEffect(() => {
+    if (!motion || motion.actions[action]) return;
+    const first = availableMotionActions(motion)[0];
+    if (first) setAction(first);
+  }, [motion, action]);
+
+  useEffect(() => {
+    if (!motion) return;
+    for (const definition of Object.values(motion.actions)) {
+      if (!definition) continue;
+      const image = new Image();
+      image.src = definition.sheet;
+    }
+  }, [motion]);
+
+  const play = (next: MotionActionId, scrollToHero = false) => {
+    if (!motion?.actions[next]) return;
+    setAction(next);
+    setPlayToken((value) => value + 1);
+    const hero = heroRef.current;
+    if (!hero) return;
+    const rect = hero.getBoundingClientRect();
+    const visibleTop = Math.max(rect.top, 0);
+    const visibleBottom = Math.min(rect.bottom, window.innerHeight);
+    const visibleHeight = Math.max(0, visibleBottom - visibleTop);
+    if (scrollToHero || visibleHeight < rect.height * 0.4) {
+      hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <>
-      <div className="drawer-hero drawer-hero--monster" data-tier={monster.tier}>
+      <div ref={heroRef} className="drawer-hero drawer-hero--monster" data-tier={monster.tier}>
         <span className="monster-drawer-halo" aria-hidden="true" />
         <div className="drawer-art">
-          {monster.art ? <img src={monster.art} alt={monster.name} /> : <CategoryGlyph id="monsters" />}
+          {motion && activeDefinition ? (
+            <MonsterMotionStage
+              key={`${monster.id}-${action}-${playToken}`}
+              motion={motion}
+              action={action}
+              playToken={playToken}
+              name={monster.name}
+            />
+          ) : monster.art ? (
+            <img src={monster.art} alt={monster.name} />
+          ) : (
+            <CategoryGlyph id="monsters" />
+          )}
         </div>
         <span className="drawer-act">{monster.actLabel}</span>
         <span className="drawer-tier" data-tier={monster.tier}>
           {monster.tierLabel}
         </span>
-        {monster.artCredit === 'reference' && <span className="drawer-reference">参考图</span>}
+        {monster.artCredit === 'reference' && !(motion && activeDefinition) && (
+          <span className="drawer-reference">参考图</span>
+        )}
+        {motion && activeDefinition && (
+          <div className="monster-motion-caption">
+            <span className="monster-motion-caption-label">动作 · {MOTION_LABELS[action].label}</span>
+            <small>
+              {activeDefinition.frameCount} 帧 · {activeDefinition.fps} FPS
+            </small>
+            <button
+              type="button"
+              className="monster-motion-replay"
+              onClick={() => play(action)}
+              aria-label={`重播${MOTION_LABELS[action].label}动作`}
+              title="重播当前动作"
+            >
+              <ReplayIcon />
+            </button>
+          </div>
+        )}
       </div>
 
       <header className="drawer-header">
@@ -169,6 +252,44 @@ function MonsterDetail({ monster }: { monster: Monster }) {
           <span className="tag">{monster.moves.length} 个招式</span>
         </TagRow>
       </header>
+
+      {actions.length > 0 && (
+        <section className="detail-section motion-section">
+          <h3>
+            动作 <small>MOTION</small>
+          </h3>
+          <div className="motion-tabs" role="group" aria-label={`${monster.name} 的动作`}>
+            {actions.map((id) => {
+              const definition = motion?.actions[id];
+              if (!definition) return null;
+              const meta = MOTION_LABELS[id];
+              const selected = action === id;
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  className={`motion-tab${selected ? ' is-active' : ''}`}
+                  data-action={id}
+                  aria-pressed={selected}
+                  onClick={() => play(id)}
+                  title={`${meta.note} · ${definition.frameCount} 帧 / ${definition.fps} FPS`}
+                >
+                  <span className="motion-tab-play" aria-hidden="true">
+                    <PlayIcon />
+                  </span>
+                  <span className="motion-tab-copy">
+                    <strong>{meta.label}</strong>
+                    <small>
+                      {definition.frameCount} 帧 · {definition.fps} FPS
+                    </small>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          <p className="motion-hint">点击动作，在上方预览动画；待机动作会持续循环。</p>
+        </section>
+      )}
 
       <DataGrid
         rows={[
@@ -217,34 +338,49 @@ function MonsterDetail({ monster }: { monster: Monster }) {
           招式 <small>MOVES</small>
         </h3>
         <div className="move-list">
-          {monster.moves.map((move) => (
-            <div className="move-row" key={move.id}>
-              <div className="move-row-head">
-                <span className="intent-badge" data-intent={move.intent}>
-                  {move.intentLabel}
-                </span>
-                <h4>{move.name}</h4>
-                <div className="move-numbers">
-                  {move.damage.length > 0 && <span>伤害 {damageText(move.damage)}</span>}
-                  {move.damageAscension.length > 0 && (
-                    <small>进阶 {damageText(move.damageAscension)}</small>
-                  )}
-                  {move.block !== null && <span>格挡 {move.block}</span>}
+          {monster.moves.map((move) => {
+            const previewAction = motionActionForIntent(move.intent);
+            const canPreview = !!motion?.actions[previewAction];
+            return (
+              <div className="move-row" key={move.id}>
+                <div className="move-row-head">
+                  <span className="intent-badge" data-intent={move.intent}>
+                    {move.intentLabel}
+                  </span>
+                  <h4>{move.name}</h4>
+                  <div className="move-numbers">
+                    {move.damage.length > 0 && <span>伤害 {damageText(move.damage)}</span>}
+                    {move.damageAscension.length > 0 && (
+                      <small>进阶 {damageText(move.damageAscension)}</small>
+                    )}
+                    {move.block !== null && <span>格挡 {move.block}</span>}
+                  </div>
                 </div>
+                {(move.powers.length > 0 || move.effects > 0 || canPreview) && (
+                  <div className="move-row-foot">
+                    {move.powers.map((power) => (
+                      <span className="status-chip small" key={power.id}>
+                        {power.name}
+                        <b>×{power.stacks}</b>
+                      </span>
+                    ))}
+                    {move.effects > 0 && <span className="move-note">特殊效果 ×{move.effects}</span>}
+                    {canPreview && (
+                      <button
+                        type="button"
+                        className="move-preview"
+                        onClick={() => play(previewAction, true)}
+                        title={`预览「${move.name}」对应的${MOTION_LABELS[previewAction].label}动作`}
+                      >
+                        <PlayIcon />
+                        <span>预览动作</span>
+                      </button>
+                    )}
+                  </div>
+                )}
               </div>
-              {(move.powers.length > 0 || move.effects > 0) && (
-                <div className="move-row-foot">
-                  {move.powers.map((power) => (
-                    <span className="status-chip small" key={power.id}>
-                      {power.name}
-                      <b>×{power.stacks}</b>
-                    </span>
-                  ))}
-                  {move.effects > 0 && <span className="move-note">特殊效果 ×{move.effects}</span>}
-                </div>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
 
@@ -458,14 +594,43 @@ function ModifierDetail({ modifier }: { modifier: Modifier }) {
   );
 }
 
-export default function DetailDrawer({ category, item, onClose, onPrev, onNext, hasPrev, hasNext }: DetailDrawerProps) {
+export default function DetailDrawer({
+  category,
+  item,
+  onClose,
+  onPrev,
+  onNext,
+  hasPrev,
+  hasNext,
+  index,
+  total,
+}: DetailDrawerProps) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const previousIndexRef = useRef(index);
+  const initialFocusRef = useRef(false);
+  const gestureRef = useRef<{ startX: number; startY: number; dx: number; active: boolean } | null>(null);
+  const [dragX, setDragX] = useState(0);
+  const [dragging, setDragging] = useState(false);
   const categoryDef = CATEGORY_BY_ID.get(category)!;
+  const unit = ITEM_UNITS[category];
+  const direction = index < previousIndexRef.current ? 'prev' : 'next';
+
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ top: 0 });
+  }, [item.id]);
+
+  useEffect(() => {
+    previousIndexRef.current = index;
+  }, [index]);
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
-    closeRef.current?.focus();
+    if (!initialFocusRef.current && window.matchMedia('(pointer: fine)').matches) {
+      closeRef.current?.focus();
+      initialFocusRef.current = true;
+    }
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();
       if (event.key === 'ArrowLeft' && hasPrev) onPrev();
@@ -478,6 +643,54 @@ export default function DetailDrawer({ category, item, onClose, onPrev, onNext, 
     };
   }, [onClose, onPrev, onNext, hasPrev, hasNext]);
 
+  const onTouchStart = (event: React.TouchEvent<HTMLDivElement>) => {
+    if (event.touches.length !== 1) return;
+    const target = event.target as HTMLElement;
+    if (target.closest('button, a, input, textarea, select, [data-no-swipe]')) return;
+    const touch = event.touches[0];
+    // 避开屏幕边缘，防止和系统返回手势冲突。
+    if (touch.clientX < 24 || touch.clientX > window.innerWidth - 24) return;
+    gestureRef.current = { startX: touch.clientX, startY: touch.clientY, dx: 0, active: false };
+  };
+
+  const onTouchMove = (event: React.TouchEvent<HTMLDivElement>) => {
+    const gesture = gestureRef.current;
+    if (!gesture || event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    const dx = touch.clientX - gesture.startX;
+    const dy = touch.clientY - gesture.startY;
+    if (!gesture.active) {
+      if (Math.abs(dx) < 12 && Math.abs(dy) < 12) return;
+      if (Math.abs(dy) > Math.abs(dx)) {
+        gestureRef.current = null;
+        setDragX(0);
+        setDragging(false);
+        return;
+      }
+      gesture.active = true;
+      setDragging(true);
+    }
+    gesture.dx = dx;
+    const blocked = (dx > 0 && !hasPrev) || (dx < 0 && !hasNext);
+    const offset = blocked ? dx * 0.12 : dx * 0.45;
+    setDragX(Math.max(-96, Math.min(96, offset)));
+  };
+
+  const endGesture = () => {
+    const gesture = gestureRef.current;
+    gestureRef.current = null;
+    setDragging(false);
+    if (!gesture || !gesture.active) {
+      setDragX(0);
+      return;
+    }
+    const distance = gesture.dx;
+    setDragX(0);
+    const threshold = Math.min(88, Math.max(46, window.innerWidth * 0.14));
+    if (distance <= -threshold && hasNext) onNext();
+    else if (distance >= threshold && hasPrev) onPrev();
+  };
+
   return (
     <div className="drawer-layer">
       <button className="drawer-backdrop" onClick={onClose} aria-label="关闭详情" tabIndex={-1} />
@@ -487,11 +700,17 @@ export default function DetailDrawer({ category, item, onClose, onPrev, onNext, 
             <span className="drawer-category">{categoryDef.label}</span>
             <span className="drawer-category-latin">{categoryDef.latin}</span>
           </div>
+          {index > 0 && (
+            <div className="drawer-position" aria-label={`第 ${index} ${unit}，共 ${total} ${unit}`}>
+              <strong>{index}</strong>
+              <span>/ {total}</span>
+            </div>
+          )}
           <div className="drawer-controls">
-            <button className="icon-button" onClick={onPrev} disabled={!hasPrev} aria-label="上一条">
+            <button className="icon-button" onClick={onPrev} disabled={!hasPrev} aria-label={`上一${unit}`}>
               <ArrowLeftIcon />
             </button>
-            <button className="icon-button" onClick={onNext} disabled={!hasNext} aria-label="下一条">
+            <button className="icon-button" onClick={onNext} disabled={!hasNext} aria-label={`下一${unit}`}>
               <ArrowRightIcon />
             </button>
             <button ref={closeRef} className="icon-button drawer-close" onClick={onClose} aria-label="关闭详情">
@@ -500,18 +719,36 @@ export default function DetailDrawer({ category, item, onClose, onPrev, onNext, 
           </div>
         </header>
 
-        <div className="drawer-scroll">
-          <div id="drawer-title" className="sr-only">
-            {item.name}
+        <div
+          ref={scrollRef}
+          className={`drawer-scroll${dragging ? ' is-dragging' : ''}`}
+          style={dragX ? { transform: `translateX(${dragX}px)` } : undefined}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={endGesture}
+          onTouchCancel={endGesture}
+        >
+          <div key={`${category}-${item.id}`} className={`drawer-scroll-inner drawer-slide-${direction}`}>
+            <div id="drawer-title" className="sr-only" aria-live="polite">
+              {item.name}
+            </div>
+            {category === 'cards' && <CardDetail card={item as Card} />}
+            {category === 'monsters' && <MonsterDetail key={(item as Monster).id} monster={item as Monster} />}
+            {category === 'relics' && <RelicDetail relic={item as Relic} />}
+            {category === 'powers' && <PowerDetail power={item as Power} />}
+            {category === 'enchantments' && <EnchantmentDetail enchantment={item as Enchantment} />}
+            {category === 'potions' && <PotionDetail potion={item as Potion} />}
+            {category === 'modifiers' && <ModifierDetail modifier={item as Modifier} />}
           </div>
-          {category === 'cards' && <CardDetail card={item as Card} />}
-          {category === 'monsters' && <MonsterDetail monster={item as Monster} />}
-          {category === 'relics' && <RelicDetail relic={item as Relic} />}
-          {category === 'powers' && <PowerDetail power={item as Power} />}
-          {category === 'enchantments' && <EnchantmentDetail enchantment={item as Enchantment} />}
-          {category === 'potions' && <PotionDetail potion={item as Potion} />}
-          {category === 'modifiers' && <ModifierDetail modifier={item as Modifier} />}
         </div>
+
+        {total > 1 && (
+          <div className="drawer-swipe-hint" aria-hidden="true">
+            <ArrowLeftIcon />
+            <span>左右滑动切换</span>
+            <ArrowRightIcon />
+          </div>
+        )}
       </aside>
     </div>
   );

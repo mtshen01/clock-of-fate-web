@@ -169,6 +169,11 @@ export default function CommandPalette({ open, onClose, onNavigate }: CommandPal
             }}
             placeholder="搜索全部档案：卡牌、遗物、生物、状态、附魔、道具、每日挑战…"
             aria-label="搜索全部档案"
+            enterKeyHint="search"
+            inputMode="search"
+            autoComplete="off"
+            autoCapitalize="off"
+            spellCheck={false}
           />
           <button className="icon-button" onClick={onClose} aria-label="关闭">
             <CloseIcon />

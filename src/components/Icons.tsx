@@ -168,3 +168,20 @@ export function SparkIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function PlayIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M8.2 5.4 18 12 8.2 18.6Z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function ReplayIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4.2 12a7.8 7.8 0 1 0 2.3-5.5M4.2 4.2v4.4h4.4" />
+      <path d="M12 8.4V12l2.6 1.6" opacity=".7" />
+    </svg>
+  );
+}

@@ -6,7 +6,7 @@
  * 产物写入 public/data 与 public/art，均为可独立部署的静态文件。
  */
 import fs from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -19,7 +19,13 @@ const OUT_DATA = path.join(ROOT, 'public', 'data');
 const OUT_ART = path.join(ROOT, 'public', 'art');
 const CACHE = path.join(ROOT, '.cache', 'remote');
 const FORCE = process.argv.includes('--force');
-const artIndex = { cards: {}, relics: {}, monsters: {}, statuses: {}, enchantments: {}, potions: {} };
+const artIndex = { cards: {}, relics: {}, monsters: {}, statuses: {}, enchantments: {}, potions: {}, heroes: {} };
+const MOTION_ACTIONS = ['idle', 'attack', 'defense', 'hit', 'cast', 'death'];
+const MOTION_MANIFEST_DIRS = ['monster-frames-v3', 'expanded-actions-v1', 'boss-frames-v1', 'elite-frames-v1'];
+const MOTION_CORE_ACTIONS = ['idle', 'attack', 'hit', 'death', 'cast'];
+/** 动作精灵图单帧边长；256 在抽屉预览清晰度与仓库体积之间取平衡。 */
+const MOTION_FRAME_SIZE = 256;
+const motionIndex = { version: 1, frameSize: MOTION_FRAME_SIZE, monsters: {} };
 
 await fs.mkdir(OUT_DATA, { recursive: true });
 await fs.mkdir(CACHE, { recursive: true });
@@ -30,6 +36,9 @@ const writeJson = async (file, value) => {
   await fs.mkdir(path.dirname(file), { recursive: true });
   await fs.writeFile(file, JSON.stringify(value, null, 2) + '\n', 'utf8');
 };
+
+/** 上一次同步的 art.json，用于在文件未重建时保留图片来源标记。 */
+const previousArt = await readJson(path.join(OUT_DATA, 'art.json')).catch(() => null);
 
 const CLASS_LABELS = {
   ironclad: '誓火骑士',
@@ -43,6 +52,14 @@ const CLASS_LABELS = {
   event: '事件',
   quest: '任务',
   token: '衍生',
+};
+/** 游戏 heroes.json 使用 hero id 作为 className，卡牌数据使用职业 id。 */
+const HERO_CLASS_BY_ID = {
+  emberforged: 'ironclad',
+  apothecary: 'silent',
+  clockwright: 'defect',
+  lamplighter: 'necrobinder',
+  regent: 'regent',
 };
 const CARD_TYPE_LABELS = {
   attack: '攻击',
@@ -231,11 +248,18 @@ async function download(url) {
 
 /**
  * 单张图片：从本地源或远程参考图生成 WebP。
+ * 本地源比产物新时会自动重建，避免替换美术后因跳过已有文件而继续用旧图。
  */
 async function produceImage({ output, localCandidates = [], remoteUrl, width, fit = 'inside', quality = 82, label: name }) {
   const file = path.join(OUT_ART, output);
-  if (!FORCE && existsSync(file)) return { path: `/art/${output}`, credit: remoteUrl && !localCandidates.some(existsSync) ? 'reference' : 'local' };
   const source = localCandidates.find((candidate) => existsSync(candidate));
+  const fileExists = existsSync(file);
+  const sourceIsNewer = source && fileExists && statSync(source).mtimeMs > statSync(file).mtimeMs;
+  if (!FORCE && fileExists && !sourceIsNewer) {
+    const [kind, fileName] = output.split('/');
+    const previousCredit = previousArt?.[kind]?.[fileName.replace(/\.webp$/, '')]?.credit;
+    return { path: `/art/${output}`, credit: previousCredit || (source || !remoteUrl ? 'local' : 'reference') };
+  }
   try {
     let pipeline;
     let credit = 'local';
@@ -259,6 +283,108 @@ async function produceImage({ output, localCandidates = [], remoteUrl, width, fi
   }
 }
 
+/** 动作清单里的帧路径有两种写法：带 `art/` 前缀或相对于 art 目录。 */
+function motionFramePath(value) {
+  const relative = value.startsWith('art/') ? value.slice(4) : value;
+  return path.join(ART, relative);
+}
+
+function hasMotionCoreActions(actor) {
+  return MOTION_CORE_ACTIONS.every((action) => {
+    const frames = actor.actions?.[action]?.frames;
+    return Array.isArray(frames) && frames.length > 0;
+  });
+}
+
+/**
+ * 把一组动作帧拼成一张精灵图，前端用 background-position 逐帧播放。
+ * 同一个生物的各个动作共用同一画布尺寸，避免切换动作时角色跳动。
+ */
+async function produceMonsterMotion(monster, motionActors) {
+  const entry = motionActors.get(monster.id);
+  if (!entry) return null;
+  const { actor, dir } = entry;
+  const sourceWidth = Number(actor.width || actor.frameWidth || 512);
+  const sourceHeight = Number(actor.height || actor.frameHeight || 512);
+  if (!(sourceWidth > 0) || !(sourceHeight > 0)) return null;
+  const scale = Math.min(1, MOTION_FRAME_SIZE / Math.max(sourceWidth, sourceHeight));
+  const frameWidth = Math.max(1, Math.round(sourceWidth * scale));
+  const frameHeight = Math.max(1, Math.round(sourceHeight * scale));
+  const actions = {};
+
+  for (const actionName of MOTION_ACTIONS) {
+    const action = actor.actions?.[actionName];
+    if (!action?.frames?.length) continue;
+    const order = Array.isArray(action.order) && action.order.length
+      ? action.order
+      : action.frames.map((_, index) => index);
+    const sequence = order.map((index) => action.frames[index]).filter(Boolean);
+    if (!sequence.length) continue;
+
+    const cols = Math.min(4, sequence.length);
+    const rows = Math.ceil(sequence.length / cols);
+    const output = `motion/${monster.id}/${actionName}.webp`;
+    const file = path.join(OUT_ART, output);
+
+    if (FORCE || !existsSync(file)) {
+      try {
+        const composites = [];
+        for (let index = 0; index < sequence.length; index += 1) {
+          const source = motionFramePath(sequence[index]);
+          if (!existsSync(source)) throw new Error(`缺少帧 ${sequence[index]}`);
+          const frame = await sharp(source)
+            .resize(frameWidth, frameHeight, {
+              fit: 'contain',
+              background: { r: 0, g: 0, b: 0, alpha: 0 },
+            })
+            .png()
+            .toBuffer();
+          composites.push({
+            input: frame,
+            left: (index % cols) * frameWidth,
+            top: Math.floor(index / cols) * frameHeight,
+          });
+        }
+        await fs.mkdir(path.dirname(file), { recursive: true });
+        await sharp({
+          create: {
+            width: cols * frameWidth,
+            height: rows * frameHeight,
+            channels: 4,
+            background: { r: 0, g: 0, b: 0, alpha: 0 },
+          },
+        })
+          .composite(composites)
+          .webp({ quality: 76, alphaQuality: 88, effort: 5 })
+          .toFile(file);
+      } catch (error) {
+        console.warn(`  ! 动作失败 ${monster.name} / ${actionName}: ${error.message}`);
+        continue;
+      }
+    }
+
+    actions[actionName] = {
+      sheet: `/art/${output}`,
+      cols,
+      rows,
+      frameCount: sequence.length,
+      fps: Number(action.fps) > 0 ? Number(action.fps) : 8,
+      loop: !!action.loop,
+      holdLast: !!(action.holdLastFrame ?? action.holdLast),
+    };
+  }
+
+  if (!Object.keys(actions).length) return null;
+  return {
+    source: dir,
+    frameWidth,
+    frameHeight,
+    width: sourceWidth,
+    height: sourceHeight,
+    actions,
+  };
+}
+
 const [heroes, acts, intents, encounters, cards, relics, monsters, powers, enchantments, potions, modifiers, manifest] = await Promise.all([
   readJson(path.join(GAME_ROOT, 'data', 'heroes', 'heroes.json')),
   readJson(path.join(CONTENT, 'acts.json')),
@@ -277,14 +403,64 @@ const [heroes, acts, intents, encounters, cards, relics, monsters, powers, encha
 const assetsManifest = await readJson(path.join(GAME_ROOT, 'docs', 'assets', 'asset-manifest.json')).catch(() => []);
 const referenceFor = (category, id) => assetsManifest.find((x) => x.category === category && x.asset_id === id)?.reference_url || '';
 
+/* ---------------------------------------------------------------- 生物动作 */
+const motionManifests = new Map(await Promise.all(
+  MOTION_MANIFEST_DIRS.map(async (dir) => [
+    dir,
+    await readJson(path.join(ART, dir, 'manifest.json')).catch(() => null),
+  ]),
+));
+/** 与游戏内 BattleAssets 的合并规则一致：基础帧优先，专用帧具备完整核心动作时覆盖。 */
+const motionActors = new Map();
+for (const dir of ['monster-frames-v3', 'expanded-actions-v1']) {
+  for (const actor of motionManifests.get(dir)?.monsters ?? []) {
+    motionActors.set(actor.id, { actor, dir });
+  }
+}
+for (const dir of ['boss-frames-v1', 'elite-frames-v1']) {
+  for (const actor of motionManifests.get(dir)?.monsters ?? []) {
+    if (hasMotionCoreActions(actor) || !motionActors.has(actor.id)) {
+      motionActors.set(actor.id, { actor, dir });
+    }
+  }
+}
+
 const powerName = powerNameMap(powers);
 const intentMap = new Map(intents.map((x) => [x.id, x]));
 const encounterMap = new Map(encounters.map((x) => [x.id, x.name]));
-const heroByClass = new Map(heroes.map((h) => [h.className, h]));
+const heroClassName = (hero) => HERO_CLASS_BY_ID[hero.className] || hero.className;
+const cardClassName = (className) => HERO_CLASS_BY_ID[className] || className;
+const heroByClass = new Map();
+for (const hero of heroes) {
+  heroByClass.set(hero.className, hero);
+  heroByClass.set(heroClassName(hero), hero);
+}
 const actNameMap = new Map(acts.map((a) => [a.index, a.name]));
 
 console.log(`游戏仓库: ${GAME_ROOT}`);
 console.log(`内容: ${cards.length} 卡 / ${relics.length} 遗物 / ${monsters.length} 生物 / ${powers.length} 状态 / ${enchantments.length} 附魔 / ${potions.length} 道具 / ${modifiers.length} 每日`);
+
+/* ---------------------------------------------------------------- 英雄头像 */
+const heroItems = await mapLimit(heroes, 2, async (hero) => {
+  const art = await produceImage({
+    output: `heroes/${slugArt(hero.id)}.webp`,
+    localCandidates: [
+      path.join(ART, 'hero-motion-v4-runtime', 'selection-v2', hero.id, 'portrait.png'),
+      path.join(ART, 'hero-avatars-v1', `${hero.id}.png`),
+    ],
+    width: 192,
+    quality: 86,
+    label: hero.name,
+  });
+  if (art) artIndex.heroes[hero.id] = art;
+  return {
+    id: hero.id,
+    name: hero.name,
+    className: heroClassName(hero),
+    accent: hero.accent,
+    portrait: art?.path || null,
+  };
+});
 
 /* ---------------------------------------------------------------- 卡牌 */
 const cardItems = await mapLimit(cards, 4, async (card) => {
@@ -299,6 +475,8 @@ const cardItems = await mapLimit(cards, 4, async (card) => {
   });
   if (art) artIndex.cards[card.id] = art;
   const keywords = (card.keywords || []).map((k) => ({ id: k, label: label(KEYWORD_LABELS, k) }));
+  const className = cardClassName(card.class);
+  const hero = heroByClass.get(card.class) || heroByClass.get(className);
   return {
     id: card.id,
     name: card.name,
@@ -309,9 +487,9 @@ const cardItems = await mapLimit(cards, 4, async (card) => {
     cost: card.cost,
     costLabel: card.xCost ? 'X' : String(card.cost),
     starCost: card.starCost ?? null,
-    class: card.class,
-    classLabel: heroByClass.get(card.class)?.name || label(CLASS_LABELS, card.class),
-    classAccent: heroByClass.get(card.class)?.accent || null,
+    class: className,
+    classLabel: hero?.name || label(CLASS_LABELS, className),
+    classAccent: hero?.accent || null,
     target: card.target,
     targetLabel: label(TARGET_LABELS, card.target),
     description: card.description,
@@ -355,6 +533,7 @@ const relicItems = await mapLimit(relics, 4, async (relic) => {
     label: label(TRIGGER_LABELS, t.trigger, t.trigger),
     effects: (t.effects || []).length,
   }));
+  const pool = relic.pool === 'shared' ? 'shared' : cardClassName(relic.pool);
   return {
     id: relic.id,
     name: relic.name,
@@ -363,8 +542,8 @@ const relicItems = await mapLimit(relics, 4, async (relic) => {
     description: relic.description,
     flavor: relic.flavor || '',
     price: relic.price ?? 0,
-    pool: relic.pool,
-    poolLabel: relic.pool === 'shared' ? '通用' : heroByClass.get(relic.pool)?.name || label(CLASS_LABELS, relic.pool),
+    pool,
+    poolLabel: pool === 'shared' ? '通用' : heroByClass.get(relic.pool)?.name || label(CLASS_LABELS, pool),
     triggers,
     art: art?.path || null,
     artCredit: art?.credit || null,
@@ -392,6 +571,9 @@ const monsterItems = await mapLimit(monsters, 4, async (monster) => {
     label: monster.name,
   });
   if (art) artIndex.monsters[monster.id] = art;
+
+  const motion = await produceMonsterMotion(monster, motionActors);
+  if (motion) motionIndex.monsters[monster.id] = motion;
 
   const moves = (monster.moves || []).map((move) => {
     const intent = intentMap.get(move.intent);
@@ -457,7 +639,11 @@ const monsterItems = await mapLimit(monsters, 4, async (monster) => {
 const powerItems = await mapLimit(powers, 4, async (power) => {
   const art = await produceImage({
     output: `statuses/${slugArt(power.id)}.webp`,
-    localCandidates: [path.join(ART, 'ui', `status_${power.id}.png`)],
+    localCandidates: [
+      path.join(ART, 'ui', `status_${power.id}.png`),
+      path.join(ART, 'ui', `status_sts2_${power.id}.png`),
+      path.join(ART, 'ui', `status_sts2_${power.id.replace(/_/g, '')}.png`),
+    ],
     remoteUrl: referenceFor('status', power.id),
     width: 128,
     quality: 86,
@@ -519,6 +705,7 @@ const potionItems = await mapLimit(potions, 4, async (potion) => {
     label: potion.name,
   });
   if (art) artIndex.potions[potion.id] = art;
+  const pool = potion.pool === 'shared' ? 'shared' : cardClassName(potion.pool);
   return {
     id: potion.id,
     name: potion.name,
@@ -528,8 +715,8 @@ const potionItems = await mapLimit(potions, 4, async (potion) => {
     description: potion.description,
     target: potion.target,
     targetLabel: label(TARGET_LABELS, potion.target),
-    pool: potion.pool,
-    poolLabel: potion.pool === 'shared' ? '通用' : heroByClass.get(potion.pool)?.name || label(CLASS_LABELS, potion.pool),
+    pool,
+    poolLabel: pool === 'shared' ? '通用' : heroByClass.get(potion.pool)?.name || label(CLASS_LABELS, pool),
     usableOutsideBattle: !!potion.usableOutsideBattle,
     art: art?.path || null,
     artCredit: art?.credit || null,
@@ -560,18 +747,14 @@ const meta = {
     potions: potionItems.length,
     modifiers: modifierItems.length,
   },
-  heroes: heroes.map((h) => ({
-    id: h.id,
-    name: h.name,
-    className: h.className,
-    accent: h.accent,
-  })),
+  heroes: heroItems,
   acts: acts.map((a) => ({ id: a.id, name: a.name, index: a.index })),
 };
 
 await Promise.all([
   writeJson(path.join(OUT_DATA, 'meta.json'), meta),
   writeJson(path.join(OUT_DATA, 'art.json'), artIndex),
+  writeJson(path.join(OUT_DATA, 'motions.json'), { ...motionIndex, generatedAt: new Date().toISOString() }),
   writeJson(path.join(OUT_DATA, 'cards.json'), cardItems),
   writeJson(path.join(OUT_DATA, 'relics.json'), relicItems),
   writeJson(path.join(OUT_DATA, 'monsters.json'), monsterItems),
@@ -591,10 +774,16 @@ const artCount = async (dir) => {
 };
 console.log('图片:', {
   cards: await artCount('cards'),
+  heroes: await artCount('heroes'),
   relics: await artCount('relics'),
   monsters: await artCount('monsters'),
   statuses: await artCount('statuses'),
   enchantments: await artCount('enchantments'),
   potions: await artCount('potions'),
+});
+console.log('动作:', {
+  monsters: Object.keys(motionIndex.monsters).length,
+  actions: Object.values(motionIndex.monsters).reduce((sum, entry) => sum + Object.keys(entry.actions).length, 0),
+  frameSize: MOTION_FRAME_SIZE,
 });
 console.log('完成:', path.relative(ROOT, OUT_DATA), path.relative(ROOT, OUT_ART));

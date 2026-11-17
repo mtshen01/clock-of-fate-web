@@ -7,6 +7,9 @@ import {
   CATEGORY_BY_ID,
   CLASS_LABELS,
   CLASS_ORDER,
+  HERO_CLASS_BY_ID,
+  HERO_CLASS_ORDER,
+  HERO_ID_BY_CLASS,
   MODIFIER_TYPE_LABELS,
   POOL_LABELS,
   POTION_RARITY_LABELS,
@@ -14,7 +17,10 @@ import {
   RELIC_RARITY_LABELS,
   STACK_LABELS,
   TIER_LABELS,
+  accentForClass,
+  accentHex,
   formatNumber,
+  heroPortrait,
   loadCategory,
   loadMeta,
   matchesQuery,
@@ -130,10 +136,15 @@ function optionsFrom(entries: Array<[string, string]>, counts: Map<string, numbe
     .map(([value, label]) => ({ value, label, count: counts.get(value) }));
 }
 
-function buildFilterGroups(category: CategoryId, items: CatalogItem[]): FilterGroup[] {
+function buildFilterGroups(category: CategoryId, items: CatalogItem[], heroes: Meta['heroes'] = []): FilterGroup[] {
   if (category === 'cards') {
     const cards = items as Card[];
-    const classCounts = countBy(cards, (card) => card.class);
+    const heroClasses = new Set<string>([...HERO_CLASS_ORDER, ...Object.values(HERO_ID_BY_CLASS)]);
+    const cardHeroClass = (className: string) => HERO_CLASS_BY_ID[className] ?? className;
+    const heroCounts = countBy(cards, (card) =>
+      heroClasses.has(card.class) ? cardHeroClass(card.class) : undefined,
+    );
+    const otherClassCounts = countBy(cards, (card) => (heroClasses.has(card.class) ? undefined : card.class));
     const typeCounts = countBy(cards, (card) => card.type);
     const rarityCounts = countBy(cards, (card) => card.rarity);
     const costCounts = new Map<string, number>();
@@ -148,15 +159,31 @@ function buildFilterGroups(category: CategoryId, items: CatalogItem[]): FilterGr
         keywordCounts.set(keyword.id, current);
       }
     }
-    const classOptions = optionsFrom(
-      CLASS_ORDER.map((id) => [id, CLASS_LABELS[id] ?? id]),
-      classCounts,
+
+    const heroByClass = new Map(heroes.map((hero) => [hero.className, hero]));
+    const heroOptions = HERO_CLASS_ORDER.map<FilterOption | null>((className) => {
+      const count = heroCounts.get(className) ?? 0;
+      if (!count) return null;
+      const hero = heroByClass.get(className);
+      const sample = cards.find((card) => cardHeroClass(card.class) === className);
+      return {
+        value: className,
+        label: hero?.name || sample?.classLabel || CLASS_LABELS[className] || className,
+        count,
+        accent: accentHex(hero?.accent) ?? accentHex(sample?.classAccent) ?? accentForClass(className) ?? undefined,
+        portrait: hero?.portrait || heroPortrait(hero?.id || HERO_ID_BY_CLASS[className]),
+      };
+    }).filter((option): option is FilterOption => option !== null);
+
+    const otherClassOptions = optionsFrom(
+      CLASS_ORDER.filter((id) => !heroClasses.has(id)).map((id) => [id, CLASS_LABELS[id] ?? id]),
+      otherClassCounts,
     );
     const keywordOptions = [...keywordCounts.entries()]
       .sort((a, b) => b[1].count - a[1].count)
       .map(([value, { label, count }]) => ({ value, label, count }));
     return [
-      { key: 'cls', label: '职业', options: classOptions, quick: true },
+      { key: 'hero', label: '英雄', options: heroOptions, quick: true, variant: 'hero' },
       { key: 'type', label: '类型', options: optionsFrom(Object.entries(CARD_TYPE_LABELS), typeCounts) },
       { key: 'rarity', label: '稀有度', options: optionsFrom(Object.entries(CARD_RARITY_LABELS), rarityCounts) },
       {
@@ -177,6 +204,7 @@ function buildFilterGroups(category: CategoryId, items: CatalogItem[]): FilterGr
         ],
       },
       { key: 'keyword', label: '关键词', options: keywordOptions },
+      { key: 'cls', label: '其他职业', options: otherClassOptions },
     ];
   }
 
@@ -273,7 +301,9 @@ function filterItems(category: CategoryId, items: CatalogItem[], filters: Filter
   return items.filter((item) => {
     if (category === 'cards') {
       const card = item as Card;
-      if (filters.cls && card.class !== filters.cls) return false;
+      const cardHeroClass = HERO_CLASS_BY_ID[card.class] ?? card.class;
+      if (filters.hero && cardHeroClass !== filters.hero) return false;
+      if (filters.cls && cardHeroClass !== filters.cls) return false;
       if (filters.type && card.type !== filters.type) return false;
       if (filters.rarity && card.rarity !== filters.rarity) return false;
       if (filters.keyword && !card.keywords.some((keyword) => keyword.id === filters.keyword)) return false;
@@ -471,7 +501,10 @@ export default function App() {
     [navigate],
   );
 
-  const filtersGroups = useMemo(() => buildFilterGroups(category, categoryItems), [category, categoryItems]);
+  const filtersGroups = useMemo(
+    () => buildFilterGroups(category, categoryItems, meta?.heroes ?? []),
+    [category, categoryItems, meta],
+  );
 
   const searched = useMemo(() => categoryItems.filter((item) => matchesQuery(item, query)), [categoryItems, query]);
   const filtered = useMemo(() => sortItems(filterItems(category, searched, filters), sort), [category, searched, filters, sort]);
@@ -485,6 +518,15 @@ export default function App() {
   const hasPrev = selectedIndex > 0;
   const hasNext = selectedIndex >= 0 && selectedIndex < navList.length - 1;
 
+  useEffect(() => {
+    if (selectedIndex < 0) return;
+    const pageSize = PAGE_SIZES[category];
+    setVisible((current) => {
+      if (selectedIndex < current) return current;
+      return Math.max(current, Math.ceil((selectedIndex + 1) / pageSize) * pageSize);
+    });
+  }, [selectedIndex, category]);
+
   const closeDrawer = useCallback(() => navigate(category), [navigate, category]);
   const prevItem = useCallback(() => {
     if (selectedIndex > 0) navigate(category, navList[selectedIndex - 1].id);
@@ -494,7 +536,14 @@ export default function App() {
   }, [selectedIndex, navList, navigate, category]);
 
   const onFilterChange = useCallback((key: FilterKey, value: string) => {
-    setFilters((current) => ({ ...current, [key]: current[key] === value ? '' : value }));
+    setFilters((current) => {
+      const nextValue = current[key] === value ? '' : value;
+      const next = { ...current, [key]: nextValue };
+      // 英雄与其他职业互斥，避免同时选中后筛出空结果。
+      if (key === 'hero' && nextValue) next.cls = '';
+      if (key === 'cls' && nextValue) next.hero = '';
+      return next;
+    });
   }, []);
 
   const clearFilters = useCallback(() => {
@@ -640,6 +689,8 @@ export default function App() {
           onNext={nextItem}
           hasPrev={hasPrev}
           hasNext={hasNext}
+          index={selectedIndex + 1}
+          total={navList.length}
         />
       )}
     </div>

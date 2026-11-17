@@ -18,9 +18,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点敏捷。获得 4 点反刺。",
+    "description": "获得1 点敏捷。\n获得4 点反刺。",
     "upgraded": {
-      "description": "获得 1 点敏捷。获得 6 点反刺。",
+      "description": "获得1 点敏捷。\n获得6 点反刺。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -141,9 +141,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "小刀额外造成 4 点伤害。",
+    "description": "纸牌连击额外造成4 点伤害。",
     "upgraded": {
-      "description": "小刀额外造成 6 点伤害。",
+      "description": "纸牌连击额外造成6 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -219,9 +219,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 18 点伤害。",
+    "description": "造成18 点伤害。\n将这张牌的一张0 费复制品添加到你的弃牌堆。",
     "upgraded": {
-      "description": "造成 23 点伤害。",
+      "description": "造成23 点伤害。\n将这张牌的一张0 费复制品添加到你的弃牌堆。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -373,7 +373,7 @@
   },
   {
     "id": "sts2_aggression",
-    "name": "暗燃铁砧",
+    "name": "旧刃新锋",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "rare",
@@ -508,9 +508,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。",
+    "description": "造成10 点伤害。\n将你弃牌堆中的所有0 费牌放入你的手牌。",
     "upgraded": {
-      "description": "造成 14 点伤害。",
+      "description": "造成14 点伤害。\n将你弃牌堆中的所有0 费牌放入你的手牌。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -523,7 +523,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "线圈发热时，钟楼会短暂地想起自己的名字。",
-    "special": null,
+    "special": "allForOne",
     "art": "/art/cards/sts2_all_for_one.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/all_for_one.webp"
@@ -902,7 +902,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "钟摆停在半空，铁屑先落了下来。",
     "special": null,
     "art": "/art/cards/sts2_ashen_strike.webp",
     "artCredit": "local",
@@ -1132,7 +1132,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "失去 13 点生命。无法打出；永恒。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，你失去13 点生命。",
     "upgraded": {
       "description": "失去 13 点生命。无法打出；永恒。",
       "cost": -1,
@@ -1258,9 +1258,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "当前每有一个充能球，造成5 点伤害。",
     "upgraded": {
-      "description": "造成 7 点伤害。",
+      "description": "当前每有一个充能球，造成7 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1523,9 +1523,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "造成5 点伤害。\n铸造5。\n本回合内，你此前每击中过该敌人一次，这张牌就额外铸造5 点。",
     "upgraded": {
-      "description": "造成 7 点伤害。",
+      "description": "造成7 点伤害。\n铸造7。\n本回合内，你此前每击中过该敌人一次，这张牌就额外铸造7 点。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1558,9 +1558,9 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "失去 6 点生命。",
+    "description": "打出后进入弃牌堆。若回合结束时仍在手牌中，失去6点生命。",
     "upgraded": {
-      "description": "失去 6 点生命。",
+      "description": "打出后进入弃牌堆。若回合结束时仍在手牌中，失去6点生命。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1597,9 +1597,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "选择你手牌中的一张牌，将其变化为「旅人割」。",
+    "description": "选择你手牌中的一张牌，将其变化为仆从打击。",
     "upgraded": {
-      "description": "将 1 张「旅人割+」加入手牌。",
+      "description": "选择你手牌中的一张牌，将其变化为仆从打击+。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1671,9 +1671,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 5 点集中。在你的回合开始时，失去 1 点集中。",
+    "description": "获得5 点集中。\n在你的回合开始时，失去1 点集中。",
     "upgraded": {
-      "description": "获得 6 点集中。在你的回合开始时，失去 1 点集中。",
+      "description": "获得6 点集中。\n在你的回合开始时，失去1 点集中。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1710,9 +1710,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 1 张牌。获得 1 点能量。消耗。",
+    "description": "抽1 张牌。\n获得1 点能量。\n获得1 点星辉。\n铸造5。",
     "upgraded": {
-      "description": "抽 1 张牌。获得 1 点能量。消耗；固有。",
+      "description": "抽 1 张牌。获得 1 点能量。获得 1 点星辉。铸造 5。消耗；固有。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -1754,9 +1754,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当你花费或获得 1 点星辉时，对所有敌人造成 3 点伤害。",
+    "description": "每当你花费或获得1 点星辉时，对所有敌人造成3 点伤害。",
     "upgraded": {
-      "description": "每当你花费或获得 1 点星辉时，对所有敌人造成 4 点伤害。",
+      "description": "每当你花费或获得1 点星辉时，对所有敌人造成4 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -1954,9 +1954,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。",
+    "description": "造成8 点伤害。\n给予等量于所造成伤害的灾厄。",
     "upgraded": {
-      "description": "造成 10 点伤害。",
+      "description": "造成10 点伤害。\n给予等量于所造成伤害的灾厄。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -2020,7 +2020,7 @@
   },
   {
     "id": "sts2_bloodletting",
-    "name": "咬破嘴唇",
+    "name": "血酬",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -2228,9 +2228,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 3 点伤害。",
+    "description": "造成3 点伤害。\n在你的下个回合开始时，将此卡返回你的手牌。",
     "upgraded": {
-      "description": "造成 4 点伤害。",
+      "description": "造成4 点伤害。\n在你的下个回合开始时，将此卡返回你的手牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -2267,9 +2267,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 18 点伤害。消耗。",
+    "description": "造成18 点伤害。\n你的回合开始时，如果这张牌在你的消耗牌堆中，则将其打出。",
     "upgraded": {
-      "description": "造成 24 点伤害。消耗。",
+      "description": "造成24 点伤害。\n你的回合开始时，如果这张牌在你的消耗牌堆中，则将其打出。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -2442,9 +2442,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 4 点能量。",
+    "description": "获得4 点能量。\n所有卡牌在本回合耗能增加1 点能量。",
     "upgraded": {
-      "description": "获得 6 点能量。",
+      "description": "获得6 点能量。\n所有卡牌在本回合耗能增加1 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -2481,9 +2481,9 @@
     ],
     "target": "random",
     "targetLabel": "随机敌人",
-    "description": "施加 3 层蚀毒。",
+    "description": "随机给予敌人 3 层蚀毒 3 次。",
     "upgraded": {
-      "description": "施加 3 层蚀毒。",
+      "description": "随机给予敌人 3 层蚀毒 4 次。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -2520,9 +2520,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "自身获得 1 层力量。失去 1 点生命。",
+    "description": "失去1 点生命。\n消耗1 张牌。\n获得1 点力量。",
     "upgraded": {
-      "description": "自身获得 2 层力量。失去 1 点生命。",
+      "description": "失去1 点生命。\n消耗1 张牌。\n获得2 点力量。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -2633,9 +2633,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。获得 2 点能量。",
+    "description": "获得2 点能量。\n抽2 张牌。\n失去2 点最大生命。",
     "upgraded": {
-      "description": "抽 3 张牌。获得 3 点能量。",
+      "description": "获得3 点能量。\n抽3 张牌。\n失去2 点最大生命。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -2711,9 +2711,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "阻止下1次你受到的生命值损伤。",
+    "description": "阻止下1 次你受到的生命值损伤。",
     "upgraded": {
-      "description": "阻止下2次你受到的生命值损伤。",
+      "description": "阻止下2 次你受到的生命值损伤。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -2811,7 +2811,7 @@
   },
   {
     "id": "sts2_bully",
-    "name": "钟摆斩",
+    "name": "乘隙而入",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -2842,7 +2842,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "钟摆停在半空，铁屑先落了下来。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": null,
     "art": "/art/cards/sts2_bully.webp",
     "artCredit": "local",
@@ -2867,9 +2867,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 12 点格挡。",
+    "description": "获得12 点格挡。\n铸造10。",
     "upgraded": {
-      "description": "获得 15 点格挡。",
+      "description": "获得15 点格挡。\n铸造13。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -2946,7 +2946,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "造成 2 点伤害。无法打出。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，你受到2 点伤害。",
     "upgraded": {
       "description": "造成 2 点伤害。无法打出。",
       "cost": -1,
@@ -2973,7 +2973,7 @@
   },
   {
     "id": "sts2_burning_pact",
-    "name": "挑走废料",
+    "name": "弃子",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -3004,7 +3004,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": "burningPact",
     "art": "/art/cards/sts2_burning_pact.webp",
     "artCredit": "local",
@@ -3256,9 +3256,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "影魔的攻击额外造成 4 点伤害。",
+    "description": "影魔的攻击额外造成4 点伤害。",
     "upgraded": {
-      "description": "影魔的攻击额外造成 6 点伤害。",
+      "description": "影魔的攻击额外造成6 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -3374,9 +3374,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当你被攻击时，对攻击者造成 3 点伤害。",
+    "description": "每当你被攻击时，对攻击者造成3 点伤害。",
     "upgraded": {
-      "description": "每当你被攻击时，对攻击者造成 5 点伤害。",
+      "description": "每当你被攻击时，对攻击者造成5 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -3567,7 +3567,7 @@
     "targetLabel": "单体敌人",
     "description": "造成 6 点伤害 3 次。",
     "upgraded": {
-      "description": "造成 6 点伤害 3 次。",
+      "description": "造成 6 点伤害 4 次。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -3643,9 +3643,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 2 张「钟摆突袭」加入抽牌堆。",
+    "description": "选择你抽牌堆中的2 张牌，将其变化为\n仆从俯冲。",
     "upgraded": {
-      "description": "将 2 张「钟摆突袭+」加入抽牌堆。",
+      "description": "选择你抽牌堆中的2 张牌，将其变化为\n仆从俯冲+。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -3682,9 +3682,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 7 点格挡。获得 1 点能量。",
+    "description": "获得7 点格挡。\n在下个回合获得1 点能量。",
     "upgraded": {
-      "description": "获得 10 点格挡。获得 1 点能量。",
+      "description": "获得10 点格挡。\n在下个回合获得1 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -3818,7 +3818,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": null,
     "art": "/art/cards/sts2_cinder.webp",
     "artCredit": "local",
@@ -3839,9 +3839,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 14 点伤害。",
+    "description": "只有在手牌中每一张牌都是攻击牌时才能被打出。\n造成14 点伤害。",
     "upgraded": {
-      "description": "造成 18 点伤害。",
+      "description": "只有在手牌中每一张牌都是攻击牌时才能被打出。\n造成18 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -4234,9 +4234,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 6 点格挡。将 1 张「擦雾」加入手牌。",
+    "description": "获得6 点格挡。\n将你手牌中的全部状态牌变化为燃料。",
     "upgraded": {
-      "description": "获得 7 点格挡。将 1 张「擦雾+」加入手牌。",
+      "description": "获得7 点格挡。\n将你手牌中的全部状态牌变化为燃料+。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4273,9 +4273,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 7 点伤害。",
+    "description": "造成7 点伤害。\n你每有一种不同的充能球，就抽一张牌。",
     "upgraded": {
-      "description": "造成 10 点伤害。",
+      "description": "造成10 点伤害。\n你每有一种不同的充能球，就抽一张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4314,7 +4314,7 @@
     "targetLabel": "盟友",
     "description": "自身获得 3 层调制。",
     "upgraded": {
-      "description": "自身获得 3 层调制。",
+      "description": "自身获得 4 层调制。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -4353,7 +4353,7 @@
     "targetLabel": "全体敌人",
     "description": "对所有敌人造成 2 点伤害 4 次。",
     "upgraded": {
-      "description": "对所有敌人造成 2 点伤害 4 次。",
+      "description": "对所有敌人造成 2 点伤害 5 次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4507,9 +4507,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点能量。",
+    "description": "在本回合保留你的手牌。下回合获得 1 点能量与 1 点星辉。",
     "upgraded": {
-      "description": "获得 1 点能量。",
+      "description": "在本回合保留你的手牌。下回合获得 1 点能量与 2 点星辉。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4585,9 +4585,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 1 张牌。",
+    "description": "生成1 个冰霜充能球。\n抽1 张牌。",
     "upgraded": {
-      "description": "抽 2 张牌。",
+      "description": "生成1 个冰霜充能球。\n抽2 张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4776,9 +4776,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "在你的回合开始时，给予随机敌人6层灾厄。",
+    "description": "在你的回合开始时，给予随机敌人6 层灾厄。",
     "upgraded": {
-      "description": "在你的回合开始时，给予随机敌人9层灾厄。",
+      "description": "在你的回合开始时，给予随机敌人9 层灾厄。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4893,9 +4893,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。",
+    "description": "造成 8 点伤害。你每有一张拥有星辉耗能的卡牌，这张牌就额外造成 2 点伤害。",
     "upgraded": {
-      "description": "造成 8 点伤害。",
+      "description": "造成 8 点伤害。你每有一张拥有星辉耗能的卡牌，这张牌就额外造成 3 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -4932,9 +4932,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "在你的回合开始时，失去 1 点生命并获得 7 点格挡。",
+    "description": "在你的回合开始时，失去1 点生命并获得7 点格挡。",
     "upgraded": {
-      "description": "在你的回合开始时，失去 1 点生命并获得 10 点格挡。",
+      "description": "在你的回合开始时，失去1 点生命并获得10 点格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5171,9 +5171,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当你打出一张耗能大于等于2的牌时，获得 4 点格挡。",
+    "description": "每当你打出一张耗能大于等于 2 的牌时，获得 4 点格挡。",
     "upgraded": {
-      "description": "每当你打出一张耗能大于等于2的牌时，获得 6 点格挡。",
+      "description": "每当你打出一张耗能大于等于 2 的牌时，获得 6 点格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5193,7 +5193,7 @@
   },
   {
     "id": "sts2_dark_embrace",
-    "name": "暗焰拥抱",
+    "name": "薪尽火传",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "rare",
@@ -5224,7 +5224,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": null,
     "art": "/art/cards/sts2_dark_embrace.webp",
     "artCredit": "local",
@@ -5528,9 +5528,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 6 点格挡。",
+    "description": "获得6 点格挡。\n如果你在本回合中曾给予过灾厄，则额外获得2 次格挡。",
     "upgraded": {
-      "description": "获得 7 点格挡。",
+      "description": "获得7 点格挡。\n如果你在本回合中曾给予过灾厄，则额外获得2 次格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5567,9 +5567,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。施加 2 层摧残。",
+    "description": "造成10 点伤害。\n在接下来的2回合内，该敌人身上的破绽与虚弱效果翻倍。",
     "upgraded": {
-      "description": "造成 12 点伤害。施加 2 层摧残。",
+      "description": "造成12 点伤害。\n在接下来的3回合内，该敌人身上的破绽与虚弱效果翻倍。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -5682,7 +5682,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "造成 2 点伤害。无法打出。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中, 你受到2 点伤害。",
     "upgraded": {
       "description": "造成 2 点伤害。无法打出。",
       "cost": -1,
@@ -5726,9 +5726,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 3 张牌。消耗。",
+    "description": "抽3 张牌。\n选择你手牌中的一张技能牌，并将其打出3 次。",
     "upgraded": {
-      "description": "抽 5 张牌。消耗。",
+      "description": "抽5 张牌。\n选择你手牌中的一张技能牌，并将其打出3 次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -5789,7 +5789,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "它把自己拆开，又装回去，少了一颗螺丝。",
+    "flavor": "齿轮咬合的间隙里，有一秒钟没有被记录。",
     "special": null,
     "art": "/art/cards/sts2_defend_defect.webp",
     "artCredit": "local",
@@ -5833,7 +5833,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
     "special": null,
     "art": "/art/cards/sts2_defend_ironclad.webp",
     "artCredit": "local",
@@ -5877,7 +5877,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "灯芯一亮，影子便替她站了起来。",
+    "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
     "special": null,
     "art": "/art/cards/sts2_defend_necrobinder.webp",
     "artCredit": "local",
@@ -5965,7 +5965,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "她把剂量藏在袖口，像藏起一句道歉。",
+    "flavor": "绷带下面，是一段不肯结痂的旧事。",
     "special": null,
     "art": "/art/cards/sts2_defend_silent.webp",
     "artCredit": "local",
@@ -6073,9 +6073,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点集中。",
+    "description": "获得1 点集中。",
     "upgraded": {
-      "description": "获得 2 点集中。",
+      "description": "获得2 点集中。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6156,9 +6156,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 11 点格挡。获得 1 点能量。",
+    "description": "获得11 点格挡。\n在下个回合，\n获得1 点能量。",
     "upgraded": {
-      "description": "获得 13 点格挡。获得 2 点能量。",
+      "description": "获得13 点格挡。\n在下个回合，\n获得2 点能量。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -6253,7 +6253,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": null,
     "art": "/art/cards/sts2_demon_form.webp",
     "artCredit": "local",
@@ -6400,9 +6400,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 1 张「拆油灯」加入抽牌堆。消耗。",
+    "description": "召唤 3 点生命的影魔 X 次。将 X 张「拆油灯」加入抽牌堆。消耗。",
     "upgraded": {
-      "description": "将 1 张「拆油灯+」加入抽牌堆。消耗。",
+      "description": "召唤 4 点生命的影魔 X 次。将 X 张「拆油灯」加入抽牌堆。消耗。",
       "cost": -1,
       "costLabel": "X"
     },
@@ -6598,9 +6598,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 4 点格挡。",
+    "description": "获得4 点格挡。\n在下个回合，获得4 点格挡。",
     "upgraded": {
-      "description": "获得 6 点格挡。",
+      "description": "获得6 点格挡。\n在下个回合，获得6 点格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6637,9 +6637,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "施加 1 层破绽。消耗。",
+    "description": "施加 1 层破绽。敌人身上每有 1 层破绽，你获得 1 点力量。消耗。",
     "upgraded": {
-      "description": "施加 1 层破绽。消耗。",
+      "description": "施加 2 层破绽。敌人身上每有 1 层破绽，你获得 1 点力量。消耗。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6721,7 +6721,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "自身获得 1 层虚弱。无法打出。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，获得1 层虚弱。",
     "upgraded": {
       "description": "自身获得 1 层虚弱。无法打出。",
       "cost": -1,
@@ -6805,9 +6805,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。",
+    "description": "造成10 点伤害。\n随机升级你弃牌堆中的2 张牌。",
     "upgraded": {
-      "description": "造成 12 点伤害。",
+      "description": "造成12 点伤害。\n随机升级你弃牌堆中的3 张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -6915,7 +6915,7 @@
   },
   {
     "id": "sts2_drum_of_battle",
-    "name": "扫支架",
+    "name": "未雨绸缪",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -6946,7 +6946,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
     "special": null,
     "art": "/art/cards/sts2_drum_of_battle.webp",
     "artCredit": "local",
@@ -7528,9 +7528,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 13 点格挡。",
+    "description": "获得13 点格挡。\n在本回合保留你的手牌。",
     "upgraded": {
-      "description": "获得 16 点格挡。",
+      "description": "获得16 点格挡。\n在本回合保留你的手牌。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -7567,9 +7567,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 11 点伤害X次。保留。",
+    "description": "造成 11 点伤害 X 次。保留。",
     "upgraded": {
-      "description": "造成 14 点伤害X次。保留。",
+      "description": "造成 14 点伤害 X 次。保留。",
       "cost": -1,
       "costLabel": "X"
     },
@@ -7646,9 +7646,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得9层覆甲。",
+    "description": "获得9 层覆甲。",
     "upgraded": {
-      "description": "获得12层覆甲。",
+      "description": "获得12 层覆甲。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -7738,7 +7738,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "钟摆停在半空，铁屑先落了下来。",
     "special": null,
     "art": "/art/cards/sts2_expect_a_fight.webp",
     "artCredit": "local",
@@ -7763,9 +7763,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。",
+    "description": "抽2 张牌。\n这些牌在本回合获得保留。",
     "upgraded": {
-      "description": "抽 3 张牌。",
+      "description": "抽3 张牌。\n这些牌在本回合获得保留。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -8087,9 +8087,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。消耗。",
+    "description": "造成10 点伤害。\n斩杀时，永久获得3 点最大生命值。",
     "upgraded": {
-      "description": "造成 12 点伤害。消耗。",
+      "description": "造成12 点伤害。\n斩杀时，永久获得4 点最大生命值。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -8114,7 +8114,7 @@
   },
   {
     "id": "sts2_feeding_frenzy",
-    "name": "拆旧物",
+    "name": "疯狂进食",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "event",
@@ -8263,7 +8263,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
+    "flavor": "骨手从地里伸出时，先学会了敲门。",
     "special": "fetch",
     "art": "/art/cards/sts2_fetch.webp",
     "artCredit": "local",
@@ -8315,7 +8315,7 @@
   },
   {
     "id": "sts2_fight_me",
-    "name": "铁锋斩",
+    "name": "与我一战",
     "type": "attack",
     "typeLabel": "攻击",
     "rarity": "uncommon",
@@ -8346,7 +8346,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "护甲上的凹痕，比任何勋章都诚实。",
+    "flavor": "余烬落在手背上，像一枚迟到的印章。",
     "special": null,
     "art": "/art/cards/sts2_fight_me.webp",
     "artCredit": "local",
@@ -8445,9 +8445,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "在这个回合内每打出过一张攻击牌，就造成6 点伤害一次。",
     "upgraded": {
-      "description": "造成 8 点伤害。",
+      "description": "在这个回合内每打出过一张攻击牌，就造成8 点伤害一次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -8480,9 +8480,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 7 点伤害。",
+    "description": "造成7 点伤害。\n获得等量于所造成伤害的格挡。",
     "upgraded": {
-      "description": "造成 9 点伤害。",
+      "description": "造成9 点伤害。\n获得等量于所造成伤害的格挡。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -8519,9 +8519,9 @@
     ],
     "target": "random",
     "targetLabel": "随机敌人",
-    "description": "对随机敌人造成 8 点伤害。",
+    "description": "消耗你所有的状态牌。\n每有一张被消耗的牌，就随机对敌人造成8 点伤害。",
     "upgraded": {
-      "description": "对随机敌人造成 11 点伤害。",
+      "description": "消耗你所有的状态牌。\n每有一张被消耗的牌，就随机对敌人造成11 点伤害。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -8541,7 +8541,7 @@
   },
   {
     "id": "sts2_flame_barrier",
-    "name": "热炉门",
+    "name": "反扑",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -8558,9 +8558,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 12 点格挡。直到你的下个回合开始，你每受到一次攻击，就对攻击者造成 4 点伤害。",
+    "description": "获得12 点格挡。\n你在这个回合每受到一次攻击，都会对攻击者造成4 点伤害。",
     "upgraded": {
-      "description": "获得 16 点格挡。直到你的下个回合开始，你每受到一次攻击，就对攻击者造成 6 点伤害。",
+      "description": "获得16 点格挡。\n你在这个回合每受到一次攻击，都会对攻击者造成6 点伤害。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -8572,7 +8572,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "钟摆停在半空，铁屑先落了下来。",
     "special": null,
     "art": "/art/cards/sts2_flame_barrier.webp",
     "artCredit": "local",
@@ -8715,9 +8715,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "手牌中每有一张技能牌，造成5 点伤害。",
     "upgraded": {
-      "description": "造成 7 点伤害。",
+      "description": "手牌中每有一张技能牌，造成7 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9035,7 +9035,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
+    "flavor": "余烬落在手背上，像一枚迟到的印章。",
     "special": null,
     "art": "/art/cards/sts2_forgotten_ritual.webp",
     "artCredit": "local",
@@ -9331,9 +9331,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "造成 5 点伤害。本回合你此前每打出过一张攻击牌，这张牌就额外造成 5 点伤害。",
     "upgraded": {
-      "description": "造成 5 点伤害。",
+      "description": "造成 5 点伤害。本回合你此前每打出过一张攻击牌，这张牌就额外造成 7 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9566,9 +9566,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 5 点格挡。",
+    "description": "获得5 点格挡。\n生成1 个玻璃充能球。",
     "upgraded": {
-      "description": "获得 8 点格挡。",
+      "description": "获得8 点格挡。\n生成1 个玻璃充能球。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9605,9 +9605,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 3 张牌。",
+    "description": "抽3 张牌。\n将你手牌中的1 张牌放到抽牌堆顶部。",
     "upgraded": {
-      "description": "抽 4 张牌。",
+      "description": "抽4 张牌。\n将你手牌中的1 张牌放到抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9620,7 +9620,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "环刃转动时，整座钟楼都成了它的鞘。",
-    "special": null,
+    "special": "glimmer",
     "art": "/art/cards/sts2_glimmer.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/glimmer.webp"
@@ -9727,9 +9727,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 1 张牌。",
+    "description": "获得 1 点星辉。抽 1 张牌。下一回合抽 1 张牌。",
     "upgraded": {
-      "description": "抽 1 张牌。",
+      "description": "获得 2 点星辉。抽 1 张牌。下一回合抽 1 张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9840,9 +9840,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 60 点伤害。",
+    "description": "只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成60 点伤害。",
     "upgraded": {
-      "description": "对所有敌人造成 75 点伤害。",
+      "description": "只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成75 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -9918,9 +9918,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 4 点伤害。消耗。",
+    "description": "造成4 点伤害。\n将弃牌堆中的一张牌放入你的手牌。",
     "upgraded": {
-      "description": "造成 6 点伤害。",
+      "description": "造成6 点伤害。\n将弃牌堆中的一张牌放入你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -9938,7 +9938,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "死亡不是终点，只是一次换班。",
-    "special": null,
+    "special": "graveblast",
     "art": "/art/cards/sts2_graveblast.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/graveblast.webp"
@@ -10006,9 +10006,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将你手牌中的任意张牌变化为「拾油灯」。消耗。",
+    "description": "将你手牌中的任意张牌变化为仆从捐躯。",
     "upgraded": {
-      "description": "将 1 张「拾油灯+」加入手牌。消耗。",
+      "description": "将你手牌中的任意张牌变化为仆从捐躯+。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10242,9 +10242,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 20 点伤害。",
+    "description": "造成20 点伤害。\n斩杀时，获得20金币。",
     "upgraded": {
-      "description": "造成 25 点伤害。",
+      "description": "造成25 点伤害。\n斩杀时，获得25金币。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10554,9 +10554,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 15 点伤害。获得 2 点能量。",
+    "description": "造成15 点伤害。\n在下个回合获得2 点能量。",
     "upgraded": {
-      "description": "造成 18 点伤害。获得 3 点能量。",
+      "description": "造成18 点伤害。\n在下个回合获得3 点能量。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10593,9 +10593,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 20 点伤害。",
+    "description": "造成20 点伤害。\n选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。",
     "upgraded": {
-      "description": "造成 25 点伤害。",
+      "description": "造成25 点伤害。\n选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10632,9 +10632,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 3 点伤害。",
+    "description": "在本回合中，这张牌以外使用的每个1 点能量，都会使此牌造成3 点伤害一次。",
     "upgraded": {
-      "description": "造成 5 点伤害。",
+      "description": "在本回合中，这张牌以外使用的每个1 点能量，都会使此牌造成5 点伤害一次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -10823,9 +10823,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "自身获得 3 层下回合星辉。",
+    "description": "获得 1 点星辉。下回合获得 3 点星辉。",
     "upgraded": {
-      "description": "自身获得 3 层下回合星辉。",
+      "description": "获得 1 点星辉。下回合获得 4 点星辉。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -10936,9 +10936,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "影魔对所有敌人。造成 11 点伤害并给予它们。2层破绽。",
+    "description": "影魔对所有敌人造成 11 点伤害，并给予它们 2 层破绽。",
     "upgraded": {
-      "description": "影魔对所有敌人。造成 13 点伤害并给予它们。3层破绽。",
+      "description": "影魔对所有敌人造成 13 点伤害，并给予它们 3 层破绽。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -10980,9 +10980,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 3 点格挡。消耗。",
+    "description": "获得3 点格挡。\n将弃牌堆中的一张牌放入你的手牌。",
     "upgraded": {
-      "description": "获得 5 点格挡。",
+      "description": "获得5 点格挡。\n将弃牌堆中的一张牌放入你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11000,7 +11000,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "冷却液流过核心，像一条银色的脉搏。",
-    "special": null,
+    "special": "hologram",
     "art": "/art/cards/sts2_hologram.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/hologram.webp"
@@ -11068,9 +11068,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 18 点伤害。",
+    "description": "对所有敌人造成18 点伤害。\n在你的回合结束时，如果这张牌在你的消耗牌堆中，则将其打出。",
     "upgraded": {
-      "description": "对所有敌人造成 24 点伤害。",
+      "description": "对所有敌人造成24 点伤害。\n在你的回合结束时，如果这张牌在你的消耗牌堆中，则将其打出。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -11186,9 +11186,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 10 点格挡。",
+    "description": "获得10 点格挡。\n在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。",
     "upgraded": {
-      "description": "获得 13 点格挡。",
+      "description": "获得13 点格挡。\n在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11225,9 +11225,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 19 点伤害。",
+    "description": "造成19 点伤害。\n生成3 个冰霜充能球。",
     "upgraded": {
-      "description": "造成 24 点伤害。",
+      "description": "造成24 点伤害。\n生成3 个冰霜充能球。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -11310,7 +11310,7 @@
     "targetLabel": "盟友",
     "description": "自身获得 2 层模仿学习。消耗。",
     "upgraded": {
-      "description": "自身获得 2 层模仿学习。消耗。",
+      "description": "自身获得 3 层模仿学习。消耗。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11348,9 +11348,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。",
+    "description": "如果你的手牌中没有攻击牌，抽2 张牌。",
     "upgraded": {
-      "description": "抽 3 张牌。",
+      "description": "如果你的手牌中没有攻击牌，抽3 张牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -11427,7 +11427,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "造成 3 点伤害。无法打出。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，你受到3 点伤害。",
     "upgraded": {
       "description": "造成 3 点伤害。无法打出。",
       "cost": -1,
@@ -11515,9 +11515,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "在你的回合开始时，失去 1 点生命。每当你在你的回合内失去生命时，对所有敌人造成 6 点伤害。",
+    "description": "在你的回合开始时，失去1 点生命。\n每当你在你的回合内失去生命时，对所有敌人造成6 点伤害。",
     "upgraded": {
-      "description": "在你的回合开始时，失去 1 点生命。每当你在你的回合内失去生命时，对所有敌人造成 9 点伤害。",
+      "description": "在你的回合开始时，失去1 点生命。\n每当你在你的回合内失去生命时，对所有敌人造成9 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11569,14 +11569,14 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "她把剂量藏在袖口，像藏起一句道歉。",
-    "special": "infinite_blades",
+    "special": null,
     "art": "/art/cards/sts2_infinite_blades.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/infinite_blades.webp"
   },
   {
     "id": "sts2_inflame",
-    "name": "添一把火",
+    "name": "力量提升",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "uncommon",
@@ -11593,9 +11593,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 2 点力量。",
+    "description": "获得2 点力量。",
     "upgraded": {
-      "description": "获得 3 点力量。",
+      "description": "获得3 点力量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11607,7 +11607,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "钟摆停在半空，铁屑先落了下来。",
     "special": null,
     "art": "/art/cards/sts2_inflame.webp",
     "artCredit": "local",
@@ -11785,9 +11785,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每回合你第一次抽到状态牌时，抽 2 张牌。",
+    "description": "每回合你第一次抽到状态牌时，抽2 张牌。",
     "upgraded": {
-      "description": "每回合你第一次抽到状态牌时，抽 3 张牌。",
+      "description": "每回合你第一次抽到状态牌时，抽3 张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -11860,9 +11860,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 25 点伤害。",
+    "description": "造成25 点伤害。\n将3 张随机0 费的牌加入你的手牌。",
     "upgraded": {
-      "description": "造成 30 点伤害。",
+      "description": "造成30 点伤害。\n将3 张随机升级过的0 费的牌加入你的手牌。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -11977,9 +11977,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 27 点伤害。",
+    "description": "造成27 点伤害。\n每当你抽到这张牌时，这张牌的耗能减少1。",
     "upgraded": {
-      "description": "造成 35 点伤害。",
+      "description": "造成35 点伤害。\n每当你抽到这张牌时，这张牌的耗能减少1。",
       "cost": 4,
       "costLabel": "4"
     },
@@ -12055,9 +12055,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "将 1 张「纸牌连击」加入手牌。",
+    "description": "将你消耗牌堆中的所有纸牌连击对一名敌人打出。",
     "upgraded": {
-      "description": "将 1 张「纸牌连击」加入手牌。",
+      "description": "将你消耗牌堆中的所有纸牌连击升级然后对一名敌人打出。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -12095,9 +12095,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。施加 2 层击倒。",
+    "description": "造成10 点伤害。\n该敌人在本回合受到的来自其他玩家的伤害变为两倍。",
     "upgraded": {
-      "description": "造成 14 点伤害。施加 2 层击倒。",
+      "description": "造成14 点伤害。\n该敌人在本回合受到的来自其他玩家的伤害变为三倍。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -12457,9 +12457,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每回合的第一张攻击牌会造成 50%额外伤害。",
+    "description": "每回合的第一张攻击牌会造成50%额外伤害。",
     "upgraded": {
-      "description": "每回合的第一张攻击牌会造成 75%额外伤害。",
+      "description": "每回合的第一张攻击牌会造成75%额外伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -12536,9 +12536,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 4 点格挡。自身获得 2 层引雷针。",
+    "description": "获得 4 点格挡。在下 2 个回合开始时，生成 1 个闪电充能球。",
     "upgraded": {
-      "description": "获得 7 点格挡。自身获得 2 层引雷针。",
+      "description": "获得 7 点格挡。在下 2 个回合开始时，生成 1 个闪电充能球。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -12658,9 +12658,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 4 点伤害。",
+    "description": "本回合中每打出过一张技能牌，此牌额外造成4 点伤害一次。",
     "upgraded": {
-      "description": "造成 5 点伤害。",
+      "description": "本回合中每打出过一张技能牌，此牌额外造成5 点伤害一次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -12732,7 +12732,7 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 12 点伤害。获得 8 点格挡。",
+    "description": "造成12 点伤害。\n？？？",
     "upgraded": {
       "description": "造成 12 点伤害。获得 8 点格挡。固有。",
       "cost": 1,
@@ -12771,9 +12771,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害。",
+    "description": "造成6 点伤害。\n你每在一回合内打出3 张技能牌，就将这张牌放入你的手牌。",
     "upgraded": {
-      "description": "造成 9 点伤害。",
+      "description": "造成9 点伤害。\n你每在一回合内打出3 张技能牌，就将这张牌放入你的手牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -12893,9 +12893,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 7 点格挡。",
+    "description": "获得7 点格挡。\n将一张随机无色牌加入你的手牌。",
     "upgraded": {
-      "description": "获得 8 点格挡。",
+      "description": "获得8 点格挡。\n将一张随机升级过的无色牌加入你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -13081,9 +13081,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 13 点格挡。获得 1 点能量。",
+    "description": "获得13 点格挡。\n每当有任何生物死亡时，这张牌的耗能减少1 点能量。",
     "upgraded": {
-      "description": "获得 17 点格挡。获得 1 点能量。",
+      "description": "获得17 点格挡。\n每当有任何生物死亡时，这张牌的耗能减少1 点能量。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -13238,9 +13238,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 24 点伤害。",
+    "description": "造成24 点伤害。\n生成3 个等离子充能球。",
     "upgraded": {
-      "description": "造成 30 点伤害。",
+      "description": "造成30 点伤害。\n生成3 个等离子充能球。",
       "cost": 5,
       "costLabel": "5"
     },
@@ -13336,7 +13336,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": true,
-    "flavor": "旅人把这张牌翻过来，背面没有字。",
+    "flavor": "雾里的路标已经锈了，但方向还在。",
     "special": null,
     "art": "/art/cards/sts2_mimic.webp",
     "artCredit": "local",
@@ -13397,7 +13397,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "自身获得 1 层心灵腐化。",
+    "description": "每回合少抽1 张牌。",
     "upgraded": {
       "description": "自身获得 1 层心灵腐化。",
       "cost": -1,
@@ -13658,9 +13658,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 1 张牌。",
+    "description": "获得1 个充能球栏位。\n抽1 张牌。这张牌的耗能加1。",
     "upgraded": {
-      "description": "抽 2 张牌。",
+      "description": "获得1 个充能球栏位。\n抽2 张牌。这张牌的耗能加1。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -13697,9 +13697,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。消耗。",
+    "description": "造成10 点伤害。\n将该敌人身上的破绽层数翻倍。",
     "upgraded": {
-      "description": "造成 14 点伤害。消耗。",
+      "description": "造成14 点伤害。\n将该敌人身上的破绽层数翻倍。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -13729,8 +13729,8 @@
     "typeLabel": "攻击",
     "rarity": "common",
     "rarityLabel": "普通",
-    "cost": 1,
-    "costLabel": "1",
+    "cost": 0,
+    "costLabel": "0",
     "starCost": null,
     "class": "defect",
     "classLabel": "元素魔法师",
@@ -13741,11 +13741,11 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 11 点伤害。",
+    "description": "造成 11 点伤害。这张牌的耗能降为 0。",
     "upgraded": {
-      "description": "造成 15 点伤害。",
-      "cost": 1,
-      "costLabel": "1"
+      "description": "造成 15 点伤害。这张牌的耗能降为 0。",
+      "cost": 0,
+      "costLabel": "0"
     },
     "keywords": [],
     "tags": [
@@ -13955,7 +13955,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "骨手从地里伸出时，先学会了敲门。",
+    "flavor": "死亡不是终点，只是一次换班。",
     "special": null,
     "art": "/art/cards/sts2_necro_mastery.webp",
     "artCredit": "local",
@@ -14015,9 +14015,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。消耗。",
+    "description": "造成10 点伤害。\n将你弃牌堆中的至多2 张牌放入你的手牌。",
     "upgraded": {
-      "description": "造成 14 点伤害。消耗。",
+      "description": "造成14 点伤害。\n将你弃牌堆中的至多3 张牌放入你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -14035,7 +14035,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "有些东西被留在原地，是为了等下一个路过的人。",
-    "special": null,
+    "special": "neowsFury",
     "art": "/art/cards/sts2_neows_fury.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/neows_fury.webp"
@@ -14137,9 +14137,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得8层覆甲。",
+    "description": "获得8 层覆甲。",
     "upgraded": {
-      "description": "获得11层覆甲。",
+      "description": "获得11 层覆甲。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -14220,9 +14220,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "施加 10 层灾厄。",
+    "description": "施加 10 层灾厄；敌人身上每有 10 层灾厄，额外施加 5 层灾厄。",
     "upgraded": {
-      "description": "施加 10 层灾厄。",
+      "description": "施加 15 层灾厄；敌人身上每有 10 层灾厄，额外施加 5 层灾厄。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -14417,9 +14417,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。施加 1 层虚弱。",
+    "description": "造成10 点伤害。\n给予1 层虚弱。\n生成1 个黑暗充能球。",
     "upgraded": {
-      "description": "造成 13 点伤害。施加 2 层虚弱。",
+      "description": "造成13 点伤害。\n给予2 层虚弱。\n生成1 个黑暗充能球。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -14456,9 +14456,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "施加 3 层灾厄。",
+    "description": "打出此牌后，你在本回合内每打出一张牌，就给予该敌人3 层灾厄。",
     "upgraded": {
-      "description": "施加 4 层灾厄。",
+      "description": "打出此牌后，你在本回合内每打出一张牌，就给予该敌人4 层灾厄。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -14471,7 +14471,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
-    "special": null,
+    "special": "oblivion",
     "art": "/art/cards/sts2_oblivion.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/oblivion.webp"
@@ -14574,9 +14574,9 @@
     ],
     "target": "allAllies",
     "targetLabel": "全体盟友",
-    "description": "所有人的0费攻击牌额外造成 3 点伤害。",
+    "description": "所有人的 0 费攻击牌额外造成 3 点伤害。",
     "upgraded": {
-      "description": "所有人的0费攻击牌额外造成 4 点伤害。",
+      "description": "所有人的 0 费攻击牌额外造成 4 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -14726,9 +14726,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 2 点能量。",
+    "description": "在下个回合获得2 点能量。",
     "upgraded": {
-      "description": "获得 3 点能量。",
+      "description": "在下个回合获得3 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -14843,9 +14843,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 18 点伤害。",
+    "description": "如果你的消耗牌堆拥有大于等于3 张牌，\n则对所有敌人造成18 点伤害。",
     "upgraded": {
-      "description": "对所有敌人造成 24 点伤害。",
+      "description": "如果你的消耗牌堆拥有大于等于3 张牌，\n则对所有敌人造成24 点伤害。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -15118,9 +15118,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 9 点格挡。",
+    "description": "获得9 点格挡。\n将此牌返回你的手牌。",
     "upgraded": {
-      "description": "获得 12 点格挡。",
+      "description": "获得12 点格挡。\n将此牌返回你的手牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -15157,9 +15157,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 8 点格挡。自身获得 2 层活力。",
+    "description": "获得8 点格挡。\n获得2 点活力。",
     "upgraded": {
-      "description": "获得 10 点格挡。自身获得 2 层活力。",
+      "description": "获得10 点格挡。\n获得3 点活力。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -15194,7 +15194,7 @@
     "targetLabel": "单体敌人",
     "description": "造成 2 点伤害 3 次。",
     "upgraded": {
-      "description": "造成 2 点伤害 3 次。",
+      "description": "造成 2 点伤害 4 次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -15275,9 +15275,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "小刀获得保留。你在每回合打出的第一张小刀额外造成 9 点伤害。",
+    "description": "纸牌连击获得保留。\n你在每回合打出的第一张纸牌连击额外造成9 点伤害。",
     "upgraded": {
-      "description": "小刀获得保留。你在每回合打出的第一张小刀额外造成 12 点伤害。",
+      "description": "纸牌连击获得保留。\n你在每回合打出的第一张纸牌连击额外造成12 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -15314,9 +15314,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。抽 1 张牌。",
+    "description": "造成10 点伤害。\n抽1 张牌。\n将手牌中的一张牌放到抽牌堆顶部。",
     "upgraded": {
-      "description": "造成 13 点伤害。抽 2 张牌。",
+      "description": "造成13 点伤害。\n抽2 张牌。\n将手牌中的一张牌放到抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -15475,9 +15475,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 15 点伤害。",
+    "description": "造成15 点伤害。\n你在本回合中每打出过一张技能牌，其耗能减少1 费。",
     "upgraded": {
-      "description": "造成 19 点伤害。",
+      "description": "造成19 点伤害。\n你在本回合中每打出过一张技能牌，其耗能减少1 费。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -15611,7 +15611,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "墓碑上的名字被磨平了，契印还在。",
+    "flavor": "死亡不是终点，只是一次换班。",
     "special": null,
     "art": "/art/cards/sts2_poke.webp",
     "artCredit": "local",
@@ -15724,9 +15724,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 14 点伤害。",
+    "description": "造成14 点伤害。\n你的下一张技能牌耗能变为0 费。",
     "upgraded": {
-      "description": "造成 20 点伤害。",
+      "description": "造成20 点伤害。\n你的下一张技能牌耗能变为0 费。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -15763,7 +15763,7 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 13 点伤害。",
+    "description": "造成13 点伤害。\n你的手牌中每有一张牌，此牌的伤害就降低2 点。",
     "upgraded": {
       "description": "造成 16 点伤害。",
       "cost": 0,
@@ -15837,9 +15837,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "在你的回合开始时，获得 4 点活力。",
+    "description": "在你的回合开始时，获得4 点活力。",
     "upgraded": {
-      "description": "在你的回合开始时，获得 6 点活力。",
+      "description": "在你的回合开始时，获得6 点活力。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16092,7 +16092,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "墓碑上的名字被磨平了，契印还在。",
+    "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
     "special": null,
     "art": "/art/cards/sts2_protector.webp",
     "artCredit": "local",
@@ -16152,9 +16152,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 7 点格挡。",
+    "description": "召唤 4 点生命的影魔。获得 7 点格挡。",
     "upgraded": {
-      "description": "获得 9 点格挡。",
+      "description": "召唤 5 点生命的影魔。获得 9 点格挡。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -16191,9 +16191,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "本场战斗中每打出过一张虚无牌，此牌就造成5 点伤害一次。",
     "upgraded": {
-      "description": "造成 7 点伤害。",
+      "description": "本场战斗中每打出过一张虚无牌，此牌就造成7 点伤害一次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16276,7 +16276,7 @@
     "targetLabel": "单体敌人",
     "description": "施加 2 层虚弱。施加 2 层破绽。消耗。",
     "upgraded": {
-      "description": "施加 2 层虚弱。施加 2 层破绽。消耗。",
+      "description": "施加 3 层虚弱。施加 3 层破绽。消耗。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16435,9 +16435,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 3 点伤害。",
+    "description": "你在本回合每获得一点1 点星辉，此牌就对所有敌人造成3 点伤害一次。",
     "upgraded": {
-      "description": "对所有敌人造成 4 点伤害。",
+      "description": "你在本回合每获得一点1 点星辉，此牌就对所有敌人造成4 点伤害一次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -16457,7 +16457,7 @@
   },
   {
     "id": "sts2_rage",
-    "name": "站稳脚",
+    "name": "攻势成盾",
     "type": "skill",
     "typeLabel": "技能",
     "rarity": "uncommon",
@@ -16488,7 +16488,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "余烬落在手背上，像一枚迟到的印章。",
     "special": "ragePower",
     "art": "/art/cards/sts2_rage.webp",
     "artCredit": "local",
@@ -16606,7 +16606,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "钟摆停在半空，铁屑先落了下来。",
+    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
     "special": null,
     "art": "/art/cards/sts2_rampage.webp",
     "artCredit": "local",
@@ -16738,7 +16738,7 @@
     "innate": false,
     "retain": true,
     "multiplayerOnly": false,
-    "flavor": "死亡不是终点，只是一次换班。",
+    "flavor": "墓碑上的名字被磨平了，契印还在。",
     "special": null,
     "art": "/art/cards/sts2_reap.webp",
     "artCredit": "local",
@@ -16841,9 +16841,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 4 张牌。消耗。",
+    "description": "将你的所有未消耗的卡牌重新洗牌放入抽牌堆。\n抽4 张牌。",
     "upgraded": {
-      "description": "抽 6 张牌。消耗。",
+      "description": "将你的所有未消耗的卡牌重新洗牌放入抽牌堆。\n抽6 张牌。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -16881,9 +16881,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。",
+    "description": "造成9 点伤害。\n将你在本回合打出的下一张牌放置到你的抽牌堆顶部。",
     "upgraded": {
-      "description": "造成 12 点伤害。",
+      "description": "造成12 点伤害。\n将你在本回合打出的下一张牌放置到你的抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16920,9 +16920,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点能量。",
+    "description": "铸造8。\n在下个回合获得1 点能量。",
     "upgraded": {
-      "description": "获得 1 点能量。",
+      "description": "铸造12。\n在下个回合获得1 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -16959,9 +16959,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 15 点格挡。",
+    "description": "获得15 点格挡。\n在本回合将你格挡掉的攻击伤害反弹给攻击者。",
     "upgraded": {
-      "description": "获得 20 点格挡。",
+      "description": "获得20 点格挡。\n在本回合将你格挡掉的攻击伤害反弹给攻击者。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -17042,9 +17042,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害 2 次。",
+    "description": "造成10 点伤害两次。\n生成2 个玻璃充能球。",
     "upgraded": {
-      "description": "造成 13 点伤害 2 次。",
+      "description": "造成13 点伤害两次。\n生成2 个玻璃充能球。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -17117,9 +17117,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 16 点格挡。抽 2 张牌。获得 2 点能量。消耗。",
+    "description": "获得16 点格挡。\n下个回合，抽2 张牌并获得2 点能量。",
     "upgraded": {
-      "description": "获得 18 点格挡。抽 3 张牌。获得 3 点能量。消耗。",
+      "description": "获得18 点格挡。\n下个回合，抽3 张牌并获得3 点能量。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -17196,9 +17196,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "自身获得 1 层力量。",
+    "description": "自身获得 1 层力量。所有敌人失去 1 层力量。",
     "upgraded": {
-      "description": "自身获得 1 层力量。",
+      "description": "自身获得 2 层力量。所有敌人失去 1 层力量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -17231,9 +17231,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。获得 2 点能量。保留。",
+    "description": "如果你的手牌为空，则抽2 张牌并获得2 点能量。",
     "upgraded": {
-      "description": "抽 3 张牌。获得 3 点能量。保留。",
+      "description": "如果你的手牌为空，则抽3 张牌并获得3 点能量。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -17277,7 +17277,7 @@
     "targetLabel": "随机敌人",
     "description": "对随机敌人造成 3 点伤害 4 次。奇巧。",
     "upgraded": {
-      "description": "对随机敌人造成 3 点伤害 4 次。奇巧。",
+      "description": "对随机敌人造成 3 点伤害 5 次。奇巧。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -17398,9 +17398,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 13 点伤害。抽 1 张牌。",
+    "description": "造成13 点伤害。\n抽1 张牌。\n每当你生成状态牌时，此牌的耗能将在下一次打出前减少1 费。",
     "upgraded": {
-      "description": "造成 14 点伤害。抽 2 张牌。",
+      "description": "造成14 点伤害。\n抽2 张牌。\n每当你生成状态牌时，此牌的耗能将在下一次打出前减少1 费。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -17433,9 +17433,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "在你的回合开始时，对所有敌人造成 5 点伤害，然后将该伤害增加5点。",
+    "description": "在你的回合开始时，对所有敌人造成5 点伤害，然后将该伤害增加5 点。",
     "upgraded": {
-      "description": "在你的回合开始时，对所有敌人造成 10 点伤害，然后将该伤害增加5点。",
+      "description": "在你的回合开始时，对所有敌人造成10 点伤害，然后将该伤害增加5 点。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -17634,9 +17634,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 12 点伤害。",
+    "description": "造成12 点伤害。\n在本回合保留你的手牌。",
     "upgraded": {
-      "description": "造成 16 点伤害。",
+      "description": "造成16 点伤害。\n在本回合保留你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -17673,9 +17673,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 2 点能量。",
+    "description": "消耗一张牌。\n在下个回合获得2 点能量。",
     "upgraded": {
-      "description": "获得 3 点能量。",
+      "description": "消耗一张牌。\n在下个回合获得3 点能量。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -17874,9 +17874,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 1 张「拆油灯」加入抽牌堆。虚无。",
+    "description": "将你抽牌堆中的一张牌变化为灵魂。",
     "upgraded": {
-      "description": "将 1 张「拆油灯」加入抽牌堆。虚无。费用变为 0。",
+      "description": "将你抽牌堆中的一张牌变化为「拆油灯」。虚无。费用变为 0。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -17932,7 +17932,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "炉火早灭了，铁还在发烫。",
+    "flavor": "余烬落在手背上，像一枚迟到的印章。",
     "special": "exhaustNonAttacks",
     "art": "/art/cards/sts2_second_wind.webp",
     "artCredit": "local",
@@ -18033,9 +18033,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 9 点伤害。",
+    "description": "造成9 点伤害。\n从抽牌堆的随机3 张牌中选择一张加入你的手牌。",
     "upgraded": {
-      "description": "造成 12 点伤害。",
+      "description": "造成12 点伤害。\n从抽牌堆的随机3 张牌中选择一张加入你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -18155,9 +18155,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "你每打出一张牌，就对随机一名敌人造成 4 点伤害。",
+    "description": "你每打出一张牌，就对随机一名敌人造成4 点伤害。",
     "upgraded": {
-      "description": "你每打出一张牌，就对随机一名敌人造成 6 点伤害。",
+      "description": "你每打出一张牌，就对随机一名敌人造成6 点伤害。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -18277,9 +18277,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 13 点伤害。将 1 张「拆油灯」加入弃牌堆。",
+    "description": "造成13 点伤害。\n将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。",
     "upgraded": {
-      "description": "造成 18 点伤害。将 1 张「拆油灯」加入弃牌堆。",
+      "description": "造成18 点伤害。\n将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -18316,9 +18316,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 11 点格挡。",
+    "description": "获得11 点格挡。\n生成1 个黑暗充能球。",
     "upgraded": {
-      "description": "获得 15 点格挡。",
+      "description": "获得15 点格挡。\n生成1 个黑暗充能球。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -18561,9 +18561,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。",
+    "description": "造成8 点伤害。\n获得2 点星辉。\n将这张牌放置于你的抽牌堆顶部。",
     "upgraded": {
-      "description": "造成 11 点伤害。",
+      "description": "造成11 点伤害。\n获得2 点星辉。\n将这张牌放置于你的抽牌堆顶部。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -18648,7 +18648,7 @@
     "targetLabel": "全体敌人",
     "description": "对所有敌人施加 3 层虚弱。对所有敌人施加 3 层破绽。消耗。",
     "upgraded": {
-      "description": "对所有敌人施加 3 层虚弱。对所有敌人施加 3 层破绽。消耗。",
+      "description": "对所有敌人施加 5 层虚弱。对所有敌人施加 5 层破绽。消耗。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -18787,7 +18787,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "骨手从地里伸出时，先学会了敲门。",
+    "flavor": "死亡不是终点，只是一次换班。",
     "special": null,
     "art": "/art/cards/sts2_sic_em.webp",
     "artCredit": "local",
@@ -18812,9 +18812,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点能量。",
+    "description": "下回合，获得1 点能量。",
     "upgraded": {
-      "description": "获得 2 点能量。",
+      "description": "下回合，获得2 点能量。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -18895,9 +18895,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害X次。",
+    "description": "造成 8 点伤害 X 次。",
     "upgraded": {
-      "description": "造成 11 点伤害X次。",
+      "description": "造成 11 点伤害 X 次。",
       "cost": -1,
       "costLabel": "X"
     },
@@ -19126,9 +19126,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当你生成一张状态牌时，对所有敌人造成 5 点伤害。",
+    "description": "每当你生成一张状态牌时，对所有敌人造成5 点伤害。",
     "upgraded": {
-      "description": "每当你生成一张状态牌时，对所有敌人造成 7 点伤害。",
+      "description": "每当你生成一张状态牌时，对所有敌人造成7 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19253,9 +19253,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "每当其他玩家攻击一名敌人时，获得 1 点格挡。",
+    "description": "每当其他玩家攻击一名敌人时，获得1 点格挡。",
     "upgraded": {
-      "description": "每当其他玩家攻击一名敌人时，获得 2 点格挡。",
+      "description": "每当其他玩家攻击一名敌人时，获得2 点格挡。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -19495,7 +19495,7 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。保留。",
+    "description": "造成10 点伤害。",
     "upgraded": {
       "description": "造成 10 点伤害。保留。费用变为 1。",
       "cost": 1,
@@ -19853,9 +19853,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。",
+    "description": "铸造6。\n抽2 张牌。",
     "upgraded": {
-      "description": "抽 2 张牌。",
+      "description": "铸造9。\n抽2 张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -19951,7 +19951,7 @@
     "innate": false,
     "retain": true,
     "multiplayerOnly": false,
-    "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
+    "flavor": "死亡不是终点，只是一次换班。",
     "special": "summon",
     "art": "/art/cards/sts2_spur.webp",
     "artCredit": "local",
@@ -20030,7 +20030,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "灯芯一亮，影子便替她站了起来。",
+    "flavor": "墓碑上的名字被磨平了，契印还在。",
     "special": null,
     "art": "/art/cards/sts2_squeeze.webp",
     "artCredit": "local",
@@ -20207,9 +20207,9 @@
     ],
     "target": "all",
     "targetLabel": "全体敌人",
-    "description": "对所有敌人造成 12 点伤害。",
+    "description": "对所有敌人造成12 点伤害。\n你在本回合中每打出过一张攻击牌，其耗能减少1 费。",
     "upgraded": {
-      "description": "对所有敌人造成 15 点伤害。",
+      "description": "对所有敌人造成15 点伤害。\n你在本回合中每打出过一张攻击牌，其耗能减少1 费。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -20246,9 +20246,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得4层覆甲。",
+    "description": "获得4 层覆甲。",
     "upgraded": {
-      "description": "获得6层覆甲。",
+      "description": "获得6 层覆甲。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -20363,9 +20363,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 8 点伤害。施加 2 层紧勒。",
+    "description": "造成8 点伤害。\n你在这个回合内每出一张牌，该名敌人都会失去2 点生命。",
     "upgraded": {
-      "description": "造成 10 点伤害。施加 2 层紧勒。",
+      "description": "造成10 点伤害。\n你在这个回合内每出一张牌，该名敌人都会失去3 点生命。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -20544,7 +20544,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "灯芯一亮，影子便替她站了起来。",
+    "flavor": "死亡不是终点，只是一次换班。",
     "special": null,
     "art": "/art/cards/sts2_strike_necrobinder.webp",
     "artCredit": "local",
@@ -20632,7 +20632,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "雾里没有脚步声，只有倒下的影子。",
+    "flavor": "她把剂量藏在袖口，像藏起一句道歉。",
     "special": null,
     "art": "/art/cards/sts2_strike_silent.webp",
     "artCredit": "local",
@@ -20857,9 +20857,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "造成 5 点伤害。你在本场战斗中每生成过一张牌，这张牌就额外造成 3 点伤害。",
     "upgraded": {
-      "description": "造成 5 点伤害。",
+      "description": "造成 5 点伤害。你在本场战斗中每生成过一张牌，这张牌就额外造成 4 点伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -21069,7 +21069,7 @@
     "targetLabel": "随机敌人",
     "description": "对随机敌人造成 3 点伤害 3 次。",
     "upgraded": {
-      "description": "对随机敌人造成 3 点伤害 3 次。",
+      "description": "对随机敌人造成 3 点伤害 4 次。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -21184,9 +21184,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 14 点伤害。",
+    "description": "造成14 点伤害。\n你打出的下一张能力牌耗能变为0 费。",
     "upgraded": {
-      "description": "造成 20 点伤害。",
+      "description": "造成20 点伤害。\n你打出的下一张能力牌耗能变为0 费。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -21285,7 +21285,7 @@
   },
   {
     "id": "sts2_tank",
-    "name": "暗燃风箱",
+    "name": "守护之誓",
     "type": "power",
     "typeLabel": "能力",
     "rarity": "rare",
@@ -21316,7 +21316,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": true,
-    "flavor": "余烬落在手背上，像一枚迟到的印章。",
+    "flavor": "炉火早灭了，铁还在发烫。",
     "special": "unsupported",
     "art": "/art/cards/sts2_tank.webp",
     "artCredit": "local",
@@ -21380,9 +21380,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 5 点伤害。",
+    "description": "造成 5 点伤害。在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。",
     "upgraded": {
-      "description": "造成 7 点伤害。",
+      "description": "造成 7 点伤害。在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -21460,7 +21460,7 @@
     "targetLabel": "自身",
     "description": "自身获得 7 层活力。",
     "upgraded": {
-      "description": "自身获得 7 层活力。",
+      "description": "自身获得 10 层活力。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -21497,9 +21497,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 3 点伤害。",
+    "description": "造成3 点伤害。\n对该敌人触发你的所有闪电充能球的被动。",
     "upgraded": {
-      "description": "造成 4 点伤害。",
+      "description": "造成4 点伤害。\n对该敌人触发你的所有闪电充能球的被动两次。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -21532,9 +21532,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。",
+    "description": "造成 10 点伤害。本场战斗中，这张牌的伤害增加 10。",
     "upgraded": {
-      "description": "造成 10 点伤害。",
+      "description": "造成 10 点伤害。本场战斗中，这张牌的伤害增加 15。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -21803,9 +21803,9 @@
     "classAccent": null,
     "target": "self",
     "targetLabel": "自身",
-    "description": "抽 2 张牌。消耗。",
+    "description": "抽2 张牌。\n将手牌中的一张牌放到你的抽牌堆的顶端。",
     "upgraded": {
-      "description": "抽 2 张牌。",
+      "description": "抽 2 张牌。将手牌中的一张牌放到你的抽牌堆的顶端。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -21823,7 +21823,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "一枚硬币、半张车票，换一个继续走下去的理由。",
-    "special": null,
+    "special": "thinkingAhead",
     "art": "/art/cards/sts2_thinking_ahead.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/thinking_ahead.webp"
@@ -21847,9 +21847,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 4 点伤害 2 次。",
+    "description": "造成4 点伤害两次。\n消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。",
     "upgraded": {
-      "description": "造成 6 点伤害 2 次。",
+      "description": "造成6 点伤害两次。\n消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -21882,9 +21882,9 @@
     "classAccent": null,
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 11 点伤害。",
+    "description": "造成11 点伤害。\n在你的下个回合开始时，将此卡返回你的手牌。",
     "upgraded": {
-      "description": "造成 14 点伤害。",
+      "description": "造成14 点伤害。\n在你的下个回合开始时，将此卡返回你的手牌。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -22108,7 +22108,7 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "造成 5 点伤害。消耗。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，你受到5 点伤害。",
     "upgraded": {
       "description": "造成 5 点伤害。消耗。",
       "cost": 1,
@@ -22191,9 +22191,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 1 点能量。消耗。",
+    "description": "给一张手牌添加重放。\n其耗能增加1 费。",
     "upgraded": {
-      "description": "获得 1 点能量。",
+      "description": "给一张手牌添加重放。其耗能增加 1。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -22211,7 +22211,7 @@
     "retain": false,
     "multiplayerOnly": false,
     "flavor": "死亡不是终点，只是一次换班。",
-    "special": null,
+    "special": "transfigure",
     "art": "/art/cards/sts2_transfigure.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/transfigure.webp"
@@ -22603,9 +22603,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得 7 点格挡。",
+    "description": "获得7 点格挡。\n在弃牌堆放入一张此牌的复制品。",
     "upgraded": {
-      "description": "获得 9 点格挡。",
+      "description": "获得9 点格挡。\n在弃牌堆放入一张此牌的复制品。",
       "cost": 0,
       "costLabel": "0"
     },
@@ -22688,7 +22688,7 @@
     "targetLabel": "单体敌人",
     "description": "影魔造成 6 点伤害。这张牌额外造成等量于影魔当前生命值的伤害。",
     "upgraded": {
-      "description": "影魔造成 6 点伤害。这张牌额外造成等量于影魔当前生命值的伤害。",
+      "description": "影魔造成 9 点伤害。这张牌额外造成等量于影魔当前生命值的伤害。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -22705,7 +22705,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "黑纱下面，藏着一条不肯散去的魂火。",
+    "flavor": "骨手从地里伸出时，先学会了敲门。",
     "special": null,
     "art": "/art/cards/sts2_unleash.webp",
     "artCredit": "local",
@@ -22769,9 +22769,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 14 点伤害。",
+    "description": "造成14 点伤害。\n你打出的下一张攻击牌耗能变为0 费。",
     "upgraded": {
-      "description": "造成 20 点伤害。",
+      "description": "造成20 点伤害。\n你打出的下一张攻击牌耗能变为0 费。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -22852,9 +22852,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "将 3 张「纸牌连击」加入手牌。",
+    "description": "将3 张纸牌连击加入你的手牌。\n这张牌的耗能减少1。",
     "upgraded": {
-      "description": "将 4 张「纸牌连击」加入手牌。",
+      "description": "将4 张纸牌连击加入你的手牌。\n这张牌的耗能减少1。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -22930,9 +22930,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 6 点伤害 2 次。",
+    "description": "造成6 点伤害两次。\n随机打出你的抽牌堆中的1 张攻击牌。",
     "upgraded": {
-      "description": "造成 8 点伤害 2 次。",
+      "description": "造成8 点伤害两次。\n随机打出你的抽牌堆中的1 张攻击牌。",
       "cost": 2,
       "costLabel": "2"
     },
@@ -22969,9 +22969,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 10 点伤害。",
+    "description": "造成10 点伤害。\n你打出的下一张虚无牌耗能变为0 费。",
     "upgraded": {
-      "description": "造成 13 点伤害。",
+      "description": "造成13 点伤害。\n你打出的下一张虚无牌耗能变为0 费。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -23061,7 +23061,7 @@
     "innate": false,
     "retain": false,
     "multiplayerOnly": false,
-    "flavor": "他把这一下练了十年，只为了让钟声晚一点响。",
+    "flavor": "炉火早灭了，铁还在发烫。",
     "special": null,
     "art": "/art/cards/sts2_vicious.webp",
     "artCredit": "local",
@@ -23082,9 +23082,9 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "获得 1 点能量。虚无；无法打出。",
+    "description": "每当你抽到这张牌时，失去 1 点能量。虚无；无法打出。",
     "upgraded": {
-      "description": "获得 1 点能量。虚无；无法打出。",
+      "description": "每当你抽到这张牌时，失去 1 点能量。虚无；无法打出。",
       "cost": -1,
       "costLabel": "-1"
     },
@@ -23530,9 +23530,9 @@
     "classAccent": null,
     "target": "none",
     "targetLabel": "无目标",
-    "description": "造成 3 点伤害。无法打出。",
+    "description": "在你的回合结束时，如果这张牌在你的手牌中，你受到3 点伤害。",
     "upgraded": {
-      "description": "造成 6 点伤害。无法打出。",
+      "description": "在你的回合结束时，如果这张牌在你的手牌中，你受到6 点伤害。",
       "cost": -1,
       "costLabel": "-1"
     },
@@ -23614,9 +23614,9 @@
     ],
     "target": "self",
     "targetLabel": "自身",
-    "description": "获得2虚体。在你的回合开始时，失去 1 点敏捷。",
+    "description": "获得 2 层虚体。在你的回合开始时，失去 1 点敏捷。",
     "upgraded": {
-      "description": "获得3虚体。在你的回合开始时，失去 1 点敏捷。",
+      "description": "获得 3 层虚体。在你的回合开始时，失去 1 点敏捷。",
       "cost": 3,
       "costLabel": "3"
     },
@@ -23697,9 +23697,9 @@
     ],
     "target": "enemy",
     "targetLabel": "单体敌人",
-    "description": "造成 7 点伤害。",
+    "description": "造成7 点伤害。\n铸造7。",
     "upgraded": {
-      "description": "造成 9 点伤害。",
+      "description": "造成9 点伤害。\n铸造9。",
       "cost": 1,
       "costLabel": "1"
     },
@@ -23792,41 +23792,6 @@
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/mad_science_attack.webp"
   },
   {
-    "id": "sts2_mad_science_skill",
-    "name": "雾撞·护具",
-    "type": "skill",
-    "typeLabel": "技能",
-    "rarity": "event",
-    "rarityLabel": "事件",
-    "cost": 1,
-    "costLabel": "1",
-    "starCost": null,
-    "class": "event",
-    "classLabel": "事件",
-    "classAccent": null,
-    "target": "self",
-    "targetLabel": "自身",
-    "description": "打造时间定制的技能牌：获得 8 点格挡，并附带所选 rider。",
-    "upgraded": {
-      "description": "造成 12 点伤害。获得 8 点格挡。固有。",
-      "cost": 1,
-      "costLabel": "1"
-    },
-    "keywords": [],
-    "tags": [],
-    "exhaust": false,
-    "ethereal": false,
-    "unplayable": false,
-    "innate": false,
-    "retain": false,
-    "multiplayerOnly": false,
-    "flavor": "有些东西被留在原地，是为了等下一个路过的人。",
-    "special": "madScience",
-    "art": "/art/cards/sts2_mad_science_skill.webp",
-    "artCredit": "local",
-    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/mad_science_attack.webp"
-  },
-  {
     "id": "sts2_mad_science_power",
     "name": "雾撞·装置",
     "type": "power",
@@ -23858,6 +23823,41 @@
     "flavor": "有些东西被留在原地，是为了等下一个路过的人。",
     "special": "madScience",
     "art": "/art/cards/sts2_mad_science_power.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/mad_science_attack.webp"
+  },
+  {
+    "id": "sts2_mad_science_skill",
+    "name": "雾撞·护具",
+    "type": "skill",
+    "typeLabel": "技能",
+    "rarity": "event",
+    "rarityLabel": "事件",
+    "cost": 1,
+    "costLabel": "1",
+    "starCost": null,
+    "class": "event",
+    "classLabel": "事件",
+    "classAccent": null,
+    "target": "self",
+    "targetLabel": "自身",
+    "description": "打造时间定制的技能牌：获得 8 点格挡，并附带所选 rider。",
+    "upgraded": {
+      "description": "造成 12 点伤害。获得 8 点格挡。固有。",
+      "cost": 1,
+      "costLabel": "1"
+    },
+    "keywords": [],
+    "tags": [],
+    "exhaust": false,
+    "ethereal": false,
+    "unplayable": false,
+    "innate": false,
+    "retain": false,
+    "multiplayerOnly": false,
+    "flavor": "有些东西被留在原地，是为了等下一个路过的人。",
+    "special": "madScience",
+    "art": "/art/cards/sts2_mad_science_skill.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/cards/mad_science_attack.webp"
   }

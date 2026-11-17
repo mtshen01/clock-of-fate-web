@@ -1,7 +1,7 @@
 {
-  "version": "20261104-cd8d1c3b",
-  "contentHash": "cd8d1c3bb5c9611347e8ab7d9a179a1b5a601bedddffc7c56f9f50d2b23ddd10",
-  "builtAt": "2026-11-04T13:21:12.665Z",
+  "version": "20261117-fcbac1e4",
+  "contentHash": "fcbac1e4a15e6a53f5da56a2da481ba214ba80542a02a11531901f611015f73b",
+  "builtAt": "2026-11-17T03:50:49.459Z",
   "gameVersion": "v0.111.0",
   "counts": {
     "cards": 598,
@@ -21,7 +21,8 @@
         228,
         182,
         105
-      ]
+      ],
+      "portrait": "/art/heroes/emberforged.webp"
     },
     {
       "id": "apothecary",
@@ -31,7 +32,8 @@
         122,
         196,
         128
-      ]
+      ],
+      "portrait": "/art/heroes/apothecary.webp"
     },
     {
       "id": "clockwright",
@@ -41,7 +43,8 @@
         112,
         164,
         224
-      ]
+      ],
+      "portrait": "/art/heroes/clockwright.webp"
     },
     {
       "id": "lamplighter",
@@ -51,7 +54,8 @@
         172,
         132,
         214
-      ]
+      ],
+      "portrait": "/art/heroes/lamplighter.webp"
     },
     {
       "id": "regent",
@@ -61,7 +65,8 @@
         206,
         176,
         90
-      ]
+      ],
+      "portrait": "/art/heroes/regent.webp"
     }
   ],
   "acts": [

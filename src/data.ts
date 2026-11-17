@@ -13,7 +13,7 @@ export interface Meta {
   builtAt: string;
   gameVersion: string;
   counts: Record<CategoryId, number>;
-  heroes: Array<{ id: string; name: string; className: string; accent: number[] }>;
+  heroes: Array<{ id: string; name: string; className: string; accent: number[]; portrait?: string | null }>;
   acts: Array<{ id: string; name: string; index: number }>;
 }
 
@@ -100,6 +100,35 @@ export interface Monster {
   art: string | null;
   artCredit: 'local' | 'reference' | null;
   referenceUrl: string;
+}
+
+export const MOTION_ACTION_IDS = ['idle', 'attack', 'defense', 'hit', 'cast', 'death'] as const;
+export type MotionActionId = (typeof MOTION_ACTION_IDS)[number];
+
+export interface MonsterMotionAction {
+  sheet: string;
+  cols: number;
+  rows: number;
+  frameCount: number;
+  fps: number;
+  loop: boolean;
+  holdLast: boolean;
+}
+
+export interface MonsterMotion {
+  source: string;
+  frameWidth: number;
+  frameHeight: number;
+  width: number;
+  height: number;
+  actions: Partial<Record<MotionActionId, MonsterMotionAction>>;
+}
+
+export interface MotionIndex {
+  version: number;
+  frameSize: number;
+  generatedAt?: string;
+  monsters: Record<string, MonsterMotion>;
 }
 
 export interface Power {
@@ -256,6 +285,34 @@ export const CLASS_LABELS: Record<string, string> = {
   quest: '任务',
   token: '衍生',
 };
+
+/** 可操作英雄的展示顺序。 */
+export const HERO_CLASS_ORDER = ['ironclad', 'silent', 'defect', 'necrobinder', 'regent'] as const;
+
+/** 游戏内 hero id 与卡牌职业字段的对应关系。 */
+export const HERO_ID_BY_CLASS: Record<string, string> = {
+  ironclad: 'emberforged',
+  silent: 'apothecary',
+  defect: 'clockwright',
+  necrobinder: 'lamplighter',
+  regent: 'regent',
+};
+
+export const HERO_CLASS_BY_ID: Record<string, string> = Object.fromEntries(
+  Object.entries(HERO_ID_BY_CLASS).map(([className, heroId]) => [heroId, className]),
+);
+
+export function heroPortrait(heroId: string): string {
+  return `/art/heroes/${encodeURIComponent(heroId)}.webp`;
+}
+
+export function accentHex(accent: number[] | null | undefined): string | null {
+  if (!accent || accent.length < 3) return null;
+  return `#${accent
+    .slice(0, 3)
+    .map((channel) => Math.max(0, Math.min(255, Math.round(channel))).toString(16).padStart(2, '0'))
+    .join('')}`;
+}
 
 export const CARD_TYPE_LABELS: Record<string, string> = {
   attack: '攻击',
@@ -672,67 +729,80 @@ export function normalizeContentBundle(bundle: ContentBundle, artIndex?: ArtInde
   const intents = section<RawIntent>(bundle.data, 'content/intents');
   const encounters = section<RawEncounter>(bundle.data, 'content/encounters');
 
-  const heroByClass = new Map(heroes.map((hero) => [hero.className, hero]));
+  const heroByClass = new Map<string, RawHero>();
+  for (const hero of heroes) {
+    // 接口与静态快照可能分别使用英雄 id / 职业 id，两种键都登记。
+    heroByClass.set(hero.className, hero);
+    heroByClass.set(HERO_CLASS_BY_ID[hero.className] ?? hero.className, hero);
+  }
   const actNameMap = new Map(acts.map((act) => [act.index, act.name]));
   const intentMap = new Map(intents.map((intent) => [intent.id, intent]));
   const encounterMap = new Map(encounters.map((encounter) => [encounter.id, encounter.name]));
   const powerName = powerNameMap(powers);
 
-  const cardItems: Card[] = cards.map((card) => ({
-    id: card.id,
-    name: card.name,
-    type: card.type,
-    typeLabel: label(CARD_TYPE_LABELS, card.type),
-    rarity: card.rarity,
-    rarityLabel: label(CARD_RARITY_LABELS, card.rarity),
-    cost: card.cost,
-    costLabel: card.xCost ? 'X' : String(card.cost),
-    starCost: card.starCost ?? null,
-    class: card.class,
-    classLabel: heroByClass.get(card.class)?.name || label(CLASS_LABELS, card.class),
-    classAccent: heroByClass.get(card.class)?.accent || null,
-    target: card.target,
-    targetLabel: label(TARGET_LABELS, card.target),
-    description: card.description,
-    upgraded: {
-      description: card.upgraded?.description ?? card.description,
-      cost: card.upgraded?.cost ?? card.cost,
-      costLabel: card.xCost ? 'X' : String(card.upgraded?.cost ?? card.cost),
-    },
-    keywords: (card.keywords ?? []).map((keyword) => ({ id: keyword, label: label(KEYWORD_LABELS, keyword) })),
-    tags: (card.tags ?? []).map((tag) => ({ id: tag, label: label(TAG_LABELS, tag) })),
-    exhaust: !!card.exhaust,
-    ethereal: !!card.ethereal,
-    unplayable: !!card.unplayable,
-    innate: (card.keywords ?? []).includes('innate'),
-    retain: (card.keywords ?? []).includes('retain'),
-    multiplayerOnly: !!card.multiplayerOnly,
-    flavor: card.flavor || '',
-    special: card.special || null,
-    art: artInfo(artIndex, 'cards', card.id).art,
-    artCredit: artInfo(artIndex, 'cards', card.id).artCredit,
-    referenceUrl: sourceUrl(card.image),
-  }));
+  const cardItems: Card[] = cards.map((card) => {
+    // 线上接口的卡牌 class 可能是 hero id；统一归一成职业 id 后再进入筛选。
+    const cardClass = HERO_CLASS_BY_ID[card.class] ?? card.class;
+    const hero = heroByClass.get(card.class) ?? heroByClass.get(cardClass);
+    return {
+      id: card.id,
+      name: card.name,
+      type: card.type,
+      typeLabel: label(CARD_TYPE_LABELS, card.type),
+      rarity: card.rarity,
+      rarityLabel: label(CARD_RARITY_LABELS, card.rarity),
+      cost: card.cost,
+      costLabel: card.xCost ? 'X' : String(card.cost),
+      starCost: card.starCost ?? null,
+      class: cardClass,
+      classLabel: hero?.name || label(CLASS_LABELS, cardClass),
+      classAccent: hero?.accent || null,
+      target: card.target,
+      targetLabel: label(TARGET_LABELS, card.target),
+      description: card.description,
+      upgraded: {
+        description: card.upgraded?.description ?? card.description,
+        cost: card.upgraded?.cost ?? card.cost,
+        costLabel: card.xCost ? 'X' : String(card.upgraded?.cost ?? card.cost),
+      },
+      keywords: (card.keywords ?? []).map((keyword) => ({ id: keyword, label: label(KEYWORD_LABELS, keyword) })),
+      tags: (card.tags ?? []).map((tag) => ({ id: tag, label: label(TAG_LABELS, tag) })),
+      exhaust: !!card.exhaust,
+      ethereal: !!card.ethereal,
+      unplayable: !!card.unplayable,
+      innate: (card.keywords ?? []).includes('innate'),
+      retain: (card.keywords ?? []).includes('retain'),
+      multiplayerOnly: !!card.multiplayerOnly,
+      flavor: card.flavor || '',
+      special: card.special || null,
+      art: artInfo(artIndex, 'cards', card.id).art,
+      artCredit: artInfo(artIndex, 'cards', card.id).artCredit,
+      referenceUrl: sourceUrl(card.image),
+    };
+  });
 
-  const relicItems: Relic[] = relics.map((relic) => ({
-    id: relic.id,
-    name: relic.name,
-    rarity: relic.rarity,
-    rarityLabel: relic.rarityLabel || label(RELIC_RARITY_LABELS, relic.rarity),
-    description: relic.description,
-    flavor: relic.flavor || '',
-    price: relic.price ?? 0,
-    pool: relic.pool,
-    poolLabel: relic.pool === 'shared' ? '通用' : heroByClass.get(relic.pool)?.name || label(CLASS_LABELS, relic.pool),
-    triggers: (relic.triggers ?? []).map((trigger) => ({
-      trigger: trigger.trigger,
-      label: label(TRIGGER_LABELS, trigger.trigger, trigger.trigger),
-      effects: (trigger.effects ?? []).length,
-    })),
-    art: artInfo(artIndex, 'relics', relic.id).art,
-    artCredit: artInfo(artIndex, 'relics', relic.id).artCredit,
-    referenceUrl: sourceUrl(relic.image),
-  }));
+  const relicItems: Relic[] = relics.map((relic) => {
+    const pool = relic.pool === 'shared' ? 'shared' : HERO_CLASS_BY_ID[relic.pool] ?? relic.pool;
+    return {
+      id: relic.id,
+      name: relic.name,
+      rarity: relic.rarity,
+      rarityLabel: relic.rarityLabel || label(RELIC_RARITY_LABELS, relic.rarity),
+      description: relic.description,
+      flavor: relic.flavor || '',
+      price: relic.price ?? 0,
+      pool,
+      poolLabel: pool === 'shared' ? '通用' : heroByClass.get(relic.pool)?.name || label(CLASS_LABELS, pool),
+      triggers: (relic.triggers ?? []).map((trigger) => ({
+        trigger: trigger.trigger,
+        label: label(TRIGGER_LABELS, trigger.trigger, trigger.trigger),
+        effects: (trigger.effects ?? []).length,
+      })),
+      art: artInfo(artIndex, 'relics', relic.id).art,
+      artCredit: artInfo(artIndex, 'relics', relic.id).artCredit,
+      referenceUrl: sourceUrl(relic.image),
+    };
+  });
 
   const monsterItems: Monster[] = monsters.map((monster) => {
     const moves = (monster.moves ?? []).map((move) => {
@@ -845,22 +915,25 @@ export function normalizeContentBundle(bundle: ContentBundle, artIndex?: ArtInde
     referenceUrl: sourceUrl(enchantment.image),
   }));
 
-  const potionItems: Potion[] = potions.map((potion) => ({
-    id: potion.id,
-    name: potion.name,
-    rarity: potion.rarity,
-    rarityLabel: potion.rarityLabel || label(POTION_RARITY_LABELS, potion.rarity),
-    price: potion.price ?? 0,
-    description: potion.description,
-    target: potion.target,
-    targetLabel: label(TARGET_LABELS, potion.target),
-    pool: potion.pool,
-    poolLabel: potion.pool === 'shared' ? '通用' : heroByClass.get(potion.pool)?.name || label(CLASS_LABELS, potion.pool),
-    usableOutsideBattle: !!potion.usableOutsideBattle,
-    art: artInfo(artIndex, 'potions', potion.id).art,
-    artCredit: artInfo(artIndex, 'potions', potion.id).artCredit,
-    referenceUrl: sourceUrl(potion.image),
-  }));
+  const potionItems: Potion[] = potions.map((potion) => {
+    const pool = potion.pool === 'shared' ? 'shared' : HERO_CLASS_BY_ID[potion.pool] ?? potion.pool;
+    return {
+      id: potion.id,
+      name: potion.name,
+      rarity: potion.rarity,
+      rarityLabel: potion.rarityLabel || label(POTION_RARITY_LABELS, potion.rarity),
+      price: potion.price ?? 0,
+      description: potion.description,
+      target: potion.target,
+      targetLabel: label(TARGET_LABELS, potion.target),
+      pool,
+      poolLabel: pool === 'shared' ? '通用' : heroByClass.get(potion.pool)?.name || label(CLASS_LABELS, pool),
+      usableOutsideBattle: !!potion.usableOutsideBattle,
+      art: artInfo(artIndex, 'potions', potion.id).art,
+      artCredit: artInfo(artIndex, 'potions', potion.id).artCredit,
+      referenceUrl: sourceUrl(potion.image),
+    };
+  });
 
   const modifierItems: Modifier[] = modifiers.map((modifier) => ({
     id: modifier.id,
@@ -888,8 +961,9 @@ export function normalizeContentBundle(bundle: ContentBundle, artIndex?: ArtInde
       heroes: heroes.map((hero) => ({
         id: hero.id,
         name: hero.name,
-        className: hero.className,
+        className: HERO_CLASS_BY_ID[hero.className] ?? hero.className,
         accent: hero.accent,
+        portrait: artInfo(artIndex, 'heroes', hero.id).art ?? heroPortrait(hero.id),
       })),
       acts: acts.map((act) => ({ id: act.id, name: act.name, index: act.index })),
     },
@@ -917,6 +991,21 @@ async function loadArtIndex(): Promise<ArtIndex | undefined> {
   } catch {
     return undefined;
   }
+}
+
+let motionIndex: Promise<MotionIndex | null> | null = null;
+
+/** 动作帧清单独立于内容接口，接口可用时也能加载。 */
+export function loadMotionIndex(): Promise<MotionIndex | null> {
+  if (!motionIndex) {
+    motionIndex = fetch('/data/motions.json')
+      .then((response) => (response.ok ? (response.json() as Promise<MotionIndex>) : null))
+      .catch(() => {
+        motionIndex = null;
+        return null;
+      });
+  }
+  return motionIndex;
 }
 
 function loadApiContent(): Promise<NormalizedContent> {

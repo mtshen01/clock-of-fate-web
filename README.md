@@ -1,6 +1,6 @@
 # 停摆之钟 · 万象档案
 
-《停摆之钟》的线上资料库：筛选与查阅全部**卡牌 / 遗物 / 生物 / 状态 / 附魔 / 道具 / 每日挑战**。
+《停摆之钟》的线上资料库：筛选与查阅全部**卡牌 / 遗物 / 生物 / 状态 / 附魔 / 道具 / 每日挑战**。卡牌支持按英雄筛选，移动端提供全宽检索与筛选条；详情页可左右滑动逐张翻阅卡牌。生物详情支持逐招预览待机、攻击、防御、受击、施法、死亡动作。
 
 - 线上地址：<https://www.tbzz1.online/>（域名 HTTP 自动跳转 HTTPS；IP 访问 <http://121.43.110.17/> 保留）
 - 备案号：晋ICP备2026017220号
@@ -15,6 +15,7 @@
 | 卡牌 | 598 |
 | 遗物 | 298 |
 | 生物 | 116 |
+| 生物动作 | 659 段（116 个生物） |
 | 状态 | 265 |
 | 附魔 | 22 |
 | 道具（药水） | 64 |
@@ -46,8 +47,9 @@ $env:GAME_ROOT="D:\path\to\sljt-demo"; npm run sync
 1. 读取 `data/content/*.json`、`data/heroes/heroes.json`、`server/content/manifest.json`；
 2. 把数据归一化为 `public/data/*.json`（作为接口不可用时的回退快照）；
 3. 生成 `public/data/art.json`，记录每件美术的路径与来源（本地 / 参考图）；
-4. 把卡面、遗物、药水、附魔、状态图标、生物立绘压缩为 WebP 输出到 `public/art/`；
-5. 少量本地缺失的生物/状态使用 `docs/assets/asset-manifest.json` 中的参考图补齐，并缓存到 `.cache/remote/`。
+4. 把卡面、英雄头像、遗物、药水、附魔、状态图标、生物立绘压缩为 WebP 输出到 `public/art/`；
+5. 读取 `monster-frames-v3` / `expanded-actions-v1` / `boss-frames-v1` / `elite-frames-v1` 的动作清单，把帧序列拼成精灵图输出到 `public/art/motion/`，并生成 `public/data/motions.json`；
+6. 少量本地缺失的生物/状态使用 `docs/assets/asset-manifest.json` 中的参考图补齐，并缓存到 `.cache/remote/`。
 
 强制重新生成全部图片：
 
@@ -56,7 +58,7 @@ npm run sync -- --force
 ```
 
 > 生成物（`public/data/`、`public/art/`）随仓库提交，部署时不需要游戏仓库。
-> 文字数据以服务端接口为准，改卡名/文案后只需重新构建并部署服务端内容包，不必重新同步本站；新增或替换美术时仍需要执行 `npm run sync`。
+> 文字数据以服务端接口为准，改卡名/文案后只需重新构建并部署服务端内容包，不必重新同步本站；新增或替换美术、动作帧时仍需执行 `npm run sync`。静态美术会优先使用较新的本地源并自动重建，动作精灵图仍按缺省跳过已有文件，替换动作帧时请加 `--force`。
 
 ## 运行时数据
 

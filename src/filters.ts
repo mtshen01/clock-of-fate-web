@@ -1,4 +1,5 @@
 export interface FilterState {
+  hero: string;
   cls: string;
   type: string;
   rarity: string;
@@ -16,6 +17,8 @@ export interface FilterOption {
   value: string;
   label: string;
   count?: number;
+  accent?: string;
+  portrait?: string;
 }
 
 export interface FilterGroup {
@@ -23,9 +26,11 @@ export interface FilterGroup {
   label: string;
   options: FilterOption[];
   quick?: boolean;
+  variant?: 'hero';
 }
 
 export const EMPTY_FILTERS: FilterState = {
+  hero: '',
   cls: '',
   type: '',
   rarity: '',

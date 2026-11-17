@@ -436,7 +436,7 @@
     "name": "污浊药水",
     "rarity": "special",
     "rarityLabel": "事件",
-    "price": 50,
+    "price": 300,
     "description": "对所有玩家和敌人造成12点伤害。\n也可以投掷给商人换取100金币。",
     "target": "all",
     "targetLabel": "全体敌人",

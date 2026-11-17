@@ -2663,7 +2663,7 @@
   },
   {
     "id": "sts2_eye_with_teeth",
-    "name": "利齿之眼",
+    "name": "惑光苞",
     "act": 1,
     "actLabel": "第一幕",
     "actSubtitle": "翠蚀林海 · 潮蚀港",
@@ -2710,7 +2710,7 @@
       }
     ],
     "art": "/art/monsters/sts2_eye_with_teeth.webp",
-    "artCredit": "local",
+    "artCredit": "reference",
     "referenceUrl": "https://spire-codex.com/static/images/monsters/eye_with_teeth.webp"
   },
   {
@@ -3169,7 +3169,7 @@
       }
     ],
     "art": "/art/monsters/sts2_flyconid.webp",
-    "artCredit": "local",
+    "artCredit": "reference",
     "referenceUrl": "https://spire-codex.com/static/images/monsters/flyconid.webp"
   },
   {
@@ -3589,7 +3589,7 @@
       }
     ],
     "art": "/art/monsters/sts2_fuzzy_wurm_crawler.webp",
-    "artCredit": "local",
+    "artCredit": "reference",
     "referenceUrl": "https://spire-codex.com/static/images/monsters/fuzzy_wurm_crawler.webp"
   },
   {
@@ -3653,7 +3653,7 @@
   },
   {
     "id": "sts2_globe_head",
-    "name": "电球颅",
+    "name": "弧光魔灵",
     "act": 3,
     "actLabel": "第三幕",
     "actSubtitle": "夜蚀王都",
@@ -3670,7 +3670,7 @@
     "moves": [
       {
         "id": "sts2_thunder_strike",
-        "name": "生成闪电",
+        "name": "三重雷弧",
         "intent": "attack",
         "intentLabel": "攻势",
         "damage": [
@@ -3689,7 +3689,7 @@
       },
       {
         "id": "sts2_shocking_slap",
-        "name": "电击掌",
+        "name": "电爪横扫",
         "intent": "attack_debuff",
         "intentLabel": "攻击 · 减益",
         "damage": [
@@ -3710,7 +3710,7 @@
       },
       {
         "id": "sts2_galvanic_burst",
-        "name": "Galvanic Burst",
+        "name": "弧光爆发",
         "intent": "attack",
         "intentLabel": "攻势",
         "damage": [
@@ -3747,11 +3747,11 @@
     "pattern": {
       "type": "cycle",
       "typeLabel": "固定循环",
-      "description": "电击掌 → 生成闪电 → Galvanic Burst → repeat",
+      "description": "电爪横扫 → 三重雷弧 → 弧光爆发 → repeat",
       "sequence": [
-        "电击掌",
-        "生成闪电",
-        "Galvanic Burst"
+        "电爪横扫",
+        "三重雷弧",
+        "弧光爆发"
       ]
     },
     "encounters": [
@@ -3761,7 +3761,7 @@
       }
     ],
     "art": "/art/monsters/sts2_globe_head.webp",
-    "artCredit": "local",
+    "artCredit": "reference",
     "referenceUrl": "https://spire-codex.com/static/images/monsters/orb_head.webp"
   },
   {
@@ -9562,59 +9562,6 @@
     "referenceUrl": "https://spire-codex.com/static/images/monsters/tough_egg.webp"
   },
   {
-    "id": "sts2_tough_egg_hatchling",
-    "name": "幼虫",
-    "act": 2,
-    "actLabel": "第二幕",
-    "actSubtitle": "蛀蚀巢窟",
-    "tier": "normal",
-    "tierLabel": "普通",
-    "hp": {
-      "min": 19,
-      "max": 22
-    },
-    "hpAscension": {
-      "min": 20,
-      "max": 23
-    },
-    "moves": [
-      {
-        "id": "sts2_nibble",
-        "name": "啃咬",
-        "intent": "attack",
-        "intentLabel": "攻势",
-        "damage": [
-          4
-        ],
-        "damageAscension": [
-          5
-        ],
-        "block": null,
-        "powers": [],
-        "effects": 0
-      }
-    ],
-    "innatePowers": [],
-    "innatePowersAscension": [],
-    "pattern": {
-      "type": "cycle",
-      "typeLabel": "固定循环",
-      "description": "Always uses 啃咬",
-      "sequence": [
-        "啃咬"
-      ]
-    },
-    "encounters": [
-      {
-        "id": "OVICOPTER_NORMAL",
-        "name": "OVICOPTER_NORMAL"
-      }
-    ],
-    "art": "/art/monsters/sts2_tough_egg_hatchling.webp",
-    "artCredit": "local",
-    "referenceUrl": "https://spire-codex.com/static/images/monsters/tough_egg_hatchling.webp"
-  },
-  {
     "id": "sts2_tracker_ruby_raider",
     "name": "劫灰帮·猎踪",
     "act": 1,
@@ -10684,5 +10631,58 @@
     "art": "/art/monsters/sts2_zapbot.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/monsters/zapbot.webp"
+  },
+  {
+    "id": "sts2_tough_egg_hatchling",
+    "name": "幼虫",
+    "act": 2,
+    "actLabel": "第二幕",
+    "actSubtitle": "蛀蚀巢窟",
+    "tier": "normal",
+    "tierLabel": "普通",
+    "hp": {
+      "min": 19,
+      "max": 22
+    },
+    "hpAscension": {
+      "min": 20,
+      "max": 23
+    },
+    "moves": [
+      {
+        "id": "sts2_nibble",
+        "name": "啃咬",
+        "intent": "attack",
+        "intentLabel": "攻势",
+        "damage": [
+          4
+        ],
+        "damageAscension": [
+          5
+        ],
+        "block": null,
+        "powers": [],
+        "effects": 0
+      }
+    ],
+    "innatePowers": [],
+    "innatePowersAscension": [],
+    "pattern": {
+      "type": "cycle",
+      "typeLabel": "固定循环",
+      "description": "Always uses 啃咬",
+      "sequence": [
+        "啃咬"
+      ]
+    },
+    "encounters": [
+      {
+        "id": "OVICOPTER_NORMAL",
+        "name": "OVICOPTER_NORMAL"
+      }
+    ],
+    "art": "/art/monsters/sts2_tough_egg_hatchling.webp",
+    "artCredit": "local",
+    "referenceUrl": "https://spire-codex.com/static/images/monsters/tough_egg_hatchling.webp"
   }
 ]
