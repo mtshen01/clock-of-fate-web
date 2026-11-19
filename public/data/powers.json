@@ -1,19 +1,19 @@
 [
   {
     "id": "accelerant",
-    "name": "触媒",
+    "name": "毒素爆发",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "蚀毒会多触发一次。",
+    "description": "蛇毒会多触发一次。",
     "art": "/art/statuses/accelerant.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/accelerant_power.webp"
   },
   {
     "id": "afterimage",
-    "name": "余像",
+    "name": "绳结",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -37,7 +37,7 @@
   },
   {
     "id": "barricade",
-    "name": "壁垒",
+    "name": "固若金汤",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",
@@ -97,7 +97,7 @@
   },
   {
     "id": "child_of_the_stars",
-    "name": "群星之子",
+    "name": "星辉庇护",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -162,7 +162,7 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "你在本回合每抽到一张牌，就给予所有敌人2点蚀毒。",
+    "description": "你在本回合每抽到一张牌，就给予所有敌人2点蛇毒。",
     "art": "/art/statuses/corrosive_wave.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/corrosive_wave_power.webp"
@@ -205,7 +205,7 @@
   },
   {
     "id": "demon_form",
-    "name": "恶魔形态",
+    "name": "火神祝福",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -229,12 +229,12 @@
   },
   {
     "id": "doom",
-    "name": "灾厄",
+    "name": "厄运",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在敌人的回合结束时，如果this creature的生命值不高于，则this creature立即死亡。",
+    "description": "敌方回合结束时，若该单位生命值不高于厄运层数，该单位立即死亡。",
     "art": "/art/statuses/doom.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/doom_power.webp"
@@ -253,7 +253,7 @@
   },
   {
     "id": "echo_form",
-    "name": "回响形态",
+    "name": "复演形态",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -277,12 +277,12 @@
   },
   {
     "id": "envenom",
-    "name": "涂毒",
+    "name": "刀覆蛇毒",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "每当你造成未被格挡的伤害时，给予1层蚀毒。",
+    "description": "每当你造成未被格挡的伤害时，给予1层蛇毒。",
     "art": "/art/statuses/envenom.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/envenom_power.webp"
@@ -349,7 +349,7 @@
   },
   {
     "id": "furnace",
-    "name": "熔炉",
+    "name": "御用铸坊",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -361,7 +361,7 @@
   },
   {
     "id": "genesis",
-    "name": "创世纪",
+    "name": "星源",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -385,7 +385,7 @@
   },
   {
     "id": "hammer_time",
-    "name": "锤子时间",
+    "name": "联手铸兵",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",
@@ -421,12 +421,12 @@
   },
   {
     "id": "infinite_blades",
-    "name": "无尽刀刃",
+    "name": "备用武器",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在你的回合开始时，在你的手牌中加入一张小刀。",
+    "description": "在你的回合开始时，在你的手牌中加入一张匕首。",
     "art": "/art/statuses/infinite_blades.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/infinite_blades_power.webp"
@@ -558,7 +558,7 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在你的回合开始时，给予所有敌人2层蚀毒。",
+    "description": "在你的回合开始时，给予所有敌人2层蛇毒。",
     "art": "/art/statuses/noxious_fumes.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/noxious_fumes_power.webp"
@@ -613,12 +613,12 @@
   },
   {
     "id": "poison",
-    "name": "蚀毒",
+    "name": "蛇毒",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "蚀毒的生物会在自身回合开始时失去生命。蚀毒层数每回合减少1。",
+    "description": "蛇毒的生物会在自身回合开始时失去生命。蛇毒层数每回合减少1。",
     "art": "/art/statuses/poison.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/poison_power.webp"
@@ -661,7 +661,7 @@
   },
   {
     "id": "rupture",
-    "name": "撕裂",
+    "name": "战狂",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -781,12 +781,12 @@
   },
   {
     "id": "sts2_accuracy",
-    "name": "精准",
+    "name": "暗器精通",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "小刀造成额外伤害。",
+    "description": "匕首造成额外伤害。",
     "art": "/art/statuses/sts2_accuracy.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/accuracy_power.webp"
@@ -841,7 +841,7 @@
   },
   {
     "id": "sts2_arsenal",
-    "name": "武器库",
+    "name": "王室军备",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -865,7 +865,7 @@
   },
   {
     "id": "sts2_automation",
-    "name": "自动化",
+    "name": "抽牌蓄能",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -913,7 +913,7 @@
   },
   {
     "id": "sts2_beaconofhope",
-    "name": "希望灯塔",
+    "name": "并肩守御",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",
@@ -925,7 +925,7 @@
   },
   {
     "id": "sts2_blackhole",
-    "name": "黑洞",
+    "name": "群星坍缩",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -985,7 +985,7 @@
   },
   {
     "id": "sts2_cacophony",
-    "name": "不谐合曲",
+    "name": "联手破阵",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -997,7 +997,7 @@
   },
   {
     "id": "sts2_calcify",
-    "name": "钙化",
+    "name": "魔力提升",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "sts2_callofthevoid",
-    "name": "虚空之唤",
+    "name": "虚无低语",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1062,14 +1062,14 @@
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "每当你在本回合造成未被格挡的攻击伤害时，给予3层蚀毒。",
+    "description": "每当你在本回合造成未被格挡的攻击伤害时，给予3层蛇毒。",
     "art": "/art/statuses/sts2_concoct.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/concoct_power.webp"
   },
   {
     "id": "sts2_conqueror",
-    "name": "征服者",
+    "name": "御驾亲征",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
@@ -1093,12 +1093,12 @@
   },
   {
     "id": "sts2_countdown",
-    "name": "倒数计时",
+    "name": "命悬一线",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在你的回合开始时，给予随机敌人6层灾厄。",
+    "description": "在你的回合开始时，给予随机敌人6层厄运。",
     "art": "/art/statuses/sts2_countdown.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/countdown_power.webp"
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "sts2_crimsonmantle",
-    "name": "绯红披风",
+    "name": "以身作盾",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "sts2_dansemacabre",
-    "name": "死亡之舞",
+    "name": "影障",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "sts2_debilitate",
-    "name": "摧残",
+    "name": "破绽与虚弱加深",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
@@ -1237,7 +1237,7 @@
   },
   {
     "id": "sts2_demesne",
-    "name": "领域",
+    "name": "影魔能量",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "sts2_devourlife",
-    "name": "吞噬生命",
+    "name": "灵魂献祭",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1398,7 +1398,7 @@
     "typeLabel": "增益",
     "stackType": "single",
     "stackLabel": "唯一",
-    "description": "小刀会命中所有敌人。",
+    "description": "匕首会命中所有敌人。",
     "art": "/art/statuses/sts2_fanofknives.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/fan_of_knives_power.webp"
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "sts2_feral",
-    "name": "野性",
+    "name": "空手夺势",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1477,7 +1477,7 @@
   },
   {
     "id": "sts2_forbiddengrimoire",
-    "name": "禁忌魔典",
+    "name": "禁忌契约",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "sts2_foregoneconclusion",
-    "name": "既定事项",
+    "name": "独裁",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "sts2_friendship",
-    "name": "友谊",
+    "name": "影魔契约",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1597,7 +1597,7 @@
   },
   {
     "id": "sts2_hang",
-    "name": "吊杀",
+    "name": "噬魂重击",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "sts2_haunt",
-    "name": "纠缠",
+    "name": "灵魂侵袭",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1669,12 +1669,12 @@
   },
   {
     "id": "sts2_hellraiser",
-    "name": "地狱狂徒",
+    "name": "乘胜追击",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",
     "stackLabel": "唯一",
-    "description": "每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。",
+    "description": "每当你抽到一张「斩击」，免费将它对随机一名敌人打出。每回合最多触发 9 次。",
     "art": "/art/statuses/sts2_hellraiser.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/hellraiser_power.webp"
@@ -1825,7 +1825,7 @@
   },
   {
     "id": "sts2_iteration",
-    "name": "迭代",
+    "name": "应变程序",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "sts2_lethality",
-    "name": "致死性",
+    "name": "出手见血",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1933,7 +1933,7 @@
   },
   {
     "id": "sts2_monarchsgaze",
-    "name": "王之凝视",
+    "name": "不敢抬头",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -1957,7 +1957,7 @@
   },
   {
     "id": "sts2_monologue",
-    "name": "独白",
+    "name": "疯王",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "none",
@@ -1993,12 +1993,12 @@
   },
   {
     "id": "sts2_neurosurge",
-    "name": "精神过载",
+    "name": "厄运交易",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在你的回合开始时，给予自身3层灾厄。",
+    "description": "在你的回合开始时，给予自身3层厄运。",
     "art": "/art/statuses/sts2_neurosurge.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/neurosurge_power.webp"
@@ -2029,19 +2029,19 @@
   },
   {
     "id": "sts2_oblivion",
-    "name": "湮灭",
+    "name": "厄运印记",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "你在本回合内每打出一张牌，就给予该敌人1层灾厄。",
+    "description": "你在本回合内每打出一张牌，就给予该敌人1层厄运。",
     "art": "/art/statuses/sts2_oblivion.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/oblivion_power.webp"
   },
   {
     "id": "sts2_orbit",
-    "name": "环绕轨道",
+    "name": "权力回流",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2053,7 +2053,7 @@
   },
   {
     "id": "sts2_pagestorm",
-    "name": "书页风暴",
+    "name": "虚无牵引",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "sts2_palebluedot",
-    "name": "暗淡蓝点",
+    "name": "群臣待命",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "sts2_parry",
-    "name": "招架",
+    "name": "环刃架挡",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2125,12 +2125,12 @@
   },
   {
     "id": "sts2_phantomblades",
-    "name": "幻影之刃",
+    "name": "破隐",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "小刀获得保留。\n你每回合打出的第一张小刀伤害增加9。",
+    "description": "匕首获得保留。\n你每回合打出的第一张匕首伤害增加9。",
     "art": "/art/statuses/sts2_phantomblades.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/phantom_blades_power.webp"
@@ -2149,7 +2149,7 @@
   },
   {
     "id": "sts2_pillarofcreation",
-    "name": "创世之柱",
+    "name": "万物成盾",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2209,7 +2209,7 @@
   },
   {
     "id": "sts2_pyre",
-    "name": "薪火之源",
+    "name": "养精蓄锐",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2269,12 +2269,12 @@
   },
   {
     "id": "sts2_reaperform",
-    "name": "死神形态",
+    "name": "染指厄运",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "每当你的攻击造成伤害时，同时给予其倍的灾厄。",
+    "description": "每当你的攻击造成伤害时，同时给予其倍的厄运。",
     "art": "/art/statuses/sts2_reaperform.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/reaper_form_power.webp"
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "sts2_rollingboulder",
-    "name": "滚石",
+    "name": "巨石碾阵",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2353,7 +2353,7 @@
   },
   {
     "id": "sts2_royalties",
-    "name": "王国资产",
+    "name": "王室征税",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": "sts2_seekingedge",
-    "name": "追踪之刃",
+    "name": "环刃扫阵",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",
@@ -2401,19 +2401,19 @@
   },
   {
     "id": "sts2_sentrymode",
-    "name": "哨卫模式",
+    "name": "影魔哨卫",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "在你的回合开始时，将1张扫荡凝视加入你的手牌。",
+    "description": "在你的回合开始时，将1张影魔扫击加入你的手牌。",
     "art": "/art/statuses/sts2_sentrymode.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/sentry_mode_power.webp"
   },
   {
     "id": "sts2_serpentform",
-    "name": "群蛇形态",
+    "name": "蛇群祝福",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2485,19 +2485,19 @@
   },
   {
     "id": "sts2_shroud",
-    "name": "厄运之衣",
+    "name": "厄运庇护",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "你每次给予灾厄时，获得3点格挡。",
+    "description": "你每次给予厄运时，获得3点格挡。",
     "art": "/art/statuses/sts2_shroud.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/shroud_power.webp"
   },
   {
     "id": "sts2_sicem",
-    "name": "紧追不放",
+    "name": "影魔追猎",
     "type": "debuff",
     "typeLabel": "减益",
     "stackType": "counter",
@@ -2533,7 +2533,7 @@
   },
   {
     "id": "sts2_sleightofflesh",
-    "name": "血肉戏法",
+    "name": "咒印反噬",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "sts2_sneaky",
-    "name": "鬼祟",
+    "name": "群体作战",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2605,7 +2605,7 @@
   },
   {
     "id": "sts2_soulbound",
-    "name": "灵魂绑定",
+    "name": "灵魂锁链",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2617,7 +2617,7 @@
   },
   {
     "id": "sts2_spectrumshift",
-    "name": "光谱偏移",
+    "name": "予取予求",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2653,7 +2653,7 @@
   },
   {
     "id": "sts2_spiritofash",
-    "name": "灰烬之灵",
+    "name": "虚无护体",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2713,7 +2713,7 @@
   },
   {
     "id": "sts2_subroutine",
-    "name": "子程序",
+    "name": "辅助回路",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "sts2_swordsage",
-    "name": "剑圣",
+    "name": "环刃再斩",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2917,7 +2917,7 @@
   },
   {
     "id": "sts2_toolsofthetrade",
-    "name": "必备工具",
+    "name": "绷带",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -2941,19 +2941,19 @@
   },
   {
     "id": "sts2_underworld",
-    "name": "幽冥之界",
+    "name": "厄运共谋",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
     "stackLabel": "可叠加",
-    "description": "每当其他玩家在本回合造成攻击伤害时，给予 倍灾厄。",
+    "description": "每当其他玩家在本回合造成攻击伤害时，给予 倍厄运。",
     "art": "/art/statuses/sts2_underworld.webp",
     "artCredit": "local",
     "referenceUrl": "https://spire-codex.com/static/images/beta/v0.111.0/powers/underworld_power.webp"
   },
   {
     "id": "sts2_unmovable",
-    "name": "不动",
+    "name": "稳如泰山",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -3001,7 +3001,7 @@
   },
   {
     "id": "sts2_voidform",
-    "name": "虚空形态",
+    "name": "唯我独尊",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -3037,7 +3037,7 @@
   },
   {
     "id": "the_sealed_throne",
-    "name": "封印王座",
+    "name": "王座号令",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "counter",
@@ -3157,7 +3157,7 @@
   },
   {
     "id": "well_laid_plans",
-    "name": "计划妥当",
+    "name": "野兽口袋",
     "type": "buff",
     "typeLabel": "增益",
     "stackType": "single",

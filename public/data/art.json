@@ -1,5 +1,9 @@
 {
   "cards": {
+    "sts2_accuracy": {
+      "path": "/art/cards/sts2_accuracy.webp",
+      "credit": "local"
+    },
     "sts2_abrasive": {
       "path": "/art/cards/sts2_abrasive.webp",
       "credit": "local"
@@ -12,12 +16,8 @@
       "path": "/art/cards/sts2_abundance.webp",
       "credit": "local"
     },
-    "sts2_accuracy": {
-      "path": "/art/cards/sts2_accuracy.webp",
-      "credit": "local"
-    },
-    "sts2_acrobatics": {
-      "path": "/art/cards/sts2_acrobatics.webp",
+    "sts2_adaptive_strike": {
+      "path": "/art/cards/sts2_adaptive_strike.webp",
       "credit": "local"
     },
     "sts2_adrenaline": {
@@ -28,48 +28,40 @@
       "path": "/art/cards/sts2_afterimage.webp",
       "credit": "local"
     },
-    "sts2_adaptive_strike": {
-      "path": "/art/cards/sts2_adaptive_strike.webp",
-      "credit": "local"
-    },
-    "sts2_afterlife": {
-      "path": "/art/cards/sts2_afterlife.webp",
-      "credit": "local"
-    },
-    "sts2_aggression": {
-      "path": "/art/cards/sts2_aggression.webp",
-      "credit": "local"
-    },
-    "sts2_alignment": {
-      "path": "/art/cards/sts2_alignment.webp",
+    "sts2_acrobatics": {
+      "path": "/art/cards/sts2_acrobatics.webp",
       "credit": "local"
     },
     "sts2_alchemize": {
       "path": "/art/cards/sts2_alchemize.webp",
       "credit": "local"
     },
-    "sts2_all_for_one": {
-      "path": "/art/cards/sts2_all_for_one.webp",
+    "sts2_aggression": {
+      "path": "/art/cards/sts2_aggression.webp",
       "credit": "local"
     },
-    "sts2_anointed": {
-      "path": "/art/cards/sts2_anointed.webp",
+    "sts2_afterlife": {
+      "path": "/art/cards/sts2_afterlife.webp",
+      "credit": "local"
+    },
+    "sts2_alignment": {
+      "path": "/art/cards/sts2_alignment.webp",
+      "credit": "local"
+    },
+    "sts2_all_for_one": {
+      "path": "/art/cards/sts2_all_for_one.webp",
       "credit": "local"
     },
     "sts2_anger": {
       "path": "/art/cards/sts2_anger.webp",
       "credit": "local"
     },
+    "sts2_anointed": {
+      "path": "/art/cards/sts2_anointed.webp",
+      "credit": "local"
+    },
     "sts2_anticipate": {
       "path": "/art/cards/sts2_anticipate.webp",
-      "credit": "local"
-    },
-    "sts2_apotheosis": {
-      "path": "/art/cards/sts2_apotheosis.webp",
-      "credit": "local"
-    },
-    "sts2_arsenal": {
-      "path": "/art/cards/sts2_arsenal.webp",
       "credit": "local"
     },
     "sts2_apparition": {
@@ -80,6 +72,14 @@
       "path": "/art/cards/sts2_armaments.webp",
       "credit": "local"
     },
+    "sts2_apotheosis": {
+      "path": "/art/cards/sts2_apotheosis.webp",
+      "credit": "local"
+    },
+    "sts2_arsenal": {
+      "path": "/art/cards/sts2_arsenal.webp",
+      "credit": "local"
+    },
     "sts2_ascenders_bane": {
       "path": "/art/cards/sts2_ascenders_bane.webp",
       "credit": "local"
@@ -88,28 +88,28 @@
       "path": "/art/cards/sts2_ashen_strike.webp",
       "credit": "local"
     },
-    "sts2_astral_pulse": {
-      "path": "/art/cards/sts2_astral_pulse.webp",
-      "credit": "local"
-    },
     "sts2_assassinate": {
       "path": "/art/cards/sts2_assassinate.webp",
       "credit": "local"
     },
-    "sts2_bad_luck": {
-      "path": "/art/cards/sts2_bad_luck.webp",
+    "sts2_astral_pulse": {
+      "path": "/art/cards/sts2_astral_pulse.webp",
       "credit": "local"
     },
     "sts2_automation": {
       "path": "/art/cards/sts2_automation.webp",
       "credit": "local"
     },
+    "sts2_backflip": {
+      "path": "/art/cards/sts2_backflip.webp",
+      "credit": "local"
+    },
     "sts2_backstab": {
       "path": "/art/cards/sts2_backstab.webp",
       "credit": "local"
     },
-    "sts2_backflip": {
-      "path": "/art/cards/sts2_backflip.webp",
+    "sts2_bad_luck": {
+      "path": "/art/cards/sts2_bad_luck.webp",
       "credit": "local"
     },
     "sts2_ball_lightning": {
@@ -120,12 +120,12 @@
       "path": "/art/cards/sts2_banshees_cry.webp",
       "credit": "local"
     },
-    "sts2_barrage": {
-      "path": "/art/cards/sts2_barrage.webp",
-      "credit": "local"
-    },
     "sts2_barricade": {
       "path": "/art/cards/sts2_barricade.webp",
+      "credit": "local"
+    },
+    "sts2_barrage": {
+      "path": "/art/cards/sts2_barrage.webp",
       "credit": "local"
     },
     "sts2_bash": {
@@ -136,6 +136,10 @@
       "path": "/art/cards/sts2_battle_trance.webp",
       "credit": "local"
     },
+    "sts2_beacon_of_hope": {
+      "path": "/art/cards/sts2_beacon_of_hope.webp",
+      "credit": "local"
+    },
     "sts2_beam_cell": {
       "path": "/art/cards/sts2_beam_cell.webp",
       "credit": "local"
@@ -144,68 +148,64 @@
       "path": "/art/cards/sts2_beat_down.webp",
       "credit": "local"
     },
-    "sts2_beacon_of_hope": {
-      "path": "/art/cards/sts2_beacon_of_hope.webp",
-      "credit": "local"
-    },
-    "sts2_begone": {
-      "path": "/art/cards/sts2_begone.webp",
-      "credit": "local"
-    },
-    "sts2_believe_in_you": {
-      "path": "/art/cards/sts2_believe_in_you.webp",
+    "sts2_beat_into_shape": {
+      "path": "/art/cards/sts2_beat_into_shape.webp",
       "credit": "local"
     },
     "sts2_beckon": {
       "path": "/art/cards/sts2_beckon.webp",
       "credit": "local"
     },
+    "sts2_believe_in_you": {
+      "path": "/art/cards/sts2_believe_in_you.webp",
+      "credit": "local"
+    },
+    "sts2_begone": {
+      "path": "/art/cards/sts2_begone.webp",
+      "credit": "local"
+    },
     "sts2_biased_cognition": {
       "path": "/art/cards/sts2_biased_cognition.webp",
-      "credit": "local"
-    },
-    "sts2_beat_into_shape": {
-      "path": "/art/cards/sts2_beat_into_shape.webp",
-      "credit": "local"
-    },
-    "sts2_big_bang": {
-      "path": "/art/cards/sts2_big_bang.webp",
       "credit": "local"
     },
     "sts2_black_hole": {
       "path": "/art/cards/sts2_black_hole.webp",
       "credit": "local"
     },
+    "sts2_big_bang": {
+      "path": "/art/cards/sts2_big_bang.webp",
+      "credit": "local"
+    },
     "sts2_blade_dance": {
       "path": "/art/cards/sts2_blade_dance.webp",
-      "credit": "local"
-    },
-    "sts2_blaze": {
-      "path": "/art/cards/sts2_blaze.webp",
-      "credit": "local"
-    },
-    "sts2_blade_symphony": {
-      "path": "/art/cards/sts2_blade_symphony.webp",
-      "credit": "local"
-    },
-    "sts2_blood_wall": {
-      "path": "/art/cards/sts2_blood_wall.webp",
       "credit": "local"
     },
     "sts2_blade_of_ink": {
       "path": "/art/cards/sts2_blade_of_ink.webp",
       "credit": "local"
     },
+    "sts2_blade_symphony": {
+      "path": "/art/cards/sts2_blade_symphony.webp",
+      "credit": "local"
+    },
     "sts2_blight_strike": {
       "path": "/art/cards/sts2_blight_strike.webp",
       "credit": "local"
     },
-    "sts2_bludgeon": {
-      "path": "/art/cards/sts2_bludgeon.webp",
+    "sts2_blaze": {
+      "path": "/art/cards/sts2_blaze.webp",
       "credit": "local"
     },
     "sts2_bloodletting": {
       "path": "/art/cards/sts2_bloodletting.webp",
+      "credit": "local"
+    },
+    "sts2_blood_wall": {
+      "path": "/art/cards/sts2_blood_wall.webp",
+      "credit": "local"
+    },
+    "sts2_bludgeon": {
+      "path": "/art/cards/sts2_bludgeon.webp",
       "credit": "local"
     },
     "sts2_blur": {
@@ -216,32 +216,32 @@
       "path": "/art/cards/sts2_bodyguard.webp",
       "credit": "local"
     },
-    "sts2_bolas": {
-      "path": "/art/cards/sts2_bolas.webp",
-      "credit": "local"
-    },
-    "sts2_bone_shards": {
-      "path": "/art/cards/sts2_bone_shards.webp",
-      "credit": "local"
-    },
     "sts2_body_slam": {
       "path": "/art/cards/sts2_body_slam.webp",
+      "credit": "local"
+    },
+    "sts2_bolas": {
+      "path": "/art/cards/sts2_bolas.webp",
       "credit": "local"
     },
     "sts2_bombardment": {
       "path": "/art/cards/sts2_bombardment.webp",
       "credit": "local"
     },
+    "sts2_bone_shards": {
+      "path": "/art/cards/sts2_bone_shards.webp",
+      "credit": "local"
+    },
     "sts2_boost_away": {
       "path": "/art/cards/sts2_boost_away.webp",
       "credit": "local"
     },
-    "sts2_boot_sequence": {
-      "path": "/art/cards/sts2_boot_sequence.webp",
-      "credit": "local"
-    },
     "sts2_borrowed_time": {
       "path": "/art/cards/sts2_borrowed_time.webp",
+      "credit": "local"
+    },
+    "sts2_boot_sequence": {
+      "path": "/art/cards/sts2_boot_sequence.webp",
       "credit": "local"
     },
     "sts2_bouncing_flask": {
@@ -260,16 +260,16 @@
       "path": "/art/cards/sts2_breakthrough.webp",
       "credit": "local"
     },
-    "sts2_bulk_up": {
-      "path": "/art/cards/sts2_bulk_up.webp",
+    "sts2_bubble_bubble": {
+      "path": "/art/cards/sts2_bubble_bubble.webp",
       "credit": "local"
     },
     "sts2_brightest_flame": {
       "path": "/art/cards/sts2_brightest_flame.webp",
       "credit": "local"
     },
-    "sts2_bubble_bubble": {
-      "path": "/art/cards/sts2_bubble_bubble.webp",
+    "sts2_bulk_up": {
+      "path": "/art/cards/sts2_bulk_up.webp",
       "credit": "local"
     },
     "sts2_buffer": {
@@ -280,10 +280,6 @@
       "path": "/art/cards/sts2_bullet_time.webp",
       "credit": "local"
     },
-    "sts2_bulwark": {
-      "path": "/art/cards/sts2_bulwark.webp",
-      "credit": "local"
-    },
     "sts2_bully": {
       "path": "/art/cards/sts2_bully.webp",
       "credit": "local"
@@ -292,8 +288,20 @@
       "path": "/art/cards/sts2_bundle_of_joy.webp",
       "credit": "local"
     },
+    "sts2_bulwark": {
+      "path": "/art/cards/sts2_bulwark.webp",
+      "credit": "local"
+    },
     "sts2_burn": {
       "path": "/art/cards/sts2_burn.webp",
+      "credit": "local"
+    },
+    "sts2_burning_pact": {
+      "path": "/art/cards/sts2_burning_pact.webp",
+      "credit": "local"
+    },
+    "sts2_bury": {
+      "path": "/art/cards/sts2_bury.webp",
       "credit": "local"
     },
     "sts2_burst": {
@@ -304,20 +312,20 @@
       "path": "/art/cards/sts2_byrd_swoop.webp",
       "credit": "local"
     },
-    "sts2_cacophony": {
-      "path": "/art/cards/sts2_cacophony.webp",
-      "credit": "local"
-    },
-    "sts2_burning_pact": {
-      "path": "/art/cards/sts2_burning_pact.webp",
-      "credit": "local"
-    },
     "sts2_byrdonis_egg": {
       "path": "/art/cards/sts2_byrdonis_egg.webp",
       "credit": "local"
     },
-    "sts2_bury": {
-      "path": "/art/cards/sts2_bury.webp",
+    "sts2_cacophony": {
+      "path": "/art/cards/sts2_cacophony.webp",
+      "credit": "local"
+    },
+    "sts2_calamity": {
+      "path": "/art/cards/sts2_calamity.webp",
+      "credit": "local"
+    },
+    "sts2_calcify": {
+      "path": "/art/cards/sts2_calcify.webp",
       "credit": "local"
     },
     "sts2_call_of_the_void": {
@@ -328,20 +336,8 @@
       "path": "/art/cards/sts2_calculated_gamble.webp",
       "credit": "local"
     },
-    "sts2_calcify": {
-      "path": "/art/cards/sts2_calcify.webp",
-      "credit": "local"
-    },
-    "sts2_calamity": {
-      "path": "/art/cards/sts2_calamity.webp",
-      "credit": "local"
-    },
     "sts2_caltrops": {
       "path": "/art/cards/sts2_caltrops.webp",
-      "credit": "local"
-    },
-    "sts2_cascade": {
-      "path": "/art/cards/sts2_cascade.webp",
       "credit": "local"
     },
     "sts2_capacitor": {
@@ -356,16 +352,16 @@
       "path": "/art/cards/sts2_catastrophe.webp",
       "credit": "local"
     },
+    "sts2_cascade": {
+      "path": "/art/cards/sts2_cascade.webp",
+      "credit": "local"
+    },
     "sts2_celestial_might": {
       "path": "/art/cards/sts2_celestial_might.webp",
       "credit": "local"
     },
     "sts2_chaos": {
       "path": "/art/cards/sts2_chaos.webp",
-      "credit": "local"
-    },
-    "sts2_child_of_the_stars": {
-      "path": "/art/cards/sts2_child_of_the_stars.webp",
       "credit": "local"
     },
     "sts2_charge": {
@@ -376,96 +372,96 @@
       "path": "/art/cards/sts2_charge_battery.webp",
       "credit": "local"
     },
+    "sts2_child_of_the_stars": {
+      "path": "/art/cards/sts2_child_of_the_stars.webp",
+      "credit": "local"
+    },
     "sts2_chill": {
       "path": "/art/cards/sts2_chill.webp",
-      "credit": "local"
-    },
-    "sts2_claw": {
-      "path": "/art/cards/sts2_claw.webp",
-      "credit": "local"
-    },
-    "sts2_clash": {
-      "path": "/art/cards/sts2_clash.webp",
       "credit": "local"
     },
     "sts2_cinder": {
       "path": "/art/cards/sts2_cinder.webp",
       "credit": "local"
     },
+    "sts2_clash": {
+      "path": "/art/cards/sts2_clash.webp",
+      "credit": "local"
+    },
+    "sts2_claw": {
+      "path": "/art/cards/sts2_claw.webp",
+      "credit": "local"
+    },
     "sts2_cleanse": {
       "path": "/art/cards/sts2_cleanse.webp",
-      "credit": "local"
-    },
-    "sts2_cloak_of_stars": {
-      "path": "/art/cards/sts2_cloak_of_stars.webp",
-      "credit": "local"
-    },
-    "sts2_clumsy": {
-      "path": "/art/cards/sts2_clumsy.webp",
       "credit": "local"
     },
     "sts2_cloak_and_dagger": {
       "path": "/art/cards/sts2_cloak_and_dagger.webp",
       "credit": "local"
     },
-    "sts2_collision_course": {
-      "path": "/art/cards/sts2_collision_course.webp",
+    "sts2_clumsy": {
+      "path": "/art/cards/sts2_clumsy.webp",
       "credit": "local"
     },
     "sts2_cold_snap": {
       "path": "/art/cards/sts2_cold_snap.webp",
       "credit": "local"
     },
-    "sts2_comet": {
-      "path": "/art/cards/sts2_comet.webp",
+    "sts2_cloak_of_stars": {
+      "path": "/art/cards/sts2_cloak_of_stars.webp",
+      "credit": "local"
+    },
+    "sts2_collision_course": {
+      "path": "/art/cards/sts2_collision_course.webp",
       "credit": "local"
     },
     "sts2_compact": {
       "path": "/art/cards/sts2_compact.webp",
       "credit": "local"
     },
-    "sts2_colossus": {
-      "path": "/art/cards/sts2_colossus.webp",
+    "sts2_comet": {
+      "path": "/art/cards/sts2_comet.webp",
       "credit": "local"
     },
-    "sts2_compile_driver": {
-      "path": "/art/cards/sts2_compile_driver.webp",
+    "sts2_colossus": {
+      "path": "/art/cards/sts2_colossus.webp",
       "credit": "local"
     },
     "sts2_concoct": {
       "path": "/art/cards/sts2_concoct.webp",
       "credit": "local"
     },
+    "sts2_compile_driver": {
+      "path": "/art/cards/sts2_compile_driver.webp",
+      "credit": "local"
+    },
     "sts2_conflagration": {
       "path": "/art/cards/sts2_conflagration.webp",
-      "credit": "local"
-    },
-    "sts2_constellation": {
-      "path": "/art/cards/sts2_constellation.webp",
-      "credit": "local"
-    },
-    "sts2_consuming_shadow": {
-      "path": "/art/cards/sts2_consuming_shadow.webp",
       "credit": "local"
     },
     "sts2_conqueror": {
       "path": "/art/cards/sts2_conqueror.webp",
       "credit": "local"
     },
-    "sts2_convergence": {
-      "path": "/art/cards/sts2_convergence.webp",
+    "sts2_constellation": {
+      "path": "/art/cards/sts2_constellation.webp",
       "credit": "local"
     },
     "sts2_coolant": {
       "path": "/art/cards/sts2_coolant.webp",
       "credit": "local"
     },
-    "sts2_coordinate": {
-      "path": "/art/cards/sts2_coordinate.webp",
+    "sts2_consuming_shadow": {
+      "path": "/art/cards/sts2_consuming_shadow.webp",
       "credit": "local"
     },
-    "sts2_corrosive_wave": {
-      "path": "/art/cards/sts2_corrosive_wave.webp",
+    "sts2_convergence": {
+      "path": "/art/cards/sts2_convergence.webp",
+      "credit": "local"
+    },
+    "sts2_coordinate": {
+      "path": "/art/cards/sts2_coordinate.webp",
       "credit": "local"
     },
     "sts2_coolheaded": {
@@ -476,36 +472,40 @@
       "path": "/art/cards/sts2_corruption.webp",
       "credit": "local"
     },
+    "sts2_corrosive_wave": {
+      "path": "/art/cards/sts2_corrosive_wave.webp",
+      "credit": "local"
+    },
     "sts2_cosmic_indifference": {
       "path": "/art/cards/sts2_cosmic_indifference.webp",
-      "credit": "local"
-    },
-    "sts2_creative_ai": {
-      "path": "/art/cards/sts2_creative_ai.webp",
-      "credit": "local"
-    },
-    "sts2_crash_landing": {
-      "path": "/art/cards/sts2_crash_landing.webp",
-      "credit": "local"
-    },
-    "sts2_crescent_spear": {
-      "path": "/art/cards/sts2_crescent_spear.webp",
       "credit": "local"
     },
     "sts2_countdown": {
       "path": "/art/cards/sts2_countdown.webp",
       "credit": "local"
     },
-    "sts2_cruelty": {
-      "path": "/art/cards/sts2_cruelty.webp",
+    "sts2_crash_landing": {
+      "path": "/art/cards/sts2_crash_landing.webp",
+      "credit": "local"
+    },
+    "sts2_creative_ai": {
+      "path": "/art/cards/sts2_creative_ai.webp",
+      "credit": "local"
+    },
+    "sts2_crescent_spear": {
+      "path": "/art/cards/sts2_crescent_spear.webp",
+      "credit": "local"
+    },
+    "sts2_crimson_mantle": {
+      "path": "/art/cards/sts2_crimson_mantle.webp",
       "credit": "local"
     },
     "sts2_crush_under": {
       "path": "/art/cards/sts2_crush_under.webp",
       "credit": "local"
     },
-    "sts2_crimson_mantle": {
-      "path": "/art/cards/sts2_crimson_mantle.webp",
+    "sts2_cruelty": {
+      "path": "/art/cards/sts2_cruelty.webp",
       "credit": "local"
     },
     "sts2_curse_of_the_bell": {
@@ -544,12 +544,12 @@
       "path": "/art/cards/sts2_dazed.webp",
       "credit": "local"
     },
-    "sts2_death_march": {
-      "path": "/art/cards/sts2_death_march.webp",
-      "credit": "local"
-    },
     "sts2_deadly_poison": {
       "path": "/art/cards/sts2_deadly_poison.webp",
+      "credit": "local"
+    },
+    "sts2_death_march": {
+      "path": "/art/cards/sts2_death_march.webp",
       "credit": "local"
     },
     "sts2_deathbringer": {
@@ -560,16 +560,16 @@
       "path": "/art/cards/sts2_deaths_door.webp",
       "credit": "local"
     },
-    "sts2_debris": {
-      "path": "/art/cards/sts2_debris.webp",
-      "credit": "local"
-    },
     "sts2_debilitate": {
       "path": "/art/cards/sts2_debilitate.webp",
       "credit": "local"
     },
     "sts2_debt": {
       "path": "/art/cards/sts2_debt.webp",
+      "credit": "local"
+    },
+    "sts2_debris": {
+      "path": "/art/cards/sts2_debris.webp",
       "credit": "local"
     },
     "sts2_decay": {
@@ -580,6 +580,10 @@
       "path": "/art/cards/sts2_decisions_decisions.webp",
       "credit": "local"
     },
+    "sts2_defend_necrobinder": {
+      "path": "/art/cards/sts2_defend_necrobinder.webp",
+      "credit": "local"
+    },
     "sts2_defend_defect": {
       "path": "/art/cards/sts2_defend_defect.webp",
       "credit": "local"
@@ -588,28 +592,24 @@
       "path": "/art/cards/sts2_defend_ironclad.webp",
       "credit": "local"
     },
-    "sts2_defend_necrobinder": {
-      "path": "/art/cards/sts2_defend_necrobinder.webp",
-      "credit": "local"
-    },
     "sts2_defend_regent": {
       "path": "/art/cards/sts2_defend_regent.webp",
-      "credit": "local"
-    },
-    "sts2_defile": {
-      "path": "/art/cards/sts2_defile.webp",
       "credit": "local"
     },
     "sts2_defend_silent": {
       "path": "/art/cards/sts2_defend_silent.webp",
       "credit": "local"
     },
-    "sts2_defragment": {
-      "path": "/art/cards/sts2_defragment.webp",
+    "sts2_defile": {
+      "path": "/art/cards/sts2_defile.webp",
       "credit": "local"
     },
     "sts2_deflect": {
       "path": "/art/cards/sts2_deflect.webp",
+      "credit": "local"
+    },
+    "sts2_defragment": {
+      "path": "/art/cards/sts2_defragment.webp",
       "credit": "local"
     },
     "sts2_defy": {
@@ -628,20 +628,20 @@
       "path": "/art/cards/sts2_demon_form.webp",
       "credit": "local"
     },
-    "sts2_devastate": {
-      "path": "/art/cards/sts2_devastate.webp",
-      "credit": "local"
-    },
     "sts2_demonic_shield": {
       "path": "/art/cards/sts2_demonic_shield.webp",
       "credit": "local"
     },
-    "sts2_dirge": {
-      "path": "/art/cards/sts2_dirge.webp",
+    "sts2_devastate": {
+      "path": "/art/cards/sts2_devastate.webp",
       "credit": "local"
     },
     "sts2_devour_life": {
       "path": "/art/cards/sts2_devour_life.webp",
+      "credit": "local"
+    },
+    "sts2_dirge": {
+      "path": "/art/cards/sts2_dirge.webp",
       "credit": "local"
     },
     "sts2_discovery": {
@@ -656,28 +656,28 @@
       "path": "/art/cards/sts2_dismantle.webp",
       "credit": "local"
     },
-    "sts2_distraction": {
-      "path": "/art/cards/sts2_distraction.webp",
-      "credit": "local"
-    },
     "sts2_dodge_and_roll": {
       "path": "/art/cards/sts2_dodge_and_roll.webp",
       "credit": "local"
     },
-    "sts2_doubt": {
-      "path": "/art/cards/sts2_doubt.webp",
-      "credit": "local"
-    },
-    "sts2_double_energy": {
-      "path": "/art/cards/sts2_double_energy.webp",
+    "sts2_distraction": {
+      "path": "/art/cards/sts2_distraction.webp",
       "credit": "local"
     },
     "sts2_dominate": {
       "path": "/art/cards/sts2_dominate.webp",
       "credit": "local"
     },
+    "sts2_double_energy": {
+      "path": "/art/cards/sts2_double_energy.webp",
+      "credit": "local"
+    },
     "sts2_dowsing": {
       "path": "/art/cards/sts2_dowsing.webp",
+      "credit": "local"
+    },
+    "sts2_doubt": {
+      "path": "/art/cards/sts2_doubt.webp",
       "credit": "local"
     },
     "sts2_drain_power": {
@@ -692,20 +692,20 @@
       "path": "/art/cards/sts2_dredge.webp",
       "credit": "local"
     },
-    "sts2_dual_wield": {
-      "path": "/art/cards/sts2_dual_wield.webp",
-      "credit": "local"
-    },
-    "sts2_dying_star": {
-      "path": "/art/cards/sts2_dying_star.webp",
-      "credit": "local"
-    },
     "sts2_drum_of_battle": {
       "path": "/art/cards/sts2_drum_of_battle.webp",
       "credit": "local"
     },
+    "sts2_dual_wield": {
+      "path": "/art/cards/sts2_dual_wield.webp",
+      "credit": "local"
+    },
     "sts2_dualcast": {
       "path": "/art/cards/sts2_dualcast.webp",
+      "credit": "local"
+    },
+    "sts2_dying_star": {
+      "path": "/art/cards/sts2_dying_star.webp",
       "credit": "local"
     },
     "sts2_echo_form": {
@@ -716,6 +716,10 @@
       "path": "/art/cards/sts2_eidolon.webp",
       "credit": "local"
     },
+    "sts2_echoing_slash": {
+      "path": "/art/cards/sts2_echoing_slash.webp",
+      "credit": "local"
+    },
     "sts2_end_of_days": {
       "path": "/art/cards/sts2_end_of_days.webp",
       "credit": "local"
@@ -724,20 +728,16 @@
       "path": "/art/cards/sts2_enfeebling_touch.webp",
       "credit": "local"
     },
-    "sts2_echoing_slash": {
-      "path": "/art/cards/sts2_echoing_slash.webp",
-      "credit": "local"
-    },
     "sts2_energy_surge": {
       "path": "/art/cards/sts2_energy_surge.webp",
       "credit": "local"
     },
-    "sts2_enthralled": {
-      "path": "/art/cards/sts2_enthralled.webp",
-      "credit": "local"
-    },
     "sts2_enlightenment": {
       "path": "/art/cards/sts2_enlightenment.webp",
+      "credit": "local"
+    },
+    "sts2_enthralled": {
+      "path": "/art/cards/sts2_enthralled.webp",
       "credit": "local"
     },
     "sts2_entropy": {
@@ -752,60 +752,60 @@
       "path": "/art/cards/sts2_envenom.webp",
       "credit": "local"
     },
-    "sts2_equilibrium": {
-      "path": "/art/cards/sts2_equilibrium.webp",
-      "credit": "local"
-    },
     "sts2_eradicate": {
       "path": "/art/cards/sts2_eradicate.webp",
+      "credit": "local"
+    },
+    "sts2_equilibrium": {
+      "path": "/art/cards/sts2_equilibrium.webp",
       "credit": "local"
     },
     "sts2_eternal_armor": {
       "path": "/art/cards/sts2_eternal_armor.webp",
       "credit": "local"
     },
-    "sts2_evil_eye": {
-      "path": "/art/cards/sts2_evil_eye.webp",
+    "sts2_escape_plan": {
+      "path": "/art/cards/sts2_escape_plan.webp",
       "credit": "local"
     },
-    "sts2_expertise": {
-      "path": "/art/cards/sts2_expertise.webp",
+    "sts2_evil_eye": {
+      "path": "/art/cards/sts2_evil_eye.webp",
       "credit": "local"
     },
     "sts2_expect_a_fight": {
       "path": "/art/cards/sts2_expect_a_fight.webp",
       "credit": "local"
     },
-    "sts2_escape_plan": {
-      "path": "/art/cards/sts2_escape_plan.webp",
+    "sts2_expertise": {
+      "path": "/art/cards/sts2_expertise.webp",
       "credit": "local"
     },
     "sts2_expose": {
       "path": "/art/cards/sts2_expose.webp",
       "credit": "local"
     },
-    "sts2_exterminate": {
-      "path": "/art/cards/sts2_exterminate.webp",
-      "credit": "local"
-    },
     "sts2_fade": {
       "path": "/art/cards/sts2_fade.webp",
+      "credit": "local"
+    },
+    "sts2_exterminate": {
+      "path": "/art/cards/sts2_exterminate.webp",
       "credit": "local"
     },
     "sts2_falling_star": {
       "path": "/art/cards/sts2_falling_star.webp",
       "credit": "local"
     },
-    "sts2_fasten": {
-      "path": "/art/cards/sts2_fasten.webp",
+    "sts2_fan_of_knives": {
+      "path": "/art/cards/sts2_fan_of_knives.webp",
       "credit": "local"
     },
     "sts2_fear": {
       "path": "/art/cards/sts2_fear.webp",
       "credit": "local"
     },
-    "sts2_fan_of_knives": {
-      "path": "/art/cards/sts2_fan_of_knives.webp",
+    "sts2_fasten": {
+      "path": "/art/cards/sts2_fasten.webp",
       "credit": "local"
     },
     "sts2_feed": {
@@ -816,6 +816,10 @@
       "path": "/art/cards/sts2_feeding_frenzy.webp",
       "credit": "local"
     },
+    "sts2_feel_no_pain": {
+      "path": "/art/cards/sts2_feel_no_pain.webp",
+      "credit": "local"
+    },
     "sts2_feral": {
       "path": "/art/cards/sts2_feral.webp",
       "credit": "local"
@@ -824,24 +828,12 @@
       "path": "/art/cards/sts2_fetch.webp",
       "credit": "local"
     },
-    "sts2_feel_no_pain": {
-      "path": "/art/cards/sts2_feel_no_pain.webp",
-      "credit": "local"
-    },
-    "sts2_fiend_fire": {
-      "path": "/art/cards/sts2_fiend_fire.webp",
-      "credit": "local"
-    },
-    "sts2_finisher": {
-      "path": "/art/cards/sts2_finisher.webp",
-      "credit": "local"
-    },
     "sts2_fight_me": {
       "path": "/art/cards/sts2_fight_me.webp",
       "credit": "local"
     },
-    "sts2_finesse": {
-      "path": "/art/cards/sts2_finesse.webp",
+    "sts2_fiend_fire": {
+      "path": "/art/cards/sts2_fiend_fire.webp",
       "credit": "local"
     },
     "sts2_fight_through": {
@@ -852,116 +844,124 @@
       "path": "/art/cards/sts2_fisticuffs.webp",
       "credit": "local"
     },
+    "sts2_finesse": {
+      "path": "/art/cards/sts2_finesse.webp",
+      "credit": "local"
+    },
+    "sts2_finisher": {
+      "path": "/art/cards/sts2_finisher.webp",
+      "credit": "local"
+    },
     "sts2_flak_cannon": {
       "path": "/art/cards/sts2_flak_cannon.webp",
-      "credit": "local"
-    },
-    "sts2_flame_barrier": {
-      "path": "/art/cards/sts2_flame_barrier.webp",
-      "credit": "local"
-    },
-    "sts2_flatten": {
-      "path": "/art/cards/sts2_flatten.webp",
-      "credit": "local"
-    },
-    "sts2_flanking": {
-      "path": "/art/cards/sts2_flanking.webp",
       "credit": "local"
     },
     "sts2_flash_of_steel": {
       "path": "/art/cards/sts2_flash_of_steel.webp",
       "credit": "local"
     },
+    "sts2_flame_barrier": {
+      "path": "/art/cards/sts2_flame_barrier.webp",
+      "credit": "local"
+    },
+    "sts2_flanking": {
+      "path": "/art/cards/sts2_flanking.webp",
+      "credit": "local"
+    },
+    "sts2_flatten": {
+      "path": "/art/cards/sts2_flatten.webp",
+      "credit": "local"
+    },
     "sts2_flechettes": {
       "path": "/art/cards/sts2_flechettes.webp",
-      "credit": "local"
-    },
-    "sts2_focused_strike": {
-      "path": "/art/cards/sts2_focused_strike.webp",
-      "credit": "local"
-    },
-    "sts2_forbidden_grimoire": {
-      "path": "/art/cards/sts2_forbidden_grimoire.webp",
-      "credit": "local"
-    },
-    "sts2_folly": {
-      "path": "/art/cards/sts2_folly.webp",
       "credit": "local"
     },
     "sts2_flick_flack": {
       "path": "/art/cards/sts2_flick_flack.webp",
       "credit": "local"
     },
+    "sts2_folly": {
+      "path": "/art/cards/sts2_folly.webp",
+      "credit": "local"
+    },
+    "sts2_focused_strike": {
+      "path": "/art/cards/sts2_focused_strike.webp",
+      "credit": "local"
+    },
     "sts2_footwork": {
       "path": "/art/cards/sts2_footwork.webp",
+      "credit": "local"
+    },
+    "sts2_forbidden_grimoire": {
+      "path": "/art/cards/sts2_forbidden_grimoire.webp",
       "credit": "local"
     },
     "sts2_foregone_conclusion": {
       "path": "/art/cards/sts2_foregone_conclusion.webp",
       "credit": "local"
     },
-    "sts2_forgotten_ritual": {
-      "path": "/art/cards/sts2_forgotten_ritual.webp",
-      "credit": "local"
-    },
     "sts2_frantic_escape": {
       "path": "/art/cards/sts2_frantic_escape.webp",
       "credit": "local"
     },
-    "sts2_ftl": {
-      "path": "/art/cards/sts2_ftl.webp",
+    "sts2_forgotten_ritual": {
+      "path": "/art/cards/sts2_forgotten_ritual.webp",
       "credit": "local"
     },
     "sts2_friendship": {
       "path": "/art/cards/sts2_friendship.webp",
       "credit": "local"
     },
+    "sts2_ftl": {
+      "path": "/art/cards/sts2_ftl.webp",
+      "credit": "local"
+    },
     "sts2_fuel": {
       "path": "/art/cards/sts2_fuel.webp",
-      "credit": "local"
-    },
-    "sts2_fusion": {
-      "path": "/art/cards/sts2_fusion.webp",
-      "credit": "local"
-    },
-    "sts2_gamma_blast": {
-      "path": "/art/cards/sts2_gamma_blast.webp",
-      "credit": "local"
-    },
-    "sts2_gang_up": {
-      "path": "/art/cards/sts2_gang_up.webp",
       "credit": "local"
     },
     "sts2_furnace": {
       "path": "/art/cards/sts2_furnace.webp",
       "credit": "local"
     },
-    "sts2_genesis": {
-      "path": "/art/cards/sts2_genesis.webp",
+    "sts2_fusion": {
+      "path": "/art/cards/sts2_fusion.webp",
+      "credit": "local"
+    },
+    "sts2_gang_up": {
+      "path": "/art/cards/sts2_gang_up.webp",
+      "credit": "local"
+    },
+    "sts2_gamma_blast": {
+      "path": "/art/cards/sts2_gamma_blast.webp",
       "credit": "local"
     },
     "sts2_gather_light": {
       "path": "/art/cards/sts2_gather_light.webp",
       "credit": "local"
     },
-    "sts2_genetic_algorithm": {
-      "path": "/art/cards/sts2_genetic_algorithm.webp",
+    "sts2_genesis": {
+      "path": "/art/cards/sts2_genesis.webp",
       "credit": "local"
     },
     "sts2_giant_rock": {
       "path": "/art/cards/sts2_giant_rock.webp",
       "credit": "local"
     },
+    "sts2_genetic_algorithm": {
+      "path": "/art/cards/sts2_genetic_algorithm.webp",
+      "credit": "local"
+    },
     "sts2_glacier": {
       "path": "/art/cards/sts2_glacier.webp",
       "credit": "local"
     },
-    "sts2_glimmer": {
-      "path": "/art/cards/sts2_glimmer.webp",
-      "credit": "local"
-    },
     "sts2_glasswork": {
       "path": "/art/cards/sts2_glasswork.webp",
+      "credit": "local"
+    },
+    "sts2_glimmer": {
+      "path": "/art/cards/sts2_glimmer.webp",
       "credit": "local"
     },
     "sts2_glimpse_beyond": {
@@ -976,12 +976,12 @@
       "path": "/art/cards/sts2_glow.webp",
       "credit": "local"
     },
-    "sts2_go_for_the_eyes": {
-      "path": "/art/cards/sts2_go_for_the_eyes.webp",
-      "credit": "local"
-    },
     "sts2_gold_axe": {
       "path": "/art/cards/sts2_gold_axe.webp",
+      "credit": "local"
+    },
+    "sts2_go_for_the_eyes": {
+      "path": "/art/cards/sts2_go_for_the_eyes.webp",
       "credit": "local"
     },
     "sts2_grand_finale": {
@@ -1036,40 +1036,36 @@
       "path": "/art/cards/sts2_hang.webp",
       "credit": "local"
     },
-    "sts2_havoc": {
-      "path": "/art/cards/sts2_havoc.webp",
-      "credit": "local"
-    },
     "sts2_haunt": {
       "path": "/art/cards/sts2_haunt.webp",
+      "credit": "local"
+    },
+    "sts2_havoc": {
+      "path": "/art/cards/sts2_havoc.webp",
       "credit": "local"
     },
     "sts2_haze": {
       "path": "/art/cards/sts2_haze.webp",
       "credit": "local"
     },
-    "sts2_headbutt": {
-      "path": "/art/cards/sts2_headbutt.webp",
-      "credit": "local"
-    },
     "sts2_hegemony": {
       "path": "/art/cards/sts2_hegemony.webp",
-      "credit": "local"
-    },
-    "sts2_heirloom_hammer": {
-      "path": "/art/cards/sts2_heirloom_hammer.webp",
       "credit": "local"
     },
     "sts2_heavenly_drill": {
       "path": "/art/cards/sts2_heavenly_drill.webp",
       "credit": "local"
     },
-    "sts2_helix_drill": {
-      "path": "/art/cards/sts2_helix_drill.webp",
+    "sts2_headbutt": {
+      "path": "/art/cards/sts2_headbutt.webp",
       "credit": "local"
     },
-    "sts2_hello_world": {
-      "path": "/art/cards/sts2_hello_world.webp",
+    "sts2_heirloom_hammer": {
+      "path": "/art/cards/sts2_heirloom_hammer.webp",
+      "credit": "local"
+    },
+    "sts2_helix_drill": {
+      "path": "/art/cards/sts2_helix_drill.webp",
       "credit": "local"
     },
     "sts2_hellraiser": {
@@ -1078,6 +1074,14 @@
     },
     "sts2_hemokinesis": {
       "path": "/art/cards/sts2_hemokinesis.webp",
+      "credit": "local"
+    },
+    "sts2_hello_world": {
+      "path": "/art/cards/sts2_hello_world.webp",
+      "credit": "local"
+    },
+    "sts2_hidden_gem": {
+      "path": "/art/cards/sts2_hidden_gem.webp",
       "credit": "local"
     },
     "sts2_hibernate": {
@@ -1092,28 +1096,24 @@
       "path": "/art/cards/sts2_hidden_cache.webp",
       "credit": "local"
     },
-    "sts2_hidden_gem": {
-      "path": "/art/cards/sts2_hidden_gem.webp",
-      "credit": "local"
-    },
     "sts2_high_five": {
       "path": "/art/cards/sts2_high_five.webp",
-      "credit": "local"
-    },
-    "sts2_hotfix": {
-      "path": "/art/cards/sts2_hotfix.webp",
       "credit": "local"
     },
     "sts2_hologram": {
       "path": "/art/cards/sts2_hologram.webp",
       "credit": "local"
     },
-    "sts2_howl_from_beyond": {
-      "path": "/art/cards/sts2_howl_from_beyond.webp",
+    "sts2_hotfix": {
+      "path": "/art/cards/sts2_hotfix.webp",
       "credit": "local"
     },
     "sts2_huddle_up": {
       "path": "/art/cards/sts2_huddle_up.webp",
+      "credit": "local"
+    },
+    "sts2_howl_from_beyond": {
+      "path": "/art/cards/sts2_howl_from_beyond.webp",
       "credit": "local"
     },
     "sts2_hyperbeam": {
@@ -1124,16 +1124,20 @@
       "path": "/art/cards/sts2_ice_lance.webp",
       "credit": "local"
     },
-    "sts2_ignition": {
-      "path": "/art/cards/sts2_ignition.webp",
-      "credit": "local"
-    },
     "sts2_i_am_invincible": {
       "path": "/art/cards/sts2_i_am_invincible.webp",
       "credit": "local"
     },
+    "sts2_ignition": {
+      "path": "/art/cards/sts2_ignition.webp",
+      "credit": "local"
+    },
     "sts2_imitation_learning": {
       "path": "/art/cards/sts2_imitation_learning.webp",
+      "credit": "local"
+    },
+    "sts2_impervious": {
+      "path": "/art/cards/sts2_impervious.webp",
       "credit": "local"
     },
     "sts2_impatience": {
@@ -1144,28 +1148,20 @@
       "path": "/art/cards/sts2_infection.webp",
       "credit": "local"
     },
-    "sts2_impervious": {
-      "path": "/art/cards/sts2_impervious.webp",
+    "sts2_infernal_blade": {
+      "path": "/art/cards/sts2_infernal_blade.webp",
+      "credit": "local"
+    },
+    "sts2_infinite_blades": {
+      "path": "/art/cards/sts2_infinite_blades.webp",
       "credit": "local"
     },
     "sts2_inferno": {
       "path": "/art/cards/sts2_inferno.webp",
       "credit": "local"
     },
-    "sts2_infernal_blade": {
-      "path": "/art/cards/sts2_infernal_blade.webp",
-      "credit": "local"
-    },
     "sts2_inflame": {
       "path": "/art/cards/sts2_inflame.webp",
-      "credit": "local"
-    },
-    "sts2_injury": {
-      "path": "/art/cards/sts2_injury.webp",
-      "credit": "local"
-    },
-    "sts2_infinite_blades": {
-      "path": "/art/cards/sts2_infinite_blades.webp",
       "credit": "local"
     },
     "sts2_intercept": {
@@ -1174,6 +1170,10 @@
     },
     "sts2_invoke": {
       "path": "/art/cards/sts2_invoke.webp",
+      "credit": "local"
+    },
+    "sts2_injury": {
+      "path": "/art/cards/sts2_injury.webp",
       "credit": "local"
     },
     "sts2_iteration": {
@@ -1188,20 +1188,16 @@
       "path": "/art/cards/sts2_jack_of_all_trades.webp",
       "credit": "local"
     },
-    "sts2_jackpot": {
-      "path": "/art/cards/sts2_jackpot.webp",
-      "credit": "local"
-    },
     "sts2_juggling": {
       "path": "/art/cards/sts2_juggling.webp",
       "credit": "local"
     },
-    "sts2_juggernaut": {
-      "path": "/art/cards/sts2_juggernaut.webp",
+    "sts2_jackpot": {
+      "path": "/art/cards/sts2_jackpot.webp",
       "credit": "local"
     },
-    "sts2_kingly_kick": {
-      "path": "/art/cards/sts2_kingly_kick.webp",
+    "sts2_juggernaut": {
+      "path": "/art/cards/sts2_juggernaut.webp",
       "credit": "local"
     },
     "sts2_knife_trap": {
@@ -1212,12 +1208,12 @@
       "path": "/art/cards/sts2_knockdown.webp",
       "credit": "local"
     },
-    "sts2_kingly_punch": {
-      "path": "/art/cards/sts2_kingly_punch.webp",
+    "sts2_kingly_kick": {
+      "path": "/art/cards/sts2_kingly_kick.webp",
       "credit": "local"
     },
-    "sts2_knockout_blow": {
-      "path": "/art/cards/sts2_knockout_blow.webp",
+    "sts2_kingly_punch": {
+      "path": "/art/cards/sts2_kingly_punch.webp",
       "credit": "local"
     },
     "sts2_lantern_key": {
@@ -1232,20 +1228,24 @@
       "path": "/art/cards/sts2_largesse.webp",
       "credit": "local"
     },
-    "sts2_leg_sweep": {
-      "path": "/art/cards/sts2_leg_sweep.webp",
+    "sts2_knockout_blow": {
+      "path": "/art/cards/sts2_knockout_blow.webp",
       "credit": "local"
     },
     "sts2_leading_strike": {
       "path": "/art/cards/sts2_leading_strike.webp",
       "credit": "local"
     },
+    "sts2_legion_of_bone": {
+      "path": "/art/cards/sts2_legion_of_bone.webp",
+      "credit": "local"
+    },
     "sts2_leap": {
       "path": "/art/cards/sts2_leap.webp",
       "credit": "local"
     },
-    "sts2_legion_of_bone": {
-      "path": "/art/cards/sts2_legion_of_bone.webp",
+    "sts2_leg_sweep": {
+      "path": "/art/cards/sts2_leg_sweep.webp",
       "credit": "local"
     },
     "sts2_lethality": {
@@ -1256,12 +1256,16 @@
       "path": "/art/cards/sts2_lift.webp",
       "credit": "local"
     },
+    "sts2_loop": {
+      "path": "/art/cards/sts2_loop.webp",
+      "credit": "local"
+    },
     "sts2_lightning_rod": {
       "path": "/art/cards/sts2_lightning_rod.webp",
       "credit": "local"
     },
-    "sts2_loop": {
-      "path": "/art/cards/sts2_loop.webp",
+    "sts2_luminesce": {
+      "path": "/art/cards/sts2_luminesce.webp",
       "credit": "local"
     },
     "sts2_machine_learning": {
@@ -1272,16 +1276,8 @@
       "path": "/art/cards/sts2_lunar_blast.webp",
       "credit": "local"
     },
-    "sts2_luminesce": {
-      "path": "/art/cards/sts2_luminesce.webp",
-      "credit": "local"
-    },
     "sts2_mad_science": {
       "path": "/art/cards/sts2_mad_science.webp",
-      "credit": "local"
-    },
-    "sts2_malaise": {
-      "path": "/art/cards/sts2_malaise.webp",
       "credit": "local"
     },
     "sts2_make_it_so": {
@@ -1292,12 +1288,16 @@
       "path": "/art/cards/sts2_mangle.webp",
       "credit": "local"
     },
-    "sts2_master_of_strategy": {
-      "path": "/art/cards/sts2_master_of_strategy.webp",
+    "sts2_malaise": {
+      "path": "/art/cards/sts2_malaise.webp",
       "credit": "local"
     },
     "sts2_manifest_authority": {
       "path": "/art/cards/sts2_manifest_authority.webp",
+      "credit": "local"
+    },
+    "sts2_master_of_strategy": {
+      "path": "/art/cards/sts2_master_of_strategy.webp",
       "credit": "local"
     },
     "sts2_master_planner": {
@@ -1316,16 +1316,16 @@
       "path": "/art/cards/sts2_melancholy.webp",
       "credit": "local"
     },
-    "sts2_metamorphosis": {
-      "path": "/art/cards/sts2_metamorphosis.webp",
+    "sts2_memento_mori": {
+      "path": "/art/cards/sts2_memento_mori.webp",
       "credit": "local"
     },
     "sts2_meteor_shower": {
       "path": "/art/cards/sts2_meteor_shower.webp",
       "credit": "local"
     },
-    "sts2_memento_mori": {
-      "path": "/art/cards/sts2_memento_mori.webp",
+    "sts2_metamorphosis": {
+      "path": "/art/cards/sts2_metamorphosis.webp",
       "credit": "local"
     },
     "sts2_meteor_strike": {
@@ -1336,28 +1336,28 @@
       "path": "/art/cards/sts2_midnight.webp",
       "credit": "local"
     },
-    "sts2_mind_rot": {
-      "path": "/art/cards/sts2_mind_rot.webp",
+    "sts2_mimic": {
+      "path": "/art/cards/sts2_mimic.webp",
       "credit": "local"
     },
     "sts2_mind_blast": {
       "path": "/art/cards/sts2_mind_blast.webp",
       "credit": "local"
     },
-    "sts2_mimic": {
-      "path": "/art/cards/sts2_mimic.webp",
+    "sts2_mind_rot": {
+      "path": "/art/cards/sts2_mind_rot.webp",
       "credit": "local"
     },
     "sts2_minion_dive_bomb": {
       "path": "/art/cards/sts2_minion_dive_bomb.webp",
       "credit": "local"
     },
-    "sts2_minion_sacrifice": {
-      "path": "/art/cards/sts2_minion_sacrifice.webp",
-      "credit": "local"
-    },
     "sts2_minion_strike": {
       "path": "/art/cards/sts2_minion_strike.webp",
+      "credit": "local"
+    },
+    "sts2_minion_sacrifice": {
+      "path": "/art/cards/sts2_minion_sacrifice.webp",
       "credit": "local"
     },
     "sts2_mirage": {
@@ -1372,44 +1372,48 @@
       "path": "/art/cards/sts2_modded.webp",
       "credit": "local"
     },
-    "sts2_momentum_strike": {
-      "path": "/art/cards/sts2_momentum_strike.webp",
-      "credit": "local"
-    },
     "sts2_molten_fist": {
       "path": "/art/cards/sts2_molten_fist.webp",
+      "credit": "local"
+    },
+    "sts2_momentum_strike": {
+      "path": "/art/cards/sts2_momentum_strike.webp",
       "credit": "local"
     },
     "sts2_monarchs_gaze": {
       "path": "/art/cards/sts2_monarchs_gaze.webp",
       "credit": "local"
     },
-    "sts2_monologue": {
-      "path": "/art/cards/sts2_monologue.webp",
-      "credit": "local"
-    },
     "sts2_murder": {
       "path": "/art/cards/sts2_murder.webp",
-      "credit": "local"
-    },
-    "sts2_multi_cast": {
-      "path": "/art/cards/sts2_multi_cast.webp",
       "credit": "local"
     },
     "sts2_necro_mastery": {
       "path": "/art/cards/sts2_necro_mastery.webp",
       "credit": "local"
     },
+    "sts2_monologue": {
+      "path": "/art/cards/sts2_monologue.webp",
+      "credit": "local"
+    },
+    "sts2_multi_cast": {
+      "path": "/art/cards/sts2_multi_cast.webp",
+      "credit": "local"
+    },
     "sts2_neurosurge": {
       "path": "/art/cards/sts2_neurosurge.webp",
+      "credit": "local"
+    },
+    "sts2_neows_fury": {
+      "path": "/art/cards/sts2_neows_fury.webp",
       "credit": "local"
     },
     "sts2_negative_pulse": {
       "path": "/art/cards/sts2_negative_pulse.webp",
       "credit": "local"
     },
-    "sts2_neows_fury": {
-      "path": "/art/cards/sts2_neows_fury.webp",
+    "sts2_neutralize": {
+      "path": "/art/cards/sts2_neutralize.webp",
       "credit": "local"
     },
     "sts2_nightmare": {
@@ -1420,6 +1424,18 @@
       "path": "/art/cards/sts2_neutron_aegis.webp",
       "credit": "local"
     },
+    "sts2_no_escape": {
+      "path": "/art/cards/sts2_no_escape.webp",
+      "credit": "local"
+    },
+    "sts2_normality": {
+      "path": "/art/cards/sts2_normality.webp",
+      "credit": "local"
+    },
+    "sts2_noxious_fumes": {
+      "path": "/art/cards/sts2_noxious_fumes.webp",
+      "credit": "local"
+    },
     "sts2_nostalgia": {
       "path": "/art/cards/sts2_nostalgia.webp",
       "credit": "local"
@@ -1428,84 +1444,64 @@
       "path": "/art/cards/sts2_not_yet.webp",
       "credit": "local"
     },
-    "sts2_neutralize": {
-      "path": "/art/cards/sts2_neutralize.webp",
-      "credit": "local"
-    },
-    "sts2_noxious_fumes": {
-      "path": "/art/cards/sts2_noxious_fumes.webp",
-      "credit": "local"
-    },
-    "sts2_normality": {
-      "path": "/art/cards/sts2_normality.webp",
-      "credit": "local"
-    },
-    "sts2_null": {
-      "path": "/art/cards/sts2_null.webp",
-      "credit": "local"
-    },
-    "sts2_no_escape": {
-      "path": "/art/cards/sts2_no_escape.webp",
-      "credit": "local"
-    },
     "sts2_omnislice": {
       "path": "/art/cards/sts2_omnislice.webp",
-      "credit": "local"
-    },
-    "sts2_offering": {
-      "path": "/art/cards/sts2_offering.webp",
-      "credit": "local"
-    },
-    "sts2_orbit": {
-      "path": "/art/cards/sts2_orbit.webp",
       "credit": "local"
     },
     "sts2_oblivion": {
       "path": "/art/cards/sts2_oblivion.webp",
       "credit": "local"
     },
-    "sts2_one_two_punch": {
-      "path": "/art/cards/sts2_one_two_punch.webp",
+    "sts2_null": {
+      "path": "/art/cards/sts2_null.webp",
+      "credit": "local"
+    },
+    "sts2_offering": {
+      "path": "/art/cards/sts2_offering.webp",
       "credit": "local"
     },
     "sts2_one_for_all": {
       "path": "/art/cards/sts2_one_for_all.webp",
       "credit": "local"
     },
-    "sts2_outmaneuver": {
-      "path": "/art/cards/sts2_outmaneuver.webp",
+    "sts2_orbit": {
+      "path": "/art/cards/sts2_orbit.webp",
+      "credit": "local"
+    },
+    "sts2_one_two_punch": {
+      "path": "/art/cards/sts2_one_two_punch.webp",
       "credit": "local"
     },
     "sts2_outbreak": {
       "path": "/art/cards/sts2_outbreak.webp",
       "credit": "local"
     },
-    "sts2_outrage": {
-      "path": "/art/cards/sts2_outrage.webp",
-      "credit": "local"
-    },
-    "sts2_pacts_end": {
-      "path": "/art/cards/sts2_pacts_end.webp",
+    "sts2_outmaneuver": {
+      "path": "/art/cards/sts2_outmaneuver.webp",
       "credit": "local"
     },
     "sts2_overclock": {
       "path": "/art/cards/sts2_overclock.webp",
       "credit": "local"
     },
-    "sts2_pagestorm": {
-      "path": "/art/cards/sts2_pagestorm.webp",
+    "sts2_pacts_end": {
+      "path": "/art/cards/sts2_pacts_end.webp",
       "credit": "local"
     },
-    "sts2_panache": {
-      "path": "/art/cards/sts2_panache.webp",
+    "sts2_outrage": {
+      "path": "/art/cards/sts2_outrage.webp",
+      "credit": "local"
+    },
+    "sts2_pagestorm": {
+      "path": "/art/cards/sts2_pagestorm.webp",
       "credit": "local"
     },
     "sts2_pale_blue_dot": {
       "path": "/art/cards/sts2_pale_blue_dot.webp",
       "credit": "local"
     },
-    "sts2_parry": {
-      "path": "/art/cards/sts2_parry.webp",
+    "sts2_panache": {
+      "path": "/art/cards/sts2_panache.webp",
       "credit": "local"
     },
     "sts2_panic_button": {
@@ -1516,16 +1512,24 @@
       "path": "/art/cards/sts2_parse.webp",
       "credit": "local"
     },
-    "sts2_particle_wall": {
-      "path": "/art/cards/sts2_particle_wall.webp",
-      "credit": "local"
-    },
     "sts2_patter": {
       "path": "/art/cards/sts2_patter.webp",
       "credit": "local"
     },
+    "sts2_particle_wall": {
+      "path": "/art/cards/sts2_particle_wall.webp",
+      "credit": "local"
+    },
+    "sts2_parry": {
+      "path": "/art/cards/sts2_parry.webp",
+      "credit": "local"
+    },
     "sts2_peck": {
       "path": "/art/cards/sts2_peck.webp",
+      "credit": "local"
+    },
+    "sts2_phantom_blades": {
+      "path": "/art/cards/sts2_phantom_blades.webp",
       "credit": "local"
     },
     "sts2_perfected_strike": {
@@ -1540,10 +1544,6 @@
       "path": "/art/cards/sts2_piercing_wail.webp",
       "credit": "local"
     },
-    "sts2_phantom_blades": {
-      "path": "/art/cards/sts2_phantom_blades.webp",
-      "credit": "local"
-    },
     "sts2_pillage": {
       "path": "/art/cards/sts2_pillage.webp",
       "credit": "local"
@@ -1552,28 +1552,24 @@
       "path": "/art/cards/sts2_pillar_of_creation.webp",
       "credit": "local"
     },
-    "sts2_plot": {
-      "path": "/art/cards/sts2_plot.webp",
-      "credit": "local"
-    },
     "sts2_pinpoint": {
       "path": "/art/cards/sts2_pinpoint.webp",
       "credit": "local"
     },
-    "sts2_poisoned_stab": {
-      "path": "/art/cards/sts2_poisoned_stab.webp",
+    "sts2_plot": {
+      "path": "/art/cards/sts2_plot.webp",
       "credit": "local"
     },
     "sts2_poke": {
       "path": "/art/cards/sts2_poke.webp",
       "credit": "local"
     },
-    "sts2_pommel_strike": {
-      "path": "/art/cards/sts2_pommel_strike.webp",
+    "sts2_poisoned_stab": {
+      "path": "/art/cards/sts2_poisoned_stab.webp",
       "credit": "local"
     },
-    "sts2_pounce": {
-      "path": "/art/cards/sts2_pounce.webp",
+    "sts2_pommel_strike": {
+      "path": "/art/cards/sts2_pommel_strike.webp",
       "credit": "local"
     },
     "sts2_poor_sleep": {
@@ -1584,76 +1580,80 @@
       "path": "/art/cards/sts2_precise_cut.webp",
       "credit": "local"
     },
-    "sts2_predator": {
-      "path": "/art/cards/sts2_predator.webp",
+    "sts2_pounce": {
+      "path": "/art/cards/sts2_pounce.webp",
       "credit": "local"
     },
-    "sts2_prepared": {
-      "path": "/art/cards/sts2_prepared.webp",
+    "sts2_predator": {
+      "path": "/art/cards/sts2_predator.webp",
       "credit": "local"
     },
     "sts2_prep_time": {
       "path": "/art/cards/sts2_prep_time.webp",
       "credit": "local"
     },
-    "sts2_production": {
-      "path": "/art/cards/sts2_production.webp",
+    "sts2_primal_force": {
+      "path": "/art/cards/sts2_primal_force.webp",
       "credit": "local"
     },
     "sts2_prolong": {
       "path": "/art/cards/sts2_prolong.webp",
       "credit": "local"
     },
-    "sts2_primal_force": {
-      "path": "/art/cards/sts2_primal_force.webp",
+    "sts2_prepared": {
+      "path": "/art/cards/sts2_prepared.webp",
       "credit": "local"
     },
-    "sts2_prophesize": {
-      "path": "/art/cards/sts2_prophesize.webp",
+    "sts2_production": {
+      "path": "/art/cards/sts2_production.webp",
       "credit": "local"
     },
     "sts2_prowess": {
       "path": "/art/cards/sts2_prowess.webp",
       "credit": "local"
     },
-    "sts2_pull_from_below": {
-      "path": "/art/cards/sts2_pull_from_below.webp",
+    "sts2_prophesize": {
+      "path": "/art/cards/sts2_prophesize.webp",
       "credit": "local"
     },
     "sts2_protector": {
       "path": "/art/cards/sts2_protector.webp",
       "credit": "local"
     },
-    "sts2_purity": {
-      "path": "/art/cards/sts2_purity.webp",
-      "credit": "local"
-    },
     "sts2_pull_aggro": {
       "path": "/art/cards/sts2_pull_aggro.webp",
       "credit": "local"
     },
-    "sts2_putrefy": {
-      "path": "/art/cards/sts2_putrefy.webp",
+    "sts2_pull_from_below": {
+      "path": "/art/cards/sts2_pull_from_below.webp",
       "credit": "local"
     },
     "sts2_pyre": {
       "path": "/art/cards/sts2_pyre.webp",
       "credit": "local"
     },
-    "sts2_quadcast": {
-      "path": "/art/cards/sts2_quadcast.webp",
+    "sts2_purity": {
+      "path": "/art/cards/sts2_purity.webp",
+      "credit": "local"
+    },
+    "sts2_putrefy": {
+      "path": "/art/cards/sts2_putrefy.webp",
+      "credit": "local"
+    },
+    "sts2_rage": {
+      "path": "/art/cards/sts2_rage.webp",
       "credit": "local"
     },
     "sts2_radiate": {
       "path": "/art/cards/sts2_radiate.webp",
       "credit": "local"
     },
-    "sts2_quasar": {
-      "path": "/art/cards/sts2_quasar.webp",
+    "sts2_quadcast": {
+      "path": "/art/cards/sts2_quadcast.webp",
       "credit": "local"
     },
-    "sts2_rage": {
-      "path": "/art/cards/sts2_rage.webp",
+    "sts2_quasar": {
+      "path": "/art/cards/sts2_quasar.webp",
       "credit": "local"
     },
     "sts2_rainbow": {
@@ -1668,16 +1668,12 @@
       "path": "/art/cards/sts2_rampage.webp",
       "credit": "local"
     },
-    "sts2_reanimate": {
-      "path": "/art/cards/sts2_reanimate.webp",
-      "credit": "local"
-    },
-    "sts2_reaper_form": {
-      "path": "/art/cards/sts2_reaper_form.webp",
-      "credit": "local"
-    },
     "sts2_rattle": {
       "path": "/art/cards/sts2_rattle.webp",
+      "credit": "local"
+    },
+    "sts2_reanimate": {
+      "path": "/art/cards/sts2_reanimate.webp",
       "credit": "local"
     },
     "sts2_reap": {
@@ -1686,6 +1682,10 @@
     },
     "sts2_reave": {
       "path": "/art/cards/sts2_reave.webp",
+      "credit": "local"
+    },
+    "sts2_reaper_form": {
+      "path": "/art/cards/sts2_reaper_form.webp",
       "credit": "local"
     },
     "sts2_rebound": {
@@ -1704,20 +1704,24 @@
       "path": "/art/cards/sts2_reflect.webp",
       "credit": "local"
     },
-    "sts2_reflex": {
-      "path": "/art/cards/sts2_reflex.webp",
-      "credit": "local"
-    },
     "sts2_regret": {
       "path": "/art/cards/sts2_regret.webp",
+      "credit": "local"
+    },
+    "sts2_relax": {
+      "path": "/art/cards/sts2_relax.webp",
       "credit": "local"
     },
     "sts2_refract": {
       "path": "/art/cards/sts2_refract.webp",
       "credit": "local"
     },
-    "sts2_relax": {
-      "path": "/art/cards/sts2_relax.webp",
+    "sts2_reflex": {
+      "path": "/art/cards/sts2_reflex.webp",
+      "credit": "local"
+    },
+    "sts2_rend": {
+      "path": "/art/cards/sts2_rend.webp",
       "credit": "local"
     },
     "sts2_resonance": {
@@ -1732,10 +1736,6 @@
       "path": "/art/cards/sts2_ricochet.webp",
       "credit": "local"
     },
-    "sts2_rend": {
-      "path": "/art/cards/sts2_rend.webp",
-      "credit": "local"
-    },
     "sts2_right_hand_hand": {
       "path": "/art/cards/sts2_right_hand_hand.webp",
       "credit": "local"
@@ -1744,20 +1744,16 @@
       "path": "/art/cards/sts2_rip_and_tear.webp",
       "credit": "local"
     },
-    "sts2_rolling_boulder": {
-      "path": "/art/cards/sts2_rolling_boulder.webp",
-      "credit": "local"
-    },
     "sts2_rocket_punch": {
       "path": "/art/cards/sts2_rocket_punch.webp",
       "credit": "local"
     },
-    "sts2_royal_gamble": {
-      "path": "/art/cards/sts2_royal_gamble.webp",
+    "sts2_rolling_boulder": {
+      "path": "/art/cards/sts2_rolling_boulder.webp",
       "credit": "local"
     },
-    "sts2_rupture": {
-      "path": "/art/cards/sts2_rupture.webp",
+    "sts2_royal_gamble": {
+      "path": "/art/cards/sts2_royal_gamble.webp",
       "credit": "local"
     },
     "sts2_royalties": {
@@ -1768,20 +1764,16 @@
       "path": "/art/cards/sts2_sacrifice.webp",
       "credit": "local"
     },
-    "sts2_salvo": {
-      "path": "/art/cards/sts2_salvo.webp",
-      "credit": "local"
-    },
-    "sts2_scavenge": {
-      "path": "/art/cards/sts2_scavenge.webp",
+    "sts2_rupture": {
+      "path": "/art/cards/sts2_rupture.webp",
       "credit": "local"
     },
     "sts2_scourge": {
       "path": "/art/cards/sts2_scourge.webp",
       "credit": "local"
     },
-    "sts2_scrawl": {
-      "path": "/art/cards/sts2_scrawl.webp",
+    "sts2_salvo": {
+      "path": "/art/cards/sts2_salvo.webp",
       "credit": "local"
     },
     "sts2_scrape": {
@@ -1792,12 +1784,24 @@
       "path": "/art/cards/sts2_sculpting_strike.webp",
       "credit": "local"
     },
+    "sts2_scavenge": {
+      "path": "/art/cards/sts2_scavenge.webp",
+      "credit": "local"
+    },
+    "sts2_scrawl": {
+      "path": "/art/cards/sts2_scrawl.webp",
+      "credit": "local"
+    },
     "sts2_seance": {
       "path": "/art/cards/sts2_seance.webp",
       "credit": "local"
     },
     "sts2_secret_technique": {
       "path": "/art/cards/sts2_secret_technique.webp",
+      "credit": "local"
+    },
+    "sts2_secret_weapon": {
+      "path": "/art/cards/sts2_secret_weapon.webp",
       "credit": "local"
     },
     "sts2_second_wind": {
@@ -1808,20 +1812,16 @@
       "path": "/art/cards/sts2_seeker_strike.webp",
       "credit": "local"
     },
-    "sts2_secret_weapon": {
-      "path": "/art/cards/sts2_secret_weapon.webp",
-      "credit": "local"
-    },
-    "sts2_seeking_edge": {
-      "path": "/art/cards/sts2_seeking_edge.webp",
-      "credit": "local"
-    },
     "sts2_sentry_mode": {
       "path": "/art/cards/sts2_sentry_mode.webp",
       "credit": "local"
     },
     "sts2_serpent_form": {
       "path": "/art/cards/sts2_serpent_form.webp",
+      "credit": "local"
+    },
+    "sts2_seeking_edge": {
+      "path": "/art/cards/sts2_seeking_edge.webp",
       "credit": "local"
     },
     "sts2_setup_strike": {
@@ -1844,16 +1844,20 @@
       "path": "/art/cards/sts2_shadow_step.webp",
       "credit": "local"
     },
-    "sts2_shadowmeld": {
-      "path": "/art/cards/sts2_shadowmeld.webp",
+    "sts2_shared_fate": {
+      "path": "/art/cards/sts2_shared_fate.webp",
       "credit": "local"
     },
     "sts2_shame": {
       "path": "/art/cards/sts2_shame.webp",
       "credit": "local"
     },
-    "sts2_shared_fate": {
-      "path": "/art/cards/sts2_shared_fate.webp",
+    "sts2_shadowmeld": {
+      "path": "/art/cards/sts2_shadowmeld.webp",
+      "credit": "local"
+    },
+    "sts2_shockwave": {
+      "path": "/art/cards/sts2_shockwave.webp",
       "credit": "local"
     },
     "sts2_shatter": {
@@ -1864,20 +1868,20 @@
       "path": "/art/cards/sts2_shiv.webp",
       "credit": "local"
     },
-    "sts2_shockwave": {
-      "path": "/art/cards/sts2_shockwave.webp",
+    "sts2_shroud": {
+      "path": "/art/cards/sts2_shroud.webp",
       "credit": "local"
     },
     "sts2_shining_strike": {
       "path": "/art/cards/sts2_shining_strike.webp",
       "credit": "local"
     },
-    "sts2_shroud": {
-      "path": "/art/cards/sts2_shroud.webp",
-      "credit": "local"
-    },
     "sts2_sic_em": {
       "path": "/art/cards/sts2_sic_em.webp",
+      "credit": "local"
+    },
+    "sts2_shrug_it_off": {
+      "path": "/art/cards/sts2_shrug_it_off.webp",
       "credit": "local"
     },
     "sts2_sidestep": {
@@ -1888,16 +1892,12 @@
       "path": "/art/cards/sts2_signal_boost.webp",
       "credit": "local"
     },
-    "sts2_shrug_it_off": {
-      "path": "/art/cards/sts2_shrug_it_off.webp",
+    "sts2_skim": {
+      "path": "/art/cards/sts2_skim.webp",
       "credit": "local"
     },
     "sts2_skewer": {
       "path": "/art/cards/sts2_skewer.webp",
-      "credit": "local"
-    },
-    "sts2_skim": {
-      "path": "/art/cards/sts2_skim.webp",
       "credit": "local"
     },
     "sts2_sleight_of_flesh": {
@@ -1912,16 +1912,12 @@
       "path": "/art/cards/sts2_slimed.webp",
       "credit": "local"
     },
-    "sts2_smokestack": {
-      "path": "/art/cards/sts2_smokestack.webp",
-      "credit": "local"
-    },
     "sts2_sloth": {
       "path": "/art/cards/sts2_sloth.webp",
       "credit": "local"
     },
-    "sts2_sneaky": {
-      "path": "/art/cards/sts2_sneaky.webp",
+    "sts2_smokestack": {
+      "path": "/art/cards/sts2_smokestack.webp",
       "credit": "local"
     },
     "sts2_snap": {
@@ -1932,16 +1928,20 @@
       "path": "/art/cards/sts2_snakebite.webp",
       "credit": "local"
     },
+    "sts2_sneaky": {
+      "path": "/art/cards/sts2_sneaky.webp",
+      "credit": "local"
+    },
     "sts2_solar_strike": {
       "path": "/art/cards/sts2_solar_strike.webp",
       "credit": "local"
     },
-    "sts2_soot": {
-      "path": "/art/cards/sts2_soot.webp",
-      "credit": "local"
-    },
     "sts2_soul": {
       "path": "/art/cards/sts2_soul.webp",
+      "credit": "local"
+    },
+    "sts2_soot": {
+      "path": "/art/cards/sts2_soot.webp",
       "credit": "local"
     },
     "sts2_soulbound": {
@@ -1964,16 +1964,16 @@
       "path": "/art/cards/sts2_spectrum_shift.webp",
       "credit": "local"
     },
-    "sts2_spinner": {
-      "path": "/art/cards/sts2_spinner.webp",
+    "sts2_sow": {
+      "path": "/art/cards/sts2_sow.webp",
       "credit": "local"
     },
     "sts2_spirit_of_ash": {
       "path": "/art/cards/sts2_spirit_of_ash.webp",
       "credit": "local"
     },
-    "sts2_sow": {
-      "path": "/art/cards/sts2_sow.webp",
+    "sts2_spinner": {
+      "path": "/art/cards/sts2_spinner.webp",
       "credit": "local"
     },
     "sts2_spite": {
@@ -1992,12 +1992,12 @@
       "path": "/art/cards/sts2_spoils_of_battle.webp",
       "credit": "local"
     },
-    "sts2_spore_mind": {
-      "path": "/art/cards/sts2_spore_mind.webp",
-      "credit": "local"
-    },
     "sts2_spur": {
       "path": "/art/cards/sts2_spur.webp",
+      "credit": "local"
+    },
+    "sts2_spore_mind": {
+      "path": "/art/cards/sts2_spore_mind.webp",
       "credit": "local"
     },
     "sts2_squash": {
@@ -2016,40 +2016,40 @@
       "path": "/art/cards/sts2_stampede.webp",
       "credit": "local"
     },
-    "sts2_stardust": {
-      "path": "/art/cards/sts2_stardust.webp",
-      "credit": "local"
-    },
     "sts2_stoke": {
       "path": "/art/cards/sts2_stoke.webp",
       "credit": "local"
     },
-    "sts2_stone_armor": {
-      "path": "/art/cards/sts2_stone_armor.webp",
+    "sts2_stardust": {
+      "path": "/art/cards/sts2_stardust.webp",
       "credit": "local"
     },
     "sts2_stomp": {
       "path": "/art/cards/sts2_stomp.webp",
       "credit": "local"
     },
-    "sts2_storm": {
-      "path": "/art/cards/sts2_storm.webp",
+    "sts2_stone_armor": {
+      "path": "/art/cards/sts2_stone_armor.webp",
       "credit": "local"
     },
     "sts2_storm_of_steel": {
       "path": "/art/cards/sts2_storm_of_steel.webp",
       "credit": "local"
     },
+    "sts2_storm": {
+      "path": "/art/cards/sts2_storm.webp",
+      "credit": "local"
+    },
     "sts2_stratagem": {
       "path": "/art/cards/sts2_stratagem.webp",
       "credit": "local"
     },
-    "sts2_strangle": {
-      "path": "/art/cards/sts2_strangle.webp",
-      "credit": "local"
-    },
     "sts2_strike_defect": {
       "path": "/art/cards/sts2_strike_defect.webp",
+      "credit": "local"
+    },
+    "sts2_strangle": {
+      "path": "/art/cards/sts2_strangle.webp",
       "credit": "local"
     },
     "sts2_strike_ironclad": {
@@ -2060,20 +2060,16 @@
       "path": "/art/cards/sts2_strike_necrobinder.webp",
       "credit": "local"
     },
-    "sts2_strike_regent": {
-      "path": "/art/cards/sts2_strike_regent.webp",
-      "credit": "local"
-    },
     "sts2_strike_silent": {
       "path": "/art/cards/sts2_strike_silent.webp",
       "credit": "local"
     },
-    "sts2_subroutine": {
-      "path": "/art/cards/sts2_subroutine.webp",
+    "sts2_strike_regent": {
+      "path": "/art/cards/sts2_strike_regent.webp",
       "credit": "local"
     },
-    "sts2_summon_forth": {
-      "path": "/art/cards/sts2_summon_forth.webp",
+    "sts2_subroutine": {
+      "path": "/art/cards/sts2_subroutine.webp",
       "credit": "local"
     },
     "sts2_sucker_punch": {
@@ -2084,16 +2080,16 @@
       "path": "/art/cards/sts2_sunder.webp",
       "credit": "local"
     },
+    "sts2_summon_forth": {
+      "path": "/art/cards/sts2_summon_forth.webp",
+      "credit": "local"
+    },
     "sts2_supercritical": {
       "path": "/art/cards/sts2_supercritical.webp",
       "credit": "local"
     },
     "sts2_supermassive": {
       "path": "/art/cards/sts2_supermassive.webp",
-      "credit": "local"
-    },
-    "sts2_suppress": {
-      "path": "/art/cards/sts2_suppress.webp",
       "credit": "local"
     },
     "sts2_sweeping_beam": {
@@ -2104,16 +2100,20 @@
       "path": "/art/cards/sts2_survivor.webp",
       "credit": "local"
     },
+    "sts2_suppress": {
+      "path": "/art/cards/sts2_suppress.webp",
+      "credit": "local"
+    },
+    "sts2_sword_sage": {
+      "path": "/art/cards/sts2_sword_sage.webp",
+      "credit": "local"
+    },
     "sts2_sweeping_gaze": {
       "path": "/art/cards/sts2_sweeping_gaze.webp",
       "credit": "local"
     },
     "sts2_sword_boomerang": {
       "path": "/art/cards/sts2_sword_boomerang.webp",
-      "credit": "local"
-    },
-    "sts2_sword_sage": {
-      "path": "/art/cards/sts2_sword_sage.webp",
       "credit": "local"
     },
     "sts2_synchronize": {
@@ -2124,12 +2124,12 @@
       "path": "/art/cards/sts2_tactician.webp",
       "credit": "local"
     },
-    "sts2_synthesis": {
-      "path": "/art/cards/sts2_synthesis.webp",
-      "credit": "local"
-    },
     "sts2_tag_team": {
       "path": "/art/cards/sts2_tag_team.webp",
+      "credit": "local"
+    },
+    "sts2_synthesis": {
+      "path": "/art/cards/sts2_synthesis.webp",
       "credit": "local"
     },
     "sts2_tank": {
@@ -2140,16 +2140,12 @@
       "path": "/art/cards/sts2_taunt.webp",
       "credit": "local"
     },
-    "sts2_tempest": {
-      "path": "/art/cards/sts2_tempest.webp",
-      "credit": "local"
-    },
     "sts2_tear_asunder": {
       "path": "/art/cards/sts2_tear_asunder.webp",
       "credit": "local"
     },
-    "sts2_tesla_coil": {
-      "path": "/art/cards/sts2_tesla_coil.webp",
+    "sts2_tempest": {
+      "path": "/art/cards/sts2_tempest.webp",
       "credit": "local"
     },
     "sts2_terraforming": {
@@ -2160,6 +2156,10 @@
       "path": "/art/cards/sts2_the_ball.webp",
       "credit": "local"
     },
+    "sts2_tesla_coil": {
+      "path": "/art/cards/sts2_tesla_coil.webp",
+      "credit": "local"
+    },
     "sts2_the_bomb": {
       "path": "/art/cards/sts2_the_bomb.webp",
       "credit": "local"
@@ -2168,24 +2168,28 @@
       "path": "/art/cards/sts2_the_gambit.webp",
       "credit": "local"
     },
-    "sts2_the_hunt": {
-      "path": "/art/cards/sts2_the_hunt.webp",
-      "credit": "local"
-    },
     "sts2_the_scythe": {
       "path": "/art/cards/sts2_the_scythe.webp",
+      "credit": "local"
+    },
+    "sts2_the_hunt": {
+      "path": "/art/cards/sts2_the_hunt.webp",
       "credit": "local"
     },
     "sts2_the_sealed_throne": {
       "path": "/art/cards/sts2_the_sealed_throne.webp",
       "credit": "local"
     },
+    "sts2_thinking_ahead": {
+      "path": "/art/cards/sts2_thinking_ahead.webp",
+      "credit": "local"
+    },
     "sts2_the_smith": {
       "path": "/art/cards/sts2_the_smith.webp",
       "credit": "local"
     },
-    "sts2_thinking_ahead": {
-      "path": "/art/cards/sts2_thinking_ahead.webp",
+    "sts2_thrumming_hatchet": {
+      "path": "/art/cards/sts2_thrumming_hatchet.webp",
       "credit": "local"
     },
     "sts2_thrash": {
@@ -2196,20 +2200,12 @@
       "path": "/art/cards/sts2_thunder.webp",
       "credit": "local"
     },
-    "sts2_thunderclap": {
-      "path": "/art/cards/sts2_thunderclap.webp",
-      "credit": "local"
-    },
     "sts2_times_up": {
       "path": "/art/cards/sts2_times_up.webp",
       "credit": "local"
     },
-    "sts2_thrumming_hatchet": {
-      "path": "/art/cards/sts2_thrumming_hatchet.webp",
-      "credit": "local"
-    },
-    "sts2_toxic": {
-      "path": "/art/cards/sts2_toxic.webp",
+    "sts2_thunderclap": {
+      "path": "/art/cards/sts2_thunderclap.webp",
       "credit": "local"
     },
     "sts2_tools_of_the_trade": {
@@ -2220,6 +2216,14 @@
       "path": "/art/cards/sts2_toric_toughness.webp",
       "credit": "local"
     },
+    "sts2_toxic": {
+      "path": "/art/cards/sts2_toxic.webp",
+      "credit": "local"
+    },
+    "sts2_transfigure": {
+      "path": "/art/cards/sts2_transfigure.webp",
+      "credit": "local"
+    },
     "sts2_tracking": {
       "path": "/art/cards/sts2_tracking.webp",
       "credit": "local"
@@ -2228,32 +2232,28 @@
       "path": "/art/cards/sts2_trash_to_treasure.webp",
       "credit": "local"
     },
-    "sts2_transfigure": {
-      "path": "/art/cards/sts2_transfigure.webp",
-      "credit": "local"
-    },
-    "sts2_tremble": {
-      "path": "/art/cards/sts2_tremble.webp",
-      "credit": "local"
-    },
     "sts2_true_grit": {
       "path": "/art/cards/sts2_true_grit.webp",
-      "credit": "local"
-    },
-    "sts2_tutor": {
-      "path": "/art/cards/sts2_tutor.webp",
       "credit": "local"
     },
     "sts2_turbo": {
       "path": "/art/cards/sts2_turbo.webp",
       "credit": "local"
     },
-    "sts2_twin_strike": {
-      "path": "/art/cards/sts2_twin_strike.webp",
+    "sts2_tremble": {
+      "path": "/art/cards/sts2_tremble.webp",
+      "credit": "local"
+    },
+    "sts2_tutor": {
+      "path": "/art/cards/sts2_tutor.webp",
       "credit": "local"
     },
     "sts2_tyranny": {
       "path": "/art/cards/sts2_tyranny.webp",
+      "credit": "local"
+    },
+    "sts2_twin_strike": {
+      "path": "/art/cards/sts2_twin_strike.webp",
       "credit": "local"
     },
     "sts2_ultimate_defend": {
@@ -2264,12 +2264,12 @@
       "path": "/art/cards/sts2_undeath.webp",
       "credit": "local"
     },
-    "sts2_underworld": {
-      "path": "/art/cards/sts2_underworld.webp",
-      "credit": "local"
-    },
     "sts2_ultimate_strike": {
       "path": "/art/cards/sts2_ultimate_strike.webp",
+      "credit": "local"
+    },
+    "sts2_underworld": {
+      "path": "/art/cards/sts2_underworld.webp",
       "credit": "local"
     },
     "sts2_unleash": {
@@ -2296,24 +2296,24 @@
       "path": "/art/cards/sts2_uppercut.webp",
       "credit": "local"
     },
-    "sts2_uproar": {
-      "path": "/art/cards/sts2_uproar.webp",
-      "credit": "local"
-    },
     "sts2_veilpiercer": {
       "path": "/art/cards/sts2_veilpiercer.webp",
+      "credit": "local"
+    },
+    "sts2_uproar": {
+      "path": "/art/cards/sts2_uproar.webp",
       "credit": "local"
     },
     "sts2_venerate": {
       "path": "/art/cards/sts2_venerate.webp",
       "credit": "local"
     },
-    "sts2_vicious": {
-      "path": "/art/cards/sts2_vicious.webp",
-      "credit": "local"
-    },
     "sts2_void": {
       "path": "/art/cards/sts2_void.webp",
+      "credit": "local"
+    },
+    "sts2_vicious": {
+      "path": "/art/cards/sts2_vicious.webp",
       "credit": "local"
     },
     "sts2_void_form": {
@@ -2336,16 +2336,20 @@
       "path": "/art/cards/sts2_well_laid_plans.webp",
       "credit": "local"
     },
-    "sts2_whistle": {
-      "path": "/art/cards/sts2_whistle.webp",
-      "credit": "local"
-    },
     "sts2_whirlwind": {
       "path": "/art/cards/sts2_whirlwind.webp",
       "credit": "local"
     },
+    "sts2_whistle": {
+      "path": "/art/cards/sts2_whistle.webp",
+      "credit": "local"
+    },
     "sts2_white_noise": {
       "path": "/art/cards/sts2_white_noise.webp",
+      "credit": "local"
+    },
+    "sts2_wisp": {
+      "path": "/art/cards/sts2_wisp.webp",
       "credit": "local"
     },
     "sts2_wither": {
@@ -2360,20 +2364,16 @@
       "path": "/art/cards/sts2_wound.webp",
       "credit": "local"
     },
-    "sts2_wisp": {
-      "path": "/art/cards/sts2_wisp.webp",
-      "credit": "local"
-    },
     "sts2_wraith_form": {
       "path": "/art/cards/sts2_wraith_form.webp",
       "credit": "local"
     },
-    "sts2_writhe": {
-      "path": "/art/cards/sts2_writhe.webp",
-      "credit": "local"
-    },
     "sts2_wrought_in_war": {
       "path": "/art/cards/sts2_wrought_in_war.webp",
+      "credit": "local"
+    },
+    "sts2_writhe": {
+      "path": "/art/cards/sts2_writhe.webp",
       "credit": "local"
     },
     "sts2_zap": {
@@ -2402,24 +2402,24 @@
       "path": "/art/relics/sts2_akabeko.webp",
       "credit": "local"
     },
-    "sts2_alchemical_coffer": {
-      "path": "/art/relics/sts2_alchemical_coffer.webp",
-      "credit": "local"
-    },
     "sts2_anchor": {
       "path": "/art/relics/sts2_anchor.webp",
+      "credit": "local"
+    },
+    "sts2_alchemical_coffer": {
+      "path": "/art/relics/sts2_alchemical_coffer.webp",
       "credit": "local"
     },
     "sts2_arcane_scroll": {
       "path": "/art/relics/sts2_arcane_scroll.webp",
       "credit": "local"
     },
-    "sts2_art_of_war": {
-      "path": "/art/relics/sts2_art_of_war.webp",
-      "credit": "local"
-    },
     "sts2_archaic_tooth": {
       "path": "/art/relics/sts2_archaic_tooth.webp",
+      "credit": "local"
+    },
+    "sts2_art_of_war": {
+      "path": "/art/relics/sts2_art_of_war.webp",
       "credit": "local"
     },
     "sts2_astrolabe": {
@@ -2434,20 +2434,20 @@
       "path": "/art/relics/sts2_bag_of_preparation.webp",
       "credit": "local"
     },
-    "sts2_beating_remnant": {
-      "path": "/art/relics/sts2_beating_remnant.webp",
+    "sts2_beautiful_bracelet": {
+      "path": "/art/relics/sts2_beautiful_bracelet.webp",
       "credit": "local"
     },
-    "sts2_bellows": {
-      "path": "/art/relics/sts2_bellows.webp",
+    "sts2_beating_remnant": {
+      "path": "/art/relics/sts2_beating_remnant.webp",
       "credit": "local"
     },
     "sts2_belt_buckle": {
       "path": "/art/relics/sts2_belt_buckle.webp",
       "credit": "local"
     },
-    "sts2_beautiful_bracelet": {
-      "path": "/art/relics/sts2_beautiful_bracelet.webp",
+    "sts2_bellows": {
+      "path": "/art/relics/sts2_bellows.webp",
       "credit": "local"
     },
     "sts2_big_hat": {
@@ -2458,6 +2458,10 @@
       "path": "/art/relics/sts2_big_mushroom.webp",
       "credit": "local"
     },
+    "sts2_black_blood": {
+      "path": "/art/relics/sts2_black_blood.webp",
+      "credit": "local"
+    },
     "sts2_bing_bong": {
       "path": "/art/relics/sts2_bing_bong.webp",
       "credit": "local"
@@ -2466,36 +2470,32 @@
       "path": "/art/relics/sts2_biiig_hug.webp",
       "credit": "local"
     },
-    "sts2_black_blood": {
-      "path": "/art/relics/sts2_black_blood.webp",
-      "credit": "local"
-    },
     "sts2_black_star": {
       "path": "/art/relics/sts2_black_star.webp",
-      "credit": "local"
-    },
-    "sts2_blessed_antler": {
-      "path": "/art/relics/sts2_blessed_antler.webp",
       "credit": "local"
     },
     "sts2_blood_vial": {
       "path": "/art/relics/sts2_blood_vial.webp",
       "credit": "local"
     },
-    "sts2_bone_flute": {
-      "path": "/art/relics/sts2_bone_flute.webp",
-      "credit": "local"
-    },
     "sts2_blood_soaked_rose": {
       "path": "/art/relics/sts2_blood_soaked_rose.webp",
       "credit": "local"
     },
-    "sts2_bone_tea": {
-      "path": "/art/relics/sts2_bone_tea.webp",
+    "sts2_blessed_antler": {
+      "path": "/art/relics/sts2_blessed_antler.webp",
+      "credit": "local"
+    },
+    "sts2_bone_flute": {
+      "path": "/art/relics/sts2_bone_flute.webp",
       "credit": "local"
     },
     "sts2_book_repair_knife": {
       "path": "/art/relics/sts2_book_repair_knife.webp",
+      "credit": "local"
+    },
+    "sts2_bone_tea": {
+      "path": "/art/relics/sts2_bone_tea.webp",
       "credit": "local"
     },
     "sts2_book_of_five_rings": {
@@ -2506,32 +2506,32 @@
       "path": "/art/relics/sts2_bookmark.webp",
       "credit": "local"
     },
-    "sts2_booming_conch": {
-      "path": "/art/relics/sts2_booming_conch.webp",
-      "credit": "local"
-    },
     "sts2_bound_phylactery": {
       "path": "/art/relics/sts2_bound_phylactery.webp",
+      "credit": "local"
+    },
+    "sts2_booming_conch": {
+      "path": "/art/relics/sts2_booming_conch.webp",
       "credit": "local"
     },
     "sts2_bread": {
       "path": "/art/relics/sts2_bread.webp",
       "credit": "local"
     },
-    "sts2_brilliant_scarf": {
-      "path": "/art/relics/sts2_brilliant_scarf.webp",
-      "credit": "local"
-    },
     "sts2_bowler_hat": {
       "path": "/art/relics/sts2_bowler_hat.webp",
       "credit": "local"
     },
-    "sts2_bronze_scales": {
-      "path": "/art/relics/sts2_bronze_scales.webp",
+    "sts2_brilliant_scarf": {
+      "path": "/art/relics/sts2_brilliant_scarf.webp",
       "credit": "local"
     },
     "sts2_brimstone": {
       "path": "/art/relics/sts2_brimstone.webp",
+      "credit": "local"
+    },
+    "sts2_bronze_scales": {
+      "path": "/art/relics/sts2_bronze_scales.webp",
       "credit": "local"
     },
     "sts2_burning_blood": {
@@ -2550,16 +2550,16 @@
       "path": "/art/relics/sts2_calling_bell.webp",
       "credit": "local"
     },
-    "sts2_captains_wheel": {
-      "path": "/art/relics/sts2_captains_wheel.webp",
-      "credit": "local"
-    },
     "sts2_candelabra": {
       "path": "/art/relics/sts2_candelabra.webp",
       "credit": "local"
     },
     "sts2_cauldron": {
       "path": "/art/relics/sts2_cauldron.webp",
+      "credit": "local"
+    },
+    "sts2_captains_wheel": {
+      "path": "/art/relics/sts2_captains_wheel.webp",
       "credit": "local"
     },
     "sts2_centennial_puzzle": {
@@ -2570,20 +2570,16 @@
       "path": "/art/relics/sts2_chandelier.webp",
       "credit": "local"
     },
-    "sts2_choices_paradox": {
-      "path": "/art/relics/sts2_choices_paradox.webp",
+    "sts2_chemical_x": {
+      "path": "/art/relics/sts2_chemical_x.webp",
       "credit": "local"
     },
     "sts2_charons_ashes": {
       "path": "/art/relics/sts2_charons_ashes.webp",
       "credit": "local"
     },
-    "sts2_chemical_x": {
-      "path": "/art/relics/sts2_chemical_x.webp",
-      "credit": "local"
-    },
-    "sts2_circlet": {
-      "path": "/art/relics/sts2_circlet.webp",
+    "sts2_choices_paradox": {
+      "path": "/art/relics/sts2_choices_paradox.webp",
       "credit": "local"
     },
     "sts2_chosen_cheese": {
@@ -2602,32 +2598,36 @@
       "path": "/art/relics/sts2_cracked_core.webp",
       "credit": "local"
     },
-    "sts2_crossbow": {
-      "path": "/art/relics/sts2_crossbow.webp",
+    "sts2_circlet": {
+      "path": "/art/relics/sts2_circlet.webp",
       "credit": "local"
     },
     "sts2_cursed_pearl": {
       "path": "/art/relics/sts2_cursed_pearl.webp",
       "credit": "local"
     },
-    "sts2_darkstone_periapt": {
-      "path": "/art/relics/sts2_darkstone_periapt.webp",
+    "sts2_crossbow": {
+      "path": "/art/relics/sts2_crossbow.webp",
       "credit": "local"
     },
-    "sts2_daughter_of_the_wind": {
-      "path": "/art/relics/sts2_daughter_of_the_wind.webp",
+    "sts2_darkstone_periapt": {
+      "path": "/art/relics/sts2_darkstone_periapt.webp",
       "credit": "local"
     },
     "sts2_data_disk": {
       "path": "/art/relics/sts2_data_disk.webp",
       "credit": "local"
     },
-    "sts2_demon_tongue": {
-      "path": "/art/relics/sts2_demon_tongue.webp",
-      "credit": "local"
-    },
     "sts2_delicate_frond": {
       "path": "/art/relics/sts2_delicate_frond.webp",
+      "credit": "local"
+    },
+    "sts2_daughter_of_the_wind": {
+      "path": "/art/relics/sts2_daughter_of_the_wind.webp",
+      "credit": "local"
+    },
+    "sts2_demon_tongue": {
+      "path": "/art/relics/sts2_demon_tongue.webp",
       "credit": "local"
     },
     "sts2_dingy_rug": {
@@ -2646,12 +2646,12 @@
       "path": "/art/relics/sts2_divine_destiny.webp",
       "credit": "local"
     },
-    "sts2_dollys_mirror": {
-      "path": "/art/relics/sts2_dollys_mirror.webp",
-      "credit": "local"
-    },
     "sts2_divine_right": {
       "path": "/art/relics/sts2_divine_right.webp",
+      "credit": "local"
+    },
+    "sts2_dollys_mirror": {
+      "path": "/art/relics/sts2_dollys_mirror.webp",
       "credit": "local"
     },
     "sts2_dowsing_rod": {
@@ -2678,6 +2678,10 @@
       "path": "/art/relics/sts2_ectoplasm.webp",
       "credit": "local"
     },
+    "sts2_electric_shrymp": {
+      "path": "/art/relics/sts2_electric_shrymp.webp",
+      "credit": "local"
+    },
     "sts2_ember_tea": {
       "path": "/art/relics/sts2_ember_tea.webp",
       "credit": "local"
@@ -2686,12 +2690,12 @@
       "path": "/art/relics/sts2_emotion_chip.webp",
       "credit": "local"
     },
-    "sts2_electric_shrymp": {
-      "path": "/art/relics/sts2_electric_shrymp.webp",
-      "credit": "local"
-    },
     "sts2_empty_cage": {
       "path": "/art/relics/sts2_empty_cage.webp",
+      "credit": "local"
+    },
+    "sts2_eternal_feather": {
+      "path": "/art/relics/sts2_eternal_feather.webp",
       "credit": "local"
     },
     "sts2_fake_anchor": {
@@ -2702,12 +2706,12 @@
       "path": "/art/relics/sts2_fake_blood_vial.webp",
       "credit": "local"
     },
-    "sts2_eternal_feather": {
-      "path": "/art/relics/sts2_eternal_feather.webp",
-      "credit": "local"
-    },
     "sts2_fake_happy_flower": {
       "path": "/art/relics/sts2_fake_happy_flower.webp",
+      "credit": "local"
+    },
+    "sts2_fake_lees_waffle": {
+      "path": "/art/relics/sts2_fake_lees_waffle.webp",
       "credit": "local"
     },
     "sts2_fake_mango": {
@@ -2718,16 +2722,12 @@
       "path": "/art/relics/sts2_fake_merchants_rug.webp",
       "credit": "local"
     },
-    "sts2_fake_lees_waffle": {
-      "path": "/art/relics/sts2_fake_lees_waffle.webp",
+    "sts2_fake_snecko_eye": {
+      "path": "/art/relics/sts2_fake_snecko_eye.webp",
       "credit": "local"
     },
     "sts2_fake_orichalcum": {
       "path": "/art/relics/sts2_fake_orichalcum.webp",
-      "credit": "local"
-    },
-    "sts2_fake_snecko_eye": {
-      "path": "/art/relics/sts2_fake_snecko_eye.webp",
       "credit": "local"
     },
     "sts2_fake_strike_dummy": {
@@ -2742,68 +2742,72 @@
       "path": "/art/relics/sts2_fencing_manual.webp",
       "credit": "local"
     },
-    "sts2_festive_popper": {
-      "path": "/art/relics/sts2_festive_popper.webp",
-      "credit": "local"
-    },
     "sts2_fishing_rod": {
       "path": "/art/relics/sts2_fishing_rod.webp",
+      "credit": "local"
+    },
+    "sts2_festive_popper": {
+      "path": "/art/relics/sts2_festive_popper.webp",
       "credit": "local"
     },
     "sts2_fiddle": {
       "path": "/art/relics/sts2_fiddle.webp",
       "credit": "local"
     },
-    "sts2_forgotten_soul": {
-      "path": "/art/relics/sts2_forgotten_soul.webp",
-      "credit": "local"
-    },
-    "sts2_fragrant_mushroom": {
-      "path": "/art/relics/sts2_fragrant_mushroom.webp",
+    "sts2_frozen_egg": {
+      "path": "/art/relics/sts2_frozen_egg.webp",
       "credit": "local"
     },
     "sts2_fresnel_lens": {
       "path": "/art/relics/sts2_fresnel_lens.webp",
       "credit": "local"
     },
-    "sts2_frozen_egg": {
-      "path": "/art/relics/sts2_frozen_egg.webp",
+    "sts2_fragrant_mushroom": {
+      "path": "/art/relics/sts2_fragrant_mushroom.webp",
       "credit": "local"
     },
-    "sts2_funerary_mask": {
-      "path": "/art/relics/sts2_funerary_mask.webp",
-      "credit": "local"
-    },
-    "sts2_fur_coat": {
-      "path": "/art/relics/sts2_fur_coat.webp",
+    "sts2_forgotten_soul": {
+      "path": "/art/relics/sts2_forgotten_soul.webp",
       "credit": "local"
     },
     "sts2_galactic_dust": {
       "path": "/art/relics/sts2_galactic_dust.webp",
       "credit": "local"
     },
+    "sts2_fur_coat": {
+      "path": "/art/relics/sts2_fur_coat.webp",
+      "credit": "local"
+    },
     "sts2_gambling_chip": {
       "path": "/art/relics/sts2_gambling_chip.webp",
+      "credit": "local"
+    },
+    "sts2_funerary_mask": {
+      "path": "/art/relics/sts2_funerary_mask.webp",
       "credit": "local"
     },
     "sts2_game_piece": {
       "path": "/art/relics/sts2_game_piece.webp",
       "credit": "local"
     },
-    "sts2_ghost_seed": {
-      "path": "/art/relics/sts2_ghost_seed.webp",
+    "sts2_glass_eye": {
+      "path": "/art/relics/sts2_glass_eye.webp",
       "credit": "local"
     },
     "sts2_girya": {
       "path": "/art/relics/sts2_girya.webp",
       "credit": "local"
     },
-    "sts2_glass_eye": {
-      "path": "/art/relics/sts2_glass_eye.webp",
+    "sts2_ghost_seed": {
+      "path": "/art/relics/sts2_ghost_seed.webp",
       "credit": "local"
     },
     "sts2_glitter": {
       "path": "/art/relics/sts2_glitter.webp",
+      "credit": "local"
+    },
+    "sts2_gnarled_hammer": {
+      "path": "/art/relics/sts2_gnarled_hammer.webp",
       "credit": "local"
     },
     "sts2_golden_compass": {
@@ -2814,16 +2818,20 @@
       "path": "/art/relics/sts2_gold_plated_cables.webp",
       "credit": "local"
     },
-    "sts2_gnarled_hammer": {
-      "path": "/art/relics/sts2_gnarled_hammer.webp",
-      "credit": "local"
-    },
     "sts2_golden_pearl": {
       "path": "/art/relics/sts2_golden_pearl.webp",
       "credit": "local"
     },
+    "sts2_hand_drill": {
+      "path": "/art/relics/sts2_hand_drill.webp",
+      "credit": "local"
+    },
     "sts2_gremlin_horn": {
       "path": "/art/relics/sts2_gremlin_horn.webp",
+      "credit": "local"
+    },
+    "sts2_gorget": {
+      "path": "/art/relics/sts2_gorget.webp",
       "credit": "local"
     },
     "sts2_happy_flower": {
@@ -2834,8 +2842,12 @@
       "path": "/art/relics/sts2_hefty_tablet.webp",
       "credit": "local"
     },
-    "sts2_gorget": {
-      "path": "/art/relics/sts2_gorget.webp",
+    "sts2_history_course": {
+      "path": "/art/relics/sts2_history_course.webp",
+      "credit": "local"
+    },
+    "sts2_helical_dart": {
+      "path": "/art/relics/sts2_helical_dart.webp",
       "credit": "local"
     },
     "sts2_horn_cleat": {
@@ -2846,44 +2858,28 @@
       "path": "/art/relics/sts2_ice_cream.webp",
       "credit": "local"
     },
-    "sts2_infused_core": {
-      "path": "/art/relics/sts2_infused_core.webp",
-      "credit": "local"
-    },
     "sts2_intimidating_helmet": {
       "path": "/art/relics/sts2_intimidating_helmet.webp",
+      "credit": "local"
+    },
+    "sts2_infused_core": {
+      "path": "/art/relics/sts2_infused_core.webp",
       "credit": "local"
     },
     "sts2_iron_club": {
       "path": "/art/relics/sts2_iron_club.webp",
       "credit": "local"
     },
-    "sts2_hand_drill": {
-      "path": "/art/relics/sts2_hand_drill.webp",
-      "credit": "local"
-    },
     "sts2_ivory_tile": {
       "path": "/art/relics/sts2_ivory_tile.webp",
-      "credit": "local"
-    },
-    "sts2_history_course": {
-      "path": "/art/relics/sts2_history_course.webp",
       "credit": "local"
     },
     "sts2_jeweled_mask": {
       "path": "/art/relics/sts2_jeweled_mask.webp",
       "credit": "local"
     },
-    "sts2_helical_dart": {
-      "path": "/art/relics/sts2_helical_dart.webp",
-      "credit": "local"
-    },
     "sts2_jewelry_box": {
       "path": "/art/relics/sts2_jewelry_box.webp",
-      "credit": "local"
-    },
-    "sts2_kaleidoscope": {
-      "path": "/art/relics/sts2_kaleidoscope.webp",
       "credit": "local"
     },
     "sts2_joss_paper": {
@@ -2894,16 +2890,16 @@
       "path": "/art/relics/sts2_juzu_bracelet.webp",
       "credit": "local"
     },
+    "sts2_kaleidoscope": {
+      "path": "/art/relics/sts2_kaleidoscope.webp",
+      "credit": "local"
+    },
     "sts2_kifuda": {
       "path": "/art/relics/sts2_kifuda.webp",
       "credit": "local"
     },
     "sts2_kunai": {
       "path": "/art/relics/sts2_kunai.webp",
-      "credit": "local"
-    },
-    "sts2_large_capsule": {
-      "path": "/art/relics/sts2_large_capsule.webp",
       "credit": "local"
     },
     "sts2_kusarigama": {
@@ -2914,44 +2910,16 @@
       "path": "/art/relics/sts2_lantern.webp",
       "credit": "local"
     },
-    "sts2_lasting_candy": {
-      "path": "/art/relics/sts2_lasting_candy.webp",
+    "sts2_large_capsule": {
+      "path": "/art/relics/sts2_large_capsule.webp",
       "credit": "local"
     },
     "sts2_lava_lamp": {
       "path": "/art/relics/sts2_lava_lamp.webp",
       "credit": "local"
     },
-    "sts2_leafy_poultice": {
-      "path": "/art/relics/sts2_leafy_poultice.webp",
-      "credit": "local"
-    },
-    "sts2_lees_waffle": {
-      "path": "/art/relics/sts2_lees_waffle.webp",
-      "credit": "local"
-    },
-    "sts2_letter_opener": {
-      "path": "/art/relics/sts2_letter_opener.webp",
-      "credit": "local"
-    },
-    "sts2_lizard_tail": {
-      "path": "/art/relics/sts2_lizard_tail.webp",
-      "credit": "local"
-    },
-    "sts2_lords_parasol": {
-      "path": "/art/relics/sts2_lords_parasol.webp",
-      "credit": "local"
-    },
-    "sts2_looming_fruit": {
-      "path": "/art/relics/sts2_looming_fruit.webp",
-      "credit": "local"
-    },
-    "sts2_lost_coffer": {
-      "path": "/art/relics/sts2_lost_coffer.webp",
-      "credit": "local"
-    },
-    "sts2_lost_wisp": {
-      "path": "/art/relics/sts2_lost_wisp.webp",
+    "sts2_lasting_candy": {
+      "path": "/art/relics/sts2_lasting_candy.webp",
       "credit": "local"
     },
     "sts2_lava_rock": {
@@ -2962,24 +2930,64 @@
       "path": "/art/relics/sts2_lead_paperweight.webp",
       "credit": "local"
     },
-    "sts2_lucky_fysh": {
-      "path": "/art/relics/sts2_lucky_fysh.webp",
+    "sts2_letter_opener": {
+      "path": "/art/relics/sts2_letter_opener.webp",
       "credit": "local"
     },
-    "sts2_mango": {
-      "path": "/art/relics/sts2_mango.webp",
+    "sts2_leafy_poultice": {
+      "path": "/art/relics/sts2_leafy_poultice.webp",
+      "credit": "local"
+    },
+    "sts2_lees_waffle": {
+      "path": "/art/relics/sts2_lees_waffle.webp",
+      "credit": "local"
+    },
+    "sts2_lizard_tail": {
+      "path": "/art/relics/sts2_lizard_tail.webp",
+      "credit": "local"
+    },
+    "sts2_looming_fruit": {
+      "path": "/art/relics/sts2_looming_fruit.webp",
+      "credit": "local"
+    },
+    "sts2_lords_parasol": {
+      "path": "/art/relics/sts2_lords_parasol.webp",
+      "credit": "local"
+    },
+    "sts2_lost_coffer": {
+      "path": "/art/relics/sts2_lost_coffer.webp",
+      "credit": "local"
+    },
+    "sts2_lost_wisp": {
+      "path": "/art/relics/sts2_lost_wisp.webp",
+      "credit": "local"
+    },
+    "sts2_lucky_fysh": {
+      "path": "/art/relics/sts2_lucky_fysh.webp",
       "credit": "local"
     },
     "sts2_massive_scroll": {
       "path": "/art/relics/sts2_massive_scroll.webp",
       "credit": "local"
     },
-    "sts2_maw_bank": {
-      "path": "/art/relics/sts2_maw_bank.webp",
+    "sts2_mango": {
+      "path": "/art/relics/sts2_mango.webp",
       "credit": "local"
     },
     "sts2_lunar_pastry": {
       "path": "/art/relics/sts2_lunar_pastry.webp",
+      "credit": "local"
+    },
+    "sts2_maw_bank": {
+      "path": "/art/relics/sts2_maw_bank.webp",
+      "credit": "local"
+    },
+    "sts2_meat_cleaver": {
+      "path": "/art/relics/sts2_meat_cleaver.webp",
+      "credit": "local"
+    },
+    "sts2_meal_ticket": {
+      "path": "/art/relics/sts2_meal_ticket.webp",
       "credit": "local"
     },
     "sts2_meat_on_the_bone": {
@@ -2990,20 +2998,16 @@
       "path": "/art/relics/sts2_membership_card.webp",
       "credit": "local"
     },
-    "sts2_mercury_hourglass": {
-      "path": "/art/relics/sts2_mercury_hourglass.webp",
-      "credit": "local"
-    },
-    "sts2_meal_ticket": {
-      "path": "/art/relics/sts2_meal_ticket.webp",
-      "credit": "local"
-    },
     "sts2_metronome": {
       "path": "/art/relics/sts2_metronome.webp",
       "credit": "local"
     },
-    "sts2_mini_regent": {
-      "path": "/art/relics/sts2_mini_regent.webp",
+    "sts2_mercury_hourglass": {
+      "path": "/art/relics/sts2_mercury_hourglass.webp",
+      "credit": "local"
+    },
+    "sts2_molten_egg": {
+      "path": "/art/relics/sts2_molten_egg.webp",
       "credit": "local"
     },
     "sts2_miniature_cannon": {
@@ -3014,32 +3018,32 @@
       "path": "/art/relics/sts2_miniature_tent.webp",
       "credit": "local"
     },
-    "sts2_molten_egg": {
-      "path": "/art/relics/sts2_molten_egg.webp",
-      "credit": "local"
-    },
-    "sts2_meat_cleaver": {
-      "path": "/art/relics/sts2_meat_cleaver.webp",
+    "sts2_mini_regent": {
+      "path": "/art/relics/sts2_mini_regent.webp",
       "credit": "local"
     },
     "sts2_mummified_hand": {
       "path": "/art/relics/sts2_mummified_hand.webp",
       "credit": "local"
     },
+    "sts2_mr_struggles": {
+      "path": "/art/relics/sts2_mr_struggles.webp",
+      "credit": "local"
+    },
     "sts2_mystic_lighter": {
       "path": "/art/relics/sts2_mystic_lighter.webp",
       "credit": "local"
     },
-    "sts2_mr_struggles": {
-      "path": "/art/relics/sts2_mr_struggles.webp",
+    "sts2_music_box": {
+      "path": "/art/relics/sts2_music_box.webp",
       "credit": "local"
     },
     "sts2_neows_bones": {
       "path": "/art/relics/sts2_neows_bones.webp",
       "credit": "local"
     },
-    "sts2_music_box": {
-      "path": "/art/relics/sts2_music_box.webp",
+    "sts2_neows_sacrifice": {
+      "path": "/art/relics/sts2_neows_sacrifice.webp",
       "credit": "local"
     },
     "sts2_neows_talisman": {
@@ -3050,10 +3054,6 @@
       "path": "/art/relics/sts2_neows_torment.webp",
       "credit": "local"
     },
-    "sts2_new_leaf": {
-      "path": "/art/relics/sts2_new_leaf.webp",
-      "credit": "local"
-    },
     "sts2_ninja_scroll": {
       "path": "/art/relics/sts2_ninja_scroll.webp",
       "credit": "local"
@@ -3062,16 +3062,20 @@
       "path": "/art/relics/sts2_nunchaku.webp",
       "credit": "local"
     },
-    "sts2_nutritious_soup": {
-      "path": "/art/relics/sts2_nutritious_soup.webp",
-      "credit": "local"
-    },
     "sts2_nutritious_oyster": {
       "path": "/art/relics/sts2_nutritious_oyster.webp",
       "credit": "local"
     },
+    "sts2_new_leaf": {
+      "path": "/art/relics/sts2_new_leaf.webp",
+      "credit": "local"
+    },
     "sts2_oddly_smooth_stone": {
       "path": "/art/relics/sts2_oddly_smooth_stone.webp",
+      "credit": "local"
+    },
+    "sts2_nutritious_soup": {
+      "path": "/art/relics/sts2_nutritious_soup.webp",
       "credit": "local"
     },
     "sts2_orichalcum": {
@@ -3090,6 +3094,10 @@
       "path": "/art/relics/sts2_ornamental_fan.webp",
       "credit": "local"
     },
+    "sts2_paels_blood": {
+      "path": "/art/relics/sts2_paels_blood.webp",
+      "credit": "local"
+    },
     "sts2_paels_claw": {
       "path": "/art/relics/sts2_paels_claw.webp",
       "credit": "local"
@@ -3098,24 +3106,20 @@
       "path": "/art/relics/sts2_paels_eye.webp",
       "credit": "local"
     },
-    "sts2_paels_flesh": {
-      "path": "/art/relics/sts2_paels_flesh.webp",
-      "credit": "local"
-    },
-    "sts2_paels_growth": {
-      "path": "/art/relics/sts2_paels_growth.webp",
-      "credit": "local"
-    },
     "sts2_paels_horn": {
       "path": "/art/relics/sts2_paels_horn.webp",
       "credit": "local"
     },
-    "sts2_neows_sacrifice": {
-      "path": "/art/relics/sts2_neows_sacrifice.webp",
+    "sts2_paels_flesh": {
+      "path": "/art/relics/sts2_paels_flesh.webp",
       "credit": "local"
     },
-    "sts2_paels_blood": {
-      "path": "/art/relics/sts2_paels_blood.webp",
+    "sts2_orrery": {
+      "path": "/art/relics/sts2_orrery.webp",
+      "credit": "local"
+    },
+    "sts2_paels_growth": {
+      "path": "/art/relics/sts2_paels_growth.webp",
       "credit": "local"
     },
     "sts2_paels_tears": {
@@ -3126,12 +3130,12 @@
       "path": "/art/relics/sts2_paels_legion.webp",
       "credit": "local"
     },
-    "sts2_paels_wing": {
-      "path": "/art/relics/sts2_paels_wing.webp",
+    "sts2_paels_tooth": {
+      "path": "/art/relics/sts2_paels_tooth.webp",
       "credit": "local"
     },
-    "sts2_pandoras_box": {
-      "path": "/art/relics/sts2_pandoras_box.webp",
+    "sts2_paels_wing": {
+      "path": "/art/relics/sts2_paels_wing.webp",
       "credit": "local"
     },
     "sts2_pantograph": {
@@ -3142,40 +3146,28 @@
       "path": "/art/relics/sts2_paper_krane.webp",
       "credit": "local"
     },
+    "sts2_pandoras_box": {
+      "path": "/art/relics/sts2_pandoras_box.webp",
+      "credit": "local"
+    },
     "sts2_paper_phrog": {
       "path": "/art/relics/sts2_paper_phrog.webp",
-      "credit": "local"
-    },
-    "sts2_paels_tooth": {
-      "path": "/art/relics/sts2_paels_tooth.webp",
-      "credit": "local"
-    },
-    "sts2_orrery": {
-      "path": "/art/relics/sts2_orrery.webp",
-      "credit": "local"
-    },
-    "sts2_parrying_shield": {
-      "path": "/art/relics/sts2_parrying_shield.webp",
-      "credit": "local"
-    },
-    "sts2_pendulum": {
-      "path": "/art/relics/sts2_pendulum.webp",
-      "credit": "local"
-    },
-    "sts2_permafrost": {
-      "path": "/art/relics/sts2_permafrost.webp",
-      "credit": "local"
-    },
-    "sts2_pear": {
-      "path": "/art/relics/sts2_pear.webp",
       "credit": "local"
     },
     "sts2_pen_nib": {
       "path": "/art/relics/sts2_pen_nib.webp",
       "credit": "local"
     },
-    "sts2_petrified_toad": {
-      "path": "/art/relics/sts2_petrified_toad.webp",
+    "sts2_parrying_shield": {
+      "path": "/art/relics/sts2_parrying_shield.webp",
+      "credit": "local"
+    },
+    "sts2_pear": {
+      "path": "/art/relics/sts2_pear.webp",
+      "credit": "local"
+    },
+    "sts2_pendulum": {
+      "path": "/art/relics/sts2_pendulum.webp",
       "credit": "local"
     },
     "sts2_philosophers_stone": {
@@ -3186,16 +3178,24 @@
       "path": "/art/relics/sts2_phial_holster.webp",
       "credit": "local"
     },
+    "sts2_petrified_toad": {
+      "path": "/art/relics/sts2_petrified_toad.webp",
+      "credit": "local"
+    },
+    "sts2_permafrost": {
+      "path": "/art/relics/sts2_permafrost.webp",
+      "credit": "local"
+    },
+    "sts2_pollinous_core": {
+      "path": "/art/relics/sts2_pollinous_core.webp",
+      "credit": "local"
+    },
     "sts2_phylactery_unbound": {
       "path": "/art/relics/sts2_phylactery_unbound.webp",
       "credit": "local"
     },
     "sts2_planisphere": {
       "path": "/art/relics/sts2_planisphere.webp",
-      "credit": "local"
-    },
-    "sts2_pollinous_core": {
-      "path": "/art/relics/sts2_pollinous_core.webp",
       "credit": "local"
     },
     "sts2_pocketwatch": {
@@ -3206,12 +3206,12 @@
       "path": "/art/relics/sts2_pomander.webp",
       "credit": "local"
     },
-    "sts2_potion_belt": {
-      "path": "/art/relics/sts2_potion_belt.webp",
-      "credit": "local"
-    },
     "sts2_power_cell": {
       "path": "/art/relics/sts2_power_cell.webp",
+      "credit": "local"
+    },
+    "sts2_potion_belt": {
+      "path": "/art/relics/sts2_potion_belt.webp",
       "credit": "local"
     },
     "sts2_prayer_wheel": {
@@ -3226,6 +3226,10 @@
       "path": "/art/relics/sts2_precise_scissors.webp",
       "credit": "local"
     },
+    "sts2_preserved_fog": {
+      "path": "/art/relics/sts2_preserved_fog.webp",
+      "credit": "local"
+    },
     "sts2_prismatic_gem": {
       "path": "/art/relics/sts2_prismatic_gem.webp",
       "credit": "local"
@@ -3234,16 +3238,8 @@
       "path": "/art/relics/sts2_pumpkin_candle.webp",
       "credit": "local"
     },
-    "sts2_preserved_fog": {
-      "path": "/art/relics/sts2_preserved_fog.webp",
-      "credit": "local"
-    },
     "sts2_punch_dagger": {
       "path": "/art/relics/sts2_punch_dagger.webp",
-      "credit": "local"
-    },
-    "sts2_red_mask": {
-      "path": "/art/relics/sts2_red_mask.webp",
       "credit": "local"
     },
     "sts2_radiant_pearl": {
@@ -3254,6 +3250,10 @@
       "path": "/art/relics/sts2_rainbow_ring.webp",
       "credit": "local"
     },
+    "sts2_red_mask": {
+      "path": "/art/relics/sts2_red_mask.webp",
+      "credit": "local"
+    },
     "sts2_razor_tooth": {
       "path": "/art/relics/sts2_razor_tooth.webp",
       "credit": "local"
@@ -3262,12 +3262,12 @@
       "path": "/art/relics/sts2_red_skull.webp",
       "credit": "local"
     },
-    "sts2_regalite": {
-      "path": "/art/relics/sts2_regalite.webp",
-      "credit": "local"
-    },
     "sts2_regal_pillow": {
       "path": "/art/relics/sts2_regal_pillow.webp",
+      "credit": "local"
+    },
+    "sts2_regalite": {
+      "path": "/art/relics/sts2_regalite.webp",
       "credit": "local"
     },
     "sts2_reptile_trinket": {
@@ -3286,16 +3286,16 @@
       "path": "/art/relics/sts2_ringing_triangle.webp",
       "credit": "local"
     },
-    "sts2_royal_stamp": {
-      "path": "/art/relics/sts2_royal_stamp.webp",
+    "sts2_ripple_basin": {
+      "path": "/art/relics/sts2_ripple_basin.webp",
       "credit": "local"
     },
     "sts2_royal_poison": {
       "path": "/art/relics/sts2_royal_poison.webp",
       "credit": "local"
     },
-    "sts2_ripple_basin": {
-      "path": "/art/relics/sts2_ripple_basin.webp",
+    "sts2_royal_stamp": {
+      "path": "/art/relics/sts2_royal_stamp.webp",
       "credit": "local"
     },
     "sts2_ruined_helmet": {
@@ -3314,16 +3314,16 @@
       "path": "/art/relics/sts2_sai.webp",
       "credit": "local"
     },
+    "sts2_sand_castle": {
+      "path": "/art/relics/sts2_sand_castle.webp",
+      "credit": "local"
+    },
     "sts2_screaming_flagon": {
       "path": "/art/relics/sts2_screaming_flagon.webp",
       "credit": "local"
     },
     "sts2_scroll_boxes": {
       "path": "/art/relics/sts2_scroll_boxes.webp",
-      "credit": "local"
-    },
-    "sts2_sand_castle": {
-      "path": "/art/relics/sts2_sand_castle.webp",
       "credit": "local"
     },
     "sts2_sea_glass": {
@@ -3334,16 +3334,16 @@
       "path": "/art/relics/sts2_seal_of_gold.webp",
       "credit": "local"
     },
+    "sts2_sere_talon": {
+      "path": "/art/relics/sts2_sere_talon.webp",
+      "credit": "local"
+    },
     "sts2_self_forming_clay": {
       "path": "/art/relics/sts2_self_forming_clay.webp",
       "credit": "local"
     },
     "sts2_shovel": {
       "path": "/art/relics/sts2_shovel.webp",
-      "credit": "local"
-    },
-    "sts2_sere_talon": {
-      "path": "/art/relics/sts2_sere_talon.webp",
       "credit": "local"
     },
     "sts2_shuriken": {
@@ -3354,20 +3354,20 @@
       "path": "/art/relics/sts2_signet_ring.webp",
       "credit": "local"
     },
-    "sts2_silver_crucible": {
-      "path": "/art/relics/sts2_silver_crucible.webp",
-      "credit": "local"
-    },
     "sts2_silken_tress": {
       "path": "/art/relics/sts2_silken_tress.webp",
+      "credit": "local"
+    },
+    "sts2_silver_crucible": {
+      "path": "/art/relics/sts2_silver_crucible.webp",
       "credit": "local"
     },
     "sts2_sling_of_courage": {
       "path": "/art/relics/sts2_sling_of_courage.webp",
       "credit": "local"
     },
-    "sts2_small_capsule": {
-      "path": "/art/relics/sts2_small_capsule.webp",
+    "sts2_snecko_skull": {
+      "path": "/art/relics/sts2_snecko_skull.webp",
       "credit": "local"
     },
     "sts2_snecko_eye": {
@@ -3378,8 +3378,8 @@
       "path": "/art/relics/sts2_sozu.webp",
       "credit": "local"
     },
-    "sts2_snecko_skull": {
-      "path": "/art/relics/sts2_snecko_skull.webp",
+    "sts2_small_capsule": {
+      "path": "/art/relics/sts2_small_capsule.webp",
       "credit": "local"
     },
     "sts2_spiked_gauntlets": {
@@ -3402,6 +3402,10 @@
       "path": "/art/relics/sts2_stone_humidifier.webp",
       "credit": "local"
     },
+    "sts2_strawberry": {
+      "path": "/art/relics/sts2_strawberry.webp",
+      "credit": "local"
+    },
     "sts2_storybook": {
       "path": "/art/relics/sts2_storybook.webp",
       "credit": "local"
@@ -3410,36 +3414,28 @@
       "path": "/art/relics/sts2_strike_dummy.webp",
       "credit": "local"
     },
-    "sts2_strawberry": {
-      "path": "/art/relics/sts2_strawberry.webp",
-      "credit": "local"
-    },
     "sts2_sword_of_jade": {
       "path": "/art/relics/sts2_sword_of_jade.webp",
-      "credit": "local"
-    },
-    "sts2_sturdy_clamp": {
-      "path": "/art/relics/sts2_sturdy_clamp.webp",
       "credit": "local"
     },
     "sts2_sword_of_stone": {
       "path": "/art/relics/sts2_sword_of_stone.webp",
       "credit": "local"
     },
-    "sts2_symbiotic_virus": {
-      "path": "/art/relics/sts2_symbiotic_virus.webp",
+    "sts2_sturdy_clamp": {
+      "path": "/art/relics/sts2_sturdy_clamp.webp",
       "credit": "local"
     },
-    "sts2_tanxs_whistle": {
-      "path": "/art/relics/sts2_tanxs_whistle.webp",
+    "sts2_symbiotic_virus": {
+      "path": "/art/relics/sts2_symbiotic_virus.webp",
       "credit": "local"
     },
     "sts2_tea_of_discourtesy": {
       "path": "/art/relics/sts2_tea_of_discourtesy.webp",
       "credit": "local"
     },
-    "sts2_the_boot": {
-      "path": "/art/relics/sts2_the_boot.webp",
+    "sts2_tanxs_whistle": {
+      "path": "/art/relics/sts2_tanxs_whistle.webp",
       "credit": "local"
     },
     "sts2_the_abacus": {
@@ -3448,6 +3444,14 @@
     },
     "sts2_throwing_axe": {
       "path": "/art/relics/sts2_throwing_axe.webp",
+      "credit": "local"
+    },
+    "sts2_the_courier": {
+      "path": "/art/relics/sts2_the_courier.webp",
+      "credit": "local"
+    },
+    "sts2_the_boot": {
+      "path": "/art/relics/sts2_the_boot.webp",
       "credit": "local"
     },
     "sts2_tingsha": {
@@ -3462,20 +3466,20 @@
       "path": "/art/relics/sts2_toasty_mittens.webp",
       "credit": "local"
     },
-    "sts2_the_courier": {
-      "path": "/art/relics/sts2_the_courier.webp",
+    "sts2_touch_of_orobas": {
+      "path": "/art/relics/sts2_touch_of_orobas.webp",
       "credit": "local"
     },
     "sts2_toolbox": {
       "path": "/art/relics/sts2_toolbox.webp",
       "credit": "local"
     },
-    "sts2_touch_of_orobas": {
-      "path": "/art/relics/sts2_touch_of_orobas.webp",
-      "credit": "local"
-    },
     "sts2_tough_bandages": {
       "path": "/art/relics/sts2_tough_bandages.webp",
+      "credit": "local"
+    },
+    "sts2_tri_boomerang": {
+      "path": "/art/relics/sts2_tri_boomerang.webp",
       "credit": "local"
     },
     "sts2_toxic_egg": {
@@ -3484,10 +3488,6 @@
     },
     "sts2_toy_box": {
       "path": "/art/relics/sts2_toy_box.webp",
-      "credit": "local"
-    },
-    "sts2_tri_boomerang": {
-      "path": "/art/relics/sts2_tri_boomerang.webp",
       "credit": "local"
     },
     "sts2_tungsten_rod": {
@@ -3510,76 +3510,76 @@
       "path": "/art/relics/sts2_undying_sigil.webp",
       "credit": "local"
     },
-    "sts2_vajra": {
-      "path": "/art/relics/sts2_vajra.webp",
-      "credit": "local"
-    },
     "sts2_unsettling_lamp": {
       "path": "/art/relics/sts2_unsettling_lamp.webp",
       "credit": "local"
     },
-    "sts2_velvet_choker": {
-      "path": "/art/relics/sts2_velvet_choker.webp",
+    "sts2_vajra": {
+      "path": "/art/relics/sts2_vajra.webp",
       "credit": "local"
     },
     "sts2_vambrace": {
       "path": "/art/relics/sts2_vambrace.webp",
       "credit": "local"
     },
-    "sts2_venerable_tea_set": {
-      "path": "/art/relics/sts2_venerable_tea_set.webp",
+    "sts2_vexing_puzzlebox": {
+      "path": "/art/relics/sts2_vexing_puzzlebox.webp",
+      "credit": "local"
+    },
+    "sts2_velvet_choker": {
+      "path": "/art/relics/sts2_velvet_choker.webp",
       "credit": "local"
     },
     "sts2_very_hot_cocoa": {
       "path": "/art/relics/sts2_very_hot_cocoa.webp",
       "credit": "local"
     },
-    "sts2_vexing_puzzlebox": {
-      "path": "/art/relics/sts2_vexing_puzzlebox.webp",
-      "credit": "local"
-    },
-    "sts2_vitruvian_minion": {
-      "path": "/art/relics/sts2_vitruvian_minion.webp",
-      "credit": "local"
-    },
-    "sts2_war_hammer": {
-      "path": "/art/relics/sts2_war_hammer.webp",
+    "sts2_venerable_tea_set": {
+      "path": "/art/relics/sts2_venerable_tea_set.webp",
       "credit": "local"
     },
     "sts2_war_paint": {
       "path": "/art/relics/sts2_war_paint.webp",
       "credit": "local"
     },
+    "sts2_war_hammer": {
+      "path": "/art/relics/sts2_war_hammer.webp",
+      "credit": "local"
+    },
+    "sts2_vitruvian_minion": {
+      "path": "/art/relics/sts2_vitruvian_minion.webp",
+      "credit": "local"
+    },
     "sts2_whetstone": {
       "path": "/art/relics/sts2_whetstone.webp",
-      "credit": "local"
-    },
-    "sts2_white_beast_statue": {
-      "path": "/art/relics/sts2_white_beast_statue.webp",
-      "credit": "local"
-    },
-    "sts2_whispering_earring": {
-      "path": "/art/relics/sts2_whispering_earring.webp",
       "credit": "local"
     },
     "sts2_white_star": {
       "path": "/art/relics/sts2_white_star.webp",
       "credit": "local"
     },
+    "sts2_white_beast_statue": {
+      "path": "/art/relics/sts2_white_beast_statue.webp",
+      "credit": "local"
+    },
     "sts2_wing_charm": {
       "path": "/art/relics/sts2_wing_charm.webp",
+      "credit": "local"
+    },
+    "sts2_whispering_earring": {
+      "path": "/art/relics/sts2_whispering_earring.webp",
       "credit": "local"
     },
     "sts2_winged_boots": {
       "path": "/art/relics/sts2_winged_boots.webp",
       "credit": "local"
     },
-    "sts2_wongo_customer_appreciation_badge": {
-      "path": "/art/relics/sts2_wongo_customer_appreciation_badge.webp",
-      "credit": "local"
-    },
     "sts2_wongos_mystery_ticket": {
       "path": "/art/relics/sts2_wongos_mystery_ticket.webp",
+      "credit": "local"
+    },
+    "sts2_wongo_customer_appreciation_badge": {
+      "path": "/art/relics/sts2_wongo_customer_appreciation_badge.webp",
       "credit": "local"
     },
     "sts2_yummy_cookie": {
@@ -3592,12 +3592,12 @@
       "path": "/art/monsters/sts2_architect.webp",
       "credit": "local"
     },
-    "sts2_assassin_ruby_raider": {
-      "path": "/art/monsters/sts2_assassin_ruby_raider.webp",
-      "credit": "local"
-    },
     "sts2_axe_ruby_raider": {
       "path": "/art/monsters/sts2_axe_ruby_raider.webp",
+      "credit": "local"
+    },
+    "sts2_assassin_ruby_raider": {
+      "path": "/art/monsters/sts2_assassin_ruby_raider.webp",
       "credit": "local"
     },
     "sts2_aeonglass": {
@@ -3656,13 +3656,13 @@
       "path": "/art/monsters/sts2_calcified_cultist.webp",
       "credit": "local"
     },
-    "sts2_chomper": {
-      "path": "/art/monsters/sts2_chomper.webp",
-      "credit": "local"
-    },
     "sts2_ceremonial_beast": {
       "path": "/art/monsters/sts2_ceremonial_beast.webp",
       "credit": "reference"
+    },
+    "sts2_chomper": {
+      "path": "/art/monsters/sts2_chomper.webp",
+      "credit": "local"
     },
     "sts2_corpse_slug": {
       "path": "/art/monsters/sts2_corpse_slug.webp",
@@ -3712,13 +3712,13 @@
       "path": "/art/monsters/sts2_exoskeleton.webp",
       "credit": "local"
     },
-    "sts2_fabricator": {
-      "path": "/art/monsters/sts2_fabricator.webp",
-      "credit": "local"
-    },
     "sts2_eye_with_teeth": {
       "path": "/art/monsters/sts2_eye_with_teeth.webp",
       "credit": "reference"
+    },
+    "sts2_fabricator": {
+      "path": "/art/monsters/sts2_fabricator.webp",
+      "credit": "local"
     },
     "sts2_fake_merchant_monster": {
       "path": "/art/monsters/sts2_fake_merchant_monster.webp",
@@ -3732,6 +3732,10 @@
       "path": "/art/monsters/sts2_flail_knight.webp",
       "credit": "local"
     },
+    "sts2_flyconid": {
+      "path": "/art/monsters/sts2_flyconid.webp",
+      "credit": "reference"
+    },
     "sts2_fogmog": {
       "path": "/art/monsters/sts2_fogmog.webp",
       "credit": "local"
@@ -3740,21 +3744,17 @@
       "path": "/art/monsters/sts2_fossil_stalker.webp",
       "credit": "local"
     },
-    "sts2_flyconid": {
-      "path": "/art/monsters/sts2_flyconid.webp",
-      "credit": "reference"
-    },
     "sts2_frog_knight": {
       "path": "/art/monsters/sts2_frog_knight.webp",
-      "credit": "local"
-    },
-    "sts2_gas_bomb": {
-      "path": "/art/monsters/sts2_gas_bomb.webp",
       "credit": "local"
     },
     "sts2_fuzzy_wurm_crawler": {
       "path": "/art/monsters/sts2_fuzzy_wurm_crawler.webp",
       "credit": "reference"
+    },
+    "sts2_gas_bomb": {
+      "path": "/art/monsters/sts2_gas_bomb.webp",
+      "credit": "local"
     },
     "sts2_globe_head": {
       "path": "/art/monsters/sts2_globe_head.webp",
@@ -3884,12 +3884,12 @@
       "path": "/art/monsters/sts2_queen.webp",
       "credit": "reference"
     },
-    "sts2_scroll_of_biting": {
-      "path": "/art/monsters/sts2_scroll_of_biting.webp",
-      "credit": "local"
-    },
     "sts2_rocket": {
       "path": "/art/monsters/sts2_rocket.webp",
+      "credit": "local"
+    },
+    "sts2_scroll_of_biting": {
+      "path": "/art/monsters/sts2_scroll_of_biting.webp",
       "credit": "local"
     },
     "sts2_seapunk": {
@@ -3980,12 +3980,12 @@
       "path": "/art/monsters/sts2_the_insatiable.webp",
       "credit": "reference"
     },
-    "sts2_the_obscura": {
-      "path": "/art/monsters/sts2_the_obscura.webp",
-      "credit": "local"
-    },
     "sts2_the_lost": {
       "path": "/art/monsters/sts2_the_lost.webp",
+      "credit": "local"
+    },
+    "sts2_the_obscura": {
+      "path": "/art/monsters/sts2_the_obscura.webp",
       "credit": "local"
     },
     "sts2_thieving_hopper": {
@@ -4028,13 +4028,13 @@
       "path": "/art/monsters/sts2_two_tailed_rat.webp",
       "credit": "local"
     },
-    "sts2_vine_shambler": {
-      "path": "/art/monsters/sts2_vine_shambler.webp",
-      "credit": "local"
-    },
     "sts2_vantom": {
       "path": "/art/monsters/sts2_vantom.webp",
       "credit": "reference"
+    },
+    "sts2_vine_shambler": {
+      "path": "/art/monsters/sts2_vine_shambler.webp",
+      "credit": "local"
     },
     "sts2_waterfall_giant": {
       "path": "/art/monsters/sts2_waterfall_giant.webp",
@@ -4054,6 +4054,10 @@
     }
   },
   "statuses": {
+    "artifact": {
+      "path": "/art/statuses/artifact.webp",
+      "credit": "local"
+    },
     "accelerant": {
       "path": "/art/statuses/accelerant.webp",
       "credit": "local"
@@ -4062,28 +4066,28 @@
       "path": "/art/statuses/barricade.webp",
       "credit": "local"
     },
-    "artifact": {
-      "path": "/art/statuses/artifact.webp",
-      "credit": "local"
-    },
     "afterimage": {
       "path": "/art/statuses/afterimage.webp",
-      "credit": "local"
-    },
-    "biased_cognition": {
-      "path": "/art/statuses/biased_cognition.webp",
       "credit": "local"
     },
     "calamity": {
       "path": "/art/statuses/calamity.webp",
       "credit": "local"
     },
-    "burst": {
-      "path": "/art/statuses/burst.webp",
+    "biased_cognition": {
+      "path": "/art/statuses/biased_cognition.webp",
       "credit": "local"
     },
     "buffer": {
       "path": "/art/statuses/buffer.webp",
+      "credit": "local"
+    },
+    "burst": {
+      "path": "/art/statuses/burst.webp",
+      "credit": "local"
+    },
+    "constricted": {
+      "path": "/art/statuses/constricted.webp",
       "credit": "local"
     },
     "confused": {
@@ -4098,20 +4102,16 @@
       "path": "/art/statuses/consuming_shadow.webp",
       "credit": "local"
     },
-    "constricted": {
-      "path": "/art/statuses/constricted.webp",
-      "credit": "local"
-    },
-    "corruption": {
-      "path": "/art/statuses/corruption.webp",
-      "credit": "local"
-    },
     "corrosive_wave": {
       "path": "/art/statuses/corrosive_wave.webp",
       "credit": "local"
     },
     "creative_ai": {
       "path": "/art/statuses/creative_ai.webp",
+      "credit": "local"
+    },
+    "corruption": {
+      "path": "/art/statuses/corruption.webp",
       "credit": "local"
     },
     "coolant": {
@@ -4130,32 +4130,36 @@
       "path": "/art/statuses/dark_embrace.webp",
       "credit": "local"
     },
-    "double_damage": {
-      "path": "/art/statuses/double_damage.webp",
-      "credit": "local"
-    },
     "doom": {
       "path": "/art/statuses/doom.webp",
-      "credit": "local"
-    },
-    "enrage": {
-      "path": "/art/statuses/enrage.webp",
       "credit": "local"
     },
     "echo_form": {
       "path": "/art/statuses/echo_form.webp",
       "credit": "local"
     },
+    "double_damage": {
+      "path": "/art/statuses/double_damage.webp",
+      "credit": "local"
+    },
     "envenom": {
       "path": "/art/statuses/envenom.webp",
+      "credit": "local"
+    },
+    "enrage": {
+      "path": "/art/statuses/enrage.webp",
+      "credit": "local"
+    },
+    "fasten": {
+      "path": "/art/statuses/fasten.webp",
       "credit": "local"
     },
     "feel_no_pain": {
       "path": "/art/statuses/feel_no_pain.webp",
       "credit": "local"
     },
-    "fasten": {
-      "path": "/art/statuses/fasten.webp",
+    "focus": {
+      "path": "/art/statuses/focus.webp",
       "credit": "local"
     },
     "flame_barrier": {
@@ -4166,12 +4170,12 @@
       "path": "/art/statuses/furnace.webp",
       "credit": "local"
     },
-    "focus": {
-      "path": "/art/statuses/focus.webp",
-      "credit": "local"
-    },
     "frail": {
       "path": "/art/statuses/frail.webp",
+      "credit": "local"
+    },
+    "hailstorm": {
+      "path": "/art/statuses/hailstorm.webp",
       "credit": "local"
     },
     "genesis": {
@@ -4182,20 +4186,16 @@
       "path": "/art/statuses/hammer_time.webp",
       "credit": "local"
     },
-    "hello_world": {
-      "path": "/art/statuses/hello_world.webp",
+    "infinite_blades": {
+      "path": "/art/statuses/infinite_blades.webp",
       "credit": "local"
     },
     "hard_to_kill": {
       "path": "/art/statuses/hard_to_kill.webp",
       "credit": "local"
     },
-    "hailstorm": {
-      "path": "/art/statuses/hailstorm.webp",
-      "credit": "local"
-    },
-    "intangible": {
-      "path": "/art/statuses/intangible.webp",
+    "hello_world": {
+      "path": "/art/statuses/hello_world.webp",
       "credit": "local"
     },
     "juggernaut": {
@@ -4206,8 +4206,8 @@
       "path": "/art/statuses/juggling.webp",
       "credit": "local"
     },
-    "infinite_blades": {
-      "path": "/art/statuses/infinite_blades.webp",
+    "intangible": {
+      "path": "/art/statuses/intangible.webp",
       "credit": "local"
     },
     "loop": {
@@ -4218,10 +4218,6 @@
       "path": "/art/statuses/machine_learning.webp",
       "credit": "local"
     },
-    "mayhem": {
-      "path": "/art/statuses/mayhem.webp",
-      "credit": "local"
-    },
     "master_planner": {
       "path": "/art/statuses/master_planner.webp",
       "credit": "local"
@@ -4230,12 +4226,8 @@
       "path": "/art/statuses/no_draw.webp",
       "credit": "local"
     },
-    "nostalgia": {
-      "path": "/art/statuses/nostalgia.webp",
-      "credit": "local"
-    },
-    "noxious_fumes": {
-      "path": "/art/statuses/noxious_fumes.webp",
+    "mayhem": {
+      "path": "/art/statuses/mayhem.webp",
       "credit": "local"
     },
     "no_energy_gain": {
@@ -4246,8 +4238,12 @@
       "path": "/art/statuses/one_for_all.webp",
       "credit": "local"
     },
-    "one_two_punch": {
-      "path": "/art/statuses/one_two_punch.webp",
+    "nostalgia": {
+      "path": "/art/statuses/nostalgia.webp",
+      "credit": "local"
+    },
+    "noxious_fumes": {
+      "path": "/art/statuses/noxious_fumes.webp",
       "credit": "local"
     },
     "plated_armor": {
@@ -4258,12 +4254,12 @@
       "path": "/art/statuses/panache.webp",
       "credit": "local"
     },
-    "poison": {
-      "path": "/art/statuses/poison.webp",
+    "one_two_punch": {
+      "path": "/art/statuses/one_two_punch.webp",
       "credit": "local"
     },
-    "regeneration": {
-      "path": "/art/statuses/regeneration.webp",
+    "poison": {
+      "path": "/art/statuses/poison.webp",
       "credit": "local"
     },
     "ringing": {
@@ -4274,6 +4270,10 @@
       "path": "/art/statuses/ritual.webp",
       "credit": "local"
     },
+    "regeneration": {
+      "path": "/art/statuses/regeneration.webp",
+      "credit": "local"
+    },
     "rupture": {
       "path": "/art/statuses/rupture.webp",
       "credit": "local"
@@ -4282,48 +4282,44 @@
       "path": "/art/statuses/shadowmeld.webp",
       "credit": "local"
     },
-    "sloth": {
-      "path": "/art/statuses/sloth.webp",
-      "credit": "local"
-    },
     "slow": {
       "path": "/art/statuses/slow.webp",
+      "credit": "local"
+    },
+    "sloth": {
+      "path": "/art/statuses/sloth.webp",
       "credit": "local"
     },
     "smoggy": {
       "path": "/art/statuses/smoggy.webp",
       "credit": "local"
     },
-    "spinner": {
-      "path": "/art/statuses/spinner.webp",
-      "credit": "local"
-    },
     "star_next_turn": {
       "path": "/art/statuses/star_next_turn.webp",
       "credit": "local"
     },
-    "strength": {
-      "path": "/art/statuses/strength.webp",
+    "spinner": {
+      "path": "/art/statuses/spinner.webp",
       "credit": "local"
     },
     "stampede": {
       "path": "/art/statuses/stampede.webp",
       "credit": "local"
     },
-    "sts2_accuracy": {
-      "path": "/art/statuses/sts2_accuracy.webp",
-      "credit": "local"
-    },
     "storm": {
       "path": "/art/statuses/storm.webp",
+      "credit": "local"
+    },
+    "strength": {
+      "path": "/art/statuses/strength.webp",
       "credit": "local"
     },
     "sts2_aggression": {
       "path": "/art/statuses/sts2_aggression.webp",
       "credit": "local"
     },
-    "sts2_ambergris": {
-      "path": "/art/statuses/sts2_ambergris.webp",
+    "sts2_accuracy": {
+      "path": "/art/statuses/sts2_accuracy.webp",
       "credit": "local"
     },
     "sts2_adaptable": {
@@ -4334,8 +4330,8 @@
       "path": "/art/statuses/sts2_anticipate.webp",
       "credit": "local"
     },
-    "sts2_backattackleft": {
-      "path": "/art/statuses/sts2_backattackleft.webp",
+    "sts2_ambergris": {
+      "path": "/art/statuses/sts2_ambergris.webp",
       "credit": "local"
     },
     "sts2_asleep": {
@@ -4346,68 +4342,72 @@
       "path": "/art/statuses/sts2_arsenal.webp",
       "credit": "local"
     },
+    "sts2_battleworndummytimelimit": {
+      "path": "/art/statuses/sts2_battleworndummytimelimit.webp",
+      "credit": "local"
+    },
     "sts2_automation": {
       "path": "/art/statuses/sts2_automation.webp",
+      "credit": "local"
+    },
+    "sts2_backattackleft": {
+      "path": "/art/statuses/sts2_backattackleft.webp",
       "credit": "local"
     },
     "sts2_backattackright": {
       "path": "/art/statuses/sts2_backattackright.webp",
       "credit": "local"
     },
-    "sts2_beaconofhope": {
-      "path": "/art/statuses/sts2_beaconofhope.webp",
+    "sts2_blocknextturn": {
+      "path": "/art/statuses/sts2_blocknextturn.webp",
       "credit": "local"
     },
     "sts2_blackhole": {
       "path": "/art/statuses/sts2_blackhole.webp",
       "credit": "local"
     },
-    "sts2_battleworndummytimelimit": {
-      "path": "/art/statuses/sts2_battleworndummytimelimit.webp",
-      "credit": "local"
-    },
-    "sts2_burrowed": {
-      "path": "/art/statuses/sts2_burrowed.webp",
-      "credit": "local"
-    },
     "sts2_blur": {
       "path": "/art/statuses/sts2_blur.webp",
       "credit": "local"
     },
-    "sts2_blocknextturn": {
-      "path": "/art/statuses/sts2_blocknextturn.webp",
+    "sts2_beaconofhope": {
+      "path": "/art/statuses/sts2_beaconofhope.webp",
       "credit": "local"
     },
     "sts2_borrowedtime": {
       "path": "/art/statuses/sts2_borrowedtime.webp",
       "credit": "local"
     },
-    "sts2_cacophony": {
-      "path": "/art/statuses/sts2_cacophony.webp",
+    "sts2_burrowed": {
+      "path": "/art/statuses/sts2_burrowed.webp",
       "credit": "local"
     },
     "sts2_calcify": {
       "path": "/art/statuses/sts2_calcify.webp",
       "credit": "local"
     },
-    "sts2_callofthevoid": {
-      "path": "/art/statuses/sts2_callofthevoid.webp",
+    "sts2_cacophony": {
+      "path": "/art/statuses/sts2_cacophony.webp",
       "credit": "local"
     },
-    "sts2_chainsofbinding": {
-      "path": "/art/statuses/sts2_chainsofbinding.webp",
+    "sts2_callofthevoid": {
+      "path": "/art/statuses/sts2_callofthevoid.webp",
       "credit": "local"
     },
     "sts2_colossus": {
       "path": "/art/statuses/sts2_colossus.webp",
       "credit": "local"
     },
-    "sts2_conqueror": {
-      "path": "/art/statuses/sts2_conqueror.webp",
+    "sts2_chainsofbinding": {
+      "path": "/art/statuses/sts2_chainsofbinding.webp",
       "credit": "local"
     },
     "sts2_clarity": {
       "path": "/art/statuses/sts2_clarity.webp",
+      "credit": "local"
+    },
+    "sts2_conqueror": {
+      "path": "/art/statuses/sts2_conqueror.webp",
       "credit": "local"
     },
     "sts2_concoct": {
@@ -4426,8 +4426,16 @@
       "path": "/art/statuses/sts2_covered.webp",
       "credit": "local"
     },
+    "sts2_cruelty": {
+      "path": "/art/statuses/sts2_cruelty.webp",
+      "credit": "local"
+    },
     "sts2_crabrage": {
       "path": "/art/statuses/sts2_crabrage.webp",
+      "credit": "local"
+    },
+    "sts2_crimsonmantle": {
+      "path": "/art/statuses/sts2_crimsonmantle.webp",
       "credit": "local"
     },
     "sts2_crushunder": {
@@ -4438,14 +4446,6 @@
       "path": "/art/statuses/sts2_curious.webp",
       "credit": "local"
     },
-    "sts2_crimsonmantle": {
-      "path": "/art/statuses/sts2_crimsonmantle.webp",
-      "credit": "local"
-    },
-    "sts2_cruelty": {
-      "path": "/art/statuses/sts2_cruelty.webp",
-      "credit": "local"
-    },
     "sts2_curlup": {
       "path": "/art/statuses/sts2_curlup.webp",
       "credit": "local"
@@ -4454,20 +4454,20 @@
       "path": "/art/statuses/sts2_dampen.webp",
       "credit": "local"
     },
-    "sts2_darkshackles": {
-      "path": "/art/statuses/sts2_darkshackles.webp",
-      "credit": "local"
-    },
-    "sts2_dansemacabre": {
-      "path": "/art/statuses/sts2_dansemacabre.webp",
-      "credit": "local"
-    },
     "sts2_debilitate": {
       "path": "/art/statuses/sts2_debilitate.webp",
       "credit": "local"
     },
+    "sts2_darkshackles": {
+      "path": "/art/statuses/sts2_darkshackles.webp",
+      "credit": "local"
+    },
     "sts2_demesne": {
       "path": "/art/statuses/sts2_demesne.webp",
+      "credit": "local"
+    },
+    "sts2_dansemacabre": {
+      "path": "/art/statuses/sts2_dansemacabre.webp",
       "credit": "local"
     },
     "sts2_demise": {
@@ -4478,20 +4478,20 @@
       "path": "/art/statuses/sts2_devourlife.webp",
       "credit": "local"
     },
-    "sts2_dieforyou": {
-      "path": "/art/statuses/sts2_dieforyou.webp",
-      "credit": "local"
-    },
     "sts2_disintegration": {
       "path": "/art/statuses/sts2_disintegration.webp",
       "credit": "local"
     },
-    "sts2_duplication": {
-      "path": "/art/statuses/sts2_duplication.webp",
+    "sts2_dieforyou": {
+      "path": "/art/statuses/sts2_dieforyou.webp",
       "credit": "local"
     },
     "sts2_drawcardsnextturn": {
       "path": "/art/statuses/sts2_drawcardsnextturn.webp",
+      "credit": "local"
+    },
+    "sts2_duplication": {
+      "path": "/art/statuses/sts2_duplication.webp",
       "credit": "local"
     },
     "sts2_dyingstar": {
@@ -4500,10 +4500,6 @@
     },
     "sts2_energynextturn": {
       "path": "/art/statuses/sts2_energynextturn.webp",
-      "credit": "local"
-    },
-    "sts2_entropy": {
-      "path": "/art/statuses/sts2_entropy.webp",
       "credit": "local"
     },
     "sts2_enfeeblingtouch": {
@@ -4516,6 +4512,10 @@
     },
     "sts2_escapeartist": {
       "path": "/art/statuses/sts2_escapeartist.webp",
+      "credit": "local"
+    },
+    "sts2_entropy": {
+      "path": "/art/statuses/sts2_entropy.webp",
       "credit": "local"
     },
     "sts2_fanofknives": {
@@ -4550,12 +4550,12 @@
       "path": "/art/statuses/sts2_forbiddengrimoire.webp",
       "credit": "local"
     },
-    "sts2_freeattack": {
-      "path": "/art/statuses/sts2_freeattack.webp",
-      "credit": "local"
-    },
     "sts2_foregoneconclusion": {
       "path": "/art/statuses/sts2_foregoneconclusion.webp",
+      "credit": "local"
+    },
+    "sts2_freeattack": {
+      "path": "/art/statuses/sts2_freeattack.webp",
       "credit": "local"
     },
     "sts2_freeskill": {
@@ -4566,20 +4566,20 @@
       "path": "/art/statuses/sts2_freepower.webp",
       "credit": "local"
     },
-    "sts2_friendship": {
-      "path": "/art/statuses/sts2_friendship.webp",
-      "credit": "local"
-    },
-    "sts2_galvanic": {
-      "path": "/art/statuses/sts2_galvanic.webp",
-      "credit": "local"
-    },
     "sts2_gigantification": {
       "path": "/art/statuses/sts2_gigantification.webp",
       "credit": "local"
     },
+    "sts2_friendship": {
+      "path": "/art/statuses/sts2_friendship.webp",
+      "credit": "local"
+    },
     "sts2_gravity": {
       "path": "/art/statuses/sts2_gravity.webp",
+      "credit": "local"
+    },
+    "sts2_galvanic": {
+      "path": "/art/statuses/sts2_galvanic.webp",
       "credit": "local"
     },
     "sts2_hang": {
@@ -4590,20 +4590,16 @@
       "path": "/art/statuses/sts2_guarded.webp",
       "credit": "local"
     },
-    "sts2_hardenedshell": {
-      "path": "/art/statuses/sts2_hardenedshell.webp",
-      "credit": "local"
-    },
     "sts2_hatch": {
       "path": "/art/statuses/sts2_hatch.webp",
       "credit": "local"
     },
-    "sts2_haunt": {
-      "path": "/art/statuses/sts2_haunt.webp",
+    "sts2_hardenedshell": {
+      "path": "/art/statuses/sts2_hardenedshell.webp",
       "credit": "local"
     },
-    "sts2_heist": {
-      "path": "/art/statuses/sts2_heist.webp",
+    "sts2_haunt": {
+      "path": "/art/statuses/sts2_haunt.webp",
       "credit": "local"
     },
     "sts2_hellraiser": {
@@ -4614,12 +4610,8 @@
       "path": "/art/statuses/sts2_helicaldart.webp",
       "credit": "local"
     },
-    "sts2_hibernate": {
-      "path": "/art/statuses/sts2_hibernate.webp",
-      "credit": "local"
-    },
-    "sts2_hex": {
-      "path": "/art/statuses/sts2_hex.webp",
+    "sts2_heist": {
+      "path": "/art/statuses/sts2_heist.webp",
       "credit": "local"
     },
     "sts2_highvoltage": {
@@ -4630,6 +4622,14 @@
       "path": "/art/statuses/sts2_hotfix.webp",
       "credit": "local"
     },
+    "sts2_hex": {
+      "path": "/art/statuses/sts2_hex.webp",
+      "credit": "local"
+    },
+    "sts2_hibernate": {
+      "path": "/art/statuses/sts2_hibernate.webp",
+      "credit": "local"
+    },
     "sts2_illusion": {
       "path": "/art/statuses/sts2_illusion.webp",
       "credit": "local"
@@ -4638,24 +4638,24 @@
       "path": "/art/statuses/sts2_hyperbeamfocusdown.webp",
       "credit": "local"
     },
-    "sts2_imbalanced": {
-      "path": "/art/statuses/sts2_imbalanced.webp",
-      "credit": "local"
-    },
     "sts2_imitationlearning": {
       "path": "/art/statuses/sts2_imitationlearning.webp",
       "credit": "local"
     },
-    "sts2_improvement": {
-      "path": "/art/statuses/sts2_improvement.webp",
+    "sts2_imbalanced": {
+      "path": "/art/statuses/sts2_imbalanced.webp",
+      "credit": "local"
+    },
+    "sts2_infested": {
+      "path": "/art/statuses/sts2_infested.webp",
       "credit": "local"
     },
     "sts2_inferno": {
       "path": "/art/statuses/sts2_inferno.webp",
       "credit": "local"
     },
-    "sts2_infested": {
-      "path": "/art/statuses/sts2_infested.webp",
+    "sts2_improvement": {
+      "path": "/art/statuses/sts2_improvement.webp",
       "credit": "local"
     },
     "sts2_intercept": {
@@ -4666,6 +4666,10 @@
       "path": "/art/statuses/sts2_knockdown.webp",
       "credit": "local"
     },
+    "sts2_lethality": {
+      "path": "/art/statuses/sts2_lethality.webp",
+      "credit": "local"
+    },
     "sts2_iteration": {
       "path": "/art/statuses/sts2_iteration.webp",
       "credit": "local"
@@ -4674,28 +4678,20 @@
       "path": "/art/statuses/sts2_leadership.webp",
       "credit": "local"
     },
-    "sts2_lethality": {
-      "path": "/art/statuses/sts2_lethality.webp",
+    "sts2_magicbomb": {
+      "path": "/art/statuses/sts2_magicbomb.webp",
       "credit": "local"
     },
     "sts2_lightningrod": {
       "path": "/art/statuses/sts2_lightningrod.webp",
       "credit": "local"
     },
-    "sts2_magicbomb": {
-      "path": "/art/statuses/sts2_magicbomb.webp",
-      "credit": "local"
-    },
-    "sts2_mindrot": {
-      "path": "/art/statuses/sts2_mindrot.webp",
-      "credit": "local"
-    },
     "sts2_mangle": {
       "path": "/art/statuses/sts2_mangle.webp",
       "credit": "local"
     },
-    "sts2_monarchsgaze": {
-      "path": "/art/statuses/sts2_monarchsgaze.webp",
+    "sts2_mindrot": {
+      "path": "/art/statuses/sts2_mindrot.webp",
       "credit": "local"
     },
     "sts2_minion": {
@@ -4710,20 +4706,32 @@
       "path": "/art/statuses/sts2_monologue.webp",
       "credit": "local"
     },
-    "sts2_necromastery": {
-      "path": "/art/statuses/sts2_necromastery.webp",
-      "credit": "local"
-    },
-    "sts2_nightmare": {
-      "path": "/art/statuses/sts2_nightmare.webp",
+    "sts2_monarchsgaze": {
+      "path": "/art/statuses/sts2_monarchsgaze.webp",
       "credit": "local"
     },
     "sts2_nemesis": {
       "path": "/art/statuses/sts2_nemesis.webp",
       "credit": "local"
     },
+    "sts2_nightmare": {
+      "path": "/art/statuses/sts2_nightmare.webp",
+      "credit": "local"
+    },
     "sts2_neurosurge": {
       "path": "/art/statuses/sts2_neurosurge.webp",
+      "credit": "local"
+    },
+    "sts2_necromastery": {
+      "path": "/art/statuses/sts2_necromastery.webp",
+      "credit": "local"
+    },
+    "sts2_oblivion": {
+      "path": "/art/statuses/sts2_oblivion.webp",
+      "credit": "local"
+    },
+    "sts2_orbit": {
+      "path": "/art/statuses/sts2_orbit.webp",
       "credit": "local"
     },
     "sts2_noblock": {
@@ -4734,16 +4742,8 @@
       "path": "/art/statuses/sts2_pagestorm.webp",
       "credit": "local"
     },
-    "sts2_orbit": {
-      "path": "/art/statuses/sts2_orbit.webp",
-      "credit": "local"
-    },
-    "sts2_oblivion": {
-      "path": "/art/statuses/sts2_oblivion.webp",
-      "credit": "local"
-    },
-    "sts2_parry": {
-      "path": "/art/statuses/sts2_parry.webp",
+    "sts2_palebluedot": {
+      "path": "/art/statuses/sts2_palebluedot.webp",
       "credit": "local"
     },
     "sts2_papercuts": {
@@ -4754,24 +4754,28 @@
       "path": "/art/statuses/sts2_painfulstabs.webp",
       "credit": "local"
     },
-    "sts2_palebluedot": {
-      "path": "/art/statuses/sts2_palebluedot.webp",
-      "credit": "local"
-    },
-    "sts2_piercingwail": {
-      "path": "/art/statuses/sts2_piercingwail.webp",
-      "credit": "local"
-    },
-    "sts2_phantomblades": {
-      "path": "/art/statuses/sts2_phantomblades.webp",
+    "sts2_parry": {
+      "path": "/art/statuses/sts2_parry.webp",
       "credit": "local"
     },
     "sts2_pillarofcreation": {
       "path": "/art/statuses/sts2_pillarofcreation.webp",
       "credit": "local"
     },
+    "sts2_piercingwail": {
+      "path": "/art/statuses/sts2_piercingwail.webp",
+      "credit": "local"
+    },
     "sts2_personalhive": {
       "path": "/art/statuses/sts2_personalhive.webp",
+      "credit": "local"
+    },
+    "sts2_phantomblades": {
+      "path": "/art/statuses/sts2_phantomblades.webp",
+      "credit": "local"
+    },
+    "sts2_preptime": {
+      "path": "/art/statuses/sts2_preptime.webp",
       "credit": "local"
     },
     "sts2_possessspeed": {
@@ -4780,10 +4784,6 @@
     },
     "sts2_plow": {
       "path": "/art/statuses/sts2_plow.webp",
-      "credit": "local"
-    },
-    "sts2_preptime": {
-      "path": "/art/statuses/sts2_preptime.webp",
       "credit": "local"
     },
     "sts2_possessstrength": {
@@ -4798,56 +4798,56 @@
       "path": "/art/statuses/sts2_radiance.webp",
       "credit": "local"
     },
-    "sts2_rage": {
-      "path": "/art/statuses/sts2_rage.webp",
-      "credit": "local"
-    },
     "sts2_rampart": {
       "path": "/art/statuses/sts2_rampart.webp",
+      "credit": "local"
+    },
+    "sts2_rage": {
+      "path": "/art/statuses/sts2_rage.webp",
       "credit": "local"
     },
     "sts2_reattach": {
       "path": "/art/statuses/sts2_reattach.webp",
       "credit": "local"
     },
-    "sts2_ravenous": {
-      "path": "/art/statuses/sts2_ravenous.webp",
+    "sts2_reaperform": {
+      "path": "/art/statuses/sts2_reaperform.webp",
       "credit": "local"
     },
     "sts2_rebound": {
       "path": "/art/statuses/sts2_rebound.webp",
       "credit": "local"
     },
-    "sts2_reaperform": {
-      "path": "/art/statuses/sts2_reaperform.webp",
-      "credit": "local"
-    },
-    "sts2_reflect": {
-      "path": "/art/statuses/sts2_reflect.webp",
+    "sts2_ravenous": {
+      "path": "/art/statuses/sts2_ravenous.webp",
       "credit": "local"
     },
     "sts2_retainhand": {
       "path": "/art/statuses/sts2_retainhand.webp",
       "credit": "local"
     },
+    "sts2_reptiletrinket": {
+      "path": "/art/statuses/sts2_reptiletrinket.webp",
+      "credit": "local"
+    },
     "sts2_rollingboulder": {
       "path": "/art/statuses/sts2_rollingboulder.webp",
       "credit": "local"
     },
-    "sts2_reptiletrinket": {
-      "path": "/art/statuses/sts2_reptiletrinket.webp",
+    "sts2_reflect": {
+      "path": "/art/statuses/sts2_reflect.webp",
       "credit": "local"
     },
     "sts2_royalties": {
       "path": "/art/statuses/sts2_royalties.webp",
       "credit": "local"
     },
-    "sts2_seekingedge": {
-      "path": "/art/statuses/sts2_seekingedge.webp",
-      "credit": "local"
-    },
     "sts2_selfformingclay": {
       "path": "/art/statuses/sts2_selfformingclay.webp",
+      "credit": "local"
+    },
+    "sts2_seekingedge": {
+      "path": "/art/statuses/sts2_seekingedge.webp",
       "credit": "local"
     },
     "sts2_sandpit": {
@@ -4858,6 +4858,10 @@
       "path": "/art/statuses/sts2_sentrymode.webp",
       "credit": "local"
     },
+    "sts2_setupstrike": {
+      "path": "/art/statuses/sts2_setupstrike.webp",
+      "credit": "local"
+    },
     "sts2_shacklingpotion": {
       "path": "/art/statuses/sts2_shacklingpotion.webp",
       "credit": "local"
@@ -4866,24 +4870,20 @@
       "path": "/art/statuses/sts2_serpentform.webp",
       "credit": "local"
     },
-    "sts2_setupstrike": {
-      "path": "/art/statuses/sts2_setupstrike.webp",
+    "sts2_shadowstep": {
+      "path": "/art/statuses/sts2_shadowstep.webp",
       "credit": "local"
     },
     "sts2_shriek": {
       "path": "/art/statuses/sts2_shriek.webp",
       "credit": "local"
     },
-    "sts2_shadowstep": {
-      "path": "/art/statuses/sts2_shadowstep.webp",
+    "sts2_shrink": {
+      "path": "/art/statuses/sts2_shrink.webp",
       "credit": "local"
     },
     "sts2_shroud": {
       "path": "/art/statuses/sts2_shroud.webp",
-      "credit": "local"
-    },
-    "sts2_shrink": {
-      "path": "/art/statuses/sts2_shrink.webp",
       "credit": "local"
     },
     "sts2_sleightofflesh": {
@@ -4894,20 +4894,12 @@
       "path": "/art/statuses/sts2_signalboost.webp",
       "credit": "local"
     },
-    "sts2_sicem": {
-      "path": "/art/statuses/sts2_sicem.webp",
-      "credit": "local"
-    },
     "sts2_skittish": {
       "path": "/art/statuses/sts2_skittish.webp",
       "credit": "local"
     },
-    "sts2_smokestack": {
-      "path": "/art/statuses/sts2_smokestack.webp",
-      "credit": "local"
-    },
-    "sts2_slippery": {
-      "path": "/art/statuses/sts2_slippery.webp",
+    "sts2_sicem": {
+      "path": "/art/statuses/sts2_sicem.webp",
       "credit": "local"
     },
     "sts2_slumber": {
@@ -4918,8 +4910,12 @@
       "path": "/art/statuses/sts2_sneaky.webp",
       "credit": "local"
     },
-    "sts2_soulbound": {
-      "path": "/art/statuses/sts2_soulbound.webp",
+    "sts2_slippery": {
+      "path": "/art/statuses/sts2_slippery.webp",
+      "credit": "local"
+    },
+    "sts2_smokestack": {
+      "path": "/art/statuses/sts2_smokestack.webp",
       "credit": "local"
     },
     "sts2_speedpotion": {
@@ -4930,8 +4926,16 @@
       "path": "/art/statuses/sts2_soar.webp",
       "credit": "local"
     },
+    "sts2_soulbound": {
+      "path": "/art/statuses/sts2_soulbound.webp",
+      "credit": "local"
+    },
     "sts2_spectrumshift": {
       "path": "/art/statuses/sts2_spectrumshift.webp",
+      "credit": "local"
+    },
+    "sts2_speedster": {
+      "path": "/art/statuses/sts2_speedster.webp",
       "credit": "local"
     },
     "sts2_spiritofash": {
@@ -4942,40 +4946,36 @@
       "path": "/art/statuses/sts2_steameruption.webp",
       "credit": "local"
     },
-    "sts2_speedster": {
-      "path": "/art/statuses/sts2_speedster.webp",
-      "credit": "local"
-    },
     "sts2_stock": {
       "path": "/art/statuses/sts2_stock.webp",
-      "credit": "local"
-    },
-    "sts2_suck": {
-      "path": "/art/statuses/sts2_suck.webp",
       "credit": "local"
     },
     "sts2_strangle": {
       "path": "/art/statuses/sts2_strangle.webp",
       "credit": "local"
     },
-    "sts2_stratagem": {
-      "path": "/art/statuses/sts2_stratagem.webp",
+    "sts2_suck": {
+      "path": "/art/statuses/sts2_suck.webp",
       "credit": "local"
     },
     "sts2_subroutine": {
       "path": "/art/statuses/sts2_subroutine.webp",
       "credit": "local"
     },
+    "sts2_stratagem": {
+      "path": "/art/statuses/sts2_stratagem.webp",
+      "credit": "local"
+    },
     "sts2_summonnextturn": {
       "path": "/art/statuses/sts2_summonnextturn.webp",
       "credit": "local"
     },
-    "sts2_surprise": {
-      "path": "/art/statuses/sts2_surprise.webp",
-      "credit": "local"
-    },
     "sts2_surrounded": {
       "path": "/art/statuses/sts2_surrounded.webp",
+      "credit": "local"
+    },
+    "sts2_surprise": {
+      "path": "/art/statuses/sts2_surprise.webp",
       "credit": "local"
     },
     "sts2_swipe": {
@@ -4986,16 +4986,16 @@
       "path": "/art/statuses/sts2_swordsage.webp",
       "credit": "local"
     },
-    "sts2_tainted": {
-      "path": "/art/statuses/sts2_tainted.webp",
+    "sts2_synchronize": {
+      "path": "/art/statuses/sts2_synchronize.webp",
       "credit": "local"
     },
     "sts2_tagteam": {
       "path": "/art/statuses/sts2_tagteam.webp",
       "credit": "local"
     },
-    "sts2_synchronize": {
-      "path": "/art/statuses/sts2_synchronize.webp",
+    "sts2_tainted": {
+      "path": "/art/statuses/sts2_tainted.webp",
       "credit": "local"
     },
     "sts2_tangled": {
@@ -5018,12 +5018,12 @@
       "path": "/art/statuses/sts2_thievery.webp",
       "credit": "local"
     },
-    "sts2_thehunt": {
-      "path": "/art/statuses/sts2_thehunt.webp",
-      "credit": "local"
-    },
     "sts2_toolsofthetrade": {
       "path": "/art/statuses/sts2_toolsofthetrade.webp",
+      "credit": "local"
+    },
+    "sts2_thehunt": {
+      "path": "/art/statuses/sts2_thehunt.webp",
       "credit": "local"
     },
     "sts2_thegambit": {
@@ -5034,20 +5034,16 @@
       "path": "/art/statuses/sts2_unmovable.webp",
       "credit": "local"
     },
+    "sts2_veilpiercer": {
+      "path": "/art/statuses/sts2_veilpiercer.webp",
+      "credit": "local"
+    },
     "sts2_underworld": {
       "path": "/art/statuses/sts2_underworld.webp",
       "credit": "local"
     },
     "sts2_torictoughness": {
       "path": "/art/statuses/sts2_torictoughness.webp",
-      "credit": "local"
-    },
-    "sts2_veilpiercer": {
-      "path": "/art/statuses/sts2_veilpiercer.webp",
-      "credit": "local"
-    },
-    "sts2_witheringpresence": {
-      "path": "/art/statuses/sts2_witheringpresence.webp",
       "credit": "local"
     },
     "sts2_vitalspark": {
@@ -5062,16 +5058,20 @@
       "path": "/art/statuses/sts2_voidform.webp",
       "credit": "local"
     },
+    "sts2_witheringpresence": {
+      "path": "/art/statuses/sts2_witheringpresence.webp",
+      "credit": "local"
+    },
     "the_bomb": {
       "path": "/art/statuses/the_bomb.webp",
       "credit": "local"
     },
-    "thorns": {
-      "path": "/art/statuses/thorns.webp",
-      "credit": "local"
-    },
     "the_sealed_throne": {
       "path": "/art/statuses/the_sealed_throne.webp",
+      "credit": "local"
+    },
+    "thorns": {
+      "path": "/art/statuses/thorns.webp",
       "credit": "local"
     },
     "thunder": {
@@ -5086,32 +5086,32 @@
       "path": "/art/statuses/trash_to_treasure.webp",
       "credit": "local"
     },
-    "tyranny": {
-      "path": "/art/statuses/tyranny.webp",
-      "credit": "local"
-    },
     "vigor": {
       "path": "/art/statuses/vigor.webp",
+      "credit": "local"
+    },
+    "tyranny": {
+      "path": "/art/statuses/tyranny.webp",
       "credit": "local"
     },
     "vulnerable": {
       "path": "/art/statuses/vulnerable.webp",
       "credit": "local"
     },
-    "waste_away": {
-      "path": "/art/statuses/waste_away.webp",
-      "credit": "local"
-    },
     "weak": {
       "path": "/art/statuses/weak.webp",
       "credit": "local"
     },
-    "wraith_form": {
-      "path": "/art/statuses/wraith_form.webp",
+    "waste_away": {
+      "path": "/art/statuses/waste_away.webp",
       "credit": "local"
     },
     "well_laid_plans": {
       "path": "/art/statuses/well_laid_plans.webp",
+      "credit": "local"
+    },
+    "wraith_form": {
+      "path": "/art/statuses/wraith_form.webp",
       "credit": "local"
     }
   },
@@ -5124,28 +5124,28 @@
       "path": "/art/enchantments/sts2_glam.webp",
       "credit": "local"
     },
-    "sts2_clone": {
-      "path": "/art/enchantments/sts2_clone.webp",
+    "sts2_imbued": {
+      "path": "/art/enchantments/sts2_imbued.webp",
+      "credit": "local"
+    },
+    "sts2_goopy": {
+      "path": "/art/enchantments/sts2_goopy.webp",
       "credit": "local"
     },
     "sts2_corrupted": {
       "path": "/art/enchantments/sts2_corrupted.webp",
       "credit": "local"
     },
-    "sts2_inky": {
-      "path": "/art/enchantments/sts2_inky.webp",
+    "sts2_clone": {
+      "path": "/art/enchantments/sts2_clone.webp",
       "credit": "local"
     },
-    "sts2_imbued": {
-      "path": "/art/enchantments/sts2_imbued.webp",
+    "sts2_nimble": {
+      "path": "/art/enchantments/sts2_nimble.webp",
       "credit": "local"
     },
-    "sts2_instinct": {
-      "path": "/art/enchantments/sts2_instinct.webp",
-      "credit": "local"
-    },
-    "sts2_goopy": {
-      "path": "/art/enchantments/sts2_goopy.webp",
+    "sts2_momentum": {
+      "path": "/art/enchantments/sts2_momentum.webp",
       "credit": "local"
     },
     "sts2_perfect_fit": {
@@ -5156,20 +5156,20 @@
       "path": "/art/enchantments/sts2_royally_approved.webp",
       "credit": "local"
     },
-    "sts2_momentum": {
-      "path": "/art/enchantments/sts2_momentum.webp",
-      "credit": "local"
-    },
-    "sts2_nimble": {
-      "path": "/art/enchantments/sts2_nimble.webp",
-      "credit": "local"
-    },
     "sts2_sharp": {
       "path": "/art/enchantments/sts2_sharp.webp",
       "credit": "local"
     },
     "sts2_slither": {
       "path": "/art/enchantments/sts2_slither.webp",
+      "credit": "local"
+    },
+    "sts2_inky": {
+      "path": "/art/enchantments/sts2_inky.webp",
+      "credit": "local"
+    },
+    "sts2_instinct": {
+      "path": "/art/enchantments/sts2_instinct.webp",
       "credit": "local"
     },
     "sts2_slumbering_essence": {
@@ -5184,6 +5184,10 @@
       "path": "/art/enchantments/sts2_sown.webp",
       "credit": "local"
     },
+    "sts2_swift": {
+      "path": "/art/enchantments/sts2_swift.webp",
+      "credit": "local"
+    },
     "sts2_spiral": {
       "path": "/art/enchantments/sts2_spiral.webp",
       "credit": "local"
@@ -5192,24 +5196,16 @@
       "path": "/art/enchantments/sts2_steady.webp",
       "credit": "local"
     },
-    "sts2_swift": {
-      "path": "/art/enchantments/sts2_swift.webp",
+    "sts2_vigorous": {
+      "path": "/art/enchantments/sts2_vigorous.webp",
       "credit": "local"
     },
     "sts2_tezcataras_ember": {
       "path": "/art/enchantments/sts2_tezcataras_ember.webp",
       "credit": "local"
-    },
-    "sts2_vigorous": {
-      "path": "/art/enchantments/sts2_vigorous.webp",
-      "credit": "local"
     }
   },
   "potions": {
-    "sts2_attack_potion": {
-      "path": "/art/potions/sts2_attack_potion.webp",
-      "credit": "local"
-    },
     "sts2_ambergris": {
       "path": "/art/potions/sts2_ambergris.webp",
       "credit": "local"
@@ -5218,28 +5214,36 @@
       "path": "/art/potions/sts2_beetle_juice.webp",
       "credit": "local"
     },
-    "sts2_blessing_of_the_forge": {
-      "path": "/art/potions/sts2_blessing_of_the_forge.webp",
+    "sts2_attack_potion": {
+      "path": "/art/potions/sts2_attack_potion.webp",
       "credit": "local"
     },
-    "sts2_block_potion": {
-      "path": "/art/potions/sts2_block_potion.webp",
+    "sts2_ashwater": {
+      "path": "/art/potions/sts2_ashwater.webp",
       "credit": "local"
     },
     "sts2_blood_potion": {
       "path": "/art/potions/sts2_blood_potion.webp",
       "credit": "local"
     },
+    "sts2_blessing_of_the_forge": {
+      "path": "/art/potions/sts2_blessing_of_the_forge.webp",
+      "credit": "local"
+    },
     "sts2_bone_brew": {
       "path": "/art/potions/sts2_bone_brew.webp",
       "credit": "local"
     },
-    "sts2_bottled_potential": {
-      "path": "/art/potions/sts2_bottled_potential.webp",
+    "sts2_block_potion": {
+      "path": "/art/potions/sts2_block_potion.webp",
       "credit": "local"
     },
     "sts2_clarity": {
       "path": "/art/potions/sts2_clarity.webp",
+      "credit": "local"
+    },
+    "sts2_bottled_potential": {
+      "path": "/art/potions/sts2_bottled_potential.webp",
       "credit": "local"
     },
     "sts2_colorless_potion": {
@@ -5262,10 +5266,6 @@
       "path": "/art/potions/sts2_dexterity_potion.webp",
       "credit": "local"
     },
-    "sts2_ashwater": {
-      "path": "/art/potions/sts2_ashwater.webp",
-      "credit": "local"
-    },
     "sts2_distilled_chaos": {
       "path": "/art/potions/sts2_distilled_chaos.webp",
       "credit": "local"
@@ -5274,24 +5274,32 @@
       "path": "/art/potions/sts2_droplet_of_precognition.webp",
       "credit": "local"
     },
-    "sts2_duplicator": {
-      "path": "/art/potions/sts2_duplicator.webp",
+    "sts2_entropic_brew": {
+      "path": "/art/potions/sts2_entropic_brew.webp",
       "credit": "local"
     },
     "sts2_energy_potion": {
       "path": "/art/potions/sts2_energy_potion.webp",
       "credit": "local"
     },
+    "sts2_duplicator": {
+      "path": "/art/potions/sts2_duplicator.webp",
+      "credit": "local"
+    },
+    "sts2_essence_of_darkness": {
+      "path": "/art/potions/sts2_essence_of_darkness.webp",
+      "credit": "local"
+    },
+    "sts2_fire_potion": {
+      "path": "/art/potions/sts2_fire_potion.webp",
+      "credit": "local"
+    },
+    "sts2_fairy_in_a_bottle": {
+      "path": "/art/potions/sts2_fairy_in_a_bottle.webp",
+      "credit": "local"
+    },
     "sts2_explosive_ampoule": {
       "path": "/art/potions/sts2_explosive_ampoule.webp",
-      "credit": "local"
-    },
-    "sts2_entropic_brew": {
-      "path": "/art/potions/sts2_entropic_brew.webp",
-      "credit": "local"
-    },
-    "sts2_flex_potion": {
-      "path": "/art/potions/sts2_flex_potion.webp",
       "credit": "local"
     },
     "sts2_focus_potion": {
@@ -5306,24 +5314,20 @@
       "path": "/art/potions/sts2_foul_potion.webp",
       "credit": "local"
     },
-    "sts2_fruit_juice": {
-      "path": "/art/potions/sts2_fruit_juice.webp",
+    "sts2_flex_potion": {
+      "path": "/art/potions/sts2_flex_potion.webp",
       "credit": "local"
     },
-    "sts2_essence_of_darkness": {
-      "path": "/art/potions/sts2_essence_of_darkness.webp",
+    "sts2_fruit_juice": {
+      "path": "/art/potions/sts2_fruit_juice.webp",
       "credit": "local"
     },
     "sts2_fysh_oil": {
       "path": "/art/potions/sts2_fysh_oil.webp",
       "credit": "local"
     },
-    "sts2_fire_potion": {
-      "path": "/art/potions/sts2_fire_potion.webp",
-      "credit": "local"
-    },
-    "sts2_fairy_in_a_bottle": {
-      "path": "/art/potions/sts2_fairy_in_a_bottle.webp",
+    "sts2_gamblers_brew": {
+      "path": "/art/potions/sts2_gamblers_brew.webp",
       "credit": "local"
     },
     "sts2_ghost_in_a_jar": {
@@ -5346,24 +5350,24 @@
       "path": "/art/potions/sts2_kings_courage.webp",
       "credit": "local"
     },
-    "sts2_gamblers_brew": {
-      "path": "/art/potions/sts2_gamblers_brew.webp",
-      "credit": "local"
-    },
     "sts2_liquid_memories": {
       "path": "/art/potions/sts2_liquid_memories.webp",
+      "credit": "local"
+    },
+    "sts2_liquid_bronze": {
+      "path": "/art/potions/sts2_liquid_bronze.webp",
       "credit": "local"
     },
     "sts2_lucky_tonic": {
       "path": "/art/potions/sts2_lucky_tonic.webp",
       "credit": "local"
     },
-    "sts2_mazaleths_gift": {
-      "path": "/art/potions/sts2_mazaleths_gift.webp",
+    "sts2_pot_of_ghouls": {
+      "path": "/art/potions/sts2_pot_of_ghouls.webp",
       "credit": "local"
     },
-    "sts2_liquid_bronze": {
-      "path": "/art/potions/sts2_liquid_bronze.webp",
+    "sts2_mazaleths_gift": {
+      "path": "/art/potions/sts2_mazaleths_gift.webp",
       "credit": "local"
     },
     "sts2_poison_potion": {
@@ -5374,24 +5378,20 @@
       "path": "/art/potions/sts2_orobic_acid.webp",
       "credit": "local"
     },
-    "sts2_potion_of_capacity": {
-      "path": "/art/potions/sts2_potion_of_capacity.webp",
-      "credit": "local"
-    },
     "sts2_potion_of_doom": {
       "path": "/art/potions/sts2_potion_of_doom.webp",
       "credit": "local"
     },
-    "sts2_potion_shaped_rock": {
-      "path": "/art/potions/sts2_potion_shaped_rock.webp",
-      "credit": "local"
-    },
-    "sts2_pot_of_ghouls": {
-      "path": "/art/potions/sts2_pot_of_ghouls.webp",
+    "sts2_potion_of_capacity": {
+      "path": "/art/potions/sts2_potion_of_capacity.webp",
       "credit": "local"
     },
     "sts2_potion_of_binding": {
       "path": "/art/potions/sts2_potion_of_binding.webp",
+      "credit": "local"
+    },
+    "sts2_potion_shaped_rock": {
+      "path": "/art/potions/sts2_potion_shaped_rock.webp",
       "credit": "local"
     },
     "sts2_radiant_tincture": {
@@ -5402,12 +5402,12 @@
       "path": "/art/potions/sts2_power_potion.webp",
       "credit": "local"
     },
-    "sts2_regen_potion": {
-      "path": "/art/potions/sts2_regen_potion.webp",
+    "sts2_powdered_demise": {
+      "path": "/art/potions/sts2_powdered_demise.webp",
       "credit": "local"
     },
-    "sts2_shackling_potion": {
-      "path": "/art/potions/sts2_shackling_potion.webp",
+    "sts2_regen_potion": {
+      "path": "/art/potions/sts2_regen_potion.webp",
       "credit": "local"
     },
     "sts2_ship_in_a_bottle": {
@@ -5422,16 +5422,20 @@
       "path": "/art/potions/sts2_snecko_oil.webp",
       "credit": "local"
     },
-    "sts2_soldiers_stew": {
-      "path": "/art/potions/sts2_soldiers_stew.webp",
-      "credit": "local"
-    },
-    "sts2_powdered_demise": {
-      "path": "/art/potions/sts2_powdered_demise.webp",
+    "sts2_shackling_potion": {
+      "path": "/art/potions/sts2_shackling_potion.webp",
       "credit": "local"
     },
     "sts2_speed_potion": {
       "path": "/art/potions/sts2_speed_potion.webp",
+      "credit": "local"
+    },
+    "sts2_soldiers_stew": {
+      "path": "/art/potions/sts2_soldiers_stew.webp",
+      "credit": "local"
+    },
+    "sts2_star_potion": {
+      "path": "/art/potions/sts2_star_potion.webp",
       "credit": "local"
     },
     "sts2_stable_serum": {
@@ -5448,10 +5452,6 @@
     },
     "sts2_touch_of_insanity": {
       "path": "/art/potions/sts2_touch_of_insanity.webp",
-      "credit": "local"
-    },
-    "sts2_star_potion": {
-      "path": "/art/potions/sts2_star_potion.webp",
       "credit": "local"
     },
     "sts2_vulnerable_potion": {
@@ -5472,12 +5472,12 @@
       "path": "/art/heroes/emberforged.webp",
       "credit": "local"
     },
-    "lamplighter": {
-      "path": "/art/heroes/lamplighter.webp",
-      "credit": "local"
-    },
     "clockwright": {
       "path": "/art/heroes/clockwright.webp",
+      "credit": "local"
+    },
+    "lamplighter": {
+      "path": "/art/heroes/lamplighter.webp",
       "credit": "local"
     },
     "regent": {

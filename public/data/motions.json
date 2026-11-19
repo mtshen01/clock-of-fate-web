@@ -65,6 +65,69 @@
         }
       }
     },
+    "sts2_axe_ruby_raider": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_axe_ruby_raider/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_architect": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -128,7 +191,61 @@
         }
       }
     },
-    "sts2_axe_ruby_raider": {
+    "sts2_aeonglass": {
+      "source": "boss-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_aeonglass/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_aeonglass/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_aeonglass/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_aeonglass/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_aeonglass/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_battle_friend_v1": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -136,7 +253,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/idle.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -145,7 +262,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/attack.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -154,7 +271,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/defense.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -163,7 +280,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/hit.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -172,7 +289,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/cast.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -181,7 +298,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_axe_ruby_raider/death.webp",
+          "sheet": "/art/motion/sts2_battle_friend_v1/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -254,69 +371,6 @@
         }
       }
     },
-    "sts2_battle_friend_v1": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_battle_friend_v1/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_axebot": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -380,60 +434,6 @@
         }
       }
     },
-    "sts2_aeonglass": {
-      "source": "boss-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_aeonglass/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_aeonglass/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_aeonglass/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_aeonglass/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_aeonglass/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_battle_friend_v3": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -488,69 +488,6 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_battle_friend_v3/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_bowlbug_egg": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_bowlbug_egg/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -623,6 +560,69 @@
         }
       }
     },
+    "sts2_bowlbug_egg": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_bowlbug_egg/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_bowlbug_rock": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -677,69 +677,6 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_bowlbug_rock/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_brute_ruby_raider": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_brute_ruby_raider/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -812,7 +749,7 @@
         }
       }
     },
-    "sts2_byrdpip": {
+    "sts2_brute_ruby_raider": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -820,7 +757,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_byrdpip/idle.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -829,7 +766,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_byrdpip/attack.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -838,7 +775,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_byrdpip/defense.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -847,7 +784,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_byrdpip/hit.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -856,7 +793,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_byrdpip/cast.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -865,7 +802,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_byrdpip/death.webp",
+          "sheet": "/art/motion/sts2_brute_ruby_raider/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -929,69 +866,6 @@
         }
       }
     },
-    "sts2_calcified_cultist": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_calcified_cultist/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_calcified_cultist/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_calcified_cultist/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_calcified_cultist/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_calcified_cultist/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_calcified_cultist/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_bygone_effigy": {
       "source": "elite-frames-v1",
       "frameWidth": 256,
@@ -1046,7 +920,7 @@
         }
       }
     },
-    "sts2_corpse_slug": {
+    "sts2_byrdpip": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -1054,7 +928,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_corpse_slug/idle.webp",
+          "sheet": "/art/motion/sts2_byrdpip/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -1063,7 +937,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_corpse_slug/attack.webp",
+          "sheet": "/art/motion/sts2_byrdpip/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1072,7 +946,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_corpse_slug/defense.webp",
+          "sheet": "/art/motion/sts2_byrdpip/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1081,7 +955,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_corpse_slug/hit.webp",
+          "sheet": "/art/motion/sts2_byrdpip/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1090,7 +964,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_corpse_slug/cast.webp",
+          "sheet": "/art/motion/sts2_byrdpip/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1099,7 +973,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_corpse_slug/death.webp",
+          "sheet": "/art/motion/sts2_byrdpip/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1109,7 +983,7 @@
         }
       }
     },
-    "sts2_crossbow_ruby_raider": {
+    "sts2_calcified_cultist": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -1117,7 +991,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/idle.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -1126,7 +1000,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/attack.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1135,7 +1009,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/defense.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1144,7 +1018,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/hit.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1153,7 +1027,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/cast.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1162,7 +1036,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_crossbow_ruby_raider/death.webp",
+          "sheet": "/art/motion/sts2_calcified_cultist/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -1235,6 +1109,69 @@
         }
       }
     },
+    "sts2_corpse_slug": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_corpse_slug/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_corpse_slug/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_corpse_slug/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_corpse_slug/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_corpse_slug/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_corpse_slug/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_ceremonial_beast": {
       "source": "boss-frames-v1",
       "frameWidth": 256,
@@ -1284,6 +1221,69 @@
           "rows": 4,
           "frameCount": 16,
           "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_crossbow_ruby_raider": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_crossbow_ruby_raider/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
           "loop": false,
           "holdLast": true
         }
@@ -1352,60 +1352,6 @@
         }
       }
     },
-    "sts2_crusher": {
-      "source": "boss-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_crusher/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_crusher/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_crusher/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_crusher/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_crusher/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_damp_cultist": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -1464,6 +1410,60 @@
           "rows": 2,
           "frameCount": 8,
           "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_crusher": {
+      "source": "boss-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_crusher/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_crusher/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_crusher/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_crusher/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_crusher/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -1577,60 +1577,6 @@
         }
       }
     },
-    "sts2_decimillipede_segment_middle": {
-      "source": "elite-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_decimillipede_segment_middle/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_decimillipede_segment_middle/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_decimillipede_segment_middle/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_decimillipede_segment_middle/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_decimillipede_segment_middle/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_decimillipede_segment_back": {
       "source": "elite-frames-v1",
       "frameWidth": 256,
@@ -1676,6 +1622,60 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_decimillipede_segment_back/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_decimillipede_segment_middle": {
+      "source": "elite-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_decimillipede_segment_middle/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_decimillipede_segment_middle/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_decimillipede_segment_middle/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_decimillipede_segment_middle/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_decimillipede_segment_middle/death.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -1811,6 +1811,69 @@
         }
       }
     },
+    "sts2_eye_with_teeth": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_eye_with_teeth/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_fabricator": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -1874,64 +1937,109 @@
         }
       }
     },
-    "sts2_eye_with_teeth": {
-      "source": "monster-frames-v3",
+    "sts2_flail_knight": {
+      "source": "expanded-actions-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 384,
+      "height": 384,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_flail_knight/idle.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 6,
+          "fps": 2,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_flail_knight/attack.webp",
+          "cols": 4,
+          "rows": 1,
+          "frameCount": 4,
+          "fps": 7,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_flail_knight/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 5,
+          "fps": 5,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_flail_knight/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 5,
+          "fps": 5,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_flail_knight/death.webp",
+          "cols": 4,
+          "rows": 1,
+          "frameCount": 4,
+          "fps": 5,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_entomancer": {
+      "source": "elite-frames-v1",
       "frameWidth": 256,
       "frameHeight": 256,
       "width": 512,
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/idle.webp",
+          "sheet": "/art/motion/sts2_entomancer/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
-          "fps": 8,
+          "fps": 12,
           "loop": true,
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/attack.webp",
+          "sheet": "/art/motion/sts2_entomancer/attack.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/hit.webp",
+          "sheet": "/art/motion/sts2_entomancer/hit.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/cast.webp",
+          "sheet": "/art/motion/sts2_entomancer/cast.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_eye_with_teeth/death.webp",
+          "sheet": "/art/motion/sts2_entomancer/death.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -2000,114 +2108,6 @@
         }
       }
     },
-    "sts2_entomancer": {
-      "source": "elite-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_entomancer/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_entomancer/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_entomancer/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_entomancer/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_entomancer/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_flail_knight": {
-      "source": "expanded-actions-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 384,
-      "height": 384,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_flail_knight/idle.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 6,
-          "fps": 2,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_flail_knight/attack.webp",
-          "cols": 4,
-          "rows": 1,
-          "frameCount": 4,
-          "fps": 7,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_flail_knight/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 5,
-          "fps": 5,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_flail_knight/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 5,
-          "fps": 5,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_flail_knight/death.webp",
-          "cols": 4,
-          "rows": 1,
-          "frameCount": 4,
-          "fps": 5,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_fat_gremlin": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -2162,6 +2162,69 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_fat_gremlin/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_frog_knight": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_frog_knight/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_frog_knight/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_frog_knight/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_frog_knight/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_frog_knight/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_frog_knight/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -2288,69 +2351,6 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_fogmog/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_frog_knight": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_frog_knight/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_frog_knight/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_frog_knight/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_frog_knight/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_frog_knight/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_frog_knight/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3530,69 +3530,6 @@
         }
       }
     },
-    "sts2_mysterious_knight": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_mysterious_knight/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_mysterious_knight/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_mysterious_knight/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_mysterious_knight/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_mysterious_knight/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_mysterious_knight/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_mawler": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -3647,6 +3584,69 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_mawler/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_mysterious_knight": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_mysterious_knight/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_mysterious_knight/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_mysterious_knight/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_mysterious_knight/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_mysterious_knight/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_mysterious_knight/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3719,7 +3719,7 @@
         }
       }
     },
-    "sts2_noisebot": {
+    "sts2_nibbit": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -3727,7 +3727,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_noisebot/idle.webp",
+          "sheet": "/art/motion/sts2_nibbit/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -3736,7 +3736,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_noisebot/attack.webp",
+          "sheet": "/art/motion/sts2_nibbit/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3745,7 +3745,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_noisebot/defense.webp",
+          "sheet": "/art/motion/sts2_nibbit/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3754,7 +3754,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_noisebot/hit.webp",
+          "sheet": "/art/motion/sts2_nibbit/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3763,7 +3763,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_noisebot/cast.webp",
+          "sheet": "/art/motion/sts2_nibbit/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3772,7 +3772,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_noisebot/death.webp",
+          "sheet": "/art/motion/sts2_nibbit/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3836,7 +3836,7 @@
         }
       }
     },
-    "sts2_nibbit": {
+    "sts2_noisebot": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
@@ -3844,7 +3844,7 @@
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_nibbit/idle.webp",
+          "sheet": "/art/motion/sts2_noisebot/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -3853,7 +3853,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_nibbit/attack.webp",
+          "sheet": "/art/motion/sts2_noisebot/attack.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3862,7 +3862,7 @@
           "holdLast": false
         },
         "defense": {
-          "sheet": "/art/motion/sts2_nibbit/defense.webp",
+          "sheet": "/art/motion/sts2_noisebot/defense.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3871,7 +3871,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_nibbit/hit.webp",
+          "sheet": "/art/motion/sts2_noisebot/hit.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3880,7 +3880,7 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_nibbit/cast.webp",
+          "sheet": "/art/motion/sts2_noisebot/cast.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -3889,7 +3889,7 @@
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_nibbit/death.webp",
+          "sheet": "/art/motion/sts2_noisebot/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -4214,6 +4214,69 @@
         }
       }
     },
+    "sts2_punch_construct": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_punch_construct/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_punch_construct/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_punch_construct/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_punch_construct/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_punch_construct/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_punch_construct/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_phrog_parasite": {
       "source": "elite-frames-v1",
       "frameWidth": 256,
@@ -4322,127 +4385,55 @@
         }
       }
     },
-    "sts2_punch_construct": {
-      "source": "monster-frames-v3",
+    "sts2_queen": {
+      "source": "boss-frames-v1",
       "frameWidth": 256,
       "frameHeight": 256,
       "width": 512,
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_punch_construct/idle.webp",
+          "sheet": "/art/motion/sts2_queen/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
-          "fps": 8,
+          "fps": 12,
           "loop": true,
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_punch_construct/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_punch_construct/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_punch_construct/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_punch_construct/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_punch_construct/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_seapunk": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_seapunk/idle.webp",
+          "sheet": "/art/motion/sts2_queen/attack.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_seapunk/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_seapunk/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_seapunk/hit.webp",
+          "sheet": "/art/motion/sts2_queen/hit.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_seapunk/cast.webp",
+          "sheet": "/art/motion/sts2_queen/cast.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_seapunk/death.webp",
+          "sheet": "/art/motion/sts2_queen/death.webp",
           "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -4511,55 +4502,64 @@
         }
       }
     },
-    "sts2_queen": {
-      "source": "boss-frames-v1",
+    "sts2_seapunk": {
+      "source": "monster-frames-v3",
       "frameWidth": 256,
       "frameHeight": 256,
       "width": 512,
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_queen/idle.webp",
+          "sheet": "/art/motion/sts2_seapunk/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
-          "fps": 12,
+          "fps": 8,
           "loop": true,
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_queen/attack.webp",
+          "sheet": "/art/motion/sts2_seapunk/attack.webp",
           "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_seapunk/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
           "loop": false,
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_queen/hit.webp",
+          "sheet": "/art/motion/sts2_seapunk/hit.webp",
           "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
           "loop": false,
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_queen/cast.webp",
+          "sheet": "/art/motion/sts2_seapunk/cast.webp",
           "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
           "loop": false,
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_queen/death.webp",
+          "sheet": "/art/motion/sts2_seapunk/death.webp",
           "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
           "loop": false,
           "holdLast": true
         }
@@ -4808,60 +4808,6 @@
         }
       }
     },
-    "sts2_skulking_colony": {
-      "source": "elite-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_skulking_colony/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_skulking_colony/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_skulking_colony/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_skulking_colony/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_skulking_colony/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_slithering_strangler": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -4920,6 +4866,60 @@
           "rows": 2,
           "frameCount": 8,
           "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_skulking_colony": {
+      "source": "elite-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_skulking_colony/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_skulking_colony/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_skulking_colony/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_skulking_colony/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_skulking_colony/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -5699,69 +5699,6 @@
         }
       }
     },
-    "sts2_the_forgotten": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_the_forgotten/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_the_forgotten/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_the_forgotten/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_the_forgotten/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_the_forgotten/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_the_forgotten/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_the_adversary_mk_two": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -5816,6 +5753,69 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_the_adversary_mk_two/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_the_forgotten": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_the_forgotten/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_the_forgotten/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_the_forgotten/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_the_forgotten/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_the_forgotten/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_the_forgotten/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -5888,6 +5888,60 @@
         }
       }
     },
+    "sts2_the_insatiable": {
+      "source": "boss-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_the_insatiable/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_the_insatiable/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_the_insatiable/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_the_insatiable/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_the_insatiable/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_the_obscura": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -5946,60 +6000,6 @@
           "rows": 2,
           "frameCount": 8,
           "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_the_insatiable": {
-      "source": "boss-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_the_insatiable/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_the_insatiable/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_the_insatiable/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_the_insatiable/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_the_insatiable/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -6131,69 +6131,6 @@
         }
       }
     },
-    "sts2_tracker_ruby_raider": {
-      "source": "monster-frames-v3",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 8,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/attack.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "defense": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/defense.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/hit.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/cast.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 12,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_tracker_ruby_raider/death.webp",
-          "cols": 4,
-          "rows": 2,
-          "frameCount": 8,
-          "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_tough_egg": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -6248,6 +6185,123 @@
         },
         "death": {
           "sheet": "/art/motion/sts2_tough_egg/death.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 8,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_torch_head_amalgam": {
+      "source": "boss-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_torch_head_amalgam/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_torch_head_amalgam/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_torch_head_amalgam/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_torch_head_amalgam/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_torch_head_amalgam/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
+    "sts2_tracker_ruby_raider": {
+      "source": "monster-frames-v3",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 8,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/attack.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "defense": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/defense.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/hit.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/cast.webp",
+          "cols": 4,
+          "rows": 2,
+          "frameCount": 8,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_tracker_ruby_raider/death.webp",
           "cols": 4,
           "rows": 2,
           "frameCount": 8,
@@ -6315,60 +6369,6 @@
           "rows": 2,
           "frameCount": 8,
           "fps": 8,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
-    "sts2_torch_head_amalgam": {
-      "source": "boss-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_torch_head_amalgam/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_torch_head_amalgam/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_torch_head_amalgam/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_torch_head_amalgam/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_torch_head_amalgam/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
           "loop": false,
           "holdLast": true
         }
@@ -6689,60 +6689,6 @@
         }
       }
     },
-    "sts2_vantom": {
-      "source": "boss-frames-v1",
-      "frameWidth": 256,
-      "frameHeight": 256,
-      "width": 512,
-      "height": 512,
-      "actions": {
-        "idle": {
-          "sheet": "/art/motion/sts2_vantom/idle.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": true,
-          "holdLast": false
-        },
-        "attack": {
-          "sheet": "/art/motion/sts2_vantom/attack.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "hit": {
-          "sheet": "/art/motion/sts2_vantom/hit.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "cast": {
-          "sheet": "/art/motion/sts2_vantom/cast.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 16,
-          "loop": false,
-          "holdLast": false
-        },
-        "death": {
-          "sheet": "/art/motion/sts2_vantom/death.webp",
-          "cols": 4,
-          "rows": 4,
-          "frameCount": 16,
-          "fps": 12,
-          "loop": false,
-          "holdLast": true
-        }
-      }
-    },
     "sts2_waterfall_giant": {
       "source": "boss-frames-v1",
       "frameWidth": 256,
@@ -6797,15 +6743,15 @@
         }
       }
     },
-    "sts2_wriggler": {
-      "source": "elite-frames-v1",
+    "sts2_vantom": {
+      "source": "boss-frames-v1",
       "frameWidth": 256,
       "frameHeight": 256,
       "width": 512,
       "height": 512,
       "actions": {
         "idle": {
-          "sheet": "/art/motion/sts2_wriggler/idle.webp",
+          "sheet": "/art/motion/sts2_vantom/idle.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -6814,7 +6760,7 @@
           "holdLast": false
         },
         "attack": {
-          "sheet": "/art/motion/sts2_wriggler/attack.webp",
+          "sheet": "/art/motion/sts2_vantom/attack.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -6823,7 +6769,7 @@
           "holdLast": false
         },
         "hit": {
-          "sheet": "/art/motion/sts2_wriggler/hit.webp",
+          "sheet": "/art/motion/sts2_vantom/hit.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -6832,16 +6778,16 @@
           "holdLast": false
         },
         "cast": {
-          "sheet": "/art/motion/sts2_wriggler/cast.webp",
+          "sheet": "/art/motion/sts2_vantom/cast.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
-          "fps": 12,
+          "fps": 16,
           "loop": false,
           "holdLast": false
         },
         "death": {
-          "sheet": "/art/motion/sts2_wriggler/death.webp",
+          "sheet": "/art/motion/sts2_vantom/death.webp",
           "cols": 4,
           "rows": 4,
           "frameCount": 16,
@@ -6914,6 +6860,60 @@
         }
       }
     },
+    "sts2_wriggler": {
+      "source": "elite-frames-v1",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "width": 512,
+      "height": 512,
+      "actions": {
+        "idle": {
+          "sheet": "/art/motion/sts2_wriggler/idle.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLast": false
+        },
+        "attack": {
+          "sheet": "/art/motion/sts2_wriggler/attack.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "hit": {
+          "sheet": "/art/motion/sts2_wriggler/hit.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLast": false
+        },
+        "cast": {
+          "sheet": "/art/motion/sts2_wriggler/cast.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": false
+        },
+        "death": {
+          "sheet": "/art/motion/sts2_wriggler/death.webp",
+          "cols": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLast": true
+        }
+      }
+    },
     "sts2_tough_egg_hatchling": {
       "source": "monster-frames-v3",
       "frameWidth": 256,
@@ -6978,5 +6978,5 @@
       }
     }
   },
-  "generatedAt": "2026-11-17T03:50:49.460Z"
+  "generatedAt": "2026-11-19T03:22:28.013Z"
 }

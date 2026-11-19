@@ -281,7 +281,7 @@
   },
   {
     "id": "sts2_tezcataras_ember",
-    "name": "温炉的余烬",
+    "name": "护炉纹",
     "description": "费用为0，造成3 点额外伤害，且获得永恒。",
     "extraCardText": "",
     "stackable": false,
